@@ -1039,7 +1039,8 @@ function renderEquipe(){
   const dataInicioMeta = getDataInicioContabilizacao();
   const de = sec.dataset.de || dataInicioMeta || datasOrd[0] || '';
   const ate = sec.dataset.ate || datasOrd[datasOrd.length-1] || '';
-  const calendario = sec.dataset.cal || 'Uteis';
+  const equipeFiltroStr = (sec.dataset.equipeFiltro || '').trim() || 'Todas';
+  const equipeFiltro = equipeFiltroStr === 'Todas' ? ['Todas'] : equipeFiltroStr.split('|').filter(Boolean);
   const equipes = {};
   (window.D.pessoas||[]).filter(p => p.ativa !== false).forEach(p => {
     if(!p.equipe) return;
@@ -1054,13 +1055,13 @@ function renderEquipe(){
     }
   });
   const datasPeriodo = datasOrd.filter(d => d>=de && d<=ate && d>=dataInicioMeta);
-  const compl = Object.entries(equipes).map(([nome, eq]) => {
+  const compl = Object.entries(equipes).filter(([nome]) => equipeFiltro.includes('Todas') || equipeFiltro.includes(nome)).map(([nome, eq]) => {
     const esperado = eq.membros.length * datasPeriodo.length;
     let enviados = 0;
     eq.membros.forEach(p => { datasPeriodo.forEach(d => { if(statusPessoa(p, d)) enviados++; }); });
     return { nome, leader:eq.leader, membros:eq.membros.length, enviados, esperado, taxa: esperado?enviados/esperado*100:0 };
   });
-  const ranking = (window.D.pessoas||[]).filter(p => p.ativa !== false).map(p => {
+  const ranking = (window.D.pessoas||[]).filter(p => p.ativa !== false && (equipeFiltro.includes('Todas') || equipeFiltro.includes(p.equipe))).map(p => {
     let env = 0; datasPeriodo.forEach(d => { if(statusPessoa(p,d)) env++; });
     const ult = ultimoEnvio(p);
     return { pessoa:p, env, esperado: datasPeriodo.length, ultimo: ult ? ult.data : '' };
@@ -1070,6 +1071,25 @@ function renderEquipe(){
     <div class="filters">
       <div class="field"><label>Calendário (De)</label><input class="input" type="date" id="eqDe" value="${de}"></div>
       <div class="field"><label>Até</label><input class="input" type="date" id="eqAte" value="${ate}"></div>
+      <div class="field" style="min-width:280px;flex:1">
+        <label>Equipe</label>
+        <div class="eq-dropdown">
+          <button type="button" class="eq-dropdown-btn" id="eqEquipeBtn">
+            <span id="eqEquipeBtnLabel">Todas as equipes</span>
+            <span class="eq-dropdown-btn-icon">▼</span>
+          </button>
+          <div class="eq-dropdown-menu" id="eqEquipeMenu">
+            <div class="eq-dropdown-item">
+              <input type="checkbox" id="eqTodas" ${equipeFiltro.includes('Todas')?'checked':''}>
+              <label for="eqTodas">Todas as equipes</label>
+            </div>
+            ${Object.keys(equipes).sort().map((e, i) => `<div class="eq-dropdown-item">
+              <input type="checkbox" id="eq_${i}" class="eqEquipeCheckbox" value="${escHtml(e)}" ${equipeFiltro.includes(e)?'checked':''}>
+              <label for="eq_${i}">${escHtml(e.split(' - ')[0])}</label>
+            </div>`).join('')}
+          </div>
+        </div>
+      </div>
       <div class="field"><label>&nbsp;</label><button class="btn btn-primary" id="eqApply">Aplicar</button></div>
     </div>
     <div class="kpi-grid">
@@ -1113,9 +1133,47 @@ function renderEquipe(){
     const aVal = eqAte.value;
     if(dVal) sec.dataset.de = dVal;
     if(aVal) sec.dataset.ate = aVal;
-    sec.dataset.cal = $('eqCal').value;
+    const todas = $('eqTodas');
+    const checks = Array.from(document.querySelectorAll('.eqEquipeCheckbox'));
+    const selecionadas = checks.filter(c => c.checked).map(c => c.value);
+    sec.dataset.equipeFiltro = (todas && todas.checked) || selecionadas.length === 0 ? 'Todas' : selecionadas.join('|');
     renderEquipe();
   };
+
+  const eqBtn = $('eqEquipeBtn');
+  const eqMenu = $('eqEquipeMenu');
+  const eqTodas = $('eqTodas');
+  const eqChecks = Array.from(document.querySelectorAll('.eqEquipeCheckbox'));
+  const eqBtnLabel = $('eqEquipeBtnLabel');
+  const atualizarLabelEquipes = () => {
+    const marcadas = eqChecks.filter(c => c.checked).map(c => c.value);
+    let label = 'Todas as equipes';
+    if(!(eqTodas && eqTodas.checked)){
+      label = marcadas.length === 0 ? 'Nenhuma equipe' : (marcadas.length === 1 ? '1 equipe' : `${marcadas.length} equipes`);
+    }
+    eqBtnLabel.textContent = label;
+  };
+  if(eqBtn && eqMenu){
+    eqBtn.onclick = () => { eqBtn.classList.toggle('open'); eqMenu.classList.toggle('show'); };
+    document.addEventListener('click', (e) => {
+      if(!eqBtn.contains(e.target) && !eqMenu.contains(e.target)){
+        eqBtn.classList.remove('open');
+        eqMenu.classList.remove('show');
+      }
+    });
+  }
+  if(eqTodas){
+    eqTodas.onchange = () => {
+      if(eqTodas.checked) eqChecks.forEach(c => c.checked = false);
+      atualizarLabelEquipes();
+    };
+  }
+  eqChecks.forEach(c => c.onchange = () => {
+    if(c.checked && eqTodas) eqTodas.checked = false;
+    if(!eqChecks.some(x => x.checked) && eqTodas) eqTodas.checked = true;
+    atualizarLabelEquipes();
+  });
+  atualizarLabelEquipes();
 
 }
 
