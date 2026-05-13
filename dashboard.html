@@ -562,6 +562,10 @@ function statusPessoaTodos(pessoa, dataRef){
   // Retorna: primeiro os que é responsável, depois os que é participante
   return [...responsavel, ...participante];
 }
+
+function getDataInicioContabilizacao(){
+  return localStorage.getItem('rdp_data_inicio') || '2026-01-01';
+}
 function ultimoEnvio(pessoa){
   if(!pessoa || !window.D) return null;
   const env = (window.D.rdps||[])
@@ -823,6 +827,7 @@ function renderOverview(){
   const totalEsperado = pessoasFil.length * diasUteis.length;
   const totalPendentes = totalEsperado - totalEnvios;
   const conformidade = totalEsperado ? (totalEnvios/totalEsperado*100) : 0;
+  const metaGeralDiaria = parseInt(localStorage.getItem('rdp_meta_geral_diaria') || '95', 10);
   const projetosAtivos = new Set(rdpsRange.map(r => r.projeto_codigo).filter(Boolean));
   const pendAbertas = (window.D.pendencias||[]).filter(p => (p.status||'').toLowerCase()==='aberta').length;
 
@@ -830,7 +835,7 @@ function renderOverview(){
     <div class="kpi"><div class="kpi-label">Total Esperado</div><div class="kpi-value">${totalEsperado}</div><div class="kpi-sub">${pessoasFil.length} pessoas × ${diasUteis.length} dias úteis</div></div>
     <div class="kpi kpi-success"><div class="kpi-label">Enviados</div><div class="kpi-value">${totalEnvios}</div><div class="kpi-sub">RDPs no período</div></div>
     <div class="kpi kpi-warning"><div class="kpi-label">Pendentes</div><div class="kpi-value">${totalPendentes}</div><div class="kpi-sub">não enviados</div></div>
-    <div class="kpi ${conformidade>=80?'kpi-success':conformidade>=50?'kpi-warning':'kpi-danger'}"><div class="kpi-label">Conformidade</div><div class="kpi-value">${conformidade.toFixed(0)}%</div><div class="kpi-sub">meta: 95%</div></div>
+    <div class="kpi ${conformidade>=metaGeralDiaria?'kpi-success':conformidade>=(metaGeralDiaria*0.7)?'kpi-warning':'kpi-danger'}"><div class="kpi-label">Conformidade</div><div class="kpi-value">${conformidade.toFixed(0)}%</div><div class="kpi-sub">meta: ${metaGeralDiaria}%</div></div>
     <div class="kpi kpi-purple"><div class="kpi-label">Projetos</div><div class="kpi-value">${projetosAtivos.size}</div><div class="kpi-sub">com RDP no período</div></div>
     <div class="kpi kpi-danger"><div class="kpi-label">Pendências Abertas</div><div class="kpi-value">${pendAbertas}</div><div class="kpi-sub">acumulado total</div></div>
   </div>`;
@@ -930,7 +935,11 @@ function renderStatus(){
 
   let pessoas = (window.D.pessoas||[]).filter(p => p.ativa !== false); // Excluir pessoas inativas
   if(equipeF!=='Todas') pessoas = pessoas.filter(p => p.equipe===equipeF);
-  if(buscaF) pessoas = pessoas.filter(p => (p.nome||'').toLowerCase().includes(buscaF) || (p.email||'').toLowerCase().includes(buscaF));
+  if(buscaF) pessoas = pessoas.filter(p => {
+    const rdpsPessoa = (window.D.rdps||[]).filter(r => (r.data||'').slice(0,10) === dataAtual && pessoaNoRDP(p, r));
+    const matchProjeto = rdpsPessoa.some(r => ((r.projeto_codigo||'') + ' ' + (r.projeto_nome||'')).toLowerCase().includes(buscaF));
+    return (p.nome||'').toLowerCase().includes(buscaF) || (p.email||'').toLowerCase().includes(buscaF) || matchProjeto;
+  });
   const enriquecido = pessoas.map(p => {
     const enviou = statusPessoaTodos(p, dataAtual); // AGORA retorna array de RDPs
     const emLicenca = pessoaEmLicenca(p, dataAtual);
@@ -948,7 +957,7 @@ function renderStatus(){
       <div class="field"><label>Data</label><select class="select" id="stDate">${datasOrd.map(d => `<option ${d===dataAtual?'selected':''}>${d}</option>`).join('')}</select></div>
       <div class="field"><label>Equipe</label><select class="select" id="stEquipe"><option>Todas</option>${equipes.map(e => `<option ${e===equipeF?'selected':''}>${escHtml(e)}</option>`).join('')}</select></div>
       <div class="field"><label>Status</label><select class="select" id="stStatus"><option>Todos</option><option ${statusF==='Enviou'?'selected':''}>Enviou</option><option ${statusF==='Pendente'?'selected':''}>Pendente</option></select></div>
-      <div class="field" style="flex:1"><label>Buscar</label><input class="input" id="stBusca" placeholder="Nome ou email..." value="${escHtml(buscaF)}"></div>
+      <div class="field" style="flex:1"><label>Buscar</label><input class="input" id="stBusca" placeholder="Nome, email ou projeto..." value="${escHtml(buscaF)}"></div>
       <div class="field"><label>&nbsp;</label><button class="btn btn-primary" id="stApply">Filtrar</button></div>
     </div>
     <div class="card">
@@ -1024,7 +1033,8 @@ function renderEquipe(){
   const today = (window.D.meta && window.D.meta.today) || new Date().toISOString().slice(0,10);
   const datasSet = new Set((window.D.rdps||[]).map(r => (r.data||'').slice(0,10)));
   const datasOrd = Array.from(datasSet).filter(d => d <= today).sort();
-  const de = sec.dataset.de || datasOrd[0] || '';
+  const dataInicioMeta = getDataInicioContabilizacao();
+  const de = sec.dataset.de || dataInicioMeta || datasOrd[0] || '';
   const ate = sec.dataset.ate || datasOrd[datasOrd.length-1] || '';
   const equipes = {};
   (window.D.pessoas||[]).filter(p => p.ativa !== false).forEach(p => {
@@ -1039,7 +1049,7 @@ function renderEquipe(){
       equipes[p.equipe].leader = m.length > 1 ? m[m.length-1] : p.equipe;
     }
   });
-  const datasPeriodo = datasOrd.filter(d => d>=de && d<=ate);
+  const datasPeriodo = datasOrd.filter(d => d>=de && d<=ate && d>=dataInicioMeta);
   const compl = Object.entries(equipes).map(([nome, eq]) => {
     const esperado = eq.membros.length * datasPeriodo.length;
     let enviados = 0;
@@ -1054,8 +1064,8 @@ function renderEquipe(){
 
   sec.innerHTML = `
     <div class="filters">
-      <div class="field"><label>De</label><input class="input" type="text" placeholder="DD/MM/AAAA" id="eqDe" value="${isoToUserDate(de)}" maxlength="10"></div>
-      <div class="field"><label>Até</label><input class="input" type="text" placeholder="DD/MM/AAAA" id="eqAte" value="${isoToUserDate(ate)}" maxlength="10"></div>
+      <div class="field"><label>Calendário (De)</label><input class="input" type="date" id="eqDe" value="${de}"></div>
+      <div class="field"><label>Até</label><input class="input" type="date" id="eqAte" value="${ate}"></div>
       <div class="field"><label>&nbsp;</label><button class="btn btn-primary" id="eqApply">Aplicar</button></div>
     </div>
     <div class="kpi-grid">
@@ -1089,26 +1099,19 @@ function renderEquipe(){
         }).join('')}</tbody>
       </table></div>
     </div>
+    <small style="display:block;margin-top:8px;color:var(--c-text-3)">Período respeita a data de início em Metas: ${fmtDate(dataInicioMeta)}</small>
   `;
   $('eqApply').onclick = () => {
-    const dVal = userDateToIso($('eqDe').value);
-    const aVal = userDateToIso($('eqAte').value);
+    const eqDe = $('eqDe');
+    const eqAte = $('eqAte');
+    if(!eqDe || !eqAte) return;
+    const dVal = eqDe.value;
+    const aVal = eqAte.value;
     if(dVal) sec.dataset.de = dVal;
     if(aVal) sec.dataset.ate = aVal;
     renderEquipe();
   };
 
-  // Validação e formatação de datas DD/MM/AAAA
-  const formatEqDateInput = (input) => {
-    input.oninput = () => {
-      let val = input.value.replace(/\D/g, '');
-      if(val.length > 2) val = val.slice(0,2) + '/' + val.slice(2);
-      if(val.length > 5) val = val.slice(0,5) + '/' + val.slice(5);
-      input.value = val;
-    };
-  };
-  formatEqDateInput($('eqDe'));
-  formatEqDateInput($('eqAte'));
 }
 
 // ── Acoes em pendencias (persistencia local em localStorage) ────────────
@@ -1376,7 +1379,10 @@ function renderProjetos(){
             return `<tr><td>${fmtDate(r.data)}</td><td>${escHtml(r.responsavel)}</td><td><span class="badge badge-default">${escHtml(r.sistema||'-')}</span></td><td>${r.n_atividades}</td><td>${r.n_pendencias}</td><td style="text-align:center">${fileCell}</td></tr>`;
           }).join('')}</tbody></table>
         ${sistemas.map(s => {
-          const ps = p.pendencias_por_sistema[s] || [];
+          const ps = (p.pendencias_por_sistema[s] || []).filter(it => {
+            const txt = `${it?.descricao || ''} ${it?.pendencia || ''} ${it?.responsavel || ''}`.trim();
+            return txt.length > 0;
+          });
           if(!ps.length) return '';
           return `<div class="proj-pend-grupo">
             <h4>Pendencias - ${escHtml(s)} (${ps.length})</h4>
@@ -1435,8 +1441,16 @@ function renderMetas(){
   if(!window.D){ sec.innerHTML = '<div class="empty">Sem dados.</div>'; return; }
 
   const metas = JSON.parse(localStorage.getItem('rdp_metas') || '{}');
-  const hoje = new Date().toISOString().slice(0,10);
-  const dataContabilizacao = localStorage.getItem('rdp_data_inicio') || '2026-01-01';
+  const dataContabilizacao = getDataInicioContabilizacao();
+  const metaGeralDiaria = parseInt(localStorage.getItem('rdp_meta_geral_diaria') || '95', 10);
+  const metaDiariaGeral = metaGeralDiaria; // compatibilidade com nome antigo após merges
+  const pessoasAtivas = (window.D.pessoas||[]).filter(p => p.ativa !== false);
+  const rdpsDesdeMeta = (window.D.rdps||[]).filter(r => (r.data||'').slice(0,10) >= dataContabilizacao);
+  const diasUteis = Array.from(new Set(rdpsDesdeMeta.map(r => (r.data||'').slice(0,10)))).length || 1;
+  const esperado = pessoasAtivas.length * diasUteis;
+  const enviados = rdpsDesdeMeta.length;
+  const taxaEnvio = esperado ? (enviados / esperado) * 100 : 0;
+  const conformidadeHoje = taxaEnvio; // compatibilidade com versões antigas do template
 
   const pessoas = (window.D.pessoas||[]).sort((a,b) => a.nome.localeCompare(b.nome));
 
@@ -1444,7 +1458,7 @@ function renderMetas(){
     <div class="card">
       <div class="card-head">
         <h3>Configuração de Metas e Período</h3>
-        <div class="card-sub">Defina metas individuais e o período de contabilização</div>
+        <div class="card-sub">Meta diária geral e período de contabilização</div>
       </div>
       <div class="card-body" style="padding:20px">
         <div style="margin-bottom:20px;padding:15px;background:var(--c-surface-2);border-radius:8px">
@@ -1453,7 +1467,13 @@ function renderMetas(){
           <small style="display:block;margin-top:5px;color:var(--c-text-3)">RDPs antes desta data não serão contabilizados</small>
         </div>
 
-        <h4 style="margin:20px 0 10px;font-size:13px;text-transform:uppercase;color:var(--c-text-3)">Metas por Colaborador</h4>
+        <div style="margin-bottom:20px;padding:15px;background:var(--c-surface-2);border-radius:8px">
+          <label style="display:block;margin-bottom:8px;color:var(--c-text);font-weight:500">Meta Geral de Envio Diário (%)</label>
+          <input type="number" id="metaGeralDiaria" value="${metaGeralDiaria}" min="0" max="100" class="input" style="max-width:120px">
+          <small style="display:block;margin-top:8px;color:var(--c-text-3)">Conformidade atual: <b>${taxaEnvio.toFixed(1)}%</b> · Base: ${enviados} envios de ${esperado} esperados</small>
+        </div>
+
+        <h4 style="margin:20px 0 10px;font-size:13px;text-transform:uppercase;color:var(--c-text-3)">Metas por Colaborador (opcional)</h4>
         <table class="tbl" style="width:100%">
           <thead>
             <tr>
@@ -1477,7 +1497,8 @@ function renderMetas(){
         </table>
 
         <div style="margin-top:20px;padding:15px;background:var(--c-surface-2);border-radius:8px">
-          <button class="btn btn-primary" onclick="salvarDataContabilizacao()">Atualizar Data de Início</button>
+          <button class="btn btn-primary" onclick="salvarMetaGeral()">Salvar Meta Geral</button>
+          <button class="btn btn-primary" onclick="salvarDataContabilizacao()" style="margin-left:8px">Atualizar Data de Início</button>
           <small style="display:block;margin-top:8px;color:var(--c-text-3)">Alterações são salvas localmente</small>
         </div>
       </div>
@@ -1498,6 +1519,12 @@ window.salvarDataContabilizacao = function(){
   if(!data){ alert('Selecione uma data'); return; }
   localStorage.setItem('rdp_data_inicio', data);
   alert('Data de início da contabilização atualizada para '+data);
+};
+window.salvarMetaGeral = function(){
+  const valor = parseInt(document.getElementById('metaGeralDiaria')?.value || '95', 10);
+  localStorage.setItem('rdp_meta_geral_diaria', String(Math.max(0, Math.min(100, valor))));
+  alert('Meta geral diária atualizada.');
+  renderMetas();
 };
 
 // Boot — NAO bloqueia render por carregamento de acoes
