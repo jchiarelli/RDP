@@ -1,0 +1,834 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard de Análise RDP - Convergint</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --color-critical: #dc3545;
+            --color-high: #fd7e14;
+            --color-medium: #ffc107;
+            --color-low: #28a745;
+            --color-bg: #f8f9fa;
+            --color-text: #212529;
+            --color-text-muted: #6c757d;
+            --color-border: #dee2e6;
+            --color-header: #2c3e50;
+            --color-white: #ffffff;
+            --spacing-sm: 0.5rem;
+            --spacing-md: 1rem;
+            --spacing-lg: 1.5rem;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background-color: var(--color-bg);
+            color: var(--color-text);
+            line-height: 1.5;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: var(--spacing-md);
+        }
+
+        /* Header */
+        header {
+            background-color: var(--color-header);
+            color: var(--color-white);
+            padding: var(--spacing-lg);
+            margin-bottom: var(--spacing-lg);
+            border-radius: 4px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            font-size: 2rem;
+            margin-bottom: var(--spacing-sm);
+        }
+
+        .header-meta {
+            font-size: 0.875rem;
+            opacity: 0.9;
+            margin-top: var(--spacing-sm);
+        }
+
+        /* Filter Bar */
+        .filter-bar {
+            background-color: var(--color-white);
+            padding: var(--spacing-lg);
+            margin-bottom: var(--spacing-lg);
+            border-radius: 4px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+            display: flex;
+            gap: var(--spacing-md);
+            flex-wrap: wrap;
+            align-items: center;
+        }
+
+        .filter-group {
+            display: flex;
+            flex-direction: column;
+            gap: var(--spacing-sm);
+        }
+
+        .filter-group label {
+            font-weight: 500;
+            font-size: 0.875rem;
+            color: var(--color-text);
+        }
+
+        .filter-group input,
+        .filter-group select {
+            padding: var(--spacing-sm) var(--spacing-md);
+            border: 1px solid var(--color-border);
+            border-radius: 4px;
+            font-size: 0.875rem;
+            min-width: 150px;
+        }
+
+        .filter-group input:focus,
+        .filter-group select:focus {
+            outline: none;
+            border-color: #0066cc;
+            box-shadow: 0 0 0 3px rgba(0, 102, 204, 0.1);
+        }
+
+        .filter-buttons {
+            display: flex;
+            gap: var(--spacing-sm);
+            margin-top: auto;
+        }
+
+        button {
+            padding: var(--spacing-sm) var(--spacing-md);
+            background-color: #0066cc;
+            color: var(--color-white);
+            border: none;
+            border-radius: 4px;
+            font-size: 0.875rem;
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+
+        button:hover {
+            background-color: #0052a3;
+        }
+
+        button.secondary {
+            background-color: var(--color-text-muted);
+        }
+
+        button.secondary:hover {
+            background-color: #5a6268;
+        }
+
+        /* Statistics Cards */
+        .statistics {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: var(--spacing-lg);
+            margin-bottom: var(--spacing-lg);
+        }
+
+        .stat-card {
+            background-color: var(--color-white);
+            padding: var(--spacing-lg);
+            border-radius: 4px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            border-left: 4px solid #0066cc;
+        }
+
+        .stat-card.critical {
+            border-left-color: var(--color-critical);
+        }
+
+        .stat-card.high {
+            border-left-color: var(--color-high);
+        }
+
+        .stat-card.medium {
+            border-left-color: var(--color-medium);
+        }
+
+        .stat-card.low {
+            border-left-color: var(--color-low);
+        }
+
+        .stat-value {
+            font-size: 2rem;
+            font-weight: bold;
+            color: var(--color-header);
+            margin: var(--spacing-md) 0;
+        }
+
+        .stat-label {
+            font-size: 0.875rem;
+            color: var(--color-text-muted);
+        }
+
+        /* RDP Cards Grid */
+        .rdp-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: var(--spacing-lg);
+            margin-bottom: var(--spacing-lg);
+        }
+
+        .rdp-card {
+            background-color: var(--color-white);
+            border-radius: 4px;
+            overflow: hidden;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+            border-left: 4px solid #0066cc;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .rdp-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+        }
+
+        .rdp-card.critical {
+            border-left-color: var(--color-critical);
+        }
+
+        .rdp-card.high {
+            border-left-color: var(--color-high);
+        }
+
+        .rdp-card.medium {
+            border-left-color: var(--color-medium);
+        }
+
+        .rdp-card.low {
+            border-left-color: var(--color-low);
+        }
+
+        .rdp-card-header {
+            padding: var(--spacing-lg);
+            border-bottom: 1px solid var(--color-border);
+        }
+
+        .rdp-card-title {
+            font-size: 1.125rem;
+            font-weight: 600;
+            margin-bottom: var(--spacing-sm);
+            color: var(--color-header);
+        }
+
+        .rdp-card-meta {
+            display: flex;
+            gap: var(--spacing-md);
+            flex-wrap: wrap;
+            font-size: 0.875rem;
+            color: var(--color-text-muted);
+        }
+
+        .rdp-card-body {
+            padding: var(--spacing-lg);
+        }
+
+        .rdp-section {
+            margin-bottom: var(--spacing-lg);
+        }
+
+        .rdp-section-title {
+            font-weight: 600;
+            color: var(--color-header);
+            margin-bottom: var(--spacing-sm);
+            font-size: 0.875rem;
+            text-transform: uppercase;
+            color: var(--color-text-muted);
+        }
+
+        .rdp-section-content {
+            font-size: 0.875rem;
+            line-height: 1.6;
+            color: var(--color-text);
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 0.25rem 0.75rem;
+            border-radius: 20px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            margin-right: var(--spacing-sm);
+            margin-bottom: var(--spacing-sm);
+        }
+
+        .badge-status {
+            background-color: #e7f3ff;
+            color: #0066cc;
+        }
+
+        .badge-priority {
+            background-color: #fff3cd;
+            color: #856404;
+        }
+
+        .badge-priority.critical {
+            background-color: #f8d7da;
+            color: #721c24;
+        }
+
+        .badge-priority.high {
+            background-color: #ffe5cc;
+            color: #7a4419;
+        }
+
+        .badge-priority.medium {
+            background-color: #fffbea;
+            color: #8a6d3b;
+        }
+
+        .badge-priority.low {
+            background-color: #d4edda;
+            color: #155724;
+        }
+
+        /* List items */
+        .rdp-list {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .rdp-list li {
+            padding: var(--spacing-sm) 0;
+            border-bottom: 1px solid var(--color-border);
+            font-size: 0.875rem;
+        }
+
+        .rdp-list li:last-child {
+            border-bottom: none;
+        }
+
+        .rdp-list li::before {
+            content: "• ";
+            color: #0066cc;
+            font-weight: bold;
+            margin-right: var(--spacing-sm);
+        }
+
+        /* Confidence Display */
+        .confidence-meter {
+            display: flex;
+            align-items: center;
+            gap: var(--spacing-md);
+            margin-top: var(--spacing-md);
+        }
+
+        .confidence-bar {
+            flex-grow: 1;
+            height: 8px;
+            background-color: var(--color-border);
+            border-radius: 4px;
+            overflow: hidden;
+        }
+
+        .confidence-fill {
+            height: 100%;
+            background-color: #0066cc;
+            transition: width 0.3s;
+        }
+
+        .confidence-text {
+            font-size: 0.875rem;
+            font-weight: 600;
+            min-width: 50px;
+            text-align: right;
+            color: var(--color-header);
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .filter-bar {
+                flex-direction: column;
+                align-items: stretch;
+            }
+
+            .filter-group {
+                width: 100%;
+            }
+
+            .filter-group input,
+            .filter-group select {
+                min-width: 100%;
+            }
+
+            .statistics {
+                grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            }
+
+            .rdp-grid {
+                grid-template-columns: 1fr;
+            }
+
+            header h1 {
+                font-size: 1.5rem;
+            }
+        }
+
+        /* Empty State */
+        .empty-state {
+            text-align: center;
+            padding: 3rem var(--spacing-lg);
+            color: var(--color-text-muted);
+        }
+
+        .empty-state-icon {
+            font-size: 3rem;
+            margin-bottom: var(--spacing-md);
+        }
+
+        /* Loading State */
+        .loading {
+            text-align: center;
+            padding: 2rem;
+            color: var(--color-text-muted);
+        }
+
+        .spinner {
+            border: 3px solid var(--color-border);
+            border-top: 3px solid #0066cc;
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+            animation: spin 0.8s linear infinite;
+            margin: 0 auto var(--spacing-md);
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        /* Error State */
+        .error {
+            background-color: #f8d7da;
+            border: 1px solid #f5c6cb;
+            color: #721c24;
+            padding: var(--spacing-lg);
+            border-radius: 4px;
+            margin-bottom: var(--spacing-lg);
+        }
+
+        /* Last Update */
+        .last-update {
+            text-align: right;
+            font-size: 0.75rem;
+            color: var(--color-text-muted);
+            margin-top: var(--spacing-lg);
+            padding-top: var(--spacing-lg);
+            border-top: 1px solid var(--color-border);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header>
+            <h1>Dashboard de Análise RDP</h1>
+            <div class="header-meta">
+                <span>Convergint — Análise de Relatórios Diários de Programação</span>
+                <span id="metadata-info"></span>
+            </div>
+        </header>
+
+        <!-- Error Container -->
+        <div id="error-container"></div>
+
+        <!-- Filter Bar -->
+        <div class="filter-bar">
+            <div class="filter-group">
+                <label for="filter-date">Data</label>
+                <input type="date" id="filter-date">
+            </div>
+            <div class="filter-group">
+                <label for="filter-status">Status</label>
+                <select id="filter-status">
+                    <option value="">Todos</option>
+                    <option value="aberto">Aberto</option>
+                    <option value="andamento">Em Andamento</option>
+                    <option value="concluido">Concluído</option>
+                    <option value="bloqueado">Bloqueado</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label for="filter-priority">Prioridade</label>
+                <select id="filter-priority">
+                    <option value="">Todas</option>
+                    <option value="critica">Crítica</option>
+                    <option value="alta">Alta</option>
+                    <option value="media">Média</option>
+                    <option value="baixa">Baixa</option>
+                </select>
+            </div>
+            <div class="filter-buttons">
+                <button onclick="aplicarFiltros()">Filtrar</button>
+                <button class="secondary" onclick="limparFiltros()">Limpar</button>
+                <button class="secondary" onclick="exportarCSV()">Exportar CSV</button>
+            </div>
+        </div>
+
+        <!-- Statistics -->
+        <div class="statistics">
+            <div class="stat-card">
+                <div class="stat-label">Total</div>
+                <div class="stat-value" id="stat-total">0</div>
+            </div>
+            <div class="stat-card critical">
+                <div class="stat-label">Críticas</div>
+                <div class="stat-value" id="stat-criticas">0</div>
+            </div>
+            <div class="stat-card high">
+                <div class="stat-label">Bloqueados</div>
+                <div class="stat-value" id="stat-bloqueados">0</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">Confiança Média</div>
+                <div class="stat-value" id="stat-confianca">0%</div>
+            </div>
+        </div>
+
+        <!-- RDP Cards Grid -->
+        <div id="rdp-container" class="rdp-grid"></div>
+
+        <!-- Last Update -->
+        <div class="last-update">
+            <span>Última atualização: <span id="last-update-time">—</span></span>
+        </div>
+    </div>
+
+    <script>
+        // ==================== CONFIG ====================
+        const SUPABASE_URL = 'https://your-supabase-url.supabase.co';
+        const SUPABASE_KEY = 'your-supabase-publishable-key';
+        const CACHE_DURATION = 5 * 60 * 1000; // 5 minutes
+
+        // ==================== DATA STORAGE ====================
+        let analises = [];
+        let filteredAnalises = [];
+        let lastUpdateTime = null;
+
+        // ==================== INITIALIZATION ====================
+        document.addEventListener('DOMContentLoaded', () => {
+            // Set default date to today
+            const today = new Date().toISOString().split('T')[0];
+            document.getElementById('filter-date').value = today;
+
+            // Load data
+            carregarAnalises();
+        });
+
+        // ==================== API FUNCTIONS ====================
+        async function carregarAnalises() {
+            mostrarCarregando();
+
+            try {
+                // Check cache first
+                const cached = localStorage.getItem('rdp_analises_cache');
+                const cacheTime = localStorage.getItem('rdp_analises_cache_time');
+
+                if (cached && cacheTime && (Date.now() - parseInt(cacheTime) < CACHE_DURATION)) {
+                    analises = JSON.parse(cached);
+                    renderAnalises();
+                    atualizarEstatisticas();
+                    return;
+                }
+
+                // Fetch from Supabase REST API
+                const response = await fetch(`${SUPABASE_URL}/rest/v1/rdp_analises?select=*`, {
+                    headers: {
+                        'apikey': SUPABASE_KEY,
+                        'Authorization': `Bearer ${SUPABASE_KEY}`,
+                        'Content-Type': 'application/json'
+                    }
+                });
+
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+
+                analises = await response.json();
+
+                // Cache the data
+                localStorage.setItem('rdp_analises_cache', JSON.stringify(analises));
+                localStorage.setItem('rdp_analises_cache_time', Date.now().toString());
+
+                renderAnalises();
+                atualizarEstatisticas();
+            } catch (error) {
+                console.error('Erro ao carregar análises:', error);
+                mostrarErro(`Erro ao carregar dados: ${error.message}`);
+            }
+        }
+
+        // ==================== FILTER FUNCTIONS ====================
+        function aplicarFiltros() {
+            const dataFiltro = document.getElementById('filter-date').value;
+            const statusFiltro = document.getElementById('filter-status').value;
+            const prioridadeFiltro = document.getElementById('filter-priority').value;
+
+            filteredAnalises = analises.filter(analise => {
+                let match = true;
+
+                // Date filter
+                if (dataFiltro) {
+                    const dataAnalise = analise.data_analise ? analise.data_analise.split('T')[0] : '';
+                    if (dataAnalise !== dataFiltro) {
+                        match = false;
+                    }
+                }
+
+                // Status filter
+                if (statusFiltro && analise.status !== statusFiltro) {
+                    match = false;
+                }
+
+                // Priority filter
+                if (prioridadeFiltro && analise.prioridade !== prioridadeFiltro) {
+                    match = false;
+                }
+
+                return match;
+            });
+
+            renderAnalises();
+            atualizarEstatisticas();
+        }
+
+        function limparFiltros() {
+            const today = new Date().toISOString().split('T')[0];
+            document.getElementById('filter-date').value = today;
+            document.getElementById('filter-status').value = '';
+            document.getElementById('filter-priority').value = '';
+
+            filteredAnalises = [...analises];
+            renderAnalises();
+            atualizarEstatisticas();
+        }
+
+        // ==================== RENDER FUNCTIONS ====================
+        function renderAnalises() {
+            const container = document.getElementById('rdp-container');
+
+            if (filteredAnalises.length === 0) {
+                container.innerHTML = `
+                    <div class="empty-state" style="grid-column: 1/-1;">
+                        <div class="empty-state-icon">📭</div>
+                        <h3>Nenhuma análise encontrada</h3>
+                        <p>Ajuste os filtros e tente novamente</p>
+                    </div>
+                `;
+                return;
+            }
+
+            container.innerHTML = filteredAnalises.map(analise => criarCardAnalise(analise)).join('');
+        }
+
+        function criarCardAnalise(analise) {
+            const prioridade = analise.prioridade || 'media';
+            const status = analise.status || 'aberto';
+            const confianca = analise.confianca_percentual || 0;
+            const dataAnalise = analise.data_analise ? formatarData(analise.data_analise) : '—';
+
+            let riscos = '';
+            if (analise.riscos && Array.isArray(analise.riscos)) {
+                riscos = `
+                    <div class="rdp-section">
+                        <div class="rdp-section-title">Riscos Identificados</div>
+                        <ul class="rdp-list">
+                            ${analise.riscos.map(risco => `<li>${escaparHTML(risco)}</li>`).join('')}
+                        </ul>
+                    </div>
+                `;
+            }
+
+            let bloqueios = '';
+            if (analise.bloqueios && Array.isArray(analise.bloqueios)) {
+                bloqueios = `
+                    <div class="rdp-section">
+                        <div class="rdp-section-title">Bloqueios</div>
+                        <ul class="rdp-list">
+                            ${analise.bloqueios.map(bloqueio => `<li>${escaparHTML(bloqueio)}</li>`).join('')}
+                        </ul>
+                    </div>
+                `;
+            }
+
+            let pessoas = '';
+            if (analise.pessoas && Array.isArray(analise.pessoas)) {
+                pessoas = `
+                    <div class="rdp-section">
+                        <div class="rdp-section-title">Pessoas Envolvidas</div>
+                        <div class="rdp-section-content">
+                            ${analise.pessoas.map(pessoa => `<span class="badge badge-status">${escaparHTML(pessoa)}</span>`).join('')}
+                        </div>
+                    </div>
+                `;
+            }
+
+            let proximasAcoes = '';
+            if (analise.proximas_acoes && Array.isArray(analise.proximas_acoes)) {
+                proximasAcoes = `
+                    <div class="rdp-section">
+                        <div class="rdp-section-title">Próximas Ações</div>
+                        <ul class="rdp-list">
+                            ${analise.proximas_acoes.map(acao => `<li>${escaparHTML(acao)}</li>`).join('')}
+                        </ul>
+                    </div>
+                `;
+            }
+
+            return `
+                <div class="rdp-card ${prioridade}">
+                    <div class="rdp-card-header">
+                        <div class="rdp-card-title">${escaparHTML(analise.arquivo || 'RDP')}</div>
+                        <div class="rdp-card-meta">
+                            <span>📅 ${dataAnalise}</span>
+                            <span class="badge badge-status">${escaparHTML(status)}</span>
+                            <span class="badge badge-priority ${prioridade}">${escaparHTML(prioridade)}</span>
+                        </div>
+                    </div>
+                    <div class="rdp-card-body">
+                        ${analise.resumo ? `
+                            <div class="rdp-section">
+                                <div class="rdp-section-title">Resumo</div>
+                                <div class="rdp-section-content">${escaparHTML(analise.resumo)}</div>
+                            </div>
+                        ` : ''}
+
+                        ${riscos}
+                        ${bloqueios}
+                        ${pessoas}
+                        ${proximasAcoes}
+
+                        <div class="confidence-meter">
+                            <span class="confidence-text">${confianca}%</span>
+                            <div class="confidence-bar">
+                                <div class="confidence-fill" style="width: ${confianca}%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            `;
+        }
+
+        function atualizarEstatisticas() {
+            const total = filteredAnalises.length;
+            const criticas = filteredAnalises.filter(a => a.prioridade === 'critica').length;
+            const bloqueados = filteredAnalises.filter(a => a.status === 'bloqueado').length;
+            const confiancaMedia = filteredAnalises.length > 0
+                ? Math.round(filteredAnalises.reduce((sum, a) => sum + (a.confianca_percentual || 0), 0) / filteredAnalises.length)
+                : 0;
+
+            document.getElementById('stat-total').textContent = total;
+            document.getElementById('stat-criticas').textContent = criticas;
+            document.getElementById('stat-bloqueados').textContent = bloqueados;
+            document.getElementById('stat-confianca').textContent = confiancaMedia + '%';
+
+            // Update last update time
+            const now = new Date();
+            const timeString = now.toLocaleTimeString('pt-BR', { hour: '2-digit', minute: '2-digit' });
+            document.getElementById('last-update-time').textContent = timeString;
+        }
+
+        // ==================== EXPORT FUNCTIONS ====================
+        function exportarCSV() {
+            if (filteredAnalises.length === 0) {
+                mostrarErro('Nenhum dado para exportar');
+                return;
+            }
+
+            const headers = [
+                'Arquivo',
+                'Data',
+                'Status',
+                'Prioridade',
+                'Resumo',
+                'Confiança (%)',
+                'Riscos',
+                'Bloqueios'
+            ];
+
+            const rows = filteredAnalises.map(analise => [
+                escaparCSV(analise.arquivo || ''),
+                escaparCSV(analise.data_analise ? formatarData(analise.data_analise) : ''),
+                escaparCSV(analise.status || ''),
+                escaparCSV(analise.prioridade || ''),
+                escaparCSV(analise.resumo || ''),
+                analise.confianca_percentual || 0,
+                escaparCSV((analise.riscos || []).join('; ')),
+                escaparCSV((analise.bloqueios || []).join('; '))
+            ]);
+
+            const csv = [
+                headers.map(h => `"${h}"`).join(','),
+                ...rows.map(row => row.map(cell => `"${cell}"`).join(','))
+            ].join('\n');
+
+            // Create download
+            const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
+            const link = document.createElement('a');
+            const url = URL.createObjectURL(blob);
+            link.setAttribute('href', url);
+            link.setAttribute('download', `rdp_analises_${new Date().toISOString().split('T')[0]}.csv`);
+            link.style.visibility = 'hidden';
+
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        }
+
+        // ==================== UTILITY FUNCTIONS ====================
+        function formatarData(isoDate) {
+            if (!isoDate) return '—';
+            try {
+                const date = new Date(isoDate + 'T00:00:00Z');
+                return date.toLocaleDateString('pt-BR');
+            } catch {
+                return '—';
+            }
+        }
+
+        function escaparHTML(texto) {
+            const div = document.createElement('div');
+            div.textContent = texto || '';
+            return div.innerHTML;
+        }
+
+        function escaparCSV(texto) {
+            if (!texto) return '';
+            return texto.replace(/"/g, '""');
+        }
+
+        function mostrarErro(mensagem) {
+            const container = document.getElementById('error-container');
+            container.innerHTML = `<div class="error">${escaparHTML(mensagem)}</div>`;
+        }
+
+        function mostrarCarregando() {
+            const container = document.getElementById('rdp-container');
+            container.innerHTML = `
+                <div class="loading" style="grid-column: 1/-1;">
+                    <div class="spinner"></div>
+                    <p>Carregando análises...</p>
+                </div>
+            `;
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+[16:27:09] INFO  === process_rdps.py v2.1 ===
+[16:27:09] INFO  RDP: /sessions/wizardly-funny-ritchie/mnt/Acompanhamento de projeto/RDP | OUT: /sessions/wizardly-funny-ritchie/mnt/Acompanhamento de projeto/dashboard_v2/data
+[16:27:09] INFO  Pessoas: 53 | Projetos indexados: 1470
+[16:27:09] INFO  Datas alvo: ['2026-05-05']
+[16:27:09] INFO  Arquivos: 9
+[16:27:09] INFO  → PRJ PRJ25026 - PRJ53722_2026-05-04_RDP_(Security)_Luiz Navero - R02.docx
+[16:27:09] INFO  → PRJ29927_2026-05-04_RDP_(AV)_Jean Kevyn Correia Pessoa.docx
+[16:27:10] INFO  → PRJ32503_2026-05-04_RDP_(SDAI)_DAVISON CAMPOS.pdf
+[16:27:11] INFO  → PRJ35873-2026-04-05_RDP_(BMS)_Renan_Silva.pdf
+[16:27:12] INFO  → PRJ47108_2026-05-05_RDP_(SDAI)_Jeilan Lima.pdf
+[16:27:12] INFO  → PRJ53722_2026-05-04_RDP_(BMS)_Teylor Garibaldi.pdf
+[16:27:13] INFO  → PRJ53722_2026-05-04_RDP_(BMS)_THIAGO BORGES.pdf
+[16:27:14] INFO  → PRJ57394_2026-05-04_RDP_(SEG)_Tiago_Alves_Dutra.pdf
+[16:27:15] INFO  → PRJ59935_2026-04-30_RDP_SEG_Salathiel_Martins.pdf
+[16:27:15] INFO  Estruturados: 9
+[16:27:15] WARN  rdps.json ilegível — recriando

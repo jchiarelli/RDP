@@ -1,0 +1,29 @@
+[21:56:26] INFO  === process_rdps.py v2.2 ===
+[21:56:26] INFO  RDP: /sessions/wizardly-funny-ritchie/mnt/Acompanhamento de projeto/RDP | OUT: /sessions/wizardly-funny-ritchie/mnt/Acompanhamento de projeto/dashboard_v2/data
+[21:56:26] INFO  Pessoas: 53 | Projetos: 1470
+[21:56:26] INFO  Datas alvo: ['2026-05-05']
+[21:56:26] INFO  Arquivos: 11
+[21:56:26] INFO  -> PRJ PRJ25026 - PRJ53722_2026-05-04_RDP_(Security)_Luiz Navero - R02.docx
+[21:56:26] INFO     participantes: ['Luiz Eduardo Rodrigues Navero']
+[21:56:26] INFO  -> PRJ29927-2026-05-05_RDP_(BMS)_Vinicius Nascimento.pdf
+[21:56:27] INFO     participantes: ['Vinicius do Nascimento', 'Muriel Panegassi Carletti']
+[21:56:27] INFO  -> PRJ29927_2026-05-04_RDP_(AV)_Jean Kevyn Correia Pessoa.docx
+[21:56:27] INFO     participantes: ['Jean Kevyn Correia Pessoa']
+[21:56:27] INFO  -> PRJ32503_2026-05-04_RDP_(SDAI)_DAVISON CAMPOS.pdf
+[21:56:27] INFO     participantes: ['Davison Campos', 'MICHAEL MONTEIRO', 'DENIS NOBRE']
+[21:56:27] INFO  -> PRJ35873-2026-04-05_RDP_(BMS)_Renan_Silva.pdf
+[21:56:28] INFO     participantes: ['Renan de Souza Silva', 'Jennifer Sousa da Silva', 'Thiago Berzin Telles']
+[21:56:28] INFO  -> PRJ45503_2026-04-29_RDP_(BMS)_João Viana.pdf
+[21:56:33] INFO     participantes: ['Joao Victor Sousa Viana']
+[21:56:33] INFO  -> PRJ47108_2026-05-05_RDP_(SDAI)_Jeilan Lima.pdf
+[21:56:33] INFO     participantes: ['Jeilan Souza de Lima']
+[21:56:33] INFO  -> PRJ53722_2026-05-04_RDP_(BMS)_Teylor Garibaldi.pdf
+[21:56:34] INFO     participantes: ['Teylor Soares da Silva Garibaldi Pereira', 'Lindemberg Silva do Carmo Junior', 'Wesley Gomes Vieira']
+[21:56:34] INFO  -> PRJ53722_2026-05-04_RDP_(BMS)_THIAGO BORGES.pdf
+[21:56:35] INFO     participantes: ['Thiago Henrique Nunes Borges']
+[21:56:35] INFO  -> PRJ57394_2026-05-04_RDP_(SEG)_Tiago_Alves_Dutra.pdf
+[21:56:35] INFO     participantes: ['Tiago Alves Dutra']
+[21:56:35] INFO  -> PRJ59935_2026-04-30_RDP_SEG_Salathiel_Martins.pdf
+[21:56:36] INFO     participantes: ['Salathiel da Silva Martins']
+[21:56:36] INFO  Estruturados: 11
+[21:56:36] WARN  rdps.json ilegivel

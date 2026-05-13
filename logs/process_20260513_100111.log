@@ -1,0 +1,104 @@
+[10:01:13] INFO  === process_rdps.py v2.2 ===
+[10:01:13] INFO  RDP: C:\Users\Joao.Chiarelli\OneDrive - Convergint\Claude\Acompanhamento de projeto\RDP | OUT: C:\Users\Joao.Chiarelli\OneDrive - Convergint\Claude\Acompanhamento de projeto\dashboard_v2\data
+[10:01:13] INFO  Pessoas: 51 | Projetos: 1470
+[10:01:13] INFO  Datas alvo: ['2026-05-12', '2026-05-13']
+[10:01:13] INFO  Arquivos: 28
+[10:01:13] INFO  -> CTR20593_2026-05-11_RDP_(SEG)_Michel Sato.docx
+[10:01:13] INFO     pendencias: 0 | participantes: ['Michel Kenji Sato', 'Guilherme Ariz da Silva', 'Rafael Martins Lacerda']
+[10:01:13] INFO  -> CTR55040_2026-05-11_RDP_(BMS)_THIAGO BORGES.pdf
+[10:01:14] INFO     pendencias: 3 | participantes: ['Thiago Henrique Nunes Borges']
+[10:01:14] INFO  -> MONIN-PRE-SCA-GER-MO-R02.pdf
+[10:01:16] INFO     pendencias: 3 | participantes: []
+[10:01:16] INFO  -> PRJ22499_2026-05-11_RDP_(BMS)_Noélio de Brito Oliveira.pdf
+[10:01:16] INFO     pendencias: 0 | participantes: ['Noelio de Brito Oliveira', 'Matheus de Sousa Damico', 'Gislan Almeida dos Santos']
+[10:01:16] INFO  -> PRJ29927-2026-05-12_RDP_(BMS)_Vinicius Nascimento.pdf
+[10:01:17] INFO     pendencias: 0 | participantes: ['Vinicius do Nascimento']
+[10:01:17] INFO  -> PRJ29927_2026-05-11_RDP_(AV)_Jean Kevyn Correia Pessoa.docx
+[10:01:17] INFO     pendencias: 0 | participantes: ['Jean Kevyn Correia Pessoa', 'Gislan Almeida dos Santos', 'Eduardo da Purificacao Mota dos Santos']
+[10:01:17] INFO  -> PRJ29927_2026-05-11_RDP_(SEG)_Michel Sato.docx
+[10:01:17] INFO     pendencias: 1 | participantes: ['Michel Kenji Sato', 'Eduardo da Purificacao Mota dos Santos']
+[10:01:17] INFO  -> PRJ31386-2026-05-12_RDP_(SDAI)_Vinicius Nascimento.pdf
+[10:01:17] INFO     pendencias: 0 | participantes: ['Vinicius do Nascimento']
+[10:01:17] INFO  -> PRJ32503_2026-05-11_RDP_(SDAI)_DAVISON CAMPOS.pdf
+[10:01:18] INFO     pendencias: 7 | participantes: ['Davison Campos', 'MICHAEL JOSÉ MONTEIRO']
+[10:01:18] INFO  -> PRJ42188_2026-12_5_RDP_(SEG)_EDUARDO MOTA_SCA.pdf
+[10:01:18] INFO     pendencias: 1 | participantes: ['Eduardo da Purificacao Mota dos Santos']
+[10:01:18] INFO  -> PRJ42548_2026-05-11_RDP_SEG_Salathiel_Martins.pdf
+[10:01:19] INFO     pendencias: 0 | participantes: ['Salathiel da Silva Martins']
+[10:01:19] INFO  -> PRJ45503_2026-05-11_RDP_(BMS)_Renan Almeida.pdf
+[10:01:19] INFO     pendencias: 0 | participantes: ['Renan Silva Almeida', 'Larissa Isabelle da Silva']
+[10:01:19] INFO  -> PRJ45503_2026-05-12_RDP_(BMS)_Renan Almeida.pdf
+[10:01:20] INFO     pendencias: 5 | participantes: ['Renan Silva Almeida', 'Larissa Isabelle da Silva']
+[10:01:20] INFO  -> PRJ46618_2026-05-12_RDP_(SEC)_SergioOliveira.docx
+[10:01:20] INFO     pendencias: 1 | participantes: ['Sergio Henrique Ferreira de Oliveira']
+[10:01:20] INFO  -> PRJ47108_2026-05-11_RDP_(BMS)_Thiago Berzin Telles.pdf
+[10:01:20] INFO     pendencias: 1 | participantes: ['Thiago Berzin Telles', 'Jennifer Sousa da Silva']
+[10:01:20] INFO  -> PRJ53653_2026-05-11_RDP_(SEG)_Michel Sato.docx
+[10:01:21] INFO     pendencias: 0 | participantes: ['Michel Kenji Sato', 'Guilherme Ariz da Silva']
+[10:01:21] INFO  -> PRJ57394_2026-05-11_RDP_(SEG)_Tiago_Alves_Dutra.pdf
+[10:01:21] INFO     pendencias: 0 | participantes: ['Tiago Alves Dutra']
+[10:01:21] INFO  -> PRJ57394_2026-05-12_RDP_(SEG)_Tiago_Alves_Dutra.pdf
+[10:01:21] INFO     pendencias: 0 | participantes: ['Tiago Alves Dutra']
+[10:01:21] INFO  -> PRJ59747_2026-05-12_RDP_(SEG)_Michel Sato.docx
+[10:01:22] INFO     pendencias: 0 | participantes: ['Michel Kenji Sato']
+[10:01:22] INFO  -> PRJ59946_2026-05-08_RDP_(AV)_PAULO_SERGIO_DE_JESUS_FERNANDES - R02.docx
+[10:01:22] INFO     pendencias: 0 | participantes: ['Paulo Sergio de Jesus Fernandes', 'Leonardo da Silva Rodrigues', 'Renan de Souza Silva']
+[10:01:22] INFO  -> PRJ59946_2026-05-11_RDP_(AV)_PAULO_SERGIO_DE_JESUS_FERNANDES - R02.docx
+[10:01:22] INFO     pendencias: 0 | participantes: ['Paulo Sergio de Jesus Fernandes', 'Leonardo da Silva Rodrigues', 'Renan de Souza Silva', 'EXPEDITO ARAUJO', 'HENRIQUE FARIA', 'Salathiel da Silva Martins', 'YAN FORTES']
+[10:01:22] INFO  -> SENAC_CTR50136_2026-12-05_RDP_(AV)_Augusto-Valle.pdf
+[10:01:22] INFO     pendencias: 0 | participantes: ['Augusto Cesar Flocco Valle', 'Salathiel da Silva Martins']
+[10:01:22] INFO  -> PRJ22499_2026-05-12_RDP_(BMS)_Noélio de Brito Oliveira.pdf
+[10:01:23] INFO     pendencias: 0 | participantes: ['Noelio de Brito Oliveira', 'Matheus de Sousa Damico', 'Gislan Almeida dos Santos']
+[10:01:23] INFO  -> PRJ29927_2026-05-12_RDP_(AV)_Jean Kevyn Correia Pessoa.docx
+[10:01:23] INFO     pendencias: 0 | participantes: ['Jean Kevyn Correia Pessoa', 'Gislan Almeida dos Santos', 'Eduardo da Purificacao Mota dos Santos']
+[10:01:23] INFO  -> PRJ31386_2026-05-12_RDP_(SDAI)_RODRIGO DE OLIVEIRA SOUSA.pdf
+[10:01:23] INFO     pendencias: 0 | participantes: ['Rodrigo de Oliveira Sousa', 'Jeilan Souza de Lima', 'Anderson Caetano de Souza Pires']
+[10:01:23] INFO  -> PRJ40574_2026-05-12_RDP_SEG_Salathiel_Martins.pdf
+[10:01:23] INFO     pendencias: 0 | participantes: ['Salathiel da Silva Martins']
+[10:01:23] INFO  -> PRJ47108_2026-05-12_RDP_(BMS)_Thiago Berzin Telles.pdf
+[10:01:24] INFO     pendencias: 1 | participantes: ['Thiago Berzin Telles', 'Jennifer Sousa da Silva']
+[10:01:24] INFO  -> PRJ53722_2026-05-12_RDP_(BMS)_Teylor Garibaldi.pdf
+[10:01:25] INFO     pendencias: 3 | participantes: ['Teylor Soares da Silva Garibaldi Pereira', 'Lindemberg Silva do Carmo Junior', 'Wesley Gomes Vieira']
+[10:01:25] INFO  Estruturados: 28
+[10:01:25] INFO  === Iniciando sincronizacao com Supabase ===
+[10:01:25] INFO  Supabase conectado: 200
+[10:01:27] WARN  Sync MONIN-PRE-SCA-GER-MO-R02.pdf: HTTP 400
+[10:01:27] WARN    Verifique schema da tabela rdps no Supabase
+[10:01:27] WARN    Payload: {'arquivo': 'MONIN-PRE-SCA-GER-MO-R02.pdf', 'data': '2026-05-12', 'responsavel': '-', 'sistema': '-'}
+[10:01:33] WARN  Sync Aena Recife - Prints sensores SDAI sem tags RESPOSTAS.pdf: HTTP 400
+[10:01:33] WARN    Verifique schema da tabela rdps no Supabase
+[10:01:33] WARN    Payload: {'arquivo': 'Aena Recife - Prints sensores SDAI sem tags RESPOSTAS.pdf', 'data': '2026-05-11', 'responsavel': '-', 'sistema': 'SDAI'}
+[10:01:39] WARN  Sync Device Maintenance  Reports_Odata RJ - Testes - 2026.05.08.pdf: HTTP 400
+[10:01:39] WARN    Verifique schema da tabela rdps no Supabase
+[10:01:39] WARN    Payload: {'arquivo': 'Device Maintenance  Reports_Odata RJ - Testes - 2026.05.08.pdf', 'data': '2026-05-08', 'responsavel': '-', 'sistema': '-'}
+[10:01:40] WARN  Sync Lista de Verificação - SDAI - 2026.05.08.pdf: HTTP 400
+[10:01:40] WARN    Verifique schema da tabela rdps no Supabase
+[10:01:40] WARN    Payload: {'arquivo': 'Lista de Verificação - SDAI - 2026.05.08.pdf', 'data': '2026-05-08', 'responsavel': '-', 'sistema': 'SDAI'}
+[10:01:45] WARN  Sync 2026-05-07_RDP_GSIPR- 2110_C01160_00107839_SEC_Andre Chacon.pdf: HTTP 400
+[10:01:45] WARN    Verifique schema da tabela rdps no Supabase
+[10:01:45] WARN    Payload: {'arquivo': '2026-05-07_RDP_GSIPR- 2110_C01160_00107839_SEC_Andre Chacon.pdf', 'data': '2026-05-07', 'responsavel': '2110 C01160 00107839 SEC Andre Chacon', 'sistema': '-'}
+[10:01:46] WARN  Sync AEG61320-2026-05-07_RDP_(BMS)_Larissa Isabelle.pdf: HTTP 400
+[10:01:46] WARN    Verifique schema da tabela rdps no Supabase
+[10:01:46] WARN    Payload: {'arquivo': 'AEG61320-2026-05-07_RDP_(BMS)_Larissa Isabelle.pdf', 'data': '2026-05-07', 'responsavel': 'Larissa Isabelle da Silva', 'sistema': 'BMS'}
+[10:01:46] WARN  Sync Device Maintenance  Reports_Odata RJ - Testes - 2026.05.07.pdf: HTTP 400
+[10:01:46] WARN    Verifique schema da tabela rdps no Supabase
+[10:01:46] WARN    Payload: {'arquivo': 'Device Maintenance  Reports_Odata RJ - Testes - 2026.05.07.pdf', 'data': '2026-05-07', 'responsavel': '-', 'sistema': '-'}
+[10:01:46] WARN  Sync Lista de Verificação - SDAI - 2026.05.07.pdf: HTTP 400
+[10:01:46] WARN    Verifique schema da tabela rdps no Supabase
+[10:01:46] WARN    Payload: {'arquivo': 'Lista de Verificação - SDAI - 2026.05.07.pdf', 'data': '2026-05-07', 'responsavel': '-', 'sistema': 'SDAI'}
+[10:01:51] WARN  Sync Device Maintenance  Reports_Odata RJ - Testes - 2026.05.06.pdf: HTTP 400
+[10:01:51] WARN    Verifique schema da tabela rdps no Supabase
+[10:01:51] WARN    Payload: {'arquivo': 'Device Maintenance  Reports_Odata RJ - Testes - 2026.05.06.pdf', 'data': '2026-05-06', 'responsavel': '-', 'sistema': '-'}
+[10:01:51] WARN  Sync Device Maintenance  Reports_Odata RJ 2026.03.03 - Fase 5_05062026_092559.pdf: HTTP 400
+[10:01:51] WARN    Verifique schema da tabela rdps no Supabase
+[10:01:51] WARN    Payload: {'arquivo': 'Device Maintenance  Reports_Odata RJ 2026.03.03 - Fase 5_05062026_092559.pdf', 'data': '2026-05-06', 'responsavel': '-', 'sistema': '-'}
+[10:01:52] WARN  Sync Device Maintenance  Reports_Odata RJ 2026.03.03 - Fase 5_05062026_092657.pdf: HTTP 400
+[10:01:52] WARN    Verifique schema da tabela rdps no Supabase
+[10:01:52] WARN    Payload: {'arquivo': 'Device Maintenance  Reports_Odata RJ 2026.03.03 - Fase 5_05062026_092657.pdf', 'data': '2026-05-06', 'responsavel': '-', 'sistema': '-'}
+[10:01:52] WARN  Sync Lista de Verificação - SDAI - 2026.05.06.pdf: HTTP 400
+[10:01:52] WARN    Verifique schema da tabela rdps no Supabase
+[10:01:52] WARN    Payload: {'arquivo': 'Lista de Verificação - SDAI - 2026.05.06.pdf', 'data': '2026-05-06', 'responsavel': '-', 'sistema': 'SDAI'}
+[10:02:01] WARN  Sync Device Maintenance  Reports_GOOGLE 0105_05022026_141405.pdf: HTTP 400
+[10:02:01] WARN    Verifique schema da tabela rdps no Supabase
+[10:02:01] WARN    Payload: {'arquivo': 'Device Maintenance  Reports_GOOGLE 0105_05022026_141405.pdf', 'data': '2026-05-04', 'responsavel': '-', 'sistema': '-'}
+[10:02:10] INFO  RDPs processados Supabase: 134 (falhas: 13)

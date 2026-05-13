@@ -1,0 +1,57 @@
+[
+  {
+    "codigo": "PRJ22499",
+    "nome": "RETROFIT BMS- PRÉDIO 1",
+    "cliente": "INSPER",
+    "uf": "SP",
+    "categoria": "Automation",
+    "segmento": "Others",
+    "business_unit": "Vertical Markets",
+    "rdps": [
+      {
+        "data": "2026-05-08",
+        "responsavel": "Noelio de Brito Oliveira",
+        "sistema": "BMS",
+        "arquivo": "PRJ22499_2026-05-08_RDP_(BMS)_Noélio de Brito Oliveira.pdf",
+        "n_atividades": 0,
+        "n_pendencias": 0,
+        "participantes": [
+          "Noelio de Brito Oliveira",
+          "Matheus de Sousa Damico",
+          "Gislan Almeida dos Santos"
+        ]
+      }
+    ],
+    "pendencias_por_sistema": {
+      "BMS": []
+    },
+    "ultimo_rdp": "2026-05-08"
+  },
+  {
+    "codigo": "PRJ32503",
+    "nome": "SDAI - VALE CAPANEMA",
+    "cliente": "VALE",
+    "uf": "RJ",
+    "categoria": "Automation",
+    "segmento": "Others",
+    "business_unit": "Vertical Markets",
+    "rdps": [
+      {
+        "data": "2026-05-08",
+        "responsavel": "Davison Campos",
+        "sistema": "SDAI",
+        "arquivo": "PRJ32503_2026-05-08_RDP_(SDAI)_DAVISON CAMPOS.pdf",
+        "n_atividades": 11,
+        "n_pendencias": 0,
+        "participantes": [
+          "Davison Campos",
+          "DENIS NOBRE"
+        ]
+      }
+    ],
+    "pendencias_por_sistema": {
+      "SDAI": []
+    },
+    "ultimo_rdp": "2026-05-08"
+  }
+]

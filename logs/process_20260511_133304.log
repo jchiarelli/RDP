@@ -1,0 +1,46 @@
+[13:33:04] INFO  === process_rdps.py v2.2 ===
+[13:33:04] INFO  RDP: /sessions/exciting-great-cori/mnt/Acompanhamento de projeto/RDP | OUT: /sessions/exciting-great-cori/mnt/Acompanhamento de projeto/dashboard_v2/data
+[13:33:04] INFO  Pessoas: 53 | Projetos: 1470
+[13:33:04] INFO  Datas alvo: ['2026-05-07']
+[13:33:04] INFO  Arquivos: 20
+[13:33:04] INFO  -> 2026-05-07_RDP_GSIPR- 2110_C01160_00107839_SEC_Andre Chacon.pdf
+[13:33:05] INFO     pendencias: 0 | participantes: ['Andre Chacon da Silveira']
+[13:33:05] INFO  -> AEG61320-2026-05-07_RDP_(BMS)_Larissa Isabelle.pdf
+[13:33:06] INFO     pendencias: 0 | participantes: ['Larissa Isabelle da Silva']
+[13:33:06] INFO  -> Device Maintenance  Reports_Odata RJ - Testes - 2026.05.07.pdf
+[13:33:09] INFO     pendencias: 0 | participantes: []
+[13:33:09] INFO  -> Lista de Verificação - SDAI - 2026.05.07.pdf
+[13:33:12] INFO     pendencias: 0 | participantes: []
+[13:33:12] INFO  -> PRJ19620-2026-05-05_RDP_(BMS)_Anderson.pdf
+[13:33:13] INFO     pendencias: 0 | participantes: ['Anderson Caetano de Souza Pires', 'Marcos Judensnaider Knijnik']
+[13:33:13] INFO  -> PRJ19620-2026-05-06_RDP_(BMS)_Anderson.pdf
+[13:33:15] INFO     pendencias: 1 | participantes: ['Anderson Caetano de Souza Pires', 'Marcos Judensnaider Knijnik']
+[13:33:15] INFO  -> PRJ19620-2026-05-07_RDP_(BMS)_Anderson.pdf
+[13:33:16] INFO     pendencias: 0 | participantes: ['Anderson Caetano de Souza Pires', 'Marcos Judensnaider Knijnik']
+[13:33:16] INFO  -> PRJ29927-2026-05-07_RDP_(BMS)_Vinicius Nascimento.pdf
+[13:33:16] INFO     pendencias: 0 | participantes: ['Vinicius do Nascimento', 'Muriel Panegassi Carletti']
+[13:33:16] INFO  -> PRJ29927_2026-05-06_RDP_(AV)_Jean Kevyn Correia Pessoa.docx
+[13:33:16] INFO     pendencias: 1 | participantes: ['Jean Kevyn Correia Pessoa', 'Tarley Ferreira Dos Santos', 'Eduardo Arcanjo Raimundo']
+[13:33:16] INFO  -> PRJ32503_2026-05-06_RDP_(SDAI)_DAVISON CAMPOS.pdf
+[13:33:17] INFO     pendencias: 0 | participantes: ['Davison Campos', 'MICHAEL MONTEIRO', 'DENIS NOBRE']
+[13:33:17] INFO  -> PRJ40574_2026-05-07_RDP_(SDAI)_Miguel Meyer - R00.docx
+[13:33:17] INFO     pendencias: 0 | participantes: ['Miguel Felix Meyer']
+[13:33:17] INFO  -> PRJ40574_2026-05-07_RDP_(SDAI)_Miguel Meyer - R00.pdf
+[13:33:19] INFO     pendencias: 0 | participantes: ['Miguel Felix Meyer']
+[13:33:19] INFO  -> PRJ42188_2026-07_5_RDP_(SEG)_EDUARDO MOTA_SCA.pdf
+[13:33:19] INFO     pendencias: 0 | participantes: ['Eduardo da Purificacao Mota dos Santos']
+[13:33:19] INFO  -> PRJ42548_2026-05-06_RDP_SEG_Salathiel_Martins.pdf
+[13:33:20] INFO     pendencias: 0 | participantes: ['Salathiel da Silva Martins']
+[13:33:20] INFO  -> PRJ45503_2026-05-07_RDP_(BMS)_Renan Almeida.pdf
+[13:33:21] INFO     pendencias: 0 | participantes: ['Renan Silva Almeida', 'Larissa Isabelle da Silva']
+[13:33:21] INFO  -> PRJ47108_2026-05-07_RDP_(BMS)_GUILHEME ARIZ DA SILVA.pdf
+[13:33:22] INFO     pendencias: 0 | participantes: ['Guilherme Ariz da Silva']
+[13:33:22] INFO  -> PRJ47108_2026-05-07_RDP_(SDAI)_Jeilan Lima.pdf
+[13:33:23] INFO     pendencias: 0 | participantes: ['Jeilan Souza de Lima', 'Leonardo da Silva Rodrigues']
+[13:33:23] INFO  -> PRJ53722_2026-05-06_RDP_(BMS)_Alfredo da Silveira.pdf
+[13:33:24] INFO     pendencias: 0 | participantes: ['Alfredo da Silveira']
+[13:33:24] INFO  -> PRJ55924_2026-07-05_RDP_(AV)_Augusto-Valle.pdf
+[13:33:24] INFO     pendencias: 0 | participantes: ['Augusto Cesar Flocco Valle', 'Caio Vinicius de Almeida', 'Marcio Leandro', 'Miguel Felix Meyer', 'Cristian Elvis', 'Edmilso Souza', 'Giovane Maino', 'Guilherme Ariz da Silva']
+[13:33:24] INFO  -> PRJ57394_2026-05-06_RDP_(SEG)_Tiago_Alves_Dutra.pdf
+[13:33:26] INFO     pendencias: 0 | participantes: ['Tiago Alves Dutra']
+[13:33:26] INFO  Estruturados: 20

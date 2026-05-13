@@ -1,0 +1,1032 @@
+[
+  {
+    "arquivo": "PRJ22499_2026-05-08_RDP_(BMS)_Noélio de Brito Oliveira.pdf",
+    "data": "2026-05-08",
+    "responsavel": "Noelio de Brito Oliveira",
+    "responsavel_arquivo": "Noélio de Brito Oliveira",
+    "responsavel_match": true,
+    "participantes": [
+      {
+        "nome": "Noelio de Brito Oliveira",
+        "email": "noelio.oliveira@convergint.com",
+        "equipe": "BMS - UNIVERSO NUNES JULIAO",
+        "match": true,
+        "nome_extraido": "NoéliodeBritoOliveira"
+      },
+      {
+        "nome": "Matheus de Sousa Damico",
+        "email": "matheus.damico@convergint.com",
+        "equipe": "BMS - UNIVERSO NUNES JULIAO",
+        "match": true,
+        "nome_extraido": "MatheusdeSousaDamico"
+      },
+      {
+        "nome": "Gislan Almeida dos Santos",
+        "email": "gislan.santos@convergint.com",
+        "equipe": "BMS - UNIVERSO NUNES JULIAO",
+        "match": true,
+        "nome_extraido": "GislanAlmeidadosSantos"
+      }
+    ],
+    "email": "noelio.oliveira@convergint.com",
+    "equipe": "BMS - UNIVERSO NUNES JULIAO",
+    "disciplina": "BMS",
+    "sistema": "BMS",
+    "projeto_codigo": "PRJ22499",
+    "projeto_nome": "RETROFIT BMS- PRÉDIO 1",
+    "projeto_cliente": "INSPER",
+    "projeto_categoria": "Automation",
+    "projeto_uf": "SP",
+    "projeto_segmento": "Others",
+    "projeto_bu": "Vertical Markets",
+    "atividades": [],
+    "pendencias": [],
+    "bloqueios": [],
+    "proximos": [],
+    "texto_full": "Código Data Revisão\nSISTEMADEGESTÃODAQUALIDADE\nFQ.15.02 04/02/2026 02\nPágina\nRELATÓRIO DIÁRIO DE\n1 DE 3\nPROGRAMAÇÃO\nInsper / INSPER - 2312_C01743_PRJ22499\nCONTRATANTE:Insper\nOBRA:INSPER-2312_C01743_PRJ22499 CÓDIGO:\nPRJ22499\nENDEREÇO:RuaQuatá,300\nRESUMOEVOLUTIVODODIA HORÁRIO PREVISTO REAL CONDIÇÕESCLIMÁTICAS\nMUITO POUCO CHUVA CHUVA FORA\nPRODUTIVO INÍCIO 08:00 08:00 BOM DATA:\nPRODUTIVO PRODUTIVO LEVE FORTE TURNO\n08/05/2026\nX TÉRMINO 17:00 17:00 X\nPROFISSIONAISENVOLVIDOS\nNOME EMPRESA FUNÇÃO\n1 NoéliodeBritoOliveira Convergint Programador\n2 MatheusdeSousaDamico Convergint Programador\n3 GislanAlmeidadosSantos Convergint Programador\nDESCRIÇÃODEATIVIDADESREALIZADAS\nATIVIDADES Ambiente Criticidade STATUS\nFinalizadodesenvolvimentodastelasgráficasHVACdotérreoe\n1 Todos Média Finalizado\n1ºpavimento–Quatá,200.\nAplicadoestruturadepontoselógicadefuncionamentodos\n2 1ºpavimento Média Emandamento\nbotõesdepânicoao2ºpavimento-ClaudioHaddad.\n3 - - - -\n4 - - - -\n5 - - - -\n6 - - - -\n7\n8\n9\n10\n11\n12\nElaboração RodrigoOliveira Revisão ThiagoBeckerBellazzi Aprovação JoãoPauloChiarelli\nData 01/01/2026 Data 04/02/2026 Data 01/01/2026\nCódigo Data Revisão\nSISTEMADEGESTÃODAQUALIDADE\nFQ.15.02 04/02/2026 02\nPágina\nRELATÓRIO DIÁRIO DE\n2 DE 3\nPROGRAMAÇÃO\nRELATÓRIO FOTOGRÁFICO\nSistema: BMS Sistema: BMS\nAmbiente: 1ºpavimento Ambiente: Térreo\n1 2\nEstruturadepontosescriptdeprogramaçãobotõesde TelagráficaHVACtérreo.\npânico.\nSistema: BMS Sistema: BMS\nAmbiente: - Ambiente: -\n3 4\n-TelagráficaHVAC1ºpavimento -\nSistema: BMS Sistema: BMS\nAmbiente: - Ambiente: -\n5\n- -\nElaboração RodrigoOliveira Revisão ThiagoBeckerBellazzi Aprovação JoãoPauloChiarelli\nData 01/01/2026 Data 04/02/2026 Data 01/01/2026\nCódigo Data Revisão\nSISTEMADEGESTÃODAQUALIDADE\nFQ.15.02 04/02/2026 02\nPágina\nRELATÓRIO DIÁRIO DE\n3 DE 3\nPROGRAMAÇÃO\nDETALHAMENTODASATIVIDADES\n1)Finalizadoodesenvolvimentodalayer“localizações”dastelasgráficasdeHVACdotérreoe1ºpavimento.\nNestalayer,foramdefinidosospopupsdeVRFs,VAVs,ventiladoreseSelfs.Comisso,essespavimentosestão\nfinalizados.\n2)Aplicadoaestruturadepontosescriptdeprogramaçãoparaoprocessamentoderetençãodospulsosdos\nbotõesdepânicoeresetdosalarmesparao2ºpavimento.\nAssinatura Assinatura\nCONVERGINT TECHNOLOGIES Nome do Cliente\nElaboração RodrigoOliveira Revisão ThiagoBeckerBellazzi Aprovação JoãoPauloChiarelli\nData 01/01/2026 Data 04/02/2026 Data 01/01/2026",
+    "tamanho_bytes": 465880
+  },
+  {
+    "arquivo": "PRJ32503_2026-05-08_RDP_(SDAI)_DAVISON CAMPOS.pdf",
+    "data": "2026-05-08",
+    "responsavel": "Davison Campos",
+    "responsavel_arquivo": "DAVISON CAMPOS",
+    "responsavel_match": true,
+    "participantes": [
+      {
+        "nome": "Davison Campos",
+        "email": "davison.campos@convergint.com",
+        "equipe": "SDAI - UNIVERSO NUNES JULIAO",
+        "match": true,
+        "nome_extraido": "DAVISON CAMPOS"
+      },
+      {
+        "nome": "DENIS NOBRE",
+        "email": "",
+        "equipe": "-",
+        "match": false,
+        "nome_extraido": "DENIS NOBRE"
+      }
+    ],
+    "email": "davison.campos@convergint.com",
+    "equipe": "SDAI - UNIVERSO NUNES JULIAO",
+    "disciplina": "SDAI",
+    "sistema": "SDAI",
+    "projeto_codigo": "PRJ32503",
+    "projeto_nome": "SDAI - VALE CAPANEMA",
+    "projeto_cliente": "VALE",
+    "projeto_categoria": "Automation",
+    "projeto_uf": "RJ",
+    "projeto_segmento": "Others",
+    "projeto_bu": "Vertical Markets",
+    "atividades": [
+      "DETALHAMENTO DAS ATIVIDADES",
+      "Análise da Falha de Cadastro: Identificou-se um conflito na base de dados (nuvem)",
+      "Anomalia na Interface do Portal: Adicionalmente, constatou-se uma falha de",
+      "SITUAÇÃO DAS PENDÊNCIAS DO PROJETO",
+      "Instalação física, atualização de firmware e integração lógica do novo Gateway à rede",
+      "Ativação CLSS Horizon: Condicionada à liberação e correção da base de dados pelo",
+      "Diagnóstico de Gás (Restaurante): Necessidade de intervenção física para",
+      "Mapeamento e As Built (Novos Dispositivos): Identificação física e definição de",
+      "Topologia de Rede: Localização física da central correspondente ao Nó 28 para",
+      "Identificação de Campo: Revisões pendentes nas áreas: SE-1840CF-01, TR-",
+      "CONCLUSÃO"
+    ],
+    "pendencias": [],
+    "bloqueios": [],
+    "proximos": [],
+    "texto_full": "Código Data Revisão\nSISTEMA DE GESTÃO DA QUALIDADE\nFQ.15.02 01/01/2026 02\nPágina\nRELATÓRIO DIÁRIO DE\n1 DE 6\nPROGRAMAÇÃO\nVALE CAPANEMA/ PROJETO DE SDAI\nCONTRATANTE: VALE\nOBRA: VALE – MINA DE CAPANEMA – SDAI CÓDIGO:\nPRJ32503\nENDEREÇO: UNNAMED ROAD, 35400-000, OURO PRETO - MG\nRESUMO EVOLUTIVO DO DIA HORÁRIO PREVISTO REAL CONDIÇÕES CLIMÁTICAS\nMUITO\nPRODUTIVO\nPOUCO\nINÍCIO 08:30 07:30 BOM\nCHUVA CHUVA FORA\nDATA:\nPRODUTIVO PRODUTIVO LEVE FORTE TURNO\n08/05/2026\nx TÉRMINO 18:00 17:00 x\nPROFISSIONAIS ENVOLVIDOS\nNOME EMPRESA FUNÇÃO\n1 DAVISON CAMPOS Convergint Programador\n3 DENIS NOBRE Convergint Lider\nDESCRIÇÃO DE ATIVIDADES REALIZADAS\nATIVIDADES Ambiente Criticidade STATUS\nEm\n1 Comissionamento da rede Notifier Geral Média\nAndamento\nEm\n2 Comissionamento do CLSS Horizon Geral Média\nAndamento\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\nElaboração Rodrigo Oliveira Revisão Thiago Becker Bellazzi Aprovação João Paulo Chiarelli\nData 01/01/2026 Data 04/02/2026 Data 01/01/2026\nCódigo Data Revisão\nSISTEMA DE GESTÃO DA QUALIDADE\nFQ.15.02 01/01/2026 02\nPágina\nRELATÓRIO DIÁRIO DE\n2 DE 6\nPROGRAMAÇÃO\nRELATÓRIO FOTOGRÁFICO\nSistema: SDAI\nAmbiente: PORTARIA\n1\nGateway que já estava em funcionamento, continua operando normalmente, porém há pendencias no portal do CLSS\nSistema: SDAI\nAmbiente: AMBULATÓRIO/BRIGADA\n2\nNovo gateway instalado, configurado e se comunicando na rede, porém não foi ativado no portal do CLSS Horizon\nElaboração Rodrigo Oliveira Revisão Thiago Becker Bellazzi Aprovação João Paulo Chiarelli\nData 01/01/2026 Data 04/02/2026 Data 01/01/2026\nCódigo Data Revisão\nSISTEMA DE GESTÃO DA QUALIDADE\nFQ.15.02 01/01/2026 02\nPágina\nRELATÓRIO DIÁRIO DE\n3 DE 6\nPROGRAMAÇÃO\nSistema: SDAI\nAmbiente: PORTARIA\n3\nTestes de comunicação de rede no gateway já operante.\nSistema: SDAI\nAmbiente: AMBULATÓRIO/BRIGADA\n4\nTestes de comunicação de rede no gateway já operante.\nSistema: SDAI\nElaboração Rodrigo Oliveira Revisão Thiago Becker Bellazzi Aprovação João Paulo Chiarelli\nData 01/01/2026 Data 04/02/2026 Data 01/01/2026\nCódigo Data Revisão\nSISTEMA DE GESTÃO DA QUALIDADE\nFQ.15.02 01/01/2026 02\nPágina\nRELATÓRIO DIÁRIO DE\n4 DE 6\nPROGRAMAÇÃO\nSistema: SDAI\nAmbiente: AMBULATÓRIO/BRIGADA\n5\nErro ao tentar ativar a estação do ambulatório\nSistema: SDAI\nAmbiente: PORTARIA\n4\nErro ao tentar ativar a estação da portaria no portal\nSistema: SDAI\nElaboração Rodrigo Oliveira Revisão Thiago Becker Bellazzi Aprovação João Paulo Chiarelli\nData 01/01/2026 Data 04/02/2026 Data 01/01/2026\nCódigo Data Revisão\nSISTEMA DE GESTÃO DA QUALIDADE\nFQ.15.02 01/01/2026 02\nPágina\nRELATÓRIO DIÁRIO DE\n5 DE 6\nPROGRAMAÇÃO\nDETALHAMENTO DAS ATIVIDADES\n1. DETALHAMENTO DAS ATIVIDADES\nImplementação e Integração do Gateway\nOcorreram avanços na infraestrutura de comunicação do sistema. O novo dispositivo Gateway foi\ninstalado fisicamente, submetido à atualização para a versão de firmware mais recente e\nparametrizado para operação na rede Notifier. Após a conexão, foram realizados testes de\ncomunicação. O equipamento demonstrou integração à topologia da rede.\nInconsistência de Licenciamento (CLSS Horizon)\nForam executados os procedimentos técnicos visando a ativação e o atrelamento das licenças\nadquiridas para a nova estação de monitoramento (Ambulatório). Contudo, a operação foi\ninterrompida devido a uma recusa do servidor de autenticação da Honeywell.\n• Análise da Falha de Cadastro: Identificou-se um conflito na base de dados (nuvem)\ndo fabricante. Registros residuais, gerados durante as tentativas de ativação do\nprimeiro Gateway em etapas anteriores do projeto, permaneceram armazenados no\nservidor. Consequentemente, o sistema de validação acusa uma duplicidade lógica,\ninformando erroneamente que a identificação (UID/MAC) da nova estação já se\nencontra vinculada a um sistema existente.\n• Anomalia na Interface do Portal: Adicionalmente, constatou-se uma falha de\nrenderização de dados no portal da Honeywell. As informações referentes à estação\nprincipal, que já se encontra operacional, não estão sendo exibidas conforme o padrão\ntécnico usual (como detalhamento de licenças vinculadas, datas de expiração e status\nde conectividade), indicando uma possível instabilidade no próprio banco de dados da\nplataforma para este site específico.\nAcionamento de Suporte Técnico (Nível 2)\nFace ao impedimento estar alocado na infraestrutura de servidores de terceiros (SaaS), foi\nformalizada a abertura de um chamado técnico junto ao suporte. O escopo da solicitação visa a\nexclusão dos registros residuais e a reestruturação dos dados da conta para permitir o correto\nprovisionamento da nova estação. Estamos monitorando para retomar as configurações o mais\nbreve.\nElaboração Rodrigo Oliveira Revisão Thiago Becker Bellazzi Aprovação João Paulo Chiarelli\nData 01/01/2026 Data 04/02/2026 Data 01/01/2026\nCódigo Data Revisão\nSISTEMA DE GESTÃO DA QUALIDADE\nFQ.15.02 01/01/2026 02\nPágina\nRELATÓRIO DIÁRIO DE\n6 DE 6\nPROGRAMAÇÃO\n2. SITUAÇÃO DAS PENDÊNCIAS DO PROJETO\nPendências Sanadas:\n• Instalação física, atualização de firmware e integração lógica do novo Gateway à rede\ndo SDAI.\nPendências em Aberto (Histórico Consolidado):\n• Ativação CLSS Horizon: Condicionada à liberação e correção da base de dados pelo\nsuporte.\n• Diagnóstico de Gás (Restaurante): Necessidade de intervenção física para\ndeterminar a causa-raiz dos acionamentos contínuos dos módulos detectores de gás\napós a transição para o modo de supervisão.\n• Mapeamento e As Built (Novos Dispositivos): Identificação física e definição de\nnomenclatura para os novos detectores instalados na área do Restaurante.\n• Topologia de Rede: Localização física da central correspondente ao Nó 28 para\nmapeamento definitivo no supervisório.\n• Identificação de Campo: Revisões pendentes nas áreas: SE-1840CF-01, TR-\n1220CF-05, TR-1220CF-03, TR-122005CF-03, TR-1380CF-01, Tela ETO, SE-1545BB-\n01, SE-1920CF-03, SE-1920CF-04 e TR-1390CF-04.\n3. CONCLUSÃO\nAs operações do dia 08/05/2026 consolidaram com êxito a expansão da camada de comunicação\nfísica e lógica através da integração do novo Gateway. No entanto, o avanço na descentralização do\nmonitoramento (Estação do Ambulatório) encontra-se temporariamente suspenso devido a anomalias\nde banco de dados no portal de licenciamento do fabricante (Honeywell). O foco de atuação atual está\ndividido entre o acompanhamento da resolução deste bloqueio sistêmico junto ao suporte nível 2 e a\ncontinuidade das inspeções físicas para sanar as pendências de mapeamento e diagnóstico de\ncampo.\nAssinatura Assinatura\nCONVERGINT TECHNOLOGIES ACCIONA\nElaboração Rodrigo Oliveira Revisão Thiago Becker Bellazzi Aprovação João Paulo Chiarelli\nData 01/01/2026 Data 04/02/2026 Data 01/01/2026",
+    "tamanho_bytes": 823459
+  },
+  {
+    "arquivo": "Device Maintenance  Reports_GOOGLE 0105_05022026_141405.pdf",
+    "data": "2026-05-04",
+    "responsavel": "-",
+    "responsavel_arquivo": "",
+    "responsavel_match": false,
+    "participantes": [],
+    "email": "",
+    "equipe": "-",
+    "disciplina": "-",
+    "sistema": "-",
+    "projeto_codigo": null,
+    "projeto_nome": "-",
+    "projeto_cliente": "-",
+    "projeto_categoria": "-",
+    "projeto_uf": "-",
+    "projeto_segmento": "-",
+    "projeto_bu": "-",
+    "atividades": [],
+    "pendencias": [],
+    "bloqueios": [],
+    "proximos": [],
+    "texto_full": "Device Maintenance Reports\nNode Address : 1 : (NFS2-3030) sábado, 2 de maio de 2026 14:14:05\nPanel Version : 31 Active Project : GOOGLE 0105\nDeviceMaintenance:Detectors\nNotifier, Inc.https://www.securityandfire.honeywell.com/notifier/en-us\nThis Report is compliant with NFPA-72 2007 Edition.\npooL\nCLS\nsserddA\neciveD\nlebaL\nedoCepyT\nlebaL\nmotsuC\nlebaLdednetxE\n%\ntfirD\n%\nkaeP\n%\nmralA\n%\nmralA-erP\nefiL\nyrettaB\nytivitisneS\nevitcA\nleveL\nmralA\nytivitisneS\nevitcA\nleveL\nmralA-erP\n1 1 Smoke (Photo) DF_001-L0 BMS SEG 35 0 0 0 N/A 8 8\n1_TER\n1 2 Smoke (Photo) DF_002-L0 SERVICO 0 0 0 0 N/A 8 8\n1_TER\n1 3 Smoke (Photo) DF_003-L0 FOOD TEAM 36 0 0 0 N/A 8 8\n1_TER\n1 4 Smoke (Photo) DF_004-L0 DEP LIXO 35 0 0 0 N/A 8 8\n1_TER\n1 5 Smoke (Photo) DF_005-L0 ENTREGAS 35 1 0 0 N/A 8 8\n1_TER\n1 6 Smoke (Photo) DF_006-L0 LIXO REFRIG 35 0 0 0 N/A 8 8\n1_TER\n1 7 Smoke (Photo) DF_007-L0 HALL SERV 36 1 0 0 N/A 8 8\n1_TER\n1 8 Smoke (Photo) DF_008-L0 DML 35 0 0 0 N/A 8 8\n1_TER\n1 9 Smoke Acclim DT_009-L0 AREA COCCAO 0 0 0 0 N/A 8 8\n1_TER\n1 10 Smoke Acclim DT_010-L0 AREA PREPARO 0 0 0 0 N/A 8 8\n1_TER\n1 11 Smoke Acclim DT_011-L0 AREA PREPARO 0 0 0 0 N/A 8 8\n1_TER\n1 12 Smoke (Photo) DF_012-L0 TRIAGEM 35 0 0 0 N/A 8 8\n1_TER\n1 13 Smoke Acclim DT_013-L0 ANTI CAMARA 0 0 0 0 N/A 8 8\n1_TER\n1 14 Smoke Acclim DT_014-L0 PREPARO CONF 0 0 0 0 N/A 8 8\n1_TER\n1 15 Smoke Acclim DT_015-L0 AREA LAVAGEM 0 0 0 0 N/A 8 8\n1_TER\n1 16 Smoke (Photo) DF_016-L0 ENT LOUÇA SJ 35 0 0 0 N/A 8 8\n1_TER\n1 17 Smoke (Photo) DF_017-L0 BUFFET REFEI 35 0 0 0 N/A 8 8\n1_TER\n1 18 Smoke (Photo) DF_018-L0 BUFFET SOBR 35 0 0 0 N/A 8 8\n1_TER\n1 19 Smoke (Photo) DF_019-L0 LANCHONETE 35 0 0 0 N/A 8 8\n1_TER\n1 20 Smoke (Photo) DF_020-L0 CAFE 35 0 0 0 N/A 8 8\n1_TER\n1 21 Smoke (Photo) DF_021-L0 BUFFET BEBID 35 0 0 0 N/A 8 8\n1_TER\n1 22 Smoke (Photo) DF_022-L0 TROCADOR 35 0 0 0 N/A 8 8\n1_TER\n1 23 Smoke (Photo) DF_023-L0 CIRCULACAO 35 0 0 0 N/A 8 8\n1_TER\n1 24 Smoke (Photo) DF_024-L0 QUADRAS 35 0 0 0 N/A 8 8\n1_TER\n1 25 Smoke (Photo) DF_025-L0 CIRCULACAO 35 0 0 0 N/A 8 8\n1_TER\n1 26 Smoke (Photo) DF_026-L0 SANITARIO 36 0 0 0 N/A 8 8\n1_TER\n1 27 Smoke (Photo) DF_027-L0 ESC EMERG 35 0 0 0 N/A 8 8\n1_TER\n1 28 Smoke (Photo) DF_028-L0 SANITARIO 0 0 0 0 N/A 8 8\n1_TER\n1 29 Smoke (Photo) DF_029-L0 SANIT PCD 35 0 0 0 N/A 8 8\n1_TER\n1 30 Smoke (Photo) DF_030-L0 CIRCULACAO 35 0 0 0 N/A 8 8\n1_TER\n1 31 Smoke (Photo) DF_031-L0 C MEDICO 2 35 0 0 0 N/A 8 8\n1_TER\nPage 1 of 31\nDevice Maintenance Reports\nNode Address : 1 : (NFS2-3030) sábado, 2 de maio de 2026 14:14:05\nPanel Version : 31 Active Project : GOOGLE 0105\nNotifier, Inc.https://www.securityandfire.honeywell.com/notifier/en-us\nThis Report is compliant with NFPA-72 2007 Edition.\npooL\nCLS\nsserddA\neciveD\nlebaL\nedoCepyT\nlebaL\nmotsuC\nlebaLdednetxE\n%\ntfirD\n%\nkaeP\n%\nmralA\n%\nmralA-erP\nefiL\nyrettaB\nytivitisneS\nevitcA\nleveL\nmralA\nytivitisneS\nevitcA\nleveL\nmralA-erP\n1 32 Smoke (Photo) DF_032-L0 C MEDICO 1 0 0 0 0 N/A 8 8\n1_TER\n1 33 Smoke (Photo) DF_033-L0 BICICLETARIO 38 0 0 0 N/A 8 8\n1_TER\n1 34 Smoke (Photo) DF_034-L0 BICICLETARIO 35 0 0 0 N/A 8 8\n1_TER\n1 35 Smoke (Photo) DF_035-L0 VESTIARIO 35 0 0 0 N/A 8 8\n1_TER\n1 36 Smoke (Photo) DF_036-L0 SANT VEST 35 0 0 0 N/A 8 8\n1_TER\n1 37 Smoke (Photo) DF_037-L0 SALAO JOGOS 35 0 0 0 N/A 8 8\n1_TER\n1 38 Smoke (Photo) DF_038-L0 SANIT PCD 35 0 0 0 N/A 8 8\n1_TER\n1 39 Smoke (Photo) DF_039-L0 VEST PCD 2 35 0 0 0 N/A 8 8\n1_TER\n1 40 Smoke (Photo) DF_040-L0 DESCAN FUNC 35 0 0 0 N/A 8 8\n1_TER\n1 41 Smoke (Photo) DF_041-L0 RECEBIDOS 35 0 0 0 N/A 8 8\n1_TER\n1 42 Smoke (Photo) DF_042-L0 DESCAN FUNC 35 0 0 0 N/A 8 8\n1_TER\n1 43 Smoke (Photo) DF_043-L0 VESTIARIO 4 35 0 0 0 N/A 8 8\n1_TER\n1 44 Smoke (Photo) DF_044-L0 VESTIARIO 5 35 0 0 0 N/A 8 8\n1_TER\n1 45 Smoke (Photo) DF_045-L0 DML 35 0 0 0 N/A 8 8\n1_TER\n1 46 Smoke (Photo) DF_046-L0 ESTOQUE 35 0 0 0 N/A 8 8\n1_TER\n1 47 Smoke (Photo) DF_047-L0 BOMBA GER 35 0 0 0 N/A 8 8\n1_TER\n1 48 Smoke (Photo) DF_048-L0 CASA QUADROS 35 0 0 0 N/A 8 8\n1_TER\n1 49 Smoke (Photo) DF_049-L0 ETE 35 0 0 0 N/A 8 8\n1_TER\n1 50 Smoke (Photo) DF_050-L0 BOMBA INCEND 35 0 0 0 N/A 8 8\n1_TER\n1 51 Smoke (Photo) DF_051-L0 CONDENSADORA 0 0 0 0 N/A 8 8\n1_TER\n1 52 Smoke (Photo) DF_052-L0 BOMB POT REU 35 0 0 0 N/A 8 8\n1_TER\n2 1 Smoke (Photo) DF_001-L0 SL MASSAGEM 0 0 0 0 N/A 8 8\n2_TER\n2 2 Smoke (Photo) DF_002-L0 SL MASSAGEM 35 0 0 0 N/A 8 8\n2_TER\n2 3 Smoke (Photo) DF_003-L0 SL EMT 0 0 0 0 N/A 8 8\n2_TER\n2 4 Smoke (Photo) DF_004-L0 SL EMT 35 0 0 0 N/A 8 8\n2_TER\n2 5 Smoke (Photo) DF_005-L0 SL ELÉTRICA 35 0 0 0 N/A 8 8\n2_TER\n2 6 Smoke (Photo) DF_006-L0 UPS GEM 37 0 0 0 N/A 8 8\n2_TER\n2 7 Smoke (Photo) DF_007-L0 SL TÉCNICA 35 0 0 0 N/A 8 8\n2_TER\n2 8 Smoke (Photo) DF_008-L0 UPS GEM 35 0 0 0 N/A 8 8\n2_TER\n2 9 Smoke (Photo) DF_009-L0 CIRCULACAO 35 0 0 0 N/A 8 8\n2_TER\n2 10 Smoke (Photo) DF_010-L0 ENTR ACADEM 35 0 0 0 N/A 8 8\n2_TER\n2 11 Smoke (Photo) DF_011-L0 ACADEMIA 35 0 0 0 N/A 8 8\n2_TER\nPage 2 of 31\nDevice Maintenance Reports\nNode Address : 1 : (NFS2-3030) sábado, 2 de maio de 2026 14:14:05\nPanel Version : 31 Active Project : GOOGLE 0105\nNotifier, Inc.https://www.securityandfire.honeywell.com/notifier/en-us\nThis Report is compliant with NFPA-72 2007 Edition.\npooL\nCLS\nsserddA\neciveD\nlebaL\nedoCepyT\nlebaL\nmotsuC\nlebaLdednetxE\n%\ntfirD\n%\nkaeP\n%\nmralA\n%\nmralA-erP\nefiL\nyrettaB\nytivitisneS\nevitcA\nleveL\nmralA\nytivitisneS\nevitcA\nleveL\nmralA-erP\n2 12 Smoke (Photo) DF_012-L0 ACADEMIA 35 0 0 0 N/A 8 8\n2_TER\n2 13 Smoke (Photo) DF_013-L0 VEST GIM LOK 35 0 0 0 N/A 8 8\n2_TER\n2 14 Smoke (Photo) DF_014-L0 SANITARIO 0 0 0 0 N/A 8 8\n2_TER\n2 15 Smoke (Photo) DF_015-L0 SANIT PCD 35 0 0 0 N/A 8 8\n2_TER\n2 16 Smoke (Photo) DF_016-L0 VEST MASC 2 37 0 0 0 N/A 8 8\n2_TER\n2 17 Smoke (Photo) DF_017-L0 VEST FEM 1 37 0 0 0 N/A 8 8\n2_TER\n2 18 Smoke (Photo) DF_018-L0 SL TELEFONIA 0 0 0 0 N/A 8 8\n2_TER\n2 19 Smoke (Photo) DF_019-L0 SL REUNIAO 35 0 0 0 N/A 8 8\n2_TER\n2 20 Smoke (Photo) DF_020-L0 GFS ESCRIT 35 0 0 0 N/A 8 8\n2_TER\n2 21 Smoke (Photo) DF_021-L0 GFS ESCRIT 35 0 0 0 N/A 8 8\n2_TER\n2 22 Smoke (Photo) DF_022-L0 REUNIAO GFS 36 0 0 1 N/A 8 8\n2_TER\n2 23 Smoke (Photo) DF_023-L0 REUNIAO GFS 38 1 0 0 N/A 8 8\n2_TER\n2 24 Smoke (Photo) DF_024-L0 REUNIAO GFS 35 0 0 0 N/A 8 8\n2_TER\n2 25 Smoke (Photo) DF_025-L0 REUNIAO GFS 35 0 0 0 N/A 8 8\n2_TER\n2 26 Smoke (Photo) DF_026-L0 GFS ESCRIT 37 0 0 1 N/A 8 8\n2_TER\n2 27 Smoke (Photo) DF_027-L0 GFS ESCRIT 35 0 0 0 N/A 8 8\n2_TER\n2 28 Smoke (Photo) DF_028-L0 CIRCULACAO 35 0 0 0 N/A 8 8\n2_TER\n2 29 Smoke (Photo) DF_029-L0 SANITARIO 35 0 0 0 N/A 8 8\n2_TER\n2 30 Smoke (Photo) DF_030-L0 SANITARIO 0 0 0 0 N/A 8 8\n2_TER\n2 31 Smoke (Photo) DF_031-L0 SANITARIO 35 0 0 0 N/A 8 8\n2_TER\n2 32 Smoke (Photo) DF_032-L0 SANITARIO 35 0 0 0 N/A 8 8\n2_TER\n2 33 Smoke (Photo) DF_033-L0 PHONE 35 0 0 0 N/A 8 8\n2_TER\n2 34 Smoke (Photo) DF_034-L0 SL ESTAR 35 0 0 0 N/A 8 8\n2_TER\n2 35 Smoke (Photo) DF_035-L0 RECEPCAO 35 0 0 0 N/A 8 8\n2_TER\n2 36 Smoke (Photo) DF_036-L0 SANIT PCD 8 35 0 0 0 N/A 8 8\n2_TER\n2 37 Smoke (Photo) DF_037-L0 GFS AREA PUB 35 0 0 0 N/A 8 8\n2_TER\n2 38 Smoke (Photo) DF_038-L0 GFS AREA PUB 35 0 0 0 N/A 8 8\n2_TER\n2 39 Smoke (Photo) DF_039-L0 GFS AREA PUB 38 0 0 0 N/A 8 8\n2_TER\n2 40 Smoke (Photo) DF_040-L0 SANIT PCD 9 35 0 0 0 N/A 8 8\n2_TER\n2 41 Smoke Acclim DT_041-L0 GFS AREA PUB 0 0 0 0 N/A 8 8\n2_TER\n2 42 Smoke Acclim DT_042-L0 GFS AREA PUB 0 0 0 0 N/A 8 8\n2_TER\n2 43 Smoke Acclim DT_043-L0 GFS AREA PUB 0 0 0 0 N/A 8 8\n2_TER\nPage 3 of 31\nDevice Maintenance Reports\nNode Address : 1 : (NFS2-3030) sábado, 2 de maio de 2026 14:14:05\nPanel Version : 31 Active Project : GOOGLE 0105\nNotifier, Inc.https://www.securityandfire.honeywell.com/notifier/en-us\nThis Report is compliant with NFPA-72 2007 Edition.\npooL\nCLS\nsserddA\neciveD\nlebaL\nedoCepyT\nlebaL\nmotsuC\nlebaLdednetxE\n%\ntfirD\n%\nkaeP\n%\nmralA\n%\nmralA-erP\nefiL\nyrettaB\nytivitisneS\nevitcA\nleveL\nmralA\nytivitisneS\nevitcA\nleveL\nmralA-erP\n2 44 Smoke Acclim DT_044-L0 GFS AREA PUB 0 0 0 0 N/A 8 8\n2_TER\n2 45 Smoke Acclim DT_045-L0 GFS AREA PUB 0 0 0 0 N/A 8 8\n2_TER\n2 46 Smoke Acclim DT_046-L0 GFS AREA PUB 0 0 0 0 N/A 8 8\n2_TER\n2 47 Smoke Acclim DT_047-L0 GFS AREA PUB 0 0 0 0 N/A 8 8\n2",
+    "tamanho_bytes": 624974
+  },
+  {
+    "arquivo": "PRJ19620-2026-05-04_RDP_(BMS)_Anderson.pdf",
+    "data": "2026-05-04",
+    "responsavel": "Anderson Caetano de Souza Pires",
+    "responsavel_arquivo": "Anderson",
+    "responsavel_match": true,
+    "participantes": [
+      {
+        "nome": "Anderson Caetano de Souza Pires",
+        "email": "anderson.pires@convergint.com",
+        "equipe": "BMS - UNIVERSO NUNES JULIAO",
+        "match": true,
+        "nome_extraido": "Anderson Caetano de Souza Pires"
+      }
+    ],
+    "email": "anderson.pires@convergint.com",
+    "equipe": "BMS - UNIVERSO NUNES JULIAO",
+    "disciplina": "BMS",
+    "sistema": "BMS",
+    "projeto_codigo": "PRJ19620",
+    "projeto_nome": "SISTEMAS ELETRÔNICOS",
+    "projeto_cliente": "AEROPORTO RECIFE",
+    "projeto_categoria": "Automation",
+    "projeto_uf": "PE",
+    "projeto_segmento": "Infrastructure / Transport",
+    "projeto_bu": "Vertical Markets",
+    "atividades": [
+      "Comissionamento dos quadros da SE-05",
+      "URC-TEC-01 Equipamentos danificados",
+      "Link dos disjuntores de saída do QGBT-SE-05",
+      "Comissionamento dos quadros da SE-04",
+      "Planilha de comissionamento dos quadros de informe",
+      "Elaboração de relatório pendente",
+      "Finalizada a elaboração da RDP do dia 29/04",
+      "Elaboração de esquema dos reservatórios de potável.",
+      "Realizada a elaboração da RDP do dia 30/04",
+      "Alinhamento sobre telas",
+      "Links telas de SDAI",
+      "Adicionado os pontos dos painéis 1, 3 e 9 no sistema",
+      "Constatamos que os painéis 2, 4, 5 e N240 estão offline para o gateway",
+      "Realizamos o bind da tela do pavimento térreo parte 3"
+    ],
+    "pendencias": [
+      "6. Elaboração de relatório [STATUS: Pendente]"
+    ],
+    "bloqueios": [],
+    "proximos": [],
+    "texto_full": "Código Data Revisão\nSISTEMA DE GESTÃO DA QUALIDADE\nFQ.15.02 04/02/2026 02\nPágina\nRELATÓRIO DIÁRIO DE\n1 DE 4\nPROGRAMAÇÃO\nAENA RECIFE\nCONTRATANTE: AENA AEROPORTO RECIFE\nOBRA: 2202_C07959_PRJ19620 CÓDIGO:\nPRJ19620\nENDEREÇO: Praça Min. Salgado Filho, s/n - Imbiribeira, Recife - PE, 51210-902\nRESUMO EVOLUTIVO DO DIA HORÁRIO PREVISTO REAL CONDIÇÕES CLIMÁTICAS\nPRO M D U U IT T O IV O PRODUTIVO PR P O O D U U C T O IV O INÍCIO 08:00 08:07 BOM C L H E U V V E A C F H O U R V T A E T F U O R R N A O DATA:\n04/05/2026\nX TÉRMINO 17:00 18:11 X\nPROFISSIONAIS ENVOLVIDOS\nNOME EMPRESA FUNÇÃO\n1 Anderson Caetano de Souza Pires Convergint Programador\n2\n3\n4\nDESCRIÇÃO DE ATIVIDADES REALIZADAS\nATIVIDADES Ambiente Criticidade STATUS\n1 Comissionamento dos painéis da SE-05 N/A Alta Paralisado\n2 URC-TEC-01 Equipamentos danificados N/A Alta Paralisado\n3 Link dos disjuntores de saída do QGBT-SE-05 N/A Alta Paralisado\n4 Comissionamento dos painéis da SE-04 N/A Alta Paralisado\n5 Planilha de comissionamento dos quadros de informe N/A Alta Concluído\n6 Elaboração de relatórios pendentes N/A Alta Concluído\n7 Alinhamento sobre telas N/A Alta Concluído\nEm\n8 Link da tela de SDAI N/A Alta\nandamento\n9\n10\n11\nElaboração Rodrigo Oliveira Revisão Thiago Becker Bellazzi Aprovação João Paulo Chiarelli\nData 01/01/2026 Data 04/02/2026 Data 01/01/2026\nCódigo Data Revisão\nSISTEMA DE GESTÃO DA QUALIDADE\nFQ.15.02 04/02/2026 02\nPágina\nRELATÓRIO DIÁRIO DE\n2 DE 4\nPROGRAMAÇÃO\nRELATÓRIO FOTOGRÁFICO\n12\nSistema: BMS Sistema: BMS\nAmbiente: Térreo Ambiente: Intermediário\n1 2\nGateway SDAI\nSistema: BMS Sistema: BMS\nAmbiente: Intermediário Ambiente: Térreo\n3 4\nSistema: BMS Sistema: BMS\n5 6\nAmbiente: ... Ambiente: ...\nElaboração Rodrigo Oliveira Revisão Thiago Becker Bellazzi Aprovação João Paulo Chiarelli\nData 01/01/2026 Data 04/02/2026 Data 01/01/2026\nCódigo Data Revisão\nSISTEMA DE GESTÃO DA QUALIDADE\nFQ.15.02 04/02/2026 02\nPágina\nRELATÓRIO DIÁRIO DE\n3 DE 4\nPROGRAMAÇÃO\nDETALHAMENTO DAS ATIVIDADES\n1. Comissionamento dos quadros da SE-05\nAtividade paralisada. Sem desligamento agendado para hoje.\n2. URC-TEC-01 Equipamentos danificados\nAtividade paralisada.\n3. Link dos disjuntores de saída do QGBT-SE-05\nAtividade paralisada\n4. Comissionamento dos quadros da SE-04\nAtividade paralisada. Sem desligamento agendado para hoje.\n5. Planilha de comissionamento dos quadros de informe\nPlanilha finalizada e disponibilizada no sharepoint.\n6. Elaboração de relatório pendente\n- Finalizada a elaboração da RDP do dia 29/04\n- Elaboração de esquema dos reservatórios de potável.\n- Realizada a elaboração da RDP do dia 30/04\n7. Alinhamento sobre telas\nEm reunião com o Sr. Marcos (Convergint) foi elaborada uma planilha de telas\n8. Links telas de SDAI\nElaboração Rodrigo Oliveira Revisão Thiago Becker Bellazzi Aprovação João Paulo Chiarelli\nData 01/01/2026 Data 04/02/2026 Data 01/01/2026\nCódigo Data Revisão\nSISTEMA DE GESTÃO DA QUALIDADE\nFQ.15.02 04/02/2026 02\nPágina\nRELATÓRIO DIÁRIO DE\n4 DE 4\nPROGRAMAÇÃO\n- Adicionado os pontos dos painéis 1, 3 e 9 no sistema\n- Constatamos que os painéis 2, 4, 5 e N240 estão offline para o gateway\n- Realizamos o bind da tela do pavimento térreo parte 3\nAssinatura Assinatura\nCONVERGINT TECHNOLOGIES Nome do Cliente\nElaboração Rodrigo Oliveira Revisão Thiago Becker Bellazzi Aprovação João Paulo Chiarelli\nData 01/01/2026 Data 04/02/2026 Data 01/01/2026",
+    "tamanho_bytes": 238575
+  },
+  {
+    "arquivo": "PRJ22062_2026-05-04_RDP_(SEC)_SergioOliveira.docx",
+    "data": "2026-05-04",
+    "responsavel": "SergioOliveira",
+    "responsavel_arquivo": "SergioOliveira",
+    "responsavel_match": false,
+    "participantes": [
+      {
+        "nome": "Sergio Henrique Ferreira de Oliveira",
+        "email": "sergio.oliveira@convergint.com",
+        "equipe": "SEC - ALEXANDRE KODA",
+        "match": true,
+        "nome_extraido": "Sérgio Henrique Ferreira de Oliveira"
+      }
+    ],
+    "email": "",
+    "equipe": "-",
+    "disciplina": "SEC",
+    "sistema": "SEC",
+    "projeto_codigo": "PRJ22062",
+    "projeto_nome": "PROJETO INFRAESTRUTURA, AVI, CCO, CFTV E CCA",
+    "projeto_cliente": "SESEC",
+    "projeto_categoria": "Audio and Video",
+    "projeto_uf": "CE",
+    "projeto_segmento": "Others",
+    "projeto_bu": "Governo",
+    "atividades": [],
+    "pendencias": [],
+    "bloqueios": [],
+    "proximos": [],
+    "texto_full": "SISTEMA DE GESTÃO DA QUALIDADE\n\nCódigo\n\nData\n\nRevisão\n\n\n\n\n\nFQ.15.02\n\n04/02/2026\n\n02\n\n\n\nRELATÓRIO DIÁRIO DE PROGRAMAÇÃO\n\nPágina\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n1\n\nDE\n\n3\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\t\t\n\n\n\nSISTEMA DE GESTÃO DA QUALIDADE\n\nCódigo\n\nData\n\nRevisão\n\n\n\n\n\nFQ.15.02\n\n02/01/2017\n\n00\n\n\n\nRELATÓRIO DE ATIVIDADES\n\nPágina\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n1\n\nDE\n\n1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSESEC – Ceara \n\n\n\nCONTRATANTE: SESEC\n\nCÓDIGO: \n\n2312_C09874_PRJ22062\n\nOBRA: Secretaria Municipal de Educação\n\n\n\nENDEREÇO: Rua General Clarindo de Queiroz 1740, Fortaleza, Ceará, 60000-000\n\n\n\nRESUMO EVOLUTIVO DO DIA\n\nHORÁRIO\n\nPREVISTO\n\nREAL\n\nCONDIÇÕES CLIMÁTICAS\n\n\n\nMUITO PRODUTIVO\n\nPRODUTIVO\n\nPOUCO PRODUTIVO\n\nINÍCIO\n\n\n\n\n\nBOM\n\nCHUVA LEVE\n\nCHUVA FORTE\n\nFORA TURNO\n\nDATA:\n\n04/05/2026\n\n\n\n\n\nX\n\nTÉRMINO\n\n\n\n\n\nX\n\n\n\n\n\n\n\n\n\n\t \n\n\n\nPROFISSIONAIS ENVOLVIDOS\n\n\n\nNOME\n\nEMPRESA\n\nFUNÇÃO\n\n1\n\nSérgio Henrique Ferreira de Oliveira\n\nConvergint\n\nProgramador\n\n\t\n\nDESCRIÇÃO DE ATIVIDADES REALIZADAS\n\n\n\nATIVIDADES\n\nAmbiente\n\nCriticidade\n\nSTATUS\n\n1\n\nConfiguração das controladoras no CCURE 9000\n\nSESEC\n\nAlta\n\nFinalizado\n\n\n\n\n\n\n\n\nRELATÓRIO FOTOGRÁFICO\n\n\n\n1\n\nSistema:\n\nSECURITY\n\n1\n\n\n\nAmbiente:\n\nSESEC-CE\n\n\n\n\n\n\n\n\n\n\n\nControladora online CCURE 9000\n\n\n\n\n\n2\n\nSistema:\n\nSECURITY\n\n2\n\n\n\nAmbiente:\n\nSESEC-CE\n\n\n\n\n\n\n\n\n\n\n\nControladora online CCURE 9000\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n3\n\nSistema:\n\nSECURITY\n\n3\n\n\n\nAmbiente:\n\nSESEC-CE\n\n\n\n\n\n\n\n\n\n\n\nControladora online CCURE 9000\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDETALHAMENTO DAS ATIVIDADES\n\nCom o auxílio da equipe de implantação, foi configurado no CCURE 9000 as controladoras Istar edge G2 responsáveis pelas catracas e torniquetes. As leitoras foram ligadas isoladamente em bancada e feita a configuração até que estivessem online no software. Após essa validação elas foram retiradas, e deverão ser instaladas nos respectivos lugares. \n\n\n\nIMPORTANTE: Para a próxima etapa do comissionamento serão necessários os seguintes pré-requisitos:\n\nTodas as controladoras online no CCURE9000 Simultaneamente online\n\nFaciais com o IP configurado\n\nFaciais comunicando no servidor\n\nIntegração entre CCURE e faciais validado (necessário faciais online e comunicando com o servidor antes)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAssinatura\n\n\n\nAssinatura\n\n\n\n\n\n\n\n\n\nCONVERGINT TECHNOLOGIES\n\n\n\n\n\nNome do Cliente\n\n \n\nElaboração\n\nRicardo Caldas\n\nRevisão\n\nSilvio Guerini\n\nAprovação\n\nGilson Abrahão\n\nData\n\n02/01/2017\n\nData\n\n02/01/2017\n\nData\n\n02/01/2017\n\n\n\nElaboração\n\nRodrigo Oliveira\n\nRevisão\n\nThiago Becker Bellazzi\n\nAprovação\n\nJoão Paulo Chiarelli\n\nData\n\n01/01/2026\n\nData\n\n04/02/2026\n\nData\n\n01/01/2026",
+    "tamanho_bytes": 522503
+  },
+  {
+    "arquivo": "PRJ45503_2026-05-04_RDP_(BMS)_Renan Almeida.pdf",
+    "data": "2026-05-04",
+    "responsavel": "Renan Silva Almeida",
+    "responsavel_arquivo": "Renan Almeida",
+    "responsavel_match": true,
+    "participantes": [
+      {
+        "nome": "Renan Silva Almeida",
+        "email": "renan.almeida@convergint.com",
+        "equipe": "BMS - UNIVERSO NUNES JULIAO",
+        "match": true,
+        "nome_extraido": "Renan Silva de Almeida"
+      },
+      {
+        "nome": "Larissa Isabelle da Silva",
+        "email": "larissa.silva@convergint.com",
+        "equipe": "BMS Dev.Telas - JOAO ESPINOSA",
+        "match": true,
+        "nome_extraido": "Larissa Isabelle"
+      }
+    ],
+    "email": "renan.almeida@convergint.com",
+    "equipe": "BMS - UNIVERSO NUNES JULIAO",
+    "disciplina": "BMS",
+    "sistema": "BMS",
+    "projeto_codigo": "PRJ45503",
+    "projeto_nome": "TB67",
+    "projeto_cliente": "SCALA",
+    "projeto_categoria": "Automation",
+    "projeto_uf": "SP",
+    "projeto_segmento": "Datacenter",
+    "projeto_bu": "Vertical Markets",
+    "atividades": [],
+    "pendencias": [
+      " No momento, permanece pendente a integração entre a interface gráfica e a programação, para que o [STATUS: Pendente]"
+    ],
+    "bloqueios": [],
+    "proximos": [],
+    "texto_full": "Código Data Revisão\nSISTEMA DE GESTÃO DA QUALIDADE\nFQ.15.02 04/02/2026 02\nPágina\nRELATÓRIO DIÁRIO DE\n1 DE 3\nPROGRAMAÇÃO\nSCALA – SGRUTB67\nCONTRATANTE: Scala Data Centers\nOBRA: 2405_C10039_PRJ45503 CÓDIGO:\nPRJ45503\nENDEREÇO: Av. Ceci, 1600, Tamboré, Barueri, SP\nRESUMO EVOLUTIVO DO DIA HORÁRIO PREVISTO REAL CONDIÇÕES CLIMÁTICAS\nMUITO\nPRODUTIVO\nPOUCO\nINÍCIO 08:00 08:00 BOM\nCHUVA CHUVA FORA\nDATA:\nPRODUTIVO PRODUTIVO LEVE FORTE TURNO\n04/05/2026\nx TÉRMINO 17:00 17:00 X\nPROFISSIONAIS ENVOLVIDOS\nNOME EMPRESA FUNÇÃO\n1 Renan Silva de Almeida Convergint Programador\n2 Larissa Isabelle Convergint Programadora\nDESCRIÇÃO DE ATIVIDADES REALIZADAS\nATIVIDADES Ambiente Criticidade STATUS\n1 SGRUTB67 Fase 4 – Docker Escritório Média Em andamento\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\nElaboração Rodrigo Oliveira Revisão Thiago Becker Bellazzi Aprovação João Paulo Chiarelli\nData 01/01/2026 Data 04/02/2026 Data 01/01/2026\nCódigo Data Revisão\nSISTEMA DE GESTÃO DA QUALIDADE\nFQ.15.02 04/02/2026 02\nPágina\nRELATÓRIO DIÁRIO DE\n2 DE 3\nPROGRAMAÇÃO\nRELATÓRIO FOTOGRÁFICO\nSistema: BMS Sistema:\nAmbiente: Level 3 Ambiente:\n1 2\nProjeto do Docker\nSistema: Sistema:\nAmbiente: Ambiente:\n3 4\nElaboração Rodrigo Oliveira Revisão Thiago Becker Bellazzi Aprovação João Paulo Chiarelli\nData 01/01/2026 Data 04/02/2026 Data 01/01/2026\nCódigo Data Revisão\nSISTEMA DE GESTÃO DA QUALIDADE\nFQ.15.02 04/02/2026 02\nPágina\nRELATÓRIO DIÁRIO DE\n3 DE 3\nPROGRAMAÇÃO\nDETALHAMENTO DAS ATIVIDADES\nDocker:\n Continuamos o desenvolvimento do Docker. Foram realizados testes para divisão por Device dentro de um\nmesmo arquivo XML apresentando de onde vem o ponto selecionado. Pelo terminal, conseguimos realizar\nessa divisão, selecionando a partir do texto qual dispositivo e qual ponto serão alterados.\n Demos início ao desenvolvimento da interface gráfica, por meio da qual será realizado o import do arquivo\nXML e a exibição dos pontos em formato de árvore, mantendo a divisão entre componente pai e\ncomponente filho, assim como visualizamos no EBO. A interface também contará com um campo para\nenvio de valores.\n No momento, permanece pendente a integração entre a interface gráfica e a programação, para que o\nenvio dos dados seja realizado de forma correta.\n As versões do Docker encontram-se na pasta a seguir: DOCKER\nAssinatura Assinatura\nCONVERGINT TECHNOLOGIES Nome do Cliente\nElaboração Rodrigo Oliveira Revisão Thiago Becker Bellazzi Aprovação João Paulo Chiarelli\nData 01/01/2026 Data 04/02/2026 Data 01/01/2026",
+    "tamanho_bytes": 471237
+  },
+  {
+    "arquivo": "PRJ55738-2026-05-04_RDP_(BMS)_Larissa Silva.pdf",
+    "data": "2026-05-04",
+    "responsavel": "Larissa Isabelle da Silva",
+    "responsavel_arquivo": "Larissa Silva",
+    "responsavel_match": true,
+    "participantes": [
+      {
+        "nome": "Larissa Isabelle da Silva",
+        "email": "larissa.silva@convergint.com",
+        "equipe": "BMS Dev.Telas - JOAO ESPINOSA",
+        "match": true,
+        "nome_extraido": "Larissa Isabelle da Silva"
+      }
+    ],
+    "email": "larissa.silva@convergint.com",
+    "equipe": "BMS Dev.Telas - JOAO ESPINOSA",
+    "disciplina": "BMS Dev.Telas",
+    "sistema": "BMS",
+    "projeto_codigo": "PRJ55738",
+    "projeto_nome": "FORNECIMENTO E INSTALAÇÃO DE HIDROMETROS_POA",
+    "projeto_cliente": "FRAPORT",
+    "projeto_categoria": "Automation",
+    "projeto_uf": "RS",
+    "projeto_segmento": "Infrastructure / Transport",
+    "projeto_bu": "Vertical Markets",
+    "atividades": [
+      "Análise dos eventos “Log was started” em trends do ES",
+      "Resolução da lista de pendências",
+      "Correção das informações do Chiller 2 e 3: Foi encaminhada pelo cliente a planilha “DE-PARA”",
+      "Apenas a informação de BTU não foi alterada entre os chillers, pois não consta a informação de",
+      "14 BIS – QGBT: Subestação com IP alterado, mas sem comunicação em rede. O cliente irá",
+      "Teca Internacional: QDAC ajustado, mas é necessário que a TI do cliente ajuste o ponto de rede"
+    ],
+    "pendencias": [
+      "14 BIS – QGBT: Subestação com IP alterado, mas sem comunicação em rede. O cliente irá",
+      "Teca Internacional: QDAC ajustado, mas é necessário que a TI do cliente ajuste o ponto de rede",
+      "Mediante solicitação da Schneider será aplicado o hotfix, dessa forma, estamos aguardando o",
+      "CAQ: CLP em campo não está comunicando, será necessário ação da Fraport;",
+      "NOBK0120: Verificado no dia 04/05/2026, o Nobreak segue sem comunicação devido à falta de ativação do IP na",
+      "Restauração da comunicação com o PME (14 BIS): Verificado no dia 04/05/2026 e seguem sem comunicação.",
+      "14 BIS – QGBT: Subestação com IP alterado, mas sem comunicação em rede."
+    ],
+    "bloqueios": [],
+    "proximos": [],
+    "texto_full": "Código Data Revisão\nSISTEMA DE GESTÃO DA QUALIDADE\nFQ.15.02 04/02/2026 02\nPágina\nRELATÓRIO DIÁRIO DE\n1 DE 3\nPROGRAMAÇÃO\nFRAPORT\nCONTRATANTE:\nOBRA: Fraport Reconstrução BMS (2506_C06176_PRJ55738) CÓDIGO:\nPRJ55738\nENDEREÇO: Porto Alegre, Rio Grande do Sul\nRESUMO EVOLUTIVO DO DIA HORÁRIO PREVISTO REAL CONDIÇÕES CLIMÁTICAS\nMUITO\nPRODUTIVO\nPOUCO\nINÍCIO 08:00 XX:XX BOM\nCHUVA CHUVA FORA\nDATA:\nPRODUTIVO PRODUTIVO LEVE FORTE TURNO\n04/05/2026\nX TÉRMINO 12:00 XX:XX X\nPROFISSIONAIS ENVOLVIDOS\nNOME EMPRESA FUNÇÃO\n1 Larissa Isabelle da Silva Convergint Programadora\nDESCRIÇÃO DE ATIVIDADES REALIZADAS\nATIVIDADES Ambiente Criticidade STATUS\nAnálise dos eventos “Log was started” em trends do ES Sistema EBO Alta Em andamento\n2 Resolução da lista de pendências Sistema EBO Alta Em andamento\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\nElaboração Rodrigo Oliveira Revisão Thiago Becker Bellazzi Aprovação João Paulo Chiarelli\nData 01/01/2026 Data 04/02/2026 Data 01/01/2026\nCódigo Data Revisão\nSISTEMA DE GESTÃO DA QUALIDADE\nFQ.15.02 04/02/2026 02\nPágina\nRELATÓRIO DIÁRIO DE\n2 DE 3\nPROGRAMAÇÃO\nRELATÓRIO FOTOGRÁFICO\nSistema: BMS Sistema: BMS\nAmbiente: EBO Ambiente: EBO\n1 2\nInformações dos chillers após atuação Informações dos chillers após atuação\nSistema: BMS Sistema: BMS\nAmbiente: EBO Ambiente:\n3 4\nSistema: BMS Sistema: BMS\nAmbiente: ... Ambiente:\n5 6\nElaboração Rodrigo Oliveira Revisão Thiago Becker Bellazzi Aprovação João Paulo Chiarelli\nData 01/01/2026 Data 04/02/2026 Data 01/01/2026\nCódigo Data Revisão\nSISTEMA DE GESTÃO DA QUALIDADE\nFQ.15.02 04/02/2026 02\nPágina\nRELATÓRIO DIÁRIO DE\n3 DE 3\nPROGRAMAÇÃO\nDETALHAMENTO DAS ATIVIDADES\n1) Análise dos eventos “Log was started” em trends do ES\nMediante solicitação da Schneider será aplicado o hotfix, dessa forma, estamos aguardando o\nagendamento junto ao cliente para prosseguir com a atividade e monitorar o sistema após aplicação do\nHotfix.\n2) Resolução da lista de pendências\nFoi encaminhada uma planilha de pendências pelo Eric, essa planilha foi elaborada em conjunto com o\nCliente. Segue as atuações de responsabilidade da Convergint:\n• Correção das informações do Chiller 2 e 3: Foi encaminhada pelo cliente a planilha “DE-PARA”\ncom as informações de endereço dos dados do chiller 02 e 03, e por meio dessa planilha\nconstatou-se que no EBO as informações estavam trocadas entre os Chillers. Foi realizada a\ncorreção dos pontos e bindings em tela.\n• Apenas a informação de BTU não foi alterada entre os chillers, pois não consta a informação de\nendereço na planilha “DE-PARA”.\nPendências:\nCAQ: CLP em campo não está comunicando, será necessário ação da Fraport;\nNOBK0120: Verificado no dia 04/05/2026, o Nobreak segue sem comunicação devido à falta de ativação do IP na\nVLAN821;\nRestauração da comunicação com o PME (14 BIS): Verificado no dia 04/05/2026 e seguem sem comunicação.\nConforme dados da planilha de pendências:\n• 14 BIS – QGBT: Subestação com IP alterado, mas sem comunicação em rede. O cliente irá\nrealizar uma alteração na rede, após essa alteração será verificado se o equipamento está\ncomunicando;\n• Teca Internacional: QDAC ajustado, mas é necessário que a TI do cliente ajuste o ponto de rede\nT10-03-H-14 para a VLAN821, após essa alteração será verificado se os equipamentos estão\ncomunicando (E-mail enviado em 11/02 para o Gabriel Mendes). O SEPAM foi trocado pelo\nEasergy P5 e não tem licença no PME para ativação.\nComissionamento Subestações – EPO: Ainda não temos retorno de uma data para continuidade do\ncomissionamento;\nUpgrade PME: Ainda não temos retorno de uma data para aplicar a atualização do PME.\nAssinatura Assinatura\nCONVERGINT TECHNOLOGIES Nome do Cliente\nElaboração Rodrigo Oliveira Revisão Thiago Becker Bellazzi Aprovação João Paulo Chiarelli\nData 01/01/2026 Data 04/02/2026 Data 01/01/2026",
+    "tamanho_bytes": 267437
+  },
+  {
+    "arquivo": "PRJ59747_2026-05-04_RDP_(SEG)_Michel Sato.docx",
+    "data": "2026-05-04",
+    "responsavel": "Michel Kenji Sato",
+    "responsavel_arquivo": "Michel Sato",
+    "responsavel_match": true,
+    "participantes": [
+      {
+        "nome": "Michel Kenji Sato",
+        "email": "michel.sato@convergint.com",
+        "equipe": "SEC - ALEXANDRE KODA",
+        "match": true,
+        "nome_extraido": "Michel Sato"
+      }
+    ],
+    "email": "michel.sato@convergint.com",
+    "equipe": "SEC - ALEXANDRE KODA",
+    "disciplina": "SEC",
+    "sistema": "SEG",
+    "projeto_codigo": "PRJ59747",
+    "projeto_nome": "Paulinia CFTV",
+    "projeto_cliente": "EUROCHEM",
+    "projeto_categoria": "Security",
+    "projeto_uf": "SP",
+    "projeto_segmento": "Agribusiness",
+    "projeto_bu": "COMERCIAL MULTISECTOR SP",
+    "atividades": [],
+    "pendencias": [],
+    "bloqueios": [],
+    "proximos": [],
+    "texto_full": "SISTEMA DE GESTÃO DA QUALIDADE\n\nCódigo\n\nData\n\nRevisão\n\n\n\n\n\nFQ.15.02\n\n02/01/2017\n\n00\n\n\n\nRELATÓRIO DE ATIVIDADES\n\nPágina\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n1\n\nDE\n\n1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSISTEMA DE GESTÃO DA QUALIDADE\n\nCódigo\n\nData\n\nRevisão\n\n\n\n\n\nFQ.15.02\n\n04/02/2026\n\n02\n\n\n\nRELATÓRIO DIÁRIO DE PROGRAMAÇÃO\n\nPágina\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n1\n\nDE\n\n3\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\t\t\n\n\n\nEurochem / CFTV\n\n\n\nCONTRATANTE: \n\nCÓDIGO: \n\nPRJ59747\n\nOBRA: 2512_C08177_PRJ59747\n\n\n\nENDEREÇO: Rod. Santo Dummont, km 66\n\n\n\nRESUMO EVOLUTIVO DO DIA\n\nHORÁRIO\n\nPREVISTO\n\nREAL\n\nCONDIÇÕES CLIMÁTICAS\n\n\n\nMUITO PRODUTIVO\n\nPRODUTIVO\n\nPOUCO PRODUTIVO\n\nINÍCIO\n\n08:30\n\n12:00\n\nBOM\n\nCHUVA LEVE\n\nCHUVA FORTE\n\nFORA TURNO\n\nDATA:\n\n28/04/2026\n\n\n\n\n\nx\n\nTÉRMINO\n\n18:00\n\n17:00\n\nX\n\n\n\n\n\n\n\n\n\n\t \n\n\n\nPROFISSIONAIS ENVOLVIDOS\n\n\n\nNOME\n\nEMPRESA\n\nFUNÇÃO\n\n1\n\nMichel Sato\n\nConvergint\n\nProgramador\n\n2\n\n\n\n\n\n\n\n3\n\n\n\n\n\n\n\n\t\n\nDESCRIÇÃO DE ATIVIDADES REALIZADAS\n\n\n\nATIVIDADES\n\nAmbiente\n\nCriticidade\n\nSTATUS\n\n1\n\nAdição de câmeras\n\n\n\nMédia\n\nConcluida\n\n2\n\n\n\n\n\n\n\n\n\n3\n\n\n\n\n\n\n\n\n\n4\n\n\n\n\n\n\n\n\n\n5\n\n\n\n\n\n\n\n\n\n6\n\n\n\n\n\n\n\n\n\n7\n\n\n\n\n\n\n\n\n\n8\n\n\n\n\n\n\n\n\n\n9\n\n\n\n\n\n\n\n\n\n10\n\n\n\n\n\n\n\n\n\n11\n\n\n\n\n\n\n\n\n\n12\n\n\n\n\n\n\n\n\n\n\n\nRELATÓRIO FOTOGRÁFICO\n\n\n\n1\n\nSistema:\n\nAV / BMS / SDAI/ SECURITY\n\n\n\nAmbiente:\n\nAmbiente\n\n\n\n\n\n\n\nDisco de 40 TB\n\n\n\n3\n\nSistema:\n\nAV / BMS / SDAI/ SECURITY\n\n4\n\nSistema:\n\nAV / BMS / SDAI/ SECURITY\n\n\n\nAmbiente:\n\nAmbiente\n\n\n\nAmbiente:\n\nAmbiente\n\n\n\n\n\n\n\n\n\n\n\nCamera 1\n\n\n\nCamera 2\n\n\n\n5\n\nSistema:\n\nAV / BMS / SDAI/ SECURITY\n\n6\n\nSistema:\n\nAV / BMS / SDAI/ SECURITY\n\n\n\nAmbiente:\n\nAmbiente\n\n\n\nAmbiente:\n\nAmbiente\n\n\n\n\n\n\n\n\n\n\n\nCamera 3\n\n\n\nCamera 4\n\n\n\n\n\nDETALHAMENTO DAS ATIVIDADES\n\n1)Os discos de armazenamento das imagens foram instalados sem necessidade de formatar o servidor.\n\nForam adicionadas 4 câmeras ao servidor Genetec.\n\nAs demais câmeras ainda não estão comunicando com o servidor, o Eduardo está verificando a rede.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAssinatura\n\n\n\nAssinatura\n\n\n\n\n\n\n\n\n\nCONVERGINT TECHNOLOGIES\n\n\n\n\n\nNome do Cliente\n\n \n\nElaboração\n\nRodrigo Oliveira\n\nRevisão\n\nThiago Becker Bellazzi\n\nAprovação\n\nJoão Paulo Chiarelli\n\nData\n\n01/01/2026\n\nData\n\n04/02/2026\n\nData\n\n01/01/2026\n\n\n\nElaboração\n\nRicardo Caldas\n\nRevisão\n\nSilvio Guerini\n\nAprovação\n\nGilson Abrahão\n\nData\n\n02/01/2017\n\nData\n\n02/01/2017\n\nData\n\n02/01/2017",
+    "tamanho_bytes": 841244
+  },
+  {
+    "arquivo": "PRJ47108_2026-05-03_RDP_(SDAI)_Jeilan Lima.pdf",
+    "data": "2026-05-03",
+    "responsavel": "Jeilan Souza de Lima",
+    "responsavel_arquivo": "Jeilan Lima",
+    "responsavel_match": true,
+    "participantes": [
+      {
+        "nome": "Jeilan Souza de Lima",
+        "email": "jeilan.lima.ext@convergint.com",
+        "equipe": "SDAI - UNIVERSO NUNES JULIAO",
+        "match": true,
+        "nome_extraido": "Jeilan Lima"
+      }
+    ],
+    "email": "jeilan.lima.ext@convergint.com",
+    "equipe": "SDAI - UNIVERSO NUNES JULIAO",
+    "disciplina": "SDAI",
+    "sistema": "SDAI",
+    "projeto_codigo": "PRJ47108",
+    "projeto_nome": "Racional",
+    "projeto_cliente": "GOOGLE",
+    "projeto_categoria": "Automation",
+    "projeto_uf": "SP",
+    "projeto_segmento": "Construction",
+    "projeto_bu": "Vertical Markets",
+    "atividades": [],
+    "pendencias": [],
+    "bloqueios": [],
+    "proximos": [],
+    "texto_full": "Código Data Revisão\nSISTEMA DE GESTÃO DA QUALIDADE\nFQ.15.02 04/02/2026 02\nPágina\nRELATÓRIO DIÁRIO DE\n1 DE 3\nPROGRAMAÇÃO\nGOOGLE\nCONTRATANTE: RACIONAL\nOBRA: GOOGLE CÓDIGO:\nPRJ47108\nENDEREÇO: USP\nRESUMO EVOLUTIVO DO DIA HORÁRIO PREVISTO REAL CONDIÇÕES CLIMÁTICAS\nMUITO\nPRODUTIVO\nPOUCO\nINÍCIO 08:30 09:00 BOM\nCHUVA CHUVA FORA\nDATA:\nPRODUTIVO PRODUTIVO LEVE FORTE TURNO\n05/05/2026\nX TÉRMINO 18:00 12:00 X\nPROFISSIONAIS ENVOLVIDOS\nNOME EMPRESA FUNÇÃO\n1 Jeilan Lima Convergint Programador\n2\nDESCRIÇÃO DE ATIVIDADES REALIZADAS\nATIVIDADES Ambiente Criticidade STATUS\n1 COMISSIONAMENTO SDAI Média Em andamento\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\nElaboração Rodrigo Oliveira Revisão Thiago Becker Bellazzi Aprovação João Paulo Chiarelli\nData 01/01/2026 Data 04/02/2026 Data 01/01/2026\nCódigo Data Revisão\nSISTEMA DE GESTÃO DA QUALIDADE\nFQ.15.02 04/02/2026 02\nPágina\nRELATÓRIO DIÁRIO DE\n2 DE 3\nPROGRAMAÇÃO\nRELATÓRIO FOTOGRÁFICO\nSistema: SDAI Sistema: SDAI\nAmbiente: Ambiente Ambiente: Ambiente\n1 2\nCDAI – Térreo Circuito de sirene aberto\nSistema: SDAI Sistema: SDAI\nAmbiente: Ambiente Ambiente: Ambiente\n3 4\nPendência de Sirene Módulos sem resistor\nSistema: SDAI Sistema: SDAI\nAmbiente: Ambiente Ambiente: Ambiente\n5 6\nLaço aberto\nElaboração Rodrigo Oliveira Revisão Thiago Becker Bellazzi Aprovação João Paulo Chiarelli\nData 01/01/2026 Data 04/02/2026 Data 01/01/2026\nCódigo Data Revisão\nSISTEMA DE GESTÃO DA QUALIDADE\nFQ.15.02 04/02/2026 02\nPágina\nRELATÓRIO DIÁRIO DE\n3 DE 3\nPROGRAMAÇÃO\nDETALHAMENTO DAS ATIVIDADES\nPrezados, boa tarde.\nNa presente data, foi dada continuidade às atividades de comissionamento e startup do sistema.\nForam validadas as chaves de fluxo do pavimento térreo e do 1º pavimento.\nDeu-se continuidade ao processo de tratamento de falhas, sendo encaminhada a lista de pendências,\nbem como realizadas as devidas orientações para correção.\nInformamos que o 1º pavimento e o térreo ainda se encontram em fase de implantação. Dessa forma, os\nlaços permanecem abertos, operando com comunicação parcial. O comissionamento terá continuidade\napós a regularização das pendências de infraestrutura e instalação.\nPendências identificadas:\n Conclusão da passagem de cabeamento nos circuitos de SPEAKER STROBE do térreo.\n Execução da interligação dos botões PNE;\n Integração com o sistema de SCA: o módulo encontra-se atuante, porém não está integrado às\nportas automáticas e à controladora, sendo necessário alinhamento com a empresa responsável\npelo SCA quanto à interligação dos contatos;\n Fechamento da fibra óptica de comunicação entre o painel e o repetidor;\n Correção do circuito de sirenes do 1º pavimento, que já passou por intervenções anteriores e\nvoltou a apresentar falhas após a instalação de novos dispositivos;\n Definição e adequação da instalação dos detectores lineares, uma vez que a configuração atual\npode gerar falhas no sistema;\n Identificação (tags) dos dispositivos instalados no pavimento térreo;\n Correção dos módulos que apresentam circuito aberto.\nAssinatura Assinatura\nCONVERGINT TECHNOLOGIES Nome do Cliente\nElaboração Rodrigo Oliveira Revisão Thiago Becker Bellazzi Aprovação João Paulo Chiarelli\nData 01/01/2026 Data 04/02/2026 Data 01/01/2026",
+    "tamanho_bytes": 901808
+  },
+  {
+    "arquivo": "PRJ47108_2026-05-02_RDP_(SDAI)_Leonardo Rodrigues.pdf",
+    "data": "2026-05-02",
+    "responsavel": "Leonardo da Silva Rodrigues",
+    "responsavel_arquivo": "Leonardo Rodrigues",
+    "responsavel_match": true,
+    "participantes": [
+      {
+        "nome": "Leonardo da Silva Rodrigues",
+        "email": "l.rodrigues@convergint.com",
+        "equipe": "BMS - UNIVERSO NUNES JULIAO",
+        "match": true,
+        "nome_extraido": "Leonardo da Silva Rodrigues"
+      }
+    ],
+    "email": "l.rodrigues@convergint.com",
+    "equipe": "BMS - UNIVERSO NUNES JULIAO",
+    "disciplina": "BMS",
+    "sistema": "SDAI",
+    "projeto_codigo": "PRJ47108",
+    "projeto_nome": "Racional",
+    "projeto_cliente": "GOOGLE",
+    "projeto_categoria": "Automation",
+    "projeto_uf": "SP",
+    "projeto_segmento": "Construction",
+    "projeto_bu": "Vertical Markets",
+    "atividades": [
+      "Desenvolvimento de database",
+      "Observações",
+      "Foi realizado ajustes e correções na database."
+    ],
+    "pendencias": [
+      "Os laços continuam com falhas. Segue a lista atualizada:"
+    ],
+    "bloqueios": [],
+    "proximos": [],
+    "texto_full": "Código Data Revisão\nSISTEMA DE GESTÃO DA QUALIDADE\nFQ.15.02 04/02/2026 02\nPágina\nRELATÓRIO DIÁRIO DE\n1 DE 5\nPROGRAMAÇÃO\nGoogle / Racional\nCONTRATANTE: Convergint\nOBRA: Google / Racional CÓDIGO:\nPRJ47108\nENDEREÇO: Av. Prof. Almeida Prado, 532 – Butantã – São Paulo/SP\nRESUMO EVOLUTIVO DO DIA HORÁRIO PREVISTO REAL CONDIÇÕES CLIMÁTICAS\nMUITO\nPRODUTIVO\nPOUCO\nINÍCIO 08:30 08:00 BOM\nCHUVA CHUVA FORA\nDATA:\nPRODUTIVO PRODUTIVO LEVE FORTE TURNO\n02/05/2026\nx TÉRMINO 18:00 16:00 X X X X\nPROFISSIONAIS ENVOLVIDOS\nNOME EMPRESA FUNÇÃO\n1 Leonardo da Silva Rodrigues Convergint Programador\n2\nDESCRIÇÃO DE ATIVIDADES REALIZADAS\nATIVIDADES Ambiente Criticidade STATUS\n1 Desenvolvimento do database Geral Média Em andamento\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\nElaboração Rodrigo Oliveira Revisão Thiago Becker Bellazzi Aprovação João Paulo Chiarelli\nData 01/01/2026 Data 04/02/2026 Data 01/01/2026\nCódigo Data Revisão\nSISTEMA DE GESTÃO DA QUALIDADE\nFQ.15.02 04/02/2026 02\nPágina\nRELATÓRIO DIÁRIO DE\n2 DE 5\nPROGRAMAÇÃO\nRELATÓRIO FOTOGRÁFICO\nSistema: SDAI Sistema:\nAmbiente: Geral Ambiente: Geral\n1 2\nCentral de SDAI no dia desse relatório\nSistema: AV / BMS / SDAI/ SECURITY Sistema: AV / BMS / SDAI/ SECURITY\nAmbiente: Ambiente Ambiente: Ambiente\n3 4\nSistema: AV / BMS / SDAI/ SECURITY Sistema: AV / BMS / SDAI/ SECURITY\nAmbiente: Ambiente Ambiente: Ambiente\n5 6\nDETALHAMENTO DAS ATIVIDADES\nElaboração Rodrigo Oliveira Revisão Thiago Becker Bellazzi Aprovação João Paulo Chiarelli\nData 01/01/2026 Data 04/02/2026 Data 01/01/2026\nCódigo Data Revisão\nSISTEMA DE GESTÃO DA QUALIDADE\nFQ.15.02 04/02/2026 02\nPágina\nRELATÓRIO DIÁRIO DE\n3 DE 5\nPROGRAMAÇÃO\n1. Atividades Realizadas\n- Desenvolvimento de database\n2. Observações\n- Foi realizado ajustes e correções na database.\n3. Pendências\n- Os laços continuam com falhas. Segue a lista atualizada:\nL1 M001 - Sem resposta\nL1 M002 - Sem resposta\nL1 M003 - Sem resposta\nL1 M004 - Sem resposta\nL1 M005 - Sem resposta\nL1 M006 - Sem resposta\nL1 M007 - Sem resposta\nL1 M008 - Sem resposta\nL1 M012 - Sem resposta\nL1 M013 - Endereço duplicado\nL1 M021 - Sem resposta\nL1 M032 - Sem resposta\nL1 D002 - Sem resposta\nL1 D014 - Sem resposta\nL1 D028 - Sem resposta\nL1 D029 - Endereço duplicado\nL1 D032 - Sem resposta\nL1 D051 - Sem resposta\nL2 M004 - Sem resposta\nL2 M005 - Sem resposta\nL2 M006 - Sem resposta\nL2 M011 - Circuito aberto\nL2 M012 - Modulo Incompatível\nL2 M013 - Sem resposta\nL2 M014 - Sem resposta\nL2 M016 - Sem resposta\nL2 M032 - Sem resposta\nL2 M033 - Sem resposta\nL2 M034 - Sem resposta\nL2 M035 - Sem resposta\nL2 D001 - Sem resposta\nL2 D003 - Sem resposta\nL2 D014 - Endereço duplicado\nL2 D018 - Sem resposta\nL2 D030 - Sem resposta\nL2 D044 - Endereço duplicado\nL2 D046 - Sem resposta\nL3 M001 - Sem resposta\nL3 M002 - Sem alimentação\nL3 M003 - Sem alimentação\nElaboração Rodrigo Oliveira Revisão Thiago Becker Bellazzi Aprovação João Paulo Chiarelli\nData 01/01/2026 Data 04/02/2026 Data 01/01/2026\nCódigo Data Revisão\nSISTEMA DE GESTÃO DA QUALIDADE\nFQ.15.02 04/02/2026 02\nPágina\nRELATÓRIO DIÁRIO DE\n4 DE 5\nPROGRAMAÇÃO\nL3 M004 - Circuito aberto\nL3 M005 - Circuito aberto\nL3 M007 - Sem resposta\nL3 M008 - Sem resposta\nL3 M010 - Sem resposta\nL3 M013 - Sem resposta\nL3 M016 - Sem resposta\nL3 M017 - Sem resposta\nL3 M018 - Sem resposta\nL3 M019 - Sem resposta\nL3 M020 - Sem resposta\nL3 M023 - Sem resposta\nL3 M024 - Sem resposta\nL3 M025 - Circuito aberto\nL3 M026 - Sem resposta\nL3 M028 - Sem resposta\nL3 M033 - Circuito aberto\nL4 M017 - Sem alimentação\nL4 M018 - Sem alimentação\nL4 M019 - Sem resposta\nL5 M002 - Sem resposta\nL5 M004 - Circuito aberto\nL5 M014 - Endereço duplicado\nL5 M021 - Sem resposta\nL5 M023 - Circuito aberto\nL5 M024 - Circuito aberto\nL5 M025 - Circuito aberto\nL5 M029 - Circuito aberto\nL5 M030 - Circuito aberto\nL5 M033 - Circuito aberto\nL5 M040 - Endereço duplicado\nL5 M052 - Circuito aberto\nL5 M053 - Circuito aberto\nL5 M054 - Circuito aberto\nL5 M062 - Circuito aberto\nL5 M063 - Circuito aberto\nL5 M064 - Circuito aberto\nL5 M065 - Circuito aberto\nL5 M066 - Circuito aberto\nL6 M018 - Sem resposta\nL6 M019 - Sem resposta\nL6 M020 - Sem resposta\nL6 M021 - Sem resposta\nL6 M022 - Sem resposta\nL6 M023 - Sem resposta\nL7 M019 - Circuito aberto\nL8 D052 - Sem resposta\nAssinatura Assinatura\nElaboração Rodrigo Oliveira Revisão Thiago Becker Bellazzi Aprovação João Paulo Chiarelli\nData 01/01/2026 Data 04/02/2026 Data 01/01/2026\nCódigo Data Revisão\nSISTEMA DE GESTÃO DA QUALIDADE\nFQ.15.02 04/02/2026 02\nPágina\nRELATÓRIO DIÁRIO DE\n5 DE 5\nPROGRAMAÇÃO\nCONVERGINT TECHNOLOGIES Nome do Cliente\nElaboração Rodrigo Oliveira Revisão Thiago Becker Bellazzi Aprovação João Paulo Chiarelli\nData 01/01/2026 Data 04/02/2026 Data 01/01/2026",
+    "tamanho_bytes": 366767
+  },
+  {
+    "arquivo": "PRJ47108_2026-05-01_RDP_(SDAI)_Leonardo Rodrigues.pdf",
+    "data": "2026-05-01",
+    "responsavel": "Leonardo da Silva Rodrigues",
+    "responsavel_arquivo": "Leonardo Rodrigues",
+    "responsavel_match": true,
+    "participantes": [
+      {
+        "nome": "Leonardo da Silva Rodrigues",
+        "email": "l.rodrigues@convergint.com",
+        "equipe": "BMS - UNIVERSO NUNES JULIAO",
+        "match": true,
+        "nome_extraido": "Leonardo da Silva Rodrigues"
+      }
+    ],
+    "email": "l.rodrigues@convergint.com",
+    "equipe": "BMS - UNIVERSO NUNES JULIAO",
+    "disciplina": "BMS",
+    "sistema": "SDAI",
+    "projeto_codigo": "PRJ47108",
+    "projeto_nome": "Racional",
+    "projeto_cliente": "GOOGLE",
+    "projeto_categoria": "Automation",
+    "projeto_uf": "SP",
+    "projeto_segmento": "Construction",
+    "projeto_bu": "Vertical Markets",
+    "atividades": [
+      "Acompanhamento dos Testes",
+      "Observações",
+      "Foram realizados os testes integrados nas Chaves de Fluxos de cada pavimento:",
+      "As zonas 1, 2, 3 e 4 foram reabilitadas, conforme solicitação do Lázaro. Com isso o painel ficou com 153"
+    ],
+    "pendencias": [
+      "Os Laços 1, 2, 3 e 4 continuam abertos, impossibilitando o comissionamento completo deles.",
+      "Os Laços 5, 6, 7 e 8 continuam com falhas. Foi passado para o Lázaro a lista de falhas em cada um"
+    ],
+    "bloqueios": [],
+    "proximos": [],
+    "texto_full": "Código Data Revisão\nSISTEMA DE GESTÃO DA QUALIDADE\nFQ.15.02 04/02/2026 02\nPágina\nRELATÓRIO DIÁRIO DE\n1 DE 4\nPROGRAMAÇÃO\nGoogle / Racional\nCONTRATANTE: Convergint\nOBRA: Google / Racional CÓDIGO:\nPRJ47108\nENDEREÇO: Av. Prof. Almeida Prado, 532 – Butantã – São Paulo/SP\nRESUMO EVOLUTIVO DO DIA HORÁRIO PREVISTO REAL CONDIÇÕES CLIMÁTICAS\nMUITO\nPRODUTIVO\nPOUCO\nINÍCIO 08:30 08:00 BOM\nCHUVA CHUVA FORA\nDATA:\nPRODUTIVO PRODUTIVO LEVE FORTE TURNO\n01/05/2026\nx TÉRMINO 18:00 16:00 X X X X\nPROFISSIONAIS ENVOLVIDOS\nNOME EMPRESA FUNÇÃO\n1 Leonardo da Silva Rodrigues Convergint Programador\n2\nDESCRIÇÃO DE ATIVIDADES REALIZADAS\nATIVIDADES Ambiente Criticidade STATUS\n1 Acompanhamento de Testes Geral Média Em andamento\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\nElaboração Rodrigo Oliveira Revisão Thiago Becker Bellazzi Aprovação João Paulo Chiarelli\nData 01/01/2026 Data 04/02/2026 Data 01/01/2026\nCódigo Data Revisão\nSISTEMA DE GESTÃO DA QUALIDADE\nFQ.15.02 04/02/2026 02\nPágina\nRELATÓRIO DIÁRIO DE\n2 DE 4\nPROGRAMAÇÃO\nRELATÓRIO FOTOGRÁFICO\nSistema: SDAI Sistema:\nAmbiente: Geral Ambiente: Geral\n1 2\nCentral de SDAI no dia desse relatório\nSistema: AV / BMS / SDAI/ SECURITY Sistema: AV / BMS / SDAI/ SECURITY\nAmbiente: Ambiente Ambiente: Ambiente\n3 4\nSistema: AV / BMS / SDAI/ SECURITY Sistema: AV / BMS / SDAI/ SECURITY\nAmbiente: Ambiente Ambiente: Ambiente\n5 6\nDETALHAMENTO DAS ATIVIDADES\nElaboração Rodrigo Oliveira Revisão Thiago Becker Bellazzi Aprovação João Paulo Chiarelli\nData 01/01/2026 Data 04/02/2026 Data 01/01/2026\nCódigo Data Revisão\nSISTEMA DE GESTÃO DA QUALIDADE\nFQ.15.02 04/02/2026 02\nPágina\nRELATÓRIO DIÁRIO DE\n3 DE 4\nPROGRAMAÇÃO\n1. Atividades Realizadas\n- Acompanhamento dos Testes\n2. Observações\n- Foram realizados os testes integrados nas Chaves de Fluxos de cada pavimento:\n Cobertura: Houve dificuldade no acionamento hidráulico do equipamento. Porém, sempre que\nacionado, o módulo de SDAI funcionou corretamente e a indicação de alarme na Central também\nfoi exibida corretamente\n 3º Pavimento: Teste realizado com sucesso\n 2º Pavimento: Teste realizado com sucesso\n 1º Pavimento: Teste não realizado (Laço de SDAI aberto)\n Térreo: Teste não realizado (Laço de SDAI aberto)\n Térreo Casa de Bombas: Teste realizado com sucesso\n- As zonas 1, 2, 3 e 4 foram reabilitadas, conforme solicitação do Lázaro. Com isso o painel ficou com 153\nfalhas até a última atualização de hoje.\n3. Pendências\n- Os Laços 1, 2, 3 e 4 continuam abertos, impossibilitando o comissionamento completo deles.\n- Os Laços 5, 6, 7 e 8 continuam com falhas. Foi passado para o Lázaro a lista de falhas em cada um\ndesses Laços. Segue abaixo:\nL5 M002 - Sem resposta L6 M006 - Modulo Incompatível L7 M019 - Circuito aberto\nL5 M004 - Circuito aberto L6 M018 - Sem resposta\nL5 M014 - Endereço duplicado L6 M019 - Sem resposta L8 D052 - Sem resposta\nL5 M021 - Sem resposta L6 M020 - Sem resposta\nL5 M023 - Circuito aberto L6 M021 - Sem resposta\nL5 M024 - Circuito aberto L6 M022 - Sem resposta\nL5 M025 - Sem alimentação L6 M023 - Sem resposta\nL5 M028 - Sem alimentação\nL5 M029 - Sem alimentação\nL5 M030 - Sem alimentação\nL5 M033 - Sem alimentação\nL5 M052 - Circuito aberto\nL5 M053 - Circuito aberto\nL5 M054 - Circuito aberto\nL5 M062 - Circuito aberto\nL5 M063 - Circuito aberto\nL5 M064 - Circuito aberto\nL5 M065 - Circuito aberto\nL5 M066 - Circuito aberto\nAssinatura Assinatura\nElaboração Rodrigo Oliveira Revisão Thiago Becker Bellazzi Aprovação João Paulo Chiarelli\nData 01/01/2026 Data 04/02/2026 Data 01/01/2026\nCódigo Data Revisão\nSISTEMA DE GESTÃO DA QUALIDADE\nFQ.15.02 04/02/2026 02\nPágina\nRELATÓRIO DIÁRIO DE\n4 DE 4\nPROGRAMAÇÃO\nCONVERGINT TECHNOLOGIES Nome do Cliente\nElaboração Rodrigo Oliveira Revisão Thiago Becker Bellazzi Aprovação João Paulo Chiarelli\nData 01/01/2026 Data 04/02/2026 Data 01/01/2026",
+    "tamanho_bytes": 408177
+  },
+  {
+    "arquivo": "PRJ09134_2026-04-30_RDP_(AV)_Jean Kevyn Correia Pessoa.docx",
+    "data": "2026-04-30",
+    "responsavel": "Jean Kevyn Correia Pessoa",
+    "responsavel_arquivo": "Jean Kevyn Correia Pessoa",
+    "responsavel_match": true,
+    "participantes": [
+      {
+        "nome": "Jean Kevyn Correia Pessoa",
+        "email": "jean.pessoa@convergint.com",
+        "equipe": "AV - THIAGO BELLAZZI",
+        "match": true,
+        "nome_extraido": "Jean Kevyn Correia Pessôa"
+      }
+    ],
+    "email": "jean.pessoa@convergint.com",
+    "equipe": "AV - THIAGO BELLAZZI",
+    "disciplina": "AV",
+    "sistema": "AV",
+    "projeto_codigo": "PRJ09134",
+    "projeto_nome": "MODERNIZAÇÃO DE AMBIENTES",
+    "projeto_cliente": "TJDFT",
+    "projeto_categoria": "Audio and Video",
+    "projeto_uf": "DF",
+    "projeto_segmento": "Public Service (court, aeronautics, army, police in general)",
+    "projeto_bu": "Governo",
+    "atividades": [
+      "Foi realizado a substituição correta dos conversores GOFANCO pelos novos conversores da BLACKMAGIC. Sua integração com o sistema está correta. Na foto 1 em anexo deste RDP, temos a foto de 1 dos 3 conversores instalados. As fotos 2 e 3 representam a sua correta funcionalidade nos equipamentos (Foto 2, com seu vídeo chegando no OBS/Any4Stream/VLC e foto 3, com seu vídeo chegando no NEOID). A foto 4",
+      "A configuração do IPAD foi realizada corretamente com todos os seus parâmetros de rede/aplicativos. Note no vídeo em anexo neste e-mail que o seu TOUCH já se encontra funcional, assim como todas as funções necessárias para o correto funcionamento da sala (Aplicativos QSC e afins).",
+      "Os televisores não foram trocados. Ao tentar realizar a troca dos televisores, notamos que o novo televisor fornecido era de mesma marca, mas de modelo diferente no presente atualmente no local. Sendo assim, ao tentarmos instalar os suportes, notamos que os parafusos eram grossos demais para o televisor apresentado. Vamos precisar entender qual o suporte ideal para este televisor em questão antes "
+    ],
+    "pendencias": [
+      "Não Solucionado [STATUS: Não Solucionado]"
+    ],
+    "bloqueios": [],
+    "proximos": [],
+    "texto_full": "SISTEMA DE GESTÃO DA QUALIDADE\n\nCódigo\n\nData\n\nRevisão\n\n\n\n\n\nFQ.15.02\n\n02/01/2017\n\n00\n\n\n\nRELATÓRIO DE ATIVIDADES\n\nPágina\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n1\n\nDE\n\n1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSISTEMA DE GESTÃO DA QUALIDADE\n\nCódigo\n\nData\n\nRevisão\n\n\n\n\n\nFQ.15.02\n\n04/02/2026\n\n02\n\n\n\nRELATÓRIO DIÁRIO DE PROGRAMAÇÃO\n\nPágina\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n1\n\nDE\n\n3\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\t\t\n\n\n\n\n\n\nTJDFT\n\n\n\nCONTRATANTE: \n\nCÓDIGO: \n\nPRJ09134\n\nOBRA: \n\n\n\nENDEREÇO: \n\n\n\nRESUMO EVOLUTIVO DO DIA\n\nHORÁRIO\n\nPREVISTO\n\nREAL\n\nCONDIÇÕES CLIMÁTICAS\n\n\n\nMUITO PRODUTIVO\n\nPRODUTIVO\n\nPOUCO PRODUTIVO\n\nINÍCIO\n\n08:30\n\n08:30\n\nBOM\n\nCHUVA LEVE\n\nCHUVA FORTE\n\nFORA TURNO\n\nDATA:\n\n30/04/2026\n\n\n\nX\n\n\n\nTÉRMINO\n\n18:00\n\n18:00\n\nX\n\n\n\n\n\n\n\n\n\n\t \n\n\n\nPROFISSIONAIS ENVOLVIDOS\n\n\n\nNOME\n\nEMPRESA\n\nFUNÇÃO\n\n1\n\nJean Kevyn Correia Pessôa\n\nConvergint\n\nProgramador\n\n\t\n\nDESCRIÇÃO DE ATIVIDADES REALIZADAS\n\n\n\nATIVIDADES\n\nAmbiente\n\nCriticidade\n\nSTATUS\n\n1\n\nSubstituição de conversores\n\nSala 334\n\nAlta\n\nParcialmente Solucionado\n\n2\n\nConfiguração de IPAD que retornou de RMA\n\nSala 334\n\nMédia\n\nSolucionado\n\n3\n\nSubstituição de Monitor\n\nSala 222\n\nBaixa\n\nNão Solucionado\n\n4\n\n\n\n\n\n\n\n\n\n5\n\n\n\n\n\n\n\n\n\n6\n\n\n\n\n\n\n\n\n\n7\n\n\n\n\n\n\n\n\n\n8\n\n\n\n\n\n\n\n\n\n9\n\n\n\n\n\n\n\n\n\n10\n\n\n\n\n\n\n\n\n\n11\n\n\n\n\n\n\n\n\n\n12\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRELATÓRIO FOTOGRÁFICO\n\n\n\n1\n\nSistema:\n\nAV / BMS / SDAI/ SECURITY\n\n2\n\nSistema:\n\nAV / BMS / SDAI/ SECURITY\n\n\n\nAmbiente:\n\nSala 334\n\n\n\nAmbiente:\n\nSala 334\n\n\n\n\n\n\n\n\n\n\n\n\n\nConversor BLACKMAGIC instalado\n\n\n\nSinal chegando no OBS/VLC/Any4Stream\n\n\n\n3\n\nSistema:\n\nAV / BMS / SDAI/ SECURITY\n\n4\n\nSistema:\n\nAV / BMS / SDAI/ SECURITY\n\n\n\nAmbiente:\n\nSala 334\n\n\n\nAmbiente:\n\nSala 334\n\n\n\n\n\n\n\n\n\n\n\nPGM chegando no NEOID corretamente\n\n\n\nSN dos conversores BLACKMAGIC novos\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n5\n\nSistema:\n\nAV / BMS / SDAI/ SECURITY\n\n6\n\nSistema:\n\nAV / BMS / SDAI/ SECURITY\n\n\n\nAmbiente:\n\nSala 222\n\n\n\nAmbiente:\n\nAmbiente\n\n\n\n\n\n\n\n[Foto]\n\n\n\nConfiguração correta do televisor\n\n\n\nTexto explicativo da imagem\n\n\n\nDETALHAMENTO DAS ATIVIDADES\n\n1) Foi realizado a substituição correta dos conversores GOFANCO pelos novos conversores da BLACKMAGIC. Sua integração com o sistema está correta. Na foto 1 em anexo deste RDP, temos a foto de 1 dos 3 conversores instalados. As fotos 2 e 3 representam a sua correta funcionalidade nos equipamentos (Foto 2, com seu vídeo chegando no OBS/Any4Stream/VLC e foto 3, com seu vídeo chegando no NEOID). A foto 4 indica o SN de todos os novos conversores instalados.\n   1.1) Observação importante: O cliente havia solicitado a substituição de 4 conversores, e não apenas 3. Segundo eles, o quarto conversor GOFANCO, responsável pela conversão do sinal multiview, também se encontra apresentando travamentos após certo tempo de uso. Hoje, este quarto conversor GOFANCO está sendo substituído por um DECIMATOR, equipamento do próprio pessoal do TJDFT. Eles provavelmente entrarão em contato questionando o não envio deste quarto conversor BLACKMAGIC.\n\n2) A configuração do IPAD foi realizada corretamente com todos os seus parâmetros de rede/aplicativos. Note no vídeo em anexo neste e-mail que o seu TOUCH já se encontra funcional, assim como todas as funções necessárias para o correto funcionamento da sala (Aplicativos QSC e afins).\n\n\n3) Os televisores não foram trocados. Ao tentar realizar a troca dos televisores, notamos que o novo televisor fornecido era de mesma marca, mas de modelo diferente no presente atualmente no local. Sendo assim, ao tentarmos instalar os suportes, notamos que os parafusos eram grossos demais para o televisor apresentado. Vamos precisar entender qual o suporte ideal para este televisor em questão antes de realizar a instalação. Sendo assim, esta instalação ficou como pendente. Tivemos de retornar ao estado anterior, colocando o televisor antigo no local. Obs.: A foto 5, em anexo neste RDP, representa as configurações de IP corretas a serem colocados no televisor da sala 222. O cliente citou que a automação desta televisão não estava funcional. De fato, não estava, visto que esta TV havia sido movida de ambiente e apresentava IP diferente do correto para tal ambiente.\nAo instalar o novo televisor, favor seguir EXATAMENTE as configurações de IP vide foto 5 deste RDP.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAssinatura\n\n\n\nAssinatura\n\n\n\nJean Kevyn Correia Pessôa\n\n\n\n\n\nCONVERGINT TECHNOLOGIES\n\n\n\n\n\nNome do Cliente\n\n \n\nElaboração\n\nRodrigo Oliveira\n\nRevisão\n\nThiago Becker Bellazzi\n\nAprovação\n\nJoão Paulo Chiarelli\n\nData\n\n01/01/2026\n\nData\n\n04/02/2026\n\nData\n\n01/01/2026\n\n\n\nElaboração\n\nRicardo Caldas\n\nRevisão\n\nSilvio Guerini\n\nAprovação\n\nGilson Abrahão\n\nData\n\n02/01/2017\n\nData\n\n02/01/2017\n\nData\n\n02/01/2017",
+    "tamanho_bytes": 884343
+  },
+  {
+    "arquivo": "PRJ61205_2026-04-30_RDP_(AV)_Jean Kevyn Correia Pessoa.docx",
+    "data": "2026-04-30",
+    "responsavel": "Jean Kevyn Correia Pessoa",
+    "responsavel_arquivo": "Jean Kevyn Correia Pessoa",
+    "responsavel_match": true,
+    "participantes": [
+      {
+        "nome": "Jean Kevyn Correia Pessoa",
+        "email": "jean.pessoa@convergint.com",
+        "equipe": "AV - THIAGO BELLAZZI",
+        "match": true,
+        "nome_extraido": "Jean Kevyn Correia Pessôa"
+      }
+    ],
+    "email": "jean.pessoa@convergint.com",
+    "equipe": "AV - THIAGO BELLAZZI",
+    "disciplina": "AV",
+    "sistema": "AV",
+    "projeto_codigo": "PRJ61205",
+    "projeto_nome": "AV Design and Project Management",
+    "projeto_cliente": "SERVICENOW",
+    "projeto_categoria": "Audio and Video",
+    "projeto_uf": "SP",
+    "projeto_segmento": "Corporate offices",
+    "projeto_bu": "Global Accounts",
+    "atividades": [
+      "Nenhum novo comentário quanto às análises dos croquis. Como comentado no último RDP, os croquis já se apresentam condizentes com um cenário de atuação real para implantação."
+    ],
+    "pendencias": [],
+    "bloqueios": [],
+    "proximos": [],
+    "texto_full": "SISTEMA DE GESTÃO DA QUALIDADE\n\nCódigo\n\nData\n\nRevisão\n\n\n\n\n\nFQ.15.02\n\n02/01/2017\n\n00\n\n\n\nRELATÓRIO DE ATIVIDADES\n\nPágina\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n1\n\nDE\n\n1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSISTEMA DE GESTÃO DA QUALIDADE\n\nCódigo\n\nData\n\nRevisão\n\n\n\n\n\nFQ.15.02\n\n04/02/2026\n\n02\n\n\n\nRELATÓRIO DIÁRIO DE PROGRAMAÇÃO\n\nPágina\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n1\n\nDE\n\n3\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\t\t\n\n\n\n\n\n\nSERVICE NOW\n\n\n\nCONTRATANTE: \n\nCÓDIGO: \n\nPRJ61205\n\nOBRA: \n\n\n\nENDEREÇO: \n\n\n\nRESUMO EVOLUTIVO DO DIA\n\nHORÁRIO\n\nPREVISTO\n\nREAL\n\nCONDIÇÕES CLIMÁTICAS\n\n\n\nMUITO PRODUTIVO\n\nPRODUTIVO\n\nPOUCO PRODUTIVO\n\nINÍCIO\n\n08:30\n\n08:30\n\nBOM\n\nCHUVA LEVE\n\nCHUVA FORTE\n\nFORA TURNO\n\nDATA:\n\n30/04/2026\n\n\n\nX\n\n\n\nTÉRMINO\n\n18:00\n\n18:00\n\nX\n\n\n\n\n\n\n\n\n\n\t \n\n\n\nPROFISSIONAIS ENVOLVIDOS\n\n\n\nNOME\n\nEMPRESA\n\nFUNÇÃO\n\n1\n\nJean Kevyn Correia Pessôa\n\nConvergint\n\nProgramador\n\n\t\n\nDESCRIÇÃO DE ATIVIDADES REALIZADAS\n\n\n\nATIVIDADES\n\nAmbiente\n\nCriticidade\n\nSTATUS\n\n1\n\nVerificação de diagramas\n\nDiversos\n\nBaixa\n\nSolucionado\n\n2\n\n\n\n\n\n\n\n\n\n3\n\n\n\n\n\n\n\n\n\n4\n\n\n\n\n\n\n\n\n\n5\n\n\n\n\n\n\n\n\n\n6\n\n\n\n\n\n\n\n\n\n7\n\n\n\n\n\n\n\n\n\n8\n\n\n\n\n\n\n\n\n\n9\n\n\n\n\n\n\n\n\n\n10\n\n\n\n\n\n\n\n\n\n11\n\n\n\n\n\n\n\n\n\n12\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRELATÓRIO FOTOGRÁFICO\n\n\n\n1\n\nSistema:\n\nAV / BMS / SDAI/ SECURITY\n\n2\n\nSistema:\n\nAV / BMS / SDAI/ SECURITY\n\n\n\nAmbiente:\n\nAmbiente\n\n\n\nAmbiente:\n\nAmbiente\n\n\n\n[Foto]\n\n\n\n[Foto]\n\n\n\n\n\nTexto explicativo da imagem\n\n\n\nTexto explicativo da imagem\n\n\n\n3\n\nSistema:\n\nAV / BMS / SDAI/ SECURITY\n\n4\n\nSistema:\n\nAV / BMS / SDAI/ SECURITY\n\n\n\nAmbiente:\n\nAmbiente\n\n\n\nAmbiente:\n\nAmbiente\n\n\n\n[Foto]\n\n\n\n[Foto]\n\n\n\nTexto explicativo da imagem\n\n\n\nTexto explicativo da imagem\n\n\n\n5\n\nSistema:\n\nAV / BMS / SDAI/ SECURITY\n\n6\n\nSistema:\n\nAV / BMS / SDAI/ SECURITY\n\n\n\nAmbiente:\n\nAmbiente\n\n\n\nAmbiente:\n\nAmbiente\n\n\n\n[Foto]\n\n\n\n[Foto]\n\n\n\nTexto explicativo da imagem\n\n\n\nTexto explicativo da imagem\n\n\n\nDETALHAMENTO DAS ATIVIDADES\n\n1) Nenhum novo comentário quanto às análises dos croquis. Como comentado no último RDP, os croquis já se apresentam condizentes com um cenário de atuação real para implantação.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAssinatura\n\n\n\nAssinatura\n\n\n\nJean Kevyn Correia Pessôa\n\n\n\n\n\nCONVERGINT TECHNOLOGIES\n\n\n\n\n\nNome do Cliente\n\n \n\nElaboração\n\nRodrigo Oliveira\n\nRevisão\n\nThiago Becker Bellazzi\n\nAprovação\n\nJoão Paulo Chiarelli\n\nData\n\n01/01/2026\n\nData\n\n04/02/2026\n\nData\n\n01/01/2026\n\n\n\nElaboração\n\nRicardo Caldas\n\nRevisão\n\nSilvio Guerini\n\nAprovação\n\nGilson Abrahão\n\nData\n\n02/01/2017\n\nData\n\n02/01/2017\n\nData\n\n02/01/2017",
+    "tamanho_bytes": 129897
+  },
+  {
+    "arquivo": "CTR19778_2026-04-30_RDP_(SEC)_Marcos Teixeira.pdf",
+    "data": "2026-04-30",
+    "responsavel": "Marcos Vinicius Salvadori Teixeira",
+    "responsavel_arquivo": "Marcos Teixeira",
+    "responsavel_match": true,
+    "participantes": [
+      {
+        "nome": "Marcos Vinicius Salvadori Teixeira",
+        "email": "marcos.teixeira@convergint.com",
+        "equipe": "SEC - ALEXANDRE KODA",
+        "match": true,
+        "nome_extraido": "Marcos Vinicius Salvadori Teixeira"
+      }
+    ],
+    "email": "marcos.teixeira@convergint.com",
+    "equipe": "SEC - ALEXANDRE KODA",
+    "disciplina": "SEC",
+    "sistema": "SEC",
+    "projeto_codigo": "CTR19778",
+    "projeto_nome": "CONTROLE DE ACESSO",
+    "projeto_cliente": "AUTORIDADE PORTUARIA",
+    "projeto_categoria": "Security",
+    "projeto_uf": "SP",
+    "projeto_segmento": "Infrastructure / Transport",
+    "projeto_bu": "Governo",
+    "atividades": [
+      "Realizada reunião com a DB Tech para estudarmos a tabela de eventual de veículos da ilha barnabé.",
+      "Solicitado para a DB Tech verificar a possibilidade de reprocessar em um horário fixo de madrugada uma"
+    ],
+    "pendencias": [],
+    "bloqueios": [],
+    "proximos": [],
+    "texto_full": "Código Data Revisão\nSISTEMA DE GESTÃO DA QUALIDADE\nFQ.15.02 04/02/2026 02\nPágina\nRELATÓRIO DIÁRIO DE\n1 DE 3\nPROGRAMAÇÃO\nAutoridade Portuária de Santos /\n2311_C00384_CTR19778\nCONTRATANTE: Convergint\nOBRA: Autoridade Portuária de Santos CÓDIGO:\nCTR19778\nENDEREÇO: Av. Conselheiro Rodrigues Alves, s/n - Macuco, Santos - SP\nRESUMO EVOLUTIVO DO DIA HORÁRIO PREVISTO REAL CONDIÇÕES CLIMÁTICAS\nMUITO POUCO CHUVA CHUVA FORA\nPRODUTIVO INÍCIO 08:00 09:00 BOM DATA:\nPRODUTIVO PRODUTIVO LEVE FORTE TURNO\n30/04/2026\nX TÉRMINO 17:00 16:00\nPROFISSIONAIS ENVOLVIDOS\nNOME EMPRESA FUNÇÃO\n1 Marcos Vinicius Salvadori Teixeira Convergint Programador\n2\nDESCRIÇÃO DE ATIVIDADES REALIZADAS\nATIVIDADES Ambiente Criticidade STATUS\n1 Estudo e teste da tabela de eventual de veículos Sistema Média Finalizado\nSolicitado a DB Tech possibilidade de atualização diária do VIP\n2 Sistema Média Em andamento\ndo estacionamento\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\nElaboração Rodrigo Oliveira Revisão Thiago Becker Bellazzi Aprovação João Paulo Chiarelli\nData 01/01/2026 Data 04/02/2026 Data 01/01/2026\nCódigo Data Revisão\nSISTEMA DE GESTÃO DA QUALIDADE\nFQ.15.02 04/02/2026 02\nPágina\nRELATÓRIO DIÁRIO DE\n2 DE 3\nPROGRAMAÇÃO\nRELATÓRIO FOTOGRÁFICO\nSistema: SECURITY Sistema: SECURITY\nAmbiente: Sistema Ambiente: Sistema\n1 2\nAtividade 1: Tabela de acesso eventual de veículos. Atividade 2: Tabela estacionamento presidência.\nSistema: SECURITY Sistema: SECURITY\nAmbiente: Sistema Ambiente: Sistema\n3 4\nSistema: SECURITY Sistema: SECURITY\nAmbiente: Sistema Ambiente: Sistema\n5 6\nElaboração Rodrigo Oliveira Revisão Thiago Becker Bellazzi Aprovação João Paulo Chiarelli\nData 01/01/2026 Data 04/02/2026 Data 01/01/2026\nCódigo Data Revisão\nSISTEMA DE GESTÃO DA QUALIDADE\nFQ.15.02 04/02/2026 02\nPágina\nRELATÓRIO DIÁRIO DE\n3 DE 3\nPROGRAMAÇÃO\nDETALHAMENTO DAS ATIVIDADES\n1. Realizada reunião com a DB Tech para estudarmos a tabela de eventual de veículos da ilha barnabé.\nVerificamos a limitação que não será possível criar um veículo na partição veículo e outro na partição com\na mesma placa (Card Number), sendo assim, os veículos vão ser apenas atualizados, mudando de partição\nquando necessário com um cadastro único no sistema. Solicitado a DB Tech o desenvolvimento.\n2. Solicitado para a DB Tech verificar a possibilidade de reprocessar em um horário fixo de madrugada uma\nvez por dia todas as pessoas que estão na tabela VIP de estacionamento. Resolvendo assim o problema\ndas pessoas que ganham o direito ao estacionamento não são atualizadas no CCure, uma vez que os\ncadastros apenas são atualizados no CCure com a perda ou adição de motivação (Clearence) por parte do\ncredenciamento.\nAssinatura Assinatura\nCONVERGINT TECHNOLOGIES Nome do Cliente\nElaboração Rodrigo Oliveira Revisão Thiago Becker Bellazzi Aprovação João Paulo Chiarelli\nData 01/01/2026 Data 04/02/2026 Data 01/01/2026",
+    "tamanho_bytes": 268875
+  },
+  {
+    "arquivo": "PRJ19620-2026-04-30_RDP_(BMS)_Anderson.pdf",
+    "data": "2026-04-30",
+    "responsavel": "Anderson Caetano de Souza Pires",
+    "responsavel_arquivo": "Anderson",
+    "responsavel_match": true,
+    "participantes": [
+      {
+        "nome": "Anderson Caetano de Souza Pires",
+        "email": "anderson.pires@convergint.com",
+        "equipe": "BMS - UNIVERSO NUNES JULIAO",
+        "match": true,
+        "nome_extraido": "Anderson Caetano de Souza Pires"
+      }
+    ],
+    "email": "anderson.pires@convergint.com",
+    "equipe": "BMS - UNIVERSO NUNES JULIAO",
+    "disciplina": "BMS",
+    "sistema": "BMS",
+    "projeto_codigo": "PRJ19620",
+    "projeto_nome": "SISTEMAS ELETRÔNICOS",
+    "projeto_cliente": "AEROPORTO RECIFE",
+    "projeto_categoria": "Automation",
+    "projeto_uf": "PE",
+    "projeto_segmento": "Infrastructure / Transport",
+    "projeto_bu": "Vertical Markets",
+    "atividades": [
+      "Comissionamento dos quadros da SE-05",
+      "URC-TEC-01 Equipamentos danificados",
+      "Link dos disjuntores de saída do QGBT-SE-05",
+      "Comissionamento dos quadros da SE-04",
+      "Planilha de comissionamento dos quadros de informe"
+    ],
+    "pendencias": [
+      "Elaboração de relatório pendente",
+      "Realizada a elaboração da RDP do dia 27/04",
+      "Realizada a elaboração da RDP do dia 28/04",
+      "Iniciada a elaboração da RDP do dia 29/04",
+      "Elaboração de esquema dos reservatórios de reuso.",
+      "Atividade foi interrompida no período da tarde para elaboração de RDP pendente. [STATUS: Pendente]",
+      "6. Elaboração de relatório [STATUS: Pendente]",
+      "Thayná, ela me solicitou que a forneça a lista dos quadros que ainda falta"
+    ],
+    "bloqueios": [],
+    "proximos": [],
+    "texto_full": "Código Data Revisão\nSISTEMA DE GESTÃO DA QUALIDADE\nFQ.15.02 04/02/2026 02\nPágina\nRELATÓRIO DIÁRIO DE\n1 DE 4\nPROGRAMAÇÃO\nAENA RECIFE\nCONTRATANTE: AENA AEROPORTO RECIFE\nOBRA: 2202_C07959_PRJ19620 CÓDIGO:\nPRJ19620\nENDEREÇO: Praça Min. Salgado Filho, s/n - Imbiribeira, Recife - PE, 51210-902\nRESUMO EVOLUTIVO DO DIA HORÁRIO PREVISTO REAL CONDIÇÕES CLIMÁTICAS\nPRO M D U U IT T O IV O PRODUTIVO PR P O O D U U C T O IV O INÍCIO 08:00 08:07 BOM C L H E U V V E A C F H O U R V T A E T F U O R R N A O DATA:\n30/04/2026\nX TÉRMINO 17:00 18:11 X\nPROFISSIONAIS ENVOLVIDOS\nNOME EMPRESA FUNÇÃO\n1 Anderson Caetano de Souza Pires Convergint Programador\n2\n3\n4\nDESCRIÇÃO DE ATIVIDADES REALIZADAS\nATIVIDADES Ambiente Criticidade STATUS\n1 Comissionamento dos painéis da SE-05 N/A Alta Paralisado\n2 URC-TEC-01 Equipamentos danificados N/A Alta Paralisado\n3 Link dos disjuntores de saída do QGBT-SE-05 N/A Alta Paralisado\n4 Comissionamento dos painéis da SE-04 N/A Alta Paralisado\nEm\n5 Planilha de comissionamento dos quadros de informe N/A Alta\nandamento\nEm\n6 Elaboração de relatórios pendentes N/A Alta\nandamento\n7\n8\n9\n10\n11\nElaboração Rodrigo Oliveira Revisão Thiago Becker Bellazzi Aprovação João Paulo Chiarelli\nData 01/01/2026 Data 04/02/2026 Data 01/01/2026\nCódigo Data Revisão\nSISTEMA DE GESTÃO DA QUALIDADE\nFQ.15.02 04/02/2026 02\nPágina\nRELATÓRIO DIÁRIO DE\n2 DE 4\nPROGRAMAÇÃO\nRELATÓRIO FOTOGRÁFICO\n12\nSistema: BMS Sistema: BMS\nAmbiente: Térreo Ambiente: Intermediário\n1 2\nSistema: BMS Sistema: BMS\nAmbiente: Intermediário Ambiente: Térreo\n3 4\nSistema: BMS Sistema: BMS\nAmbiente: ... Ambiente: ...\n5 6\nElaboração Rodrigo Oliveira Revisão Thiago Becker Bellazzi Aprovação João Paulo Chiarelli\nData 01/01/2026 Data 04/02/2026 Data 01/01/2026\nCódigo Data Revisão\nSISTEMA DE GESTÃO DA QUALIDADE\nFQ.15.02 04/02/2026 02\nPágina\nRELATÓRIO DIÁRIO DE\n3 DE 4\nPROGRAMAÇÃO\nDETALHAMENTO DAS ATIVIDADES\n1. Comissionamento dos quadros da SE-05\nAtividade paralisada. Sem desligamento agendado para hoje.\n2. URC-TEC-01 Equipamentos danificados\nAtividade paralisada.\n3. Link dos disjuntores de saída do QGBT-SE-05\nAtividade paralisada\n4. Comissionamento dos quadros da SE-04\nAtividade paralisada. Sem desligamento agendado para hoje.\n5. Planilha de comissionamento dos quadros de informe\nEm conversa com a Sra. Thayná, ela me solicitou que a forneça a lista dos quadros que ainda falta\ncomissionar para dar baixa, porém, ao batermos alguns painéis constatamos que a lista não era a\nmesma que enviei. Na contagem dela tem cerca de 27 painéis, na minha lista tem 63 painéis.\nPossivelmente, algum problema de comunicação entre as gestões pode ter causado essa divergência\nnos valores.\nEstou elaborando uma planilha para centralizar essas informações de painéis comissionados, não\ncomissionados e com pendencias.\nAtividade foi interrompida no período da tarde para elaboração de RDP pendente.\n6. Elaboração de relatório pendente\n- Realizada a elaboração da RDP do dia 27/04\n- Realizada a elaboração da RDP do dia 28/04\n- Iniciada a elaboração da RDP do dia 29/04\n- Elaboração de esquema dos reservatórios de reuso.\nAtividade paralisada devido a retorno para São Paulo.\nElaboração Rodrigo Oliveira Revisão Thiago Becker Bellazzi Aprovação João Paulo Chiarelli\nData 01/01/2026 Data 04/02/2026 Data 01/01/2026\nCódigo Data Revisão\nSISTEMA DE GESTÃO DA QUALIDADE\nFQ.15.02 04/02/2026 02\nPágina\nRELATÓRIO DIÁRIO DE\n4 DE 4\nPROGRAMAÇÃO\nAssinatura Assinatura\nCONVERGINT TECHNOLOGIES Nome do Cliente\nElaboração Rodrigo Oliveira Revisão Thiago Becker Bellazzi Aprovação João Paulo Chiarelli\nData 01/01/2026 Data 04/02/2026 Data 01/01/2026",
+    "tamanho_bytes": 222535
+  },
+  {
+    "arquivo": "PRJ22499_2026-04-30_RDP_(BMS)_Noélio de Brito Oliveira.pdf",
+    "data": "2026-04-30",
+    "responsavel": "Noelio de Brito Oliveira",
+    "responsavel_arquivo": "Noélio de Brito Oliveira",
+    "responsavel_match": true,
+    "participantes": [
+      {
+        "nome": "Noelio de Brito Oliveira",
+        "email": "noelio.oliveira@convergint.com",
+        "equipe": "BMS - UNIVERSO NUNES JULIAO",
+        "match": true,
+        "nome_extraido": "NoéliodeBritoOliveira"
+      },
+      {
+        "nome": "Matheus de Sousa Damico",
+        "email": "matheus.damico@convergint.com",
+        "equipe": "BMS - UNIVERSO NUNES JULIAO",
+        "match": true,
+        "nome_extraido": "MatheusdeSousaDamico"
+      },
+      {
+        "nome": "Gislan Almeida dos Santos",
+        "email": "gislan.santos@convergint.com",
+        "equipe": "BMS - UNIVERSO NUNES JULIAO",
+        "match": true,
+        "nome_extraido": "GislanAlmeidadosSantos"
+      },
+      {
+        "nome": "Guilherme Ariz da Silva",
+        "email": "guilherme.s@convergint.com",
+        "equipe": "BMS - UNIVERSO NUNES JULIAO",
+        "match": true,
+        "nome_extraido": "GuilhermeArizdaSilva"
+      }
+    ],
+    "email": "noelio.oliveira@convergint.com",
+    "equipe": "BMS - UNIVERSO NUNES JULIAO",
+    "disciplina": "BMS",
+    "sistema": "BMS",
+    "projeto_codigo": "PRJ22499",
+    "projeto_nome": "RETROFIT BMS- PRÉDIO 1",
+    "projeto_cliente": "INSPER",
+    "projeto_categoria": "Automation",
+    "projeto_uf": "SP",
+    "projeto_segmento": "Others",
+    "projeto_bu": "Vertical Markets",
+    "atividades": [],
+    "pendencias": [],
+    "bloqueios": [],
+    "proximos": [],
+    "texto_full": "Código Data Revisão\nSISTEMADEGESTÃODAQUALIDADE\nFQ.15.02 04/02/2026 02\nPágina\nRELATÓRIO DIÁRIO DE\n1 DE 3\nPROGRAMAÇÃO\nInsper / INSPER - 2312_C01743_PRJ22499\nCONTRATANTE:Insper\nOBRA:INSPER-2312_C01743_PRJ22499 CÓDIGO:\nPRJ22499\nENDEREÇO:RuaQuatá,300\nRESUMOEVOLUTIVODODIA HORÁRIO PREVISTO REAL CONDIÇÕESCLIMÁTICAS\nMUITO POUCO CHUVA CHUVA FORA\nPRODUTIVO INÍCIO 08:00 08:00 BOM DATA:\nPRODUTIVO PRODUTIVO LEVE FORTE TURNO\n30/04/2026\nX TÉRMINO 17:00 17:00 X\nPROFISSIONAISENVOLVIDOS\nNOME EMPRESA FUNÇÃO\n1 NoéliodeBritoOliveira Convergint Programador\n2 MatheusdeSousaDamico Convergint Programador\n3 GislanAlmeidadosSantos Convergint Programador\n4 GuilhermeArizdaSilva Convergint Programador\nDESCRIÇÃODEATIVIDADESREALIZADAS\nATIVIDADES Ambiente Criticidade STATUS\n1 Levantamentodepontos–Quatá,200. Todos Média Emandamento\nRevisãodasTAG’sdossensoresdeCO2,CO,temperaturae\n2 tamanhodosdisplaysdetodasastelasfeitasdeHVAC–Quatá, 1º,2ºe3ºsubsolo Média Emandamento\n200.\n3 RevisãodatelagráficaHVACBarrilete–Quatá,200. Barrilete Média Finalização\nAtualizaçãodefirmwarecontroladorescommbox–Claudio\n4 1ºsubsoloe4ºpavimento Alta Emandamento\nHaddad.\n5 - - - -\n6 - - - -\n7\n8\n9\n10\n11\n12\nElaboração RodrigoOliveira Revisão ThiagoBeckerBellazzi Aprovação JoãoPauloChiarelli\nData 01/01/2026 Data 04/02/2026 Data 01/01/2026\nCódigo Data Revisão\nSISTEMADEGESTÃODAQUALIDADE\nFQ.15.02 04/02/2026 02\nPágina\nRELATÓRIO DIÁRIO DE\n2 DE 3\nPROGRAMAÇÃO\nRELATÓRIO FOTOGRÁFICO\nSistema: BMS Sistema: BMS\nAmbiente: Térreo Ambiente: 1º,2ºe5ºpavimento\n1 2\nTelagráficaplantabaixa-HVAC TelagráficaplantabaixaHVAC\nSistema: BMS Sistema: BMS\nAmbiente: 1ºsubsoloe4ºpavimento Ambiente: -\n3 4\n-Controladoresonlinenarede“BacnetIP”após -\natualizaçãodefirmware.\nSistema: BMS Sistema: BMS\nAmbiente: - Ambiente: -\n5\n- -\nElaboração RodrigoOliveira Revisão ThiagoBeckerBellazzi Aprovação JoãoPauloChiarelli\nData 01/01/2026 Data 04/02/2026 Data 01/01/2026\nCódigo Data Revisão\nSISTEMADEGESTÃODAQUALIDADE\nFQ.15.02 04/02/2026 02\nPágina\nRELATÓRIO DIÁRIO DE\n3 DE 3\nPROGRAMAÇÃO\nDETALHAMENTODASATIVIDADES\n1)Levantamentodospontosdoprédio2.Nestelevantamentoserárealizadoumaverificaçãodetalhadaemtodas\nastelasparaobtermosasprincipaisinformaçõesrelevantescomo,odiretóriodoponto,deviceid,pointideetc.O\nlevantamentoédesumaimportânciaparaocorretobinds/linksdastelasgráficasdesenvolvidas.\n2)Revisãodaslocalizaçõesemtelagráficadossensoresdetemperatura,COeCO2.Alémdisso,estásendofeita\navalidaçãodasdimensõespadrõesdosdisplaysdemonitoramentoecomandodeHVAC.\n3)RealizadarevisãodatelagráficadeplantabaixadeHVACdobarrileteeencaminhadocomentáriosparaequipe\ndedesenvolvimentodetelas.\n4)Ápartirdeinstruçõesdafabricante“CommboxTecnoloia”foramrealizadasasaçõesdeatualizaçãodofirmware\nnoscontroladoresdo1ºsubsoloe4ºpavimento.Onovofirmwarecorrigiuoproblemadecomunicaçãoemredee\nfoipossíveladicioná-laaosupervisório(EBO).Omesmoprocessoseráaplicadoaosdemaiscontroladoreseapós\nisso,serápossívelrealizaraprogramaçãoecomissionamentodosbotõesdepânico.\nAssinatura Assinatura\nCONVERGINT TECHNOLOGIES Nome do Cliente\nElaboração RodrigoOliveira Revisão ThiagoBeckerBellazzi Aprovação JoãoPauloChiarelli\nData 01/01/2026 Data 04/02/2026 Data 01/01/2026",
+    "tamanho_bytes": 383690
+  },
+  {
+    "arquivo": "PRJ34724_2026-04-30_RDP_(SEC)_SergioOliveira.docx",
+    "data": "2026-04-30",
+    "responsavel": "SergioOliveira",
+    "responsavel_arquivo": "SergioOliveira",
+    "responsavel_match": false,
+    "participantes": [
+      {
+        "nome": "Sergio Henrique Ferreira de Oliveira",
+        "email": "sergio.oliveira@convergint.com",
+        "equipe": "SEC - ALEXANDRE KODA",
+        "match": true,
+        "nome_extraido": "Sérgio Henrique Ferreira de Oliveira"
+      }
+    ],
+    "email": "",
+    "equipe": "-",
+    "disciplina": "SEC",
+    "sistema": "SEC",
+    "projeto_codigo": "PRJ34724",
+    "projeto_nome": "Controle de Acesso e CFTV - WT",
+    "projeto_cliente": "UNILEVER",
+    "projeto_categoria": "Security",
+    "projeto_uf": "SP",
+    "projeto_segmento": "Others",
+    "projeto_bu": "Global Accounts",
+    "atividades": [],
+    "pendencias": [],
+    "bloqueios": [],
+    "proximos": [],
+    "texto_full": "SISTEMA DE GESTÃO DA QUALIDADE\n\nCódigo\n\nData\n\nRevisão\n\n\n\n\n\nFQ.15.02\n\n04/02/2026\n\n02\n\n\n\nRELATÓRIO DIÁRIO DE PROGRAMAÇÃO\n\nPágina\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n1\n\nDE\n\n3\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\t\t\n\n\n\nSISTEMA DE GESTÃO DA QUALIDADE\n\nCódigo\n\nData\n\nRevisão\n\n\n\n\n\nFQ.15.02\n\n02/01/2017\n\n00\n\n\n\nRELATÓRIO DE ATIVIDADES\n\nPágina\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n1\n\nDE\n\n1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUnilever WT-Morumbi\n\n\n\nCONTRATANTE: Unilever\n\nCÓDIGO: \n\n2312_C06048_PRJ34724\n\nOBRA: Unilever WT-Morumbi – CFTV/SCA\n\n\n\nENDEREÇO: Av. das Nações Unidas, 14261 - Chácara Santo Antônio (Zona Sul), São Paulo - SP\n\n\n\nRESUMO EVOLUTIVO DO DIA\n\nHORÁRIO\n\nPREVISTO\n\nREAL\n\nCONDIÇÕES CLIMÁTICAS\n\n\n\nMUITO PRODUTIVO\n\nPRODUTIVO\n\nPOUCO PRODUTIVO\n\nINÍCIO\n\n\n\n\n\nBOM\n\nCHUVA LEVE\n\nCHUVA FORTE\n\nFORA TURNO\n\nDATA:\n\n30/04/2026\n\n\n\n\n\nx\n\nTÉRMINO\n\n\n\n\n\nX\n\n\n\n\n\n\n\n\n\n\t \n\n\n\nPROFISSIONAIS ENVOLVIDOS\n\n\n\nNOME\n\nEMPRESA\n\nFUNÇÃO\n\n1\n\nSérgio Henrique Ferreira de Oliveira\n\nConvergint\n\nProgramador\n\n\t\n\nDESCRIÇÃO DE ATIVIDADES REALIZADAS\n\n\n\nATIVIDADES\n\nAmbiente\n\nCriticidade\n\nSTATUS\n\n1\n\nMigração da porta de controle de acesso antigo para o novo\n\nWT-MORUMBI\n\nMédia\n\nFinalizado\n\n\n\n\n\n\n\n\nRELATÓRIO FOTOGRÁFICO\n\n\n\n\n\n1\n\nSistema:\n\nSecurity\n\n\n\nAmbiente:\n\nUnilever WT\n\n\n\n\n\n\n\nInstalação da tampa de infraestrutura para a leitora\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n2\n\nSistema:\n\nSecurity\n\n\n\nAmbiente:\n\nUnilever WT\n\n\n\n\n\n\n\nInstalação da tampa de infraestrutura para a leitora\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDETALHAMENTO DAS ATIVIDADES\n\nFoi realizado a migração das portas do sistema de controle de aceso antigo(Nedap) para o sistema atual utilizado no prédio (Alta Acesss). Foi realizado a migração substituindo as leitoras, o acionador de emergência e conectorizando os periféricos na placa de controle de acesso. Após a instalação, foi realizado o teste de funcionamento utilizando 2 cartões, 1 sem o nível de acesso e o outro com o nível de acesso para porta. O teste foi feito sem apresentar falhas.\n\nFoi realizado a instalação das tampas de infraestrutura e resistores para supervisão das Inputs nas portas do corridor UBI e Hall UBI.\n\n\n\nIMPORTANTE: A equipe de instalação presente não realizou a instalação dos resistores no sensor de abertura da porta automática do HALL UBI. Foi também comunicado que nenhuma porta de hall está com os resistores conectorizados, o que não é o padrão global adotado pela Unilever. Será necessário que seja realizado a instalação e teste em todas essas portas.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAssinatura\n\n\n\nAssinatura\n\n\n\n\n\n\n\n\n\nCONVERGINT TECHNOLOGIES\n\n\n\n\n\nNome do Cliente\n\n \n\nElaboração\n\nRodrigo Oliveira\n\nRevisão\n\nThiago Becker Bellazzi\n\nAprovação\n\nJoão Paulo Chiarelli\n\nData\n\n01/01/2026\n\nData\n\n04/02/2026\n\nData\n\n01/01/2026\n\n\n\nElaboração\n\nRicardo Caldas\n\nRevisão\n\nSilvio Guerini\n\nAprovação\n\nGilson Abrahão\n\nData\n\n02/01/2017\n\nData\n\n02/01/2017\n\nData\n\n02/01/2017",
+    "tamanho_bytes": 284107
+  },
+  {
+    "arquivo": "PRJ42548_2026-04-30_RDP_SEG_Salathiel_Martins.pdf",
+    "data": "2026-04-30",
+    "responsavel": "Salathiel da Silva Martins",
+    "responsavel_arquivo": "Salathiel Martins",
+    "responsavel_match": true,
+    "participantes": [
+      {
+        "nome": "Salathiel da Silva Martins",
+        "email": "salathiel.martins@convergint.com",
+        "equipe": "SEC - ALEXANDRE KODA",
+        "match": true,
+        "nome_extraido": "Salathiel S Martins"
+      }
+    ],
+    "email": "salathiel.martins@convergint.com",
+    "equipe": "SEC - ALEXANDRE KODA",
+    "disciplina": "SEC",
+    "sistema": "SEC",
+    "projeto_codigo": "PRJ42548",
+    "projeto_nome": "IMPLANTAÇÃO CFTV - COANA",
+    "projeto_cliente": "CSN MINERAÇÃO",
+    "projeto_categoria": "Automation",
+    "projeto_uf": "MG",
+    "projeto_segmento": "Others",
+    "projeto_bu": "Vertical Markets",
+    "atividades": [
+      "Fotos dos trechos verificados que estão com câmeras offline, sem comunicação com o servidor.",
+      "Atualização da documentação e planilhas de programação do projeto.",
+      "Confecção do manual de operação do controle de acesso das portas do CPD SD-8 e SCARF"
+    ],
+    "pendencias": [
+      "1) Fotos dos trechos verificados que estão com câmeras offline, sem comunicação com o servidor."
+    ],
+    "bloqueios": [],
+    "proximos": [],
+    "texto_full": "Código Data Revisão\nSISTEMA DE GESTÃO DA QUALIDADE\nFQ.15.02 01/01/2026 01\nPágina\nRELATÓRIO DIÁRIO DE\n1 DE 4\nCOMISSIONAMENTO\nCSN MINERAÇÃO - 2403_C08193_PRJ42548\nCONTRATADA:\nOBRA: CSN MINERAÇÃO - 2403_C08193_PRJ42548 CÓDIGO:\nPRJ42548\nENDEREÇO: Ilha da Madeira, s/nº, Porto de Itaguaí, Itaguaí/RJ, CEP 23.826-600\nDIAS DATAS PREVISTA REAL CONDIÇÕES CLIMÁTICAS\nCONTRATUAL DECORRIDO FALTANTE INÍCIO DD/MM/AAAA DD/MM/AAAA BOM C L H E U V V E A C F H O U R V T A E T F U O R R N A O DATA\n30/04/2026\nTÉRMINO DD/MM/AAAA DD/MM/AAAA x\nPROFISSIONAIS ENVOLVIDOS\nNOME EMPRESA FUNÇÂO\n1 Salathiel S Martins Convergint Programador\nDESCRIÇÃO DE ATIVIDADES REALIZADAS\nATIVIDADES Ambiente Criticidade STATUS\n1 Configuração de dispositivos de rede Sistema de vídeo vigilância Alta Em Andamento\n2 Configuração de Links dos dispositivos de rede Sistema de vídeo vigilância Alta Em Andamento\nAlta\n3 Configuração de protocolo de redundância dispositivos de rede Sistema de vídeo vigilância Em Andamento\nAlta\n4 Testes de desempenho de dispositivos de rede Sistema de vídeo vigilância Em Andamento\n5 Configuração de dispositivos de intrusão por radar Sistema de vídeo vigilância Alta Em Andamento\n6 Configuração do sistema de intrusão por radar Sistema de vídeo vigilância Alta Em Andamento\n7 Testes de desempenho do sistema de intrusão por radar Sistema de vídeo vigilância Alta Em Andamento\n8 Integração do sistema de intrusão por radar com o VMS Sistema de vídeo vigilância Alta Em Andamento\nConfiguração de Servidores do VMS do sistema de vídeo\n9 Sistema de vídeo vigilância Alta Em Andamento\nvigilância\n10 Configuração das câmeras do sistema de vídeo vigilância Sistema de vídeo vigilância Alta Em Andamento\nConfiguração do sistema de intrusão por analítico do sistema de\n11 Sistema de vídeo vigilância Alta Em Andamento\nvídeo vigilância\n12 Configuração das câmeras no VMS Sistema de vídeo vigilância Alta Em Andamento\nElaboração Rodrigo Oliveira Revisão Universo Nunes Julião Aprovação João Paulo Chiarelli\nData 01/01/2026 Data 01/01/2026 Data 01/01/2026\nCódigo Data Revisão\nSISTEMA DE GESTÃO DA QUALIDADE\nFQ.15.02 01/01/2026 01\nPágina\nRELATÓRIO DIÁRIO DE\n2 DE 4\nCOMISSIONAMENTO\nRELATÓRIO FOTOGRÁFICO\nSistema: SECURITY Sistema: SECURITY\nAmbiente: Sistema de vídeo vigilância Ambiente: Sistema de vídeo vigilância\n1 2\nCâmeras fora trecho 02 Câmeras fora trecho 2A\nSistema: SECURITY Sistema: SECURITY\nAmbiente: Sistema de vídeo vigilância Ambiente: Sistema de vídeo vigilância\n3 4\nCameras fora trecho 4A Cameras fora trecho 9\nSistema: SECURITY Sistema: SECURITY\nAmbiente: Sistema de vídeo vigilância Ambiente: Sistema de vídeo vigilância\n5 6\nCameras fora trecho 10 Cameras fora DN\nElaboração Rodrigo Oliveira Revisão Universo Nunes Julião Aprovação João Paulo Chiarelli\nData 01/01/2026 Data 01/01/2026 Data 01/01/2026\nCódigo Data Revisão\nSISTEMA DE GESTÃO DA QUALIDADE\nFQ.15.02 01/01/2026 01\nPágina\nRELATÓRIO DIÁRIO DE\n3 DE 4\nCOMISSIONAMENTO\nSistema: SECURITY Sistema: SECURITY\nAmbiente: Sistema de vídeo vigilância Ambiente: Sistema de vídeo vigilância\n7 8\nCameras fora SD/ADM Cameras fora galpão gaivota.\nSistema: SECURITY Sistema: SECURITY\nAmbiente: Sistema de vídeo vigilância Ambiente: Sistema de vídeo vigilância\n1\n9\n0\nCameras fora pier Cameras fora pier\nSistema: SECURITY Sistema: SECURITY\nAmbiente: Sistema de vídeo vigilância Ambiente:\n1 1\n1 2\nRelação câmeras fora no VX Camera ENTRADA VEICULOS PESADOS\nElaboração Rodrigo Oliveira Revisão Universo Nunes Julião Aprovação João Paulo Chiarelli\nData 01/01/2026 Data 01/01/2026 Data 01/01/2026\nCódigo Data Revisão\nSISTEMA DE GESTÃO DA QUALIDADE\nFQ.15.02 01/01/2026 01\nPágina\nRELATÓRIO DIÁRIO DE\n4 DE 4\nCOMISSIONAMENTO\nDETALHAMENTO DAS ATIVIDADES\n1) Fotos dos trechos verificados que estão com câmeras offline, sem comunicação com o servidor.\n2) Atualização da documentação e planilhas de programação do projeto.\n3) Confecção do manual de operação do controle de acesso das portas do CPD SD-8 e SCARF\nAssinatura Assinatura\nCONVERGINT CSN MINERAÇÃO\nElaboração Rodrigo Oliveira Revisão Universo Nunes Julião Aprovação João Paulo Chiarelli\nData 01/01/2026 Data 01/01/2026 Data 01/01/2026",
+    "tamanho_bytes": 699500
+  },
+  {
+    "arquivo": "CTR19778_2026-04-29_RDP_(SEC)_Marcos Teixeira.pdf",
+    "data": "2026-04-29",
+    "responsavel": "Marcos Vinicius Salvadori Teixeira",
+    "responsavel_arquivo": "Marcos Teixeira",
+    "responsavel_match": true,
+    "participantes": [
+      {
+        "nome": "Marcos Vinicius Salvadori Teixeira",
+        "email": "marcos.teixeira@convergint.com",
+        "equipe": "SEC - ALEXANDRE KODA",
+        "match": true,
+        "nome_extraido": "Marcos Vinicius Salvadori Teixeira"
+      }
+    ],
+    "email": "marcos.teixeira@convergint.com",
+    "equipe": "SEC - ALEXANDRE KODA",
+    "disciplina": "SEC",
+    "sistema": "SEC",
+    "projeto_codigo": "CTR19778",
+    "projeto_nome": "CONTROLE DE ACESSO",
+    "projeto_cliente": "AUTORIDADE PORTUARIA",
+    "projeto_categoria": "Security",
+    "projeto_uf": "SP",
+    "projeto_segmento": "Infrastructure / Transport",
+    "projeto_bu": "Governo",
+    "atividades": [
+      "Realizado teste no servidor de homologação da função de escolta aleatória, verificado os seguintes",
+      "Apresentação e treinamento da função de consulta adicionada no mapa do museu para contagem das"
+    ],
+    "pendencias": [],
+    "bloqueios": [],
+    "proximos": [],
+    "texto_full": "Código Data Revisão\nSISTEMA DE GESTÃO DA QUALIDADE\nFQ.15.02 04/02/2026 02\nPágina\nRELATÓRIO DIÁRIO DE\n1 DE 3\nPROGRAMAÇÃO\nAutoridade Portuária de Santos /\n2311_C00384_CTR19778\nCONTRATANTE: Convergint\nOBRA: Autoridade Portuária de Santos CÓDIGO:\nCTR19778\nENDEREÇO: Av. Conselheiro Rodrigues Alves, s/n - Macuco, Santos - SP\nRESUMO EVOLUTIVO DO DIA HORÁRIO PREVISTO REAL CONDIÇÕES CLIMÁTICAS\nMUITO POUCO CHUVA CHUVA FORA\nPRODUTIVO INÍCIO 08:00 07:00 BOM DATA:\nPRODUTIVO PRODUTIVO LEVE FORTE TURNO\n29/04/2026\nX TÉRMINO 17:00 16:00\nPROFISSIONAIS ENVOLVIDOS\nNOME EMPRESA FUNÇÃO\n1 Marcos Vinicius Salvadori Teixeira Convergint Programador\n2\nDESCRIÇÃO DE ATIVIDADES REALIZADAS\nATIVIDADES Ambiente Criticidade STATUS\n1 Teste de evento de “Random Screening” Sistema Média Finalizado\n2 Treinamento consulta pessoas Museu Sistema Média Finalizado\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\nElaboração Rodrigo Oliveira Revisão Thiago Becker Bellazzi Aprovação João Paulo Chiarelli\nData 01/01/2026 Data 04/02/2026 Data 01/01/2026\nCódigo Data Revisão\nSISTEMA DE GESTÃO DA QUALIDADE\nFQ.15.02 04/02/2026 02\nPágina\nRELATÓRIO DIÁRIO DE\n2 DE 3\nPROGRAMAÇÃO\nRELATÓRIO FOTOGRÁFICO\nSistema: SECURITY Sistema: SECURITY\nAmbiente: Sistema Ambiente: Sistema\n1 2\nAtividade 1: Teste de escolta aleatória. Atividade 2: Tela de consulta do museu.\nSistema: SECURITY Sistema: SECURITY\nAmbiente: Sistema Ambiente: Sistema\n3 4\nSistema: SECURITY Sistema: SECURITY\nAmbiente: Sistema Ambiente: Sistema\n5 6\nElaboração Rodrigo Oliveira Revisão Thiago Becker Bellazzi Aprovação João Paulo Chiarelli\nData 01/01/2026 Data 04/02/2026 Data 01/01/2026\nCódigo Data Revisão\nSISTEMA DE GESTÃO DA QUALIDADE\nFQ.15.02 04/02/2026 02\nPágina\nRELATÓRIO DIÁRIO DE\n3 DE 3\nPROGRAMAÇÃO\nDETALHAMENTO DAS ATIVIDADES\n1. Realizado teste no servidor de homologação da função de escolta aleatória, verificado os seguintes\nproblemas: Não bloqueia o mesmo funcionário rejeitado no acesso seguinte e não é possível desabilitar o\nfuncionário com base no evento.\n2. Apresentação e treinamento da função de consulta adicionada no mapa do museu para contagem das\nliberações manuais realizadas para o museu. (Realizado para o outro turno de funcionários).\nAssinatura Assinatura\nCONVERGINT TECHNOLOGIES Nome do Cliente\nElaboração Rodrigo Oliveira Revisão Thiago Becker Bellazzi Aprovação João Paulo Chiarelli\nData 01/01/2026 Data 04/02/2026 Data 01/01/2026",
+    "tamanho_bytes": 209288
+  },
+  {
+    "arquivo": "PRJ19620-2026-04-29_RDP_(BMS)_Anderson.pdf",
+    "data": "2026-04-29",
+    "responsavel": "Anderson Caetano de Souza Pires",
+    "responsavel_arquivo": "Anderson",
+    "responsavel_match": true,
+    "participantes": [
+      {
+        "nome": "Anderson Caetano de Souza Pires",
+        "email": "anderson.pires@convergint.com",
+        "equipe": "BMS - UNIVERSO NUNES JULIAO",
+        "match": true,
+        "nome_extraido": "Anderson Caetano de Souza Pires"
+      }
+    ],
+    "email": "anderson.pires@convergint.com",
+    "equipe": "BMS - UNIVERSO NUNES JULIAO",
+    "disciplina": "BMS",
+    "sistema": "BMS",
+    "projeto_codigo": "PRJ19620",
+    "projeto_nome": "SISTEMAS ELETRÔNICOS",
+    "projeto_cliente": "AEROPORTO RECIFE",
+    "projeto_categoria": "Automation",
+    "projeto_uf": "PE",
+    "projeto_segmento": "Infrastructure / Transport",
+    "projeto_bu": "Vertical Markets",
+    "atividades": [
+      "Comissionamento dos quadros da SE-05",
+      "URC-TEC-01 Equipamentos danificados",
+      "Validação do quadro das bombas de Hidrante e Sprinklers",
+      "Realizada a identificação dos status da bomba 1, 2 e 3 dos dois conjuntos (Hidrante e",
+      "O quadro não fornece/não foi identificado o status de disjuntor geral, disjuntor das bombas e relé",
+      "O status das bombas foi coletado através das contatoras que acionam as bombas",
+      "O quadro não fornece status de defeito das bombas, apenas da bomba jockey via trip do",
+      "Nossa lista de pontos solicita 6 status em cada conjunto e no local possui apenas 5 cabeamentos",
+      "Link dos disjuntores de saída do QGBT-SE-05",
+      "Comissionamento dos quadros da SE-04",
+      "Realizada a identificação dos cabeamentos previamente",
+      "Realizado o comissionamento dos painéis QFAC-E-C03, QTNE-E-C03.03, QLNE-E-C03.01",
+      "Em todos os painéis não disponibilizado o status de chave seletora. Em todos os painéis foi",
+      "Nossa lista de ponto contempla status de Relé falta de fase no QLNE-E-C03.01, porém, o quadro",
+      "Iniciado Asbuilt do quadro"
+    ],
+    "pendencias": [],
+    "bloqueios": [],
+    "proximos": [],
+    "texto_full": "Código Data Revisão\nSISTEMA DE GESTÃO DA QUALIDADE\nFQ.15.02 04/02/2026 02\nPágina\nRELATÓRIO DIÁRIO DE\n1 DE 5\nPROGRAMAÇÃO\nAENA RECIFE\nCONTRATANTE: AENA AEROPORTO RECIFE\nOBRA: 2202_C07959_PRJ19620 CÓDIGO:\nPRJ19620\nENDEREÇO: Praça Min. Salgado Filho, s/n - Imbiribeira, Recife - PE, 51210-902\nRESUMO EVOLUTIVO DO DIA HORÁRIO PREVISTO REAL CONDIÇÕES CLIMÁTICAS\nPRO M D U U IT T O IV O PRODUTIVO PR P O O D U U C T O IV O INÍCIO 08:00 08:07 BOM C L H E U V V E A C F H O U R V T A E T F U O R R N A O DATA:\n29/04/2026\nX TÉRMINO 17:00 18:11 X\nPROFISSIONAIS ENVOLVIDOS\nNOME EMPRESA FUNÇÃO\n1 Anderson Caetano de Souza Pires Convergint Programador\n2\n3\n4\nDESCRIÇÃO DE ATIVIDADES REALIZADAS\nATIVIDADES Ambiente Criticidade STATUS\n1 Comissionamento dos painéis da SE-05 N/A Alta Paralisado\n2 URC-TEC-01 Equipamentos danificados N/A Alta Paralisado\n3 Validação do quadro das bombas de Hidrante e Sprinklers N/A Alta Concluído\n4 Link dos disjuntores de saida do QGBT-SE-05 N/A Alta Paralisado\nEm\n5 Comissionamento dos paineis da SE-04 N/A Alta\nandamento\n6\n7\n8\n9\n10\n11\nElaboração Rodrigo Oliveira Revisão Thiago Becker Bellazzi Aprovação João Paulo Chiarelli\nData 01/01/2026 Data 04/02/2026 Data 01/01/2026\nCódigo Data Revisão\nSISTEMA DE GESTÃO DA QUALIDADE\nFQ.15.02 04/02/2026 02\nPágina\nRELATÓRIO DIÁRIO DE\n2 DE 5\nPROGRAMAÇÃO\nRELATÓRIO FOTOGRÁFICO\n12\nSistema: BMS Sistema: BMS\nAmbiente: Térreo Ambiente: Intermediário\n1 2\nQGBT-SE-05 Borne do conjunto de bombas do hidrante.\nSistema: BMS Sistema: BMS\nAmbiente: Intermediário Ambiente: Térreo\n3 4\nSistema: BMS Sistema: BMS\n5 6\nAmbiente: ... Ambiente: ...\nElaboração Rodrigo Oliveira Revisão Thiago Becker Bellazzi Aprovação João Paulo Chiarelli\nData 01/01/2026 Data 04/02/2026 Data 01/01/2026\nCódigo Data Revisão\nSISTEMA DE GESTÃO DA QUALIDADE\nFQ.15.02 04/02/2026 02\nPágina\nRELATÓRIO DIÁRIO DE\n3 DE 5\nPROGRAMAÇÃO\nDETALHAMENTO DAS ATIVIDADES\n1. Comissionamento dos quadros da SE-05\nAtividade paralisada. Sem desligamento agendado para hoje.\n2. URC-TEC-01 Equipamentos danificados\nAtividade paralisada.\n3. Validação do quadro das bombas de Hidrante e Sprinklers\n- Realizada a identificação dos status da bomba 1, 2 e 3 dos dois conjuntos (Hidrante e\nSprinklers).\n- O quadro não fornece/não foi identificado o status de disjuntor geral, disjuntor das bombas e relé\nfalta de fase.\n- O status das bombas foi coletado através das contatoras que acionam as bombas\n- O quadro não fornece status de defeito das bombas, apenas da bomba jockey via trip do\ndisjuntor motor\n- Nossa lista de pontos solicita 6 status em cada conjunto e no local possui apenas 5 cabeamentos\npara status. A equipe de campo deve analisar a situação, pois, se a Passarelli realizar a\nadequação do quadro será necessário passar o cabeamento que falta em cada conjunto.\nSegue abaixo imagem do levantamento:\nElaboração Rodrigo Oliveira Revisão Thiago Becker Bellazzi Aprovação João Paulo Chiarelli\nData 01/01/2026 Data 04/02/2026 Data 01/01/2026\nCódigo Data Revisão\nSISTEMA DE GESTÃO DA QUALIDADE\nFQ.15.02 04/02/2026 02\nPágina\nRELATÓRIO DIÁRIO DE\n4 DE 5\nPROGRAMAÇÃO\nAproveitando o local, realizamos uma validação no quadro de reuso e potável e permanecemos com\nnenhum status disponível em borne e sem os cabeamentos da controladora até o quadro no local, os\ncabeamentos permanecem no quadro de bms e não foram para o destino. Quadro URC-HID-01.\nNo reservatório de reuso temos 3 bombas, sendo:\nBomba 1: Responsável pelo recalque da água de reuso do reservatório metálico (Reuso) até o\nreservatório de concreto (reuso norte), em cima do URC-HID-01. Essa bomba também consegue\nabastecer o reservatório de reuso sul via manobra manual em válvulas.\nBomba 2 e 3: Responsável apenas por levar a água de reuso do reservatório metálico até o reservatório\nde reuso sul por meio de manobras manuais em válvulas.\nNão existe reservatório de águas cinzas.\nElaboração Rodrigo Oliveira Revisão Thiago Becker Bellazzi Aprovação João Paulo Chiarelli\nData 01/01/2026 Data 04/02/2026 Data 01/01/2026\nCódigo Data Revisão\nSISTEMA DE GESTÃO DA QUALIDADE\nFQ.15.02 04/02/2026 02\nPágina\nRELATÓRIO DIÁRIO DE\n5 DE 5\nPROGRAMAÇÃO\nOs status das bombas de reuso do reservatório 2 (BHS) não ficam próximo ao local esperado e por\nconta disso será necessário instalar infraestrutura elétrica para coletar os status dessas bombas perto\ndo BHS, as bombas ficam dentro do reservatório (cisterna). Conforme já esclarecido em outros RDO’s\nComo funciona os reservatórios\n4. Link dos disjuntores de saída do QGBT-SE-05\nAtividade paralisada devido a comissionamento da SE-04.\n5. Comissionamento dos quadros da SE-04\n- Realizada a identificação dos cabeamentos previamente\n- Realizado o comissionamento dos painéis QFAC-E-C03, QTNE-E-C03.03, QLNE-E-C03.01\n(nosso projeto chama esse quadro de QLNE-E-C03.03). Não está liberado o comissionamento\ndo QGBT devido ao Sr. George não estar no aeroporto.\n- Em todos os painéis não disponibilizado o status de chave seletora. Em todos os painéis foi\nretirado o status de trip a pedido do Sr. George.\n- Nossa lista de ponto contempla status de Relé falta de fase no QLNE-E-C03.01, porém, o quadro\nnão fornece esse status\n- Iniciado Asbuilt do quadro\nAssinatura Assinatura\nCONVERGINT TECHNOLOGIES Nome do Cliente\nElaboração Rodrigo Oliveira Revisão Thiago Becker Bellazzi Aprovação João Paulo Chiarelli\nData 01/01/2026 Data 04/02/2026 Data 01/01/2026",
+    "tamanho_bytes": 287924
+  },
+  {
+    "arquivo": "CTR19778_2026-04-28_RDP_(SEC)_Marcos Teixeira.pdf",
+    "data": "2026-04-28",
+    "responsavel": "Marcos Vinicius Salvadori Teixeira",
+    "responsavel_arquivo": "Marcos Teixeira",
+    "responsavel_match": true,
+    "participantes": [
+      {
+        "nome": "Marcos Vinicius Salvadori Teixeira",
+        "email": "marcos.teixeira@convergint.com",
+        "equipe": "SEC - ALEXANDRE KODA",
+        "match": true,
+        "nome_extraido": "Marcos Vinicius Salvadori Teixeira"
+      }
+    ],
+    "email": "marcos.teixeira@convergint.com",
+    "equipe": "SEC - ALEXANDRE KODA",
+    "disciplina": "SEC",
+    "sistema": "SEC",
+    "projeto_codigo": "CTR19778",
+    "projeto_nome": "CONTROLE DE ACESSO",
+    "projeto_cliente": "AUTORIDADE PORTUARIA",
+    "projeto_categoria": "Security",
+    "projeto_uf": "SP",
+    "projeto_segmento": "Infrastructure / Transport",
+    "projeto_bu": "Governo",
+    "atividades": [
+      "Ativação e acompanhamento do APB temporizado de 30 minutos para todas as áreas administrativas da",
+      "Apresentação e treinamento da função de consulta adicionada no mapa do museu para contagem das",
+      "Realizada reunião com o Alex Lopes da Guarda e Miguel do credenciamento sobre o funcionamento das"
+    ],
+    "pendencias": [],
+    "bloqueios": [],
+    "proximos": [],
+    "texto_full": "Código Data Revisão\nSISTEMA DE GESTÃO DA QUALIDADE\nFQ.15.02 04/02/2026 02\nPágina\nRELATÓRIO DIÁRIO DE\n1 DE 3\nPROGRAMAÇÃO\nAutoridade Portuária de Santos /\n2311_C00384_CTR19778\nCONTRATANTE: Convergint\nOBRA: Autoridade Portuária de Santos CÓDIGO:\nCTR19778\nENDEREÇO: Av. Conselheiro Rodrigues Alves, s/n - Macuco, Santos - SP\nRESUMO EVOLUTIVO DO DIA HORÁRIO PREVISTO REAL CONDIÇÕES CLIMÁTICAS\nMUITO POUCO CHUVA CHUVA FORA\nPRODUTIVO INÍCIO 08:00 08:00 BOM DATA:\nPRODUTIVO PRODUTIVO LEVE FORTE TURNO\n28/04/2026\nX TÉRMINO 17:00 17:00\nPROFISSIONAIS ENVOLVIDOS\nNOME EMPRESA FUNÇÃO\n1 Marcos Vinicius Salvadori Teixeira Convergint Programador\n2\nDESCRIÇÃO DE ATIVIDADES REALIZADAS\nATIVIDADES Ambiente Criticidade STATUS\n1 Ativação do APB temporizado na área administrativa Sistema Média Finalizado\n2 Treinamento consulta pessoas Museu Sistema Média Finalizado\n3 Reunião com Guarda sobre acesso eventual Sistema Média Em andamento\n4\n5\n6\n7\n8\n9\n10\n11\n12\nElaboração Rodrigo Oliveira Revisão Thiago Becker Bellazzi Aprovação João Paulo Chiarelli\nData 01/01/2026 Data 04/02/2026 Data 01/01/2026\nCódigo Data Revisão\nSISTEMA DE GESTÃO DA QUALIDADE\nFQ.15.02 04/02/2026 02\nPágina\nRELATÓRIO DIÁRIO DE\n2 DE 3\nPROGRAMAÇÃO\nRELATÓRIO FOTOGRÁFICO\nSistema: SECURITY Sistema: SECURITY\nAmbiente: Sistema Ambiente: Sistema\n1 2\nAtividade 1: APB Temporizado. Atividade 2: Tela de consulta do museu.\nSistema: SECURITY Sistema: SECURITY\nAmbiente: Sistema Ambiente: Sistema\n3 4\nSistema: SECURITY Sistema: SECURITY\nAmbiente: Sistema Ambiente: Sistema\n5 6\nElaboração Rodrigo Oliveira Revisão Thiago Becker Bellazzi Aprovação João Paulo Chiarelli\nData 01/01/2026 Data 04/02/2026 Data 01/01/2026\nCódigo Data Revisão\nSISTEMA DE GESTÃO DA QUALIDADE\nFQ.15.02 04/02/2026 02\nPágina\nRELATÓRIO DIÁRIO DE\n3 DE 3\nPROGRAMAÇÃO\nDETALHAMENTO DAS ATIVIDADES\n1. Ativação e acompanhamento do APB temporizado de 30 minutos para todas as áreas administrativas da\nAutoridade Portuária.\n2. Apresentação e treinamento da função de consulta adicionada no mapa do museu para contagem das\nliberações manuais realizadas para o museu.\n3. Realizada reunião com o Alex Lopes da Guarda e Miguel do credenciamento sobre o funcionamento das\neventuais de veículos e das possibilidades do sistema. Ainda em análise de ambas as partes para uma\nsolução definitiva.\nAssinatura Assinatura\nCONVERGINT TECHNOLOGIES Nome do Cliente\nElaboração Rodrigo Oliveira Revisão Thiago Becker Bellazzi Aprovação João Paulo Chiarelli\nData 01/01/2026 Data 04/02/2026 Data 01/01/2026",
+    "tamanho_bytes": 212201
+  },
+  {
+    "arquivo": "PRJ19620-2026-04-28_RDP_(BMS)_Anderson.pdf",
+    "data": "2026-04-28",
+    "responsavel": "Anderson Caetano de Souza Pires",
+    "responsavel_arquivo": "Anderson",
+    "responsavel_match": true,
+    "participantes": [
+      {
+        "nome": "Anderson Caetano de Souza Pires",
+        "email": "anderson.pires@convergint.com",
+        "equipe": "BMS - UNIVERSO NUNES JULIAO",
+        "match": true,
+        "nome_extraido": "Anderson Caetano de Souza Pires"
+      }
+    ],
+    "email": "anderson.pires@convergint.com",
+    "equipe": "BMS - UNIVERSO NUNES JULIAO",
+    "disciplina": "BMS",
+    "sistema": "BMS",
+    "projeto_codigo": "PRJ19620",
+    "projeto_nome": "SISTEMAS ELETRÔNICOS",
+    "projeto_cliente": "AEROPORTO RECIFE",
+    "projeto_categoria": "Automation",
+    "projeto_uf": "PE",
+    "projeto_segmento": "Infrastructure / Transport",
+    "projeto_bu": "Vertical Markets",
+    "atividades": [
+      "Comissionamento dos quadros da SE-05",
+      "URC-TEC-01 Equipamentos danificados",
+      "Elaboração do relatório de despesas",
+      "Finalizada a elaboração do relatório.",
+      "Validação do quadro das bombas de Hidrante e Sprinklers",
+      "Link dos disjuntores de saída do QGBT-SE-05",
+      "Geral 01",
+      "Geral 02",
+      "Lado A",
+      "Lado B",
+      "Logica de animação do TIE",
+      "Quadro de distribuição Setor 7",
+      "Retirado o Highlight das caixas sem funcionalidade no QGBT."
+    ],
+    "pendencias": [
+      "Ainda está pendente a finalização dos demais disjuntores do painel. Os projetos não são claros em [STATUS: Pendente]",
+      "Devido ao horário, não foi possível realizar a validação hoje"
+    ],
+    "bloqueios": [],
+    "proximos": [],
+    "texto_full": "Código Data Revisão\nSISTEMA DE GESTÃO DA QUALIDADE\nFQ.15.02 04/02/2026 02\nPágina\nRELATÓRIO DIÁRIO DE\n1 DE 4\nPROGRAMAÇÃO\nAENA RECIFE\nCONTRATANTE: AENA AEROPORTO RECIFE\nOBRA: 2202_C07959_PRJ19620 CÓDIGO:\nPRJ19620\nENDEREÇO: Praça Min. Salgado Filho, s/n - Imbiribeira, Recife - PE, 51210-902\nRESUMO EVOLUTIVO DO DIA HORÁRIO PREVISTO REAL CONDIÇÕES CLIMÁTICAS\nPRO M D U U IT T O IV O PRODUTIVO PR P O O D U U C T O IV O INÍCIO 08:00 08:07 BOM C L H E U V V E A C F H O U R V T A E T F U O R R N A O DATA:\n28/04/2026\nX TÉRMINO 17:00 18:11 X\nPROFISSIONAIS ENVOLVIDOS\nNOME EMPRESA FUNÇÃO\n1 Anderson Caetano de Souza Pires Convergint Programador\n2\n3\n4\nDESCRIÇÃO DE ATIVIDADES REALIZADAS\nATIVIDADES Ambiente Criticidade STATUS\n1 Comissionamento dos painéis da SE-05 N/A Alta Paralisado\n2 URC-TEC-01 Equipamentos danificados N/A Alta Paralisado\nEm\n3 Elaboração do relatório de despesas N/A Alta\nAndamento\n4 Validação do quadro das bombas de Hidrante e Splinklers N/A Alta Não iniciado\n5 Link dos disjuntores de saida do QGBT-SE-05 N/A Alta Iniciado\n6\n7\n8\n9\n10\n11\nElaboração Rodrigo Oliveira Revisão Thiago Becker Bellazzi Aprovação João Paulo Chiarelli\nData 01/01/2026 Data 04/02/2026 Data 01/01/2026\nCódigo Data Revisão\nSISTEMA DE GESTÃO DA QUALIDADE\nFQ.15.02 04/02/2026 02\nPágina\nRELATÓRIO DIÁRIO DE\n2 DE 4\nPROGRAMAÇÃO\nRELATÓRIO FOTOGRÁFICO\n12\nSistema: BMS Sistema: BMS\nAmbiente: Térreo Ambiente: Intermediário\n1 2\nQGBT-SE-05\nSistema: BMS Sistema: BMS\nAmbiente: Intermediário Ambiente: Térreo\n3 4\nSistema: BMS Sistema: BMS\nAmbiente: ... Ambiente: ...\n5 6\nElaboração Rodrigo Oliveira Revisão Thiago Becker Bellazzi Aprovação João Paulo Chiarelli\nData 01/01/2026 Data 04/02/2026 Data 01/01/2026\nCódigo Data Revisão\nSISTEMA DE GESTÃO DA QUALIDADE\nFQ.15.02 04/02/2026 02\nPágina\nRELATÓRIO DIÁRIO DE\n3 DE 4\nPROGRAMAÇÃO\nDETALHAMENTO DAS ATIVIDADES\n1. Comissionamento dos quadros da SE-05\nAtividade paralisada. Sem desligamento agendado para hoje.\n2. URC-TEC-01 Equipamentos danificados\nAtividade paralisada.\n3. Elaboração do relatório de despesas\n- Finalizada a elaboração do relatório.\n4. Validação do quadro das bombas de Hidrante e Sprinklers\nDevido ao horário, não foi possível realizar a validação hoje\n5. Link dos disjuntores de saída do QGBT-SE-05\nFoi realizado o link dos disjuntores:\n- Geral 01\n- Geral 02\n- TIE\n- Lado A\n- Lado B\n- Logica de animação do TIE\n- Quadro de distribuição Setor 7\n- Retirado o Highlight das caixas sem funcionalidade no QGBT.\nAinda está pendente a finalização dos demais disjuntores do painel. Os projetos não são claros em\nrelação ao que cada disjuntor alimenta e devido a isso a atividade está levando mais tempo que o\nnecessário.\nElaboração Rodrigo Oliveira Revisão Thiago Becker Bellazzi Aprovação João Paulo Chiarelli\nData 01/01/2026 Data 04/02/2026 Data 01/01/2026\nCódigo Data Revisão\nSISTEMA DE GESTÃO DA QUALIDADE\nFQ.15.02 04/02/2026 02\nPágina\nRELATÓRIO DIÁRIO DE\n4 DE 4\nPROGRAMAÇÃO\nAssinatura Assinatura\nCONVERGINT TECHNOLOGIES Nome do Cliente\nElaboração Rodrigo Oliveira Revisão Thiago Becker Bellazzi Aprovação João Paulo Chiarelli\nData 01/01/2026 Data 04/02/2026 Data 01/01/2026",
+    "tamanho_bytes": 244158
+  },
+  {
+    "arquivo": "CTR19778_2026-04-27_RDP_(SEC)_Marcos Teixeira.pdf",
+    "data": "2026-04-27",
+    "responsavel": "Marcos Vinicius Salvadori Teixeira",
+    "responsavel_arquivo": "Marcos Teixeira",
+    "responsavel_match": true,
+    "participantes": [
+      {
+        "nome": "Marcos Vinicius Salvadori Teixeira",
+        "email": "marcos.teixeira@convergint.com",
+        "equipe": "SEC - ALEXANDRE KODA",
+        "match": true,
+        "nome_extraido": "Marcos Vinicius Salvadori Teixeira"
+      }
+    ],
+    "email": "marcos.teixeira@convergint.com",
+    "equipe": "SEC - ALEXANDRE KODA",
+    "disciplina": "SEC",
+    "sistema": "SEC",
+    "projeto_codigo": "CTR19778",
+    "projeto_nome": "CONTROLE DE ACESSO",
+    "projeto_cliente": "AUTORIDADE PORTUARIA",
+    "projeto_categoria": "Security",
+    "projeto_uf": "SP",
+    "projeto_segmento": "Infrastructure / Transport",
+    "projeto_bu": "Governo",
+    "atividades": [
+      "Realizada a alteração da página inicial do IIS para uma página genérica que tem o link para o CCure IQ e",
+      "Criação e configuração da personnel view de veículos do CCCOM e da Recepção."
+    ],
+    "pendencias": [],
+    "bloqueios": [],
+    "proximos": [],
+    "texto_full": "Código Data Revisão\nSISTEMA DE GESTÃO DA QUALIDADE\nFQ.15.02 04/02/2026 02\nPágina\nRELATÓRIO DIÁRIO DE\n1 DE 3\nPROGRAMAÇÃO\nAutoridade Portuária de Santos /\n2311_C00384_CTR19778\nCONTRATANTE: Convergint\nOBRA: Autoridade Portuária de Santos CÓDIGO:\nCTR19778\nENDEREÇO: Av. Conselheiro Rodrigues Alves, s/n - Macuco, Santos - SP\nRESUMO EVOLUTIVO DO DIA HORÁRIO PREVISTO REAL CONDIÇÕES CLIMÁTICAS\nMUITO POUCO CHUVA CHUVA FORA\nPRODUTIVO INÍCIO 08:00 08:00 BOM DATA:\nPRODUTIVO PRODUTIVO LEVE FORTE TURNO\n27/04/2026\nX TÉRMINO 17:00 17:00\nPROFISSIONAIS ENVOLVIDOS\nNOME EMPRESA FUNÇÃO\n1 Marcos Vinicius Salvadori Teixeira Convergint Programador\n2\nDESCRIÇÃO DE ATIVIDADES REALIZADAS\nATIVIDADES Ambiente Criticidade STATUS\n1 Configuração da página Web inicial Sistema Média Finalizado\n2 Configuração do personnel views de veículos Sistema Média Finalizado\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\nElaboração Rodrigo Oliveira Revisão Thiago Becker Bellazzi Aprovação João Paulo Chiarelli\nData 01/01/2026 Data 04/02/2026 Data 01/01/2026\nCódigo Data Revisão\nSISTEMA DE GESTÃO DA QUALIDADE\nFQ.15.02 04/02/2026 02\nPágina\nRELATÓRIO DIÁRIO DE\n2 DE 3\nPROGRAMAÇÃO\nRELATÓRIO FOTOGRÁFICO\nSistema: SECURITY Sistema: SECURITY\nAmbiente: Sistema Ambiente: Sistema\n1 2\nAtividade 1: Pagina inicial do default site. Atividade 2: Configuração da personnel .\nSistema: SECURITY Sistema: SECURITY\nAmbiente: Sistema Ambiente: Sistema\n3 4\nSistema: SECURITY Sistema: SECURITY\nAmbiente: Sistema Ambiente: Sistema\n5 6\nElaboração Rodrigo Oliveira Revisão Thiago Becker Bellazzi Aprovação João Paulo Chiarelli\nData 01/01/2026 Data 04/02/2026 Data 01/01/2026\nCódigo Data Revisão\nSISTEMA DE GESTÃO DA QUALIDADE\nFQ.15.02 04/02/2026 02\nPágina\nRELATÓRIO DIÁRIO DE\n3 DE 3\nPROGRAMAÇÃO\nDETALHAMENTO DAS ATIVIDADES\n1. Realizada a alteração da página inicial do IIS para uma página genérica que tem o link para o CCure IQ e\npara o CCure Portal.\n2. Criação e configuração da personnel view de veículos do CCCOM e da Recepção.\nAssinatura Assinatura\nCONVERGINT TECHNOLOGIES Nome do Cliente\nElaboração Rodrigo Oliveira Revisão Thiago Becker Bellazzi Aprovação João Paulo Chiarelli\nData 01/01/2026 Data 04/02/2026 Data 01/01/2026",
+    "tamanho_bytes": 220964
+  },
+  {
+    "arquivo": "PRJ19620-2026-04-27_RDP_(BMS)_Anderson.pdf",
+    "data": "2026-04-27",
+    "responsavel": "Anderson Caetano de Souza Pires",
+    "responsavel_arquivo": "Anderson",
+    "responsavel_match": true,
+    "participantes": [
+      {
+        "nome": "Anderson Caetano de Souza Pires",
+        "email": "anderson.pires@convergint.com",
+        "equipe": "BMS - UNIVERSO NUNES JULIAO",
+        "match": true,
+        "nome_extraido": "Anderson Caetano de Souza Pires"
+      }
+    ],
+    "email": "anderson.pires@convergint.com",
+    "equipe": "BMS - UNIVERSO NUNES JULIAO",
+    "disciplina": "BMS",
+    "sistema": "BMS",
+    "projeto_codigo": "PRJ19620",
+    "projeto_nome": "SISTEMAS ELETRÔNICOS",
+    "projeto_cliente": "AEROPORTO RECIFE",
+    "projeto_categoria": "Automation",
+    "projeto_uf": "PE",
+    "projeto_segmento": "Infrastructure / Transport",
+    "projeto_bu": "Vertical Markets",
+    "atividades": [
+      "Comissionamento dos quadros da SE-05",
+      "URC-TEC-01 Equipamentos danificados",
+      "Elaboração do relatório de despesas",
+      "Iniciada a elaboração do relatório de despesas. Já atingiu 15 dias de viagem e conforme",
+      "Validação do quadro das bombas de Hidrante e Sprinklers"
+    ],
+    "pendencias": [
+      "Diante das tarefas que tínhamos para hoje, esse apoio não foi possível de ser realizado."
+    ],
+    "bloqueios": [],
+    "proximos": [],
+    "texto_full": "Código Data Revisão\nSISTEMA DE GESTÃO DA QUALIDADE\nFQ.15.02 04/02/2026 02\nPágina\nRELATÓRIO DIÁRIO DE\n1 DE 5\nPROGRAMAÇÃO\nAENA RECIFE\nCONTRATANTE: AENA AEROPORTO RECIFE\nOBRA: 2202_C07959_PRJ19620 CÓDIGO:\nPRJ19620\nENDEREÇO: Praça Min. Salgado Filho, s/n - Imbiribeira, Recife - PE, 51210-902\nRESUMO EVOLUTIVO DO DIA HORÁRIO PREVISTO REAL CONDIÇÕES CLIMÁTICAS\nMUITO POUCO CHUVA CHUVA FORA\nPRODUTIVO PRODUTIVO PRODUTIVO INÍCIO 08:00 08:07 BOM LEVE FORTE TURNO\n27/0\nDA\n4\nT\n/2\nA:\n0 26\nX TÉRMINO 17:00 18:11 X\nPROFISSIONAIS ENVOLVIDOS\nNOME EMPRESA FUNÇÃO\n1 Anderson Caetano de Souza Pires Convergint Programador\n2\n3\n4\nDESCRIÇÃO DE ATIVIDADES REALIZADAS\nATIVIDADES Ambiente Criticidade STATUS\n1 Comissionamento dos painéis da SE-05 N/A Alta Paralisado\n2 URC-TEC-01 Equipamentos danificados N/A Alta Paralisado\nEm\n3 Elaboração do relatório de despesas N/A Alta\nAndamento\n4 Validação do quadro das bombas de Hidrante e Splinklers N/A Alta Não iniciado\n5\n6\n7\n8\n9\n10\n11\nElaboração Rodrigo Oliveira Revisão Thiago Becker Bellazzi Aprovação João Paulo Chiarelli\nData 01/01/2026 Data 04/02/2026 Data 01/01/2026\nCódigo Data Revisão\nSISTEMA DE GESTÃO DA QUALIDADE\nFQ.15.02 04/02/2026 02\nPágina\nRELATÓRIO DIÁRIO DE\n2 DE 5\nPROGRAMAÇÃO\nRELATÓRIO FOTOGRÁFICO\n12\nSistema: BMS Sistema: BMS\nAmbiente: Térreo Ambiente: Intermediário\n1 2\nSistema: BMS Sistema: BMS\nAmbiente: Intermediário Ambiente: Térreo\n3 4\nSistema: BMS Sistema: BMS\nAmbiente: ... Ambiente: ...\n5 6\nElaboração Rodrigo Oliveira Revisão Thiago Becker Bellazzi Aprovação João Paulo Chiarelli\nData 01/01/2026 Data 04/02/2026 Data 01/01/2026\nCódigo Data Revisão\nSISTEMA DE GESTÃO DA QUALIDADE\nFQ.15.02 04/02/2026 02\nPágina\nRELATÓRIO DIÁRIO DE\n3 DE 5\nPROGRAMAÇÃO\nDETALHAMENTO DAS ATIVIDADES\n1. Comissionamento dos quadros da SE-05\nAtividade paralisada. Sem desligamento agendado para hoje.\n2. URC-TEC-01 Equipamentos danificados\nAtividade paralisada.\n3. Elaboração do relatório de despesas\n- Iniciada a elaboração do relatório de despesas. Já atingiu 15 dias de viagem e conforme\norientação estou realizando a primeira solicitação de despesa.\n4. Validação do quadro das bombas de Hidrante e Sprinklers\nFui informado pela Sra. Thayná e pelo Sr. Abraão, da Passarelli, que seria necessário validar os\nquadros da bomba de hidrante e sprinklers para identificar os status que o quadro fornece. Porém,\ndevido à necessidade de realizar o relatório, não consegui acompanhar o eletricista da Passarelli.\nSolicitei ao Sr. Davidson que acompanhasse a atividade e ajudasse a identificar esses pontos, mas ele\ntambém estava atarefado com relatórios.\nEssa atividade de identificar status de um painel elétrico que não é da Convergint não é de nossa\nresponsabilidade. Além disso, como o fornecedor do painel não deixou o projeto elétrico nos quadros, a\nidentificação levaria mais tempo que o necessário.\nDiante das tarefas que tínhamos para hoje, esse apoio não foi possível de ser realizado.\nElaboração Rodrigo Oliveira Revisão Thiago Becker Bellazzi Aprovação João Paulo Chiarelli\nData 01/01/2026 Data 04/02/2026 Data 01/01/2026\nCódigo Data Revisão\nSISTEMA DE GESTÃO DA QUALIDADE\nFQ.15.02 04/02/2026 02\nPágina\nRELATÓRIO DIÁRIO DE\n4 DE 5\nPROGRAMAÇÃO\nAssinatura Assinatura\nElaboração Rodrigo Oliveira Revisão Thiago Becker Bellazzi Aprovação João Paulo Chiarelli\nData 01/01/2026 Data 04/02/2026 Data 01/01/2026\nCódigo Data Revisão\nSISTEMA DE GESTÃO DA QUALIDADE\nFQ.15.02 04/02/2026 02\nPágina\nRELATÓRIO DIÁRIO DE\n5 DE 5\nPROGRAMAÇÃO\nCONVERGINT TECHNOLOGIES Nome do Cliente\nElaboração Rodrigo Oliveira Revisão Thiago Becker Bellazzi Aprovação João Paulo Chiarelli\nData 01/01/2026 Data 04/02/2026 Data 01/01/2026",
+    "tamanho_bytes": 248543
+  },
+  {
+    "arquivo": "PRJ55924_2026-04-05_RDP_(AV)_Augusto-Valle.pdf.pdf",
+    "data": "2026-04-05",
+    "responsavel": "Augusto Cesar Flocco Valle",
+    "responsavel_arquivo": "Augusto Valle.pdf",
+    "responsavel_match": true,
+    "participantes": [
+      {
+        "nome": "Augusto Cesar Flocco Valle",
+        "email": "augusto.valle.ext@convergint.com",
+        "equipe": "AV - THIAGO BELLAZZI",
+        "match": true,
+        "nome_extraido": "Augusto Valle"
+      },
+      {
+        "nome": "Caio Vinicius de Almeida",
+        "email": "caio.almeida@convergint.com",
+        "equipe": "AV - THIAGO BELLAZZI",
+        "match": true,
+        "nome_extraido": "Caio Vinicius"
+      },
+      {
+        "nome": "Edmilso Souza",
+        "email": "",
+        "equipe": "-",
+        "match": false,
+        "nome_extraido": "Edmilso Souza"
+      },
+      {
+        "nome": "Giovane Maino",
+        "email": "",
+        "equipe": "-",
+        "match": false,
+        "nome_extraido": "Giovane Maino"
+      }
+    ],
+    "email": "augusto.valle.ext@convergint.com",
+    "equipe": "AV - THIAGO BELLAZZI",
+    "disciplina": "AV",
+    "sistema": "AV",
+    "projeto_codigo": "PRJ55924",
+    "projeto_nome": "SLE01 - Retrofit AV Auditórios",
+    "projeto_cliente": "SAP",
+    "projeto_categoria": "Audio and Video",
+    "projeto_uf": "RS",
+    "projeto_segmento": "Corporate offices",
+    "projeto_bu": "Global Accounts",
+    "atividades": [],
+    "pendencias": [],
+    "bloqueios": [],
+    "proximos": [],
+    "texto_full": "SISTEMA DE GESTÃO DA QUALIDADE Código Data Revisão\nFQ.15.02 04/02/2026 02\nPágina\nRELATÓRIO DIÁRIO DE\n1 DE 2\nPROGRAMAÇÃO\nSAP\nCONTRATANTE: Convergint\nOBRA: CÓDIGO:\nPRJ55924\nENDEREÇO: Avenida SAP, 188 - Cristo Rei, São Leopoldo - RS, 93022-718\nRESUMO EVOLUTIVO DO DIA HORÁRIO PREVISTO REAL CONDIÇÕES CLIMÁTICAS\nMUITO PRODUTIVO POUCO INÍCIO 09:00 09:50 BOM CHUVA CHUVA FORA DATA:\nPRODUTIVO PRODUTIVO LEVE FORTE TURNO 04/05/2026\nX TÉRMINO 18:00 18:30 X\nPROFISSIONAIS ENVOLVIDOS\nNOME EMPRESA FUNÇÃO\n1 Augusto Valle Convergint Programador\n2 Caio Vinicius Convergint Lider Técnico\n3 Edmilso Souza Convergint Técnico\n4 Giovane Maino Convergint Técnico\nDESCRIÇÃO DE ATIVIDADES REALIZADAS\nATIVIDADES Ambiente Criticidade STATUS\n2 Retrofite do Auditório Pelé Alta Em andamento\nRELATÓRIO FOTOGRÁFICO\nSistema: AV Sistema: AV\nAmbiente: Pelé Ambiente: Pelé\n1 2\nEquipe iniciando instalação das placas de Led Continuação\nSistema: AV Sistema: AV\n3 4\nAmbiente: Pelé Ambiente: Pelé\nElaboração Rodrigo Oliveira Revisão Thiago Becker Bellazzi Aprovação João Paulo Chiarelli\nData 01/01/2026 Data 04/02/2026 Data 01/01/2026\nSISTEMA DE GESTÃO DA QUALIDADE Código Data Revisão\nFQ.15.02 04/02/2026 02\nPágina\nRELATÓRIO DIÁRIO DE\n2 DE 2\nPROGRAMAÇÃO\nFinalizando a ultima coluna Painel com as placas instaladas\nDETALHAMENTO DAS ATIVIDADES\nHoje foi efetuado a instalação dos cabos do painel de led com a ligação da controladora para\npoder gerar conteúdo no painel como um todo e realizar a organização das placas.\nAinda falta organizar os cabos que fazem a conexão com a Controladora e a instalação da\nControladora no rack.\nAssinatura Assinatura\nCONVERGINT TECHNOLOGIES Nome do Cliente\nElaboração Rodrigo Oliveira Revisão Thiago Becker Bellazzi Aprovação João Paulo Chiarelli\nData 01/01/2026 Data 04/02/2026 Data 01/01/2026",
+    "tamanho_bytes": 5438081
+  }
+]

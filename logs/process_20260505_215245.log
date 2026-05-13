@@ -1,0 +1,28 @@
+[21:52:45] INFO  === process_rdps.py v2.2 ===
+[21:52:45] INFO  RDP: /sessions/wizardly-funny-ritchie/mnt/Acompanhamento de projeto/RDP | OUT: /sessions/wizardly-funny-ritchie/mnt/Acompanhamento de projeto/dashboard_v2/data
+[21:52:45] INFO  Pessoas: 53 | Projetos: 1470
+[21:52:45] INFO  Datas alvo: ['2026-05-05']
+[21:52:45] INFO  Arquivos: 11
+[21:52:45] INFO  -> PRJ PRJ25026 - PRJ53722_2026-05-04_RDP_(Security)_Luiz Navero - R02.docx
+[21:52:45] INFO     participantes: ['Luiz Eduardo Rodrigues Navero']
+[21:52:45] INFO  -> PRJ29927-2026-05-05_RDP_(BMS)_Vinicius Nascimento.pdf
+[21:52:46] INFO     participantes: ['Vinicius do Nascimento', 'Muriel Panegassi Carletti']
+[21:52:46] INFO  -> PRJ29927_2026-05-04_RDP_(AV)_Jean Kevyn Correia Pessoa.docx
+[21:52:46] INFO     participantes: ['Jean Kevyn Correia Pessoa']
+[21:52:46] INFO  -> PRJ32503_2026-05-04_RDP_(SDAI)_DAVISON CAMPOS.pdf
+[21:52:47] INFO     participantes: ['Davison Campos', 'MICHAEL MONTEIRO', 'DENIS NOBRE']
+[21:52:47] INFO  -> PRJ35873-2026-04-05_RDP_(BMS)_Renan_Silva.pdf
+[21:52:48] INFO     participantes: ['Renan de Souza Silva', 'Jennifer Sousa da Silva', 'Thiago Berzin Telles']
+[21:52:48] INFO  -> PRJ45503_2026-04-29_RDP_(BMS)_João Viana.pdf
+[21:52:53] INFO     participantes: ['Joao Victor Sousa Viana']
+[21:52:53] INFO  -> PRJ47108_2026-05-05_RDP_(SDAI)_Jeilan Lima.pdf
+[21:52:54] INFO     participantes: ['Jeilan Souza de Lima']
+[21:52:54] INFO  -> PRJ53722_2026-05-04_RDP_(BMS)_Teylor Garibaldi.pdf
+[21:52:54] INFO     participantes: ['Teylor Soares da Silva Garibaldi Pereira', 'Lindemberg Silva do Carmo Junior', 'Wesley Gomes Vieira']
+[21:52:54] INFO  -> PRJ53722_2026-05-04_RDP_(BMS)_THIAGO BORGES.pdf
+[21:52:55] INFO     participantes: ['Thiago Henrique Nunes Borges']
+[21:52:55] INFO  -> PRJ57394_2026-05-04_RDP_(SEG)_Tiago_Alves_Dutra.pdf
+[21:52:56] INFO     participantes: ['Tiago Alves Dutra']
+[21:52:56] INFO  -> PRJ59935_2026-04-30_RDP_SEG_Salathiel_Martins.pdf
+[21:52:56] INFO     participantes: ['Salathiel da Silva Martins']
+[21:52:56] INFO  Estruturados: 11

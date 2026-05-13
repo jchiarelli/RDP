@@ -1,0 +1,28 @@
+[22:12:39] INFO  === process_rdps.py v2.2 ===
+[22:12:39] INFO  RDP: /sessions/wizardly-funny-ritchie/mnt/Acompanhamento de projeto/RDP | OUT: /sessions/wizardly-funny-ritchie/mnt/Acompanhamento de projeto/dashboard_v2/data
+[22:12:39] INFO  Pessoas: 53 | Projetos: 1470
+[22:12:39] INFO  Datas alvo: ['2026-05-05']
+[22:12:39] INFO  Arquivos: 11
+[22:12:39] INFO  -> PRJ PRJ25026 - PRJ53722_2026-05-04_RDP_(Security)_Luiz Navero - R02.docx
+[22:12:39] INFO     pendencias: 0 | participantes: ['Luiz Eduardo Rodrigues Navero']
+[22:12:39] INFO  -> PRJ29927-2026-05-05_RDP_(BMS)_Vinicius Nascimento.pdf
+[22:12:40] INFO     pendencias: 0 | participantes: ['Vinicius do Nascimento', 'Muriel Panegassi Carletti']
+[22:12:40] INFO  -> PRJ29927_2026-05-04_RDP_(AV)_Jean Kevyn Correia Pessoa.docx
+[22:12:40] INFO     pendencias: 1 | participantes: ['Jean Kevyn Correia Pessoa']
+[22:12:40] INFO  -> PRJ32503_2026-05-04_RDP_(SDAI)_DAVISON CAMPOS.pdf
+[22:12:41] INFO     pendencias: 3 | participantes: ['Davison Campos', 'MICHAEL MONTEIRO', 'DENIS NOBRE']
+[22:12:41] INFO  -> PRJ35873-2026-04-05_RDP_(BMS)_Renan_Silva.pdf
+[22:12:42] INFO     pendencias: 7 | participantes: ['Renan de Souza Silva', 'Jennifer Sousa da Silva', 'Thiago Berzin Telles']
+[22:12:42] INFO  -> PRJ45503_2026-04-29_RDP_(BMS)_João Viana.pdf
+[22:12:47] INFO     pendencias: 0 | participantes: ['Joao Victor Sousa Viana']
+[22:12:47] INFO  -> PRJ47108_2026-05-05_RDP_(SDAI)_Jeilan Lima.pdf
+[22:12:47] INFO     pendencias: 0 | participantes: ['Jeilan Souza de Lima']
+[22:12:47] INFO  -> PRJ53722_2026-05-04_RDP_(BMS)_Teylor Garibaldi.pdf
+[22:12:48] INFO     pendencias: 32 | participantes: ['Teylor Soares da Silva Garibaldi Pereira', 'Lindemberg Silva do Carmo Junior', 'Wesley Gomes Vieira']
+[22:12:48] INFO  -> PRJ53722_2026-05-04_RDP_(BMS)_THIAGO BORGES.pdf
+[22:12:49] INFO     pendencias: 0 | participantes: ['Thiago Henrique Nunes Borges']
+[22:12:49] INFO  -> PRJ57394_2026-05-04_RDP_(SEG)_Tiago_Alves_Dutra.pdf
+[22:12:49] INFO     pendencias: 0 | participantes: ['Tiago Alves Dutra']
+[22:12:49] INFO  -> PRJ59935_2026-04-30_RDP_SEG_Salathiel_Martins.pdf
+[22:12:50] INFO     pendencias: 1 | participantes: ['Salathiel da Silva Martins']
+[22:12:50] INFO  Estruturados: 11

@@ -1,0 +1,57 @@
+[10:57:55] INFO  === process_rdps.py v2.2 ===
+[10:57:55] INFO  RDP: C:\Users\Joao.Chiarelli\OneDrive - Convergint\Claude\Acompanhamento de projeto\RDP | OUT: C:\Users\Joao.Chiarelli\OneDrive - Convergint\Claude\Acompanhamento de projeto\dashboard_v2\data
+[10:57:55] INFO  Pessoas: 51 | Projetos: 1470
+[10:57:55] INFO  Datas alvo: ['2026-05-08', '2026-05-09']
+[10:57:55] WARN  sem pasta C:\Users\Joao.Chiarelli\OneDrive - Convergint\Claude\Acompanhamento de projeto\RDP\2026-05-09
+[10:57:55] INFO  Arquivos: 25
+[10:57:55] INFO  -> 2511_C06295_CTR59356_2026-05-08_RDP_(Security)_Jonilson Campos - R02.docx
+[10:57:55] INFO     pendencias: 0 | participantes: ['Jonilson Lopes Campos Filho']
+[10:57:55] INFO  -> Device Maintenance  Reports_Odata RJ - Testes - 2026.05.08.pdf
+[10:57:56] INFO     pendencias: 0 | participantes: []
+[10:57:56] INFO  -> Lista de Verificação - SDAI - 2026.05.08.pdf
+[10:57:58] INFO     pendencias: 0 | participantes: []
+[10:57:58] INFO  -> PRJ29927-2026-05-08_RDP_(BMS)_Vinicius Nascimento.pdf
+[10:57:58] INFO     pendencias: 0 | participantes: ['Vinicius do Nascimento', 'Muriel Panegassi Carletti']
+[10:57:58] INFO  -> PRJ29927_2026-05-07_RDP_(AV)_Jean Kevyn Correia Pessoa.docx
+[10:57:58] INFO     pendencias: 4 | participantes: ['Jean Kevyn Correia Pessoa', 'Gislan Almeida dos Santos', 'Eduardo da Purificacao Mota dos Santos']
+[10:57:58] INFO  -> PRJ29927_2026-05-08_RDP_(AV)_Jean Kevyn Correia Pessoa.docx
+[10:57:58] INFO     pendencias: 0 | participantes: ['Jean Kevyn Correia Pessoa', 'Gislan Almeida dos Santos', 'Eduardo da Purificacao Mota dos Santos']
+[10:57:58] INFO  -> PRJ32503_2026-05-07_RDP_(SDAI)_DAVISON CAMPOS.pdf
+[10:57:59] INFO     pendencias: 3 | participantes: ['Davison Campos', 'MICHAEL MONTEIRO', 'DENIS NOBRE']
+[10:57:59] INFO  -> PRJ34216_2026-05-08_RDP_(BMS)_JhonatanAtaide.pdf
+[10:57:59] INFO     pendencias: 0 | participantes: ['Jhonatan Camara de Ataide']
+[10:57:59] INFO  -> PRJ40574_2026-05-08_RDP_(SDAI)_Miguel Meyer - R00.docx
+[10:57:59] INFO     pendencias: 0 | participantes: ['Miguel Felix Meyer']
+[10:57:59] INFO  -> PRJ40574_2026-05-08_RDP_(SDAI)_Miguel Meyer - R00.pdf
+[10:58:00] INFO     pendencias: 0 | participantes: ['Miguel Felix Meyer']
+[10:58:00] INFO  -> PRJ42548_2026-05-07_RDP_SEG_Salathiel_Martins.pdf
+[10:58:00] INFO     pendencias: 0 | participantes: ['Salathiel da Silva Martins']
+[10:58:00] INFO  -> PRJ45503_2026-05-07_RDP_(SDAI)_João Viana.pdf
+[10:58:01] INFO     pendencias: 0 | participantes: ['Joao Victor Sousa Viana']
+[10:58:01] INFO  -> PRJ45503_2026-05-08_RDP_(BMS)_Renan Almeida.pdf
+[10:58:01] INFO     pendencias: 0 | participantes: ['Renan Silva Almeida', 'Larissa Isabelle da Silva']
+[10:58:01] INFO  -> PRJ45503_2026-05-08_RDP_(SDAI)_João Viana.pdf
+[10:58:03] INFO     pendencias: 0 | participantes: ['Joao Victor Sousa Viana']
+[10:58:03] INFO  -> PRJ47108_2026-05-06_RDP_(BMS)_Thiago Berzin Telles.pdf
+[10:58:03] INFO     pendencias: 1 | participantes: ['Thiago Berzin Telles', 'Jennifer Sousa da Silva']
+[10:58:03] INFO  -> PRJ47108_2026-05-07_RDP_(BMS)_Thiago Berzin Telles.pdf
+[10:58:04] INFO     pendencias: 1 | participantes: ['Thiago Berzin Telles', 'Jennifer Sousa da Silva']
+[10:58:04] INFO  -> PRJ47108_2026-05-08_RDP_(BMS)_Thiago Berzin Telles.pdf
+[10:58:05] INFO     pendencias: 1 | participantes: ['Thiago Berzin Telles', 'Jennifer Sousa da Silva']
+[10:58:05] INFO  -> PRJ48289_2026-05-08_2502_C10257 _RDP_SEC_Andre Chacon .pdf
+[10:58:06] INFO     pendencias: 0 | participantes: ['Andre Chacon da Silveira']
+[10:58:06] INFO  -> PRJ49550_2026-05-08_2509_C09677_RDP_(SEC)_Andre Chacon.pdf
+[10:58:06] INFO     pendencias: 0 | participantes: ['Andre Chacon da Silveira']
+[10:58:06] INFO  -> PRJ53722_2026-05-07_RDP_(BMS)_Alfredo da Silveira.pdf
+[10:58:07] INFO     pendencias: 0 | participantes: ['Alfredo da Silveira']
+[10:58:07] INFO  -> PRJ53722_2026-05-08_RDP_(BMS)_Alfredo da Silveira.pdf
+[10:58:07] INFO     pendencias: 0 | participantes: ['Alfredo da Silveira']
+[10:58:07] INFO  -> PRJ53722_2026-05-08_RDP_(SDAI)_RODRIGO DE OLIVEIRA SOUSA.pdf
+[10:58:08] INFO     pendencias: 0 | participantes: ['Rodrigo de Oliveira Sousa']
+[10:58:08] INFO  -> PRJ55924_2026-05-08_RDP_(AV)_Augusto-Valle.pdf
+[10:58:08] INFO     pendencias: 0 | participantes: ['Augusto Cesar Flocco Valle', 'Marcio Leandro', 'Miguel Felix Meyer', 'Cristian Elvis', 'Giovane Maino']
+[10:58:08] INFO  -> PRJ57394_2026-05-07_RDP_(SEG)_Tiago_Alves_Dutra.pdf
+[10:58:09] INFO     pendencias: 0 | participantes: ['Tiago Alves Dutra']
+[10:58:09] INFO  -> PRJ57394_2026-05-08_RDP_(SEG)_Tiago_Alves_Dutra.pdf
+[10:58:09] INFO     pendencias: 0 | participantes: ['Tiago Alves Dutra']
+[10:58:09] INFO  Estruturados: 25

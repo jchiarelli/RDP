@@ -1,0 +1,81 @@
+================================================================
+  DASHBOARD RDP v2 - PRIMEIRA EXECUÇÃO
+================================================================
+
+Antes de rodar qualquer coisa, instale as bibliotecas Python.
+
+PASSO 1 — Setup (UMA VEZ SÓ)
+----------------------------------------------------------------
+Duplo clique em:  setup.bat
+                  (ou: PowerShell > .\setup.ps1)
+
+Isso instala:
+  - pdfplumber  (lê PDFs)
+  - docx2txt    (lê DOCX)
+  - pypdf       (fallback PDF)
+  - openpyxl    (lê Excel)
+
+
+PASSO 2 — Processar RDPs
+----------------------------------------------------------------
+No CMD ou PowerShell, dentro da pasta dashboard_v2:
+
+    python scripts\process_rdps.py
+
+Isso lê os RDPs de ontem e hoje da pasta ..\RDP\,
+gera os JSONs em data\ e atualiza o dashboard.
+
+Para processar uma data específica:
+    python scripts\process_rdps.py --date 2026-05-04
+
+Para processar tudo de uma vez:
+    python scripts\process_rdps.py --all
+
+
+PASSO 3 — Iniciar o servidor (recomendado)
+----------------------------------------------------------------
+Duplo clique em:  start_server.bat
+
+Isso:
+  - Inicia um pequeno servidor Python local na porta 8765
+  - Abre automaticamente http://localhost:8765/dashboard.html
+  - Persiste suas AÇÕES em pendências em data/acoes.json
+  - Sincroniza entre máquinas via OneDrive
+
+>> SEM o servidor (abrindo dashboard.html via duplo clique direto):
+   o dashboard ainda funciona, mas as ações ficam só no localStorage
+   do navegador local (não sincroniza entre máquinas).
+
+PASSO 3-ALT — Abrir sem servidor (modo offline)
+----------------------------------------------------------------
+Duplo clique em:  dashboard.html
+
+5 abas:
+  1. Visão Geral      - KPIs + filtros (data + equipe)
+  2. Status Diário    - quem enviou / quem está pendente
+  3. Por Equipe       - compliance por equipe + ranking
+  4. RDPs do Dia      - projetos com pendências por sistema
+  5. Análise IA       - análise escrita pelo Claude
+
+
+================================================================
+  PROBLEMAS COMUNS
+================================================================
+
+>>> "No module named 'pdfplumber'" / "pypdf" / "docx2txt"
+    Não rodou setup.bat. Volte ao PASSO 1.
+
+>>> "python não é reconhecido"
+    Python não está instalado ou fora do PATH.
+    Instale Python 3.10+ de https://python.org
+    Marque "Add Python to PATH" durante a instalação.
+
+>>> "Permission denied" no setup.bat
+    Clique direito > "Executar como administrador"
+    OU edite setup.bat e adicione --user no fim do pip install.
+
+>>> Análise IA aparece em branco
+    Peça ao Claude: "atualize a análise IA dos RDPs de hoje"
+    O arquivo data\analise_ia.md é escrito por mim, não por código.
+
+================================================================

@@ -1,0 +1,10 @@
+[09:11:37] INFO  === process_rdps.py v2.2 ===
+[09:11:37] INFO  RDP: C:\Users\Joao.Chiarelli\OneDrive - Convergint\Claude\Acompanhamento de projeto\RDP | OUT: C:\Users\Joao.Chiarelli\OneDrive - Convergint\Claude\Acompanhamento de projeto\dashboard_v2\data
+[09:11:37] INFO  Pessoas: 51 | Projetos: 1470
+[09:11:37] INFO  Datas alvo: ['2026-05-09']
+[09:11:37] INFO  Arquivos: 2
+[09:11:37] INFO  -> 2511_C06295_CTR59356_2026-05-09_RDP_(Security)_Jonilson Campos - R02.docx
+[09:11:37] INFO     pendencias: 0 | participantes: ['Jonilson Lopes Campos Filho']
+[09:11:37] INFO  -> PRJ55924_2026-09-05_RDP_(AV)_Augusto-Valle.pdf
+[09:11:38] INFO     pendencias: 2 | participantes: ['Augusto Cesar Flocco Valle', 'Cristian Elvis']
+[09:11:38] INFO  Estruturados: 2

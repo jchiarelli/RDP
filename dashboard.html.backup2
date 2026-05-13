@@ -1,0 +1,1128 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Convergint · Acompanhamento de RDP</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.0/chart.umd.min.js"></script>
+<script>(function(){try{var t=localStorage.getItem('rdp-theme');if(t)document.documentElement.setAttribute('data-theme',t);}catch(e){}})();</script>
+<style>
+:root{
+  --c-bg:#f7f8fa; --c-surface:#fff; --c-surface-2:#f1f3f7; --c-surface-3:#fafbfd;
+  --c-border:#e4e7ec; --c-border-2:#d1d5db;
+  --c-text:#0f172a; --c-text-2:#475569; --c-text-3:#94a3b8;
+  --c-primary:#2563eb; --c-primary-soft:#dbeafe;
+  --c-success:#16a34a; --c-success-soft:#dcfce7;
+  --c-warning:#d97706; --c-warning-soft:#fef3c7;
+  --c-danger:#dc2626; --c-danger-soft:#fee2e2;
+  --c-purple:#9333ea; --c-purple-soft:#f3e8ff;
+  --r-sm:6px; --r-md:10px; --r-lg:14px; --r-full:999px;
+  --sh-1:0 1px 2px rgba(15,23,42,.04); --sh-2:0 4px 12px rgba(15,23,42,.08);
+}
+[data-theme="dark"]{
+  --c-bg:#0a0e1a; --c-surface:#0f1524; --c-surface-2:#161d30; --c-surface-3:#0d1322;
+  --c-border:#1f2940; --c-border-2:#2a3654;
+  --c-text:#f1f5f9; --c-text-2:#cbd5e1; --c-text-3:#64748b;
+  --c-primary:#3b82f6; --c-primary-soft:#1e3a8a;
+  --c-success:#22c55e; --c-success-soft:#14532d;
+  --c-warning:#f59e0b; --c-warning-soft:#78350f;
+  --c-danger:#ef4444; --c-danger-soft:#7f1d1d;
+  --c-purple:#a855f7; --c-purple-soft:#581c87;
+}
+*{box-sizing:border-box}
+body{margin:0;font-family:'Inter',system-ui,sans-serif;background:var(--c-bg);color:var(--c-text);font-size:14px;line-height:1.5}
+.app{display:grid;grid-template-columns:240px 1fr;min-height:100vh}
+.sidebar{background:var(--c-surface);border-right:1px solid var(--c-border);padding:20px;position:sticky;top:0;height:100vh;overflow-y:auto}
+.brand{font-weight:800;font-size:16px;margin-bottom:24px;color:var(--c-primary);letter-spacing:-.5px}
+.brand small{display:block;font-weight:500;font-size:11px;color:var(--c-text-3);margin-top:2px}
+.nav-group{margin-bottom:20px}
+.nav-title{font-size:10px;text-transform:uppercase;letter-spacing:1px;color:var(--c-text-3);font-weight:700;margin:0 0 8px 8px}
+.nav-item{display:flex;align-items:center;gap:8px;padding:8px 12px;border-radius:var(--r-md);cursor:pointer;color:var(--c-text-2);font-size:13px;font-weight:500;transition:.15s;user-select:none}
+.nav-item:hover{background:var(--c-surface-2);color:var(--c-text)}
+.nav-item.active{background:var(--c-primary-soft);color:var(--c-primary);font-weight:600}
+.main{padding:24px;max-width:1500px;width:100%;margin:0 auto}
+.topbar{display:flex;align-items:center;justify-content:space-between;margin-bottom:8px;gap:16px;flex-wrap:wrap}
+.page-title{font-size:24px;font-weight:700;margin:0}
+.page-sub{color:var(--c-text-3);font-size:12px;margin:2px 0 20px;font-weight:500}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:6px;padding:10px 16px;border-radius:var(--r-md);border:1px solid var(--c-border);background:transparent;color:var(--c-text-2);font-size:13px;font-weight:500;cursor:pointer;font-family:inherit;transition:all 150ms}
+.btn:hover{background:var(--c-surface-2);border-color:var(--c-border-2);color:var(--c-text)}
+.btn:active{transform:translateY(1px)}
+.btn-primary{background:var(--c-primary);color:#fff;border-color:var(--c-primary);flex:1;min-width:120px}
+.btn-primary:hover{background:#1d4ed8;box-shadow:0 4px 12px rgba(37,99,235,.3)}
+.btn-primary:active{transform:translateY(1px);box-shadow:0 2px 6px rgba(37,99,235,.2)}
+.btn-icon{padding:8px;width:36px;height:36px;justify-content:center}
+.input,.select{padding:8px 12px;border-radius:var(--r-md);border:1px solid var(--c-border);background:var(--c-surface);color:var(--c-text);font-size:13px;font-family:inherit;transition:.15s}
+.input:focus,.select:focus{outline:none;border-color:var(--c-primary)}
+.filters{display:flex;flex-direction:column;gap:20px;background:var(--c-surface);border:1px solid var(--c-border);border-radius:var(--r-lg);padding:20px;margin-bottom:20px}
+@media(max-width:768px){.filters{gap:16px;padding:16px}}
+.filter-group{border:none;padding:0;margin:0;display:flex;flex-direction:column;gap:12px}
+.filter-legend{font-size:11px;font-weight:600;text-transform:uppercase;color:var(--c-text-3);letter-spacing:.5px;margin:0}
+.filter-row{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+@media(max-width:640px){.filter-row{grid-template-columns:1fr}}
+.quick-buttons{display:flex;gap:8px}
+.quick-btn{flex:1;padding:8px 12px;border:1px solid var(--c-border);background:transparent;border-radius:var(--r-md);font-size:12px;font-weight:500;cursor:pointer;color:var(--c-text-2);transition:all 150ms}
+.quick-btn:hover{border-color:var(--c-primary);color:var(--c-primary);background:rgba(37,99,235,.05)}
+.quick-btn:active{background:rgba(37,99,235,.1)}
+.filter-options{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px}
+.equipe-select{width:100%;padding:10px 12px;border:1px solid var(--c-border);border-radius:var(--r-md);font-size:13px;background:var(--c-surface-2);color:var(--c-text)}
+.equipe-select:focus{outline:none;border-color:var(--c-primary)}
+@media(min-width:769px){.equipe-select{display:none}.filter-options label{display:flex;align-items:center;gap:8px;cursor:pointer;font-size:13px;color:var(--c-text-2);padding:8px;border-radius:var(--r-md);transition:background 150ms}.filter-options label:hover{background:var(--c-surface-2)}.filter-options input[type="checkbox"]{cursor:pointer;accent-color:var(--c-primary)}}
+.filter-actions{display:flex;gap:12px;margin-top:8px;flex-wrap:wrap}
+@media(max-width:640px){.filter-actions{flex-direction:column;gap:10px}.filter-actions button{width:100%}}
+.field{display:flex;flex-direction:column;gap:4px}
+.field label{font-size:11px;font-weight:600;color:var(--c-text-3);text-transform:uppercase;letter-spacing:.5px}
+.kpi-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px;margin-bottom:24px}
+.kpi{background:var(--c-surface);border:1px solid var(--c-border);border-radius:var(--r-lg);padding:16px;box-shadow:var(--sh-1);position:relative;overflow:hidden}
+.kpi::before{content:"";position:absolute;left:0;top:0;bottom:0;width:3px;background:var(--c-primary)}
+.kpi.kpi-success::before{background:var(--c-success)} .kpi.kpi-warning::before{background:var(--c-warning)}
+.kpi.kpi-danger::before{background:var(--c-danger)} .kpi.kpi-purple::before{background:var(--c-purple)}
+.kpi-label{font-size:10px;text-transform:uppercase;letter-spacing:.5px;color:var(--c-text-3);font-weight:700;margin-bottom:6px}
+.kpi-value{font-size:30px;font-weight:800;line-height:1.05;letter-spacing:-1px}
+.kpi-sub{font-size:11px;color:var(--c-text-3);margin-top:4px}
+.card{background:var(--c-surface);border:1px solid var(--c-border);border-radius:var(--r-lg);box-shadow:var(--sh-1);margin-bottom:16px;overflow:hidden}
+.card-head{padding:14px 18px;border-bottom:1px solid var(--c-border);display:flex;align-items:center;justify-content:space-between;gap:12px}
+.card-head h3{margin:0;font-size:14px;font-weight:600}
+.card-sub{font-size:11px;color:var(--c-text-3)}
+.card-body{padding:18px}
+.card-body.no-pad{padding:0}
+.tbl{width:100%;border-collapse:collapse}
+.tbl th,.tbl td{text-align:left;padding:10px 18px;border-bottom:1px solid var(--c-border);font-size:13px}
+.tbl th{font-weight:600;color:var(--c-text-3);font-size:10px;text-transform:uppercase;letter-spacing:.6px;background:var(--c-surface-3);position:sticky;top:0}
+.tbl tbody tr:hover{background:var(--c-surface-3)}
+.tbl tbody tr:last-child td{border-bottom:0}
+.badge{display:inline-block;padding:3px 10px;border-radius:var(--r-full);font-size:10px;font-weight:700;letter-spacing:.3px}
+.badge-success{background:var(--c-success-soft);color:var(--c-success)}
+.badge-warning{background:var(--c-warning-soft);color:var(--c-warning)}
+.badge-danger{background:var(--c-danger-soft);color:var(--c-danger)}
+.badge-default{background:var(--c-surface-2);color:var(--c-text-2)}
+.badge-primary{background:var(--c-primary-soft);color:var(--c-primary)}
+.badge-purple{background:var(--c-purple-soft);color:var(--c-purple)}
+.section{display:none}.section.active{display:block}
+.empty{padding:48px;text-align:center;color:var(--c-text-3);font-size:13px}
+.alert{background:var(--c-warning-soft);color:var(--c-warning);padding:14px 16px;border-radius:var(--r-md);border-left:4px solid var(--c-warning);margin-bottom:16px;font-size:13px}
+.alert.info{background:var(--c-primary-soft);color:var(--c-primary);border-left-color:var(--c-primary)}
+.alert.danger{background:var(--c-danger-soft);color:var(--c-danger);border-left-color:var(--c-danger)}
+.proj-card{background:var(--c-surface);border:1px solid var(--c-border);border-radius:var(--r-lg);padding:16px 18px;margin-bottom:12px;cursor:pointer;transition:.15s}
+.proj-card:hover{border-color:var(--c-primary);box-shadow:var(--sh-2)}
+.proj-head{display:flex;justify-content:space-between;align-items:flex-start;gap:12px}
+.proj-code{font-size:14px;font-weight:700;color:var(--c-text);letter-spacing:-.2px}
+.proj-name{font-size:12px;color:var(--c-text-2);margin-top:2px}
+.proj-tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
+.proj-meta{text-align:right;font-size:11px;color:var(--c-text-3)}
+.proj-meta b{color:var(--c-text);font-size:14px;font-weight:700}
+.proj-pend{margin-top:14px;padding-top:14px;border-top:1px dashed var(--c-border);display:none}
+.proj-card.expanded .proj-pend{display:block}
+.proj-pend-grupo{margin-bottom:14px}
+.proj-pend-grupo h4{margin:0 0 6px;font-size:11px;text-transform:uppercase;letter-spacing:.5px;color:var(--c-text-3)}
+.proj-pend-item{font-size:12px;padding:8px 10px;background:var(--c-surface-3);border-radius:6px;margin-bottom:6px;border-left:3px solid var(--c-border)}
+.proj-pend-item.has-acao{border-left-color:var(--c-warning)}
+.proj-pend-item.concluida{border-left-color:var(--c-success);opacity:.65}
+.proj-pend-head{display:flex;justify-content:space-between;gap:8px;margin-bottom:6px}
+.proj-pend-toggle{cursor:pointer;font-size:10px;color:var(--c-primary);user-select:none;font-weight:600}
+.proj-pend-toggle:hover{text-decoration:underline}
+.acoes-box{margin-top:6px;padding-top:6px;border-top:1px dashed var(--c-border);display:none}
+.proj-pend-item.expanded .acoes-box{display:block}
+.acao-item{display:flex;align-items:center;gap:6px;padding:5px 8px;background:var(--c-surface);border:1px solid var(--c-border);border-radius:5px;margin-bottom:4px;font-size:11px}
+.acao-item.aberta{border-left:3px solid var(--c-warning)}
+.acao-item.andamento{border-left:3px solid var(--c-primary)}
+.acao-item.concluida{border-left:3px solid var(--c-success);opacity:.7}
+.acao-status-btn{padding:2px 6px;font-size:9px;border-radius:99px;border:0;cursor:pointer;font-weight:700;letter-spacing:.3px}
+.acao-add{display:flex;gap:6px;margin-top:6px;flex-wrap:wrap;align-items:center}
+.acao-add input{flex:1;min-width:140px;padding:5px 8px;font-size:11px;border:1px solid var(--c-border);background:var(--c-surface);color:var(--c-text);border-radius:5px;font-family:inherit}
+.acao-add input[type="date"]{flex:0 0 130px}
+.acao-add button{padding:5px 10px;font-size:11px;border:0;background:var(--c-primary);color:#fff;border-radius:5px;cursor:pointer;font-weight:600}
+.acao-meta{color:var(--c-text-3);font-size:10px;margin-left:auto;white-space:nowrap}
+.proj-pend-info{display:flex;justify-content:space-between;gap:8px;font-size:12px;align-items:flex-start}
+.proj-pend-desc{flex:1}
+.equipe-card{background:var(--c-surface);border:1px solid var(--c-border);border-radius:var(--r-lg);padding:14px 16px;border-top:3px solid var(--c-primary)}
+.equipe-card .leader{font-size:11px;color:var(--c-text-3);margin-top:2px}
+.compliance-bar{height:5px;background:var(--c-surface-2);border-radius:99px;margin-top:8px;overflow:hidden}
+.compliance-bar-fill{height:100%;background:var(--c-success);transition:width .3s}
+.equipe-row{display:flex;justify-content:space-between;align-items:baseline;margin:8px 0;font-size:12px}
+.equipe-row .v{font-weight:700;font-size:14px}
+.taxa-cell{display:flex;align-items:center;gap:8px}
+.taxa-bar{width:60px;height:5px;background:var(--c-surface-2);border-radius:99px;overflow:hidden}
+.taxa-bar-fill{height:100%;background:var(--c-danger)}
+@media (max-width:768px){.app{grid-template-columns:1fr}.sidebar{position:relative;height:auto;border-right:0;border-bottom:1px solid var(--c-border)}.main{padding:16px}}
+</style>
+</head>
+<body>
+<div class="app">
+
+<aside class="sidebar">
+  <div class="brand">Convergint<small>Acompanhamento de RDP · v2</small><small id="srvStatus" style="margin-top:4px;font-weight:600">… conectando</small></div>
+  <div class="nav-group">
+    <div class="nav-title">Operação</div>
+    <div class="nav-item active" data-tab="overview">Visão Geral</div>
+    <div class="nav-item" data-tab="status">Status Diário</div>
+    <div class="nav-item" data-tab="equipe">Por Equipe</div>
+    <div class="nav-item" data-tab="projetos">RDPs do Dia / Projetos</div>
+    <div class="nav-item" data-tab="analise">Análise IA</div>
+  </div>
+  <div class="nav-group">
+    <div class="nav-title">Sistema</div>
+    <div class="nav-item" onclick="toggleTheme()">Alternar tema</div>
+    <div class="nav-item" onclick="exportarTudo()">Exportar JSON</div>
+    <div class="nav-item" onclick="exportarAcoes()" title="Backup das ações registradas">Exportar Ações</div>
+    <div class="nav-item" onclick="importarAcoes()" title="Importar ações de um backup">Importar Ações</div>
+    <div class="nav-item" onclick="reloadAcoesFromServer()" title="Recarrega acoes do servidor">Recarregar Ações</div>
+    <div class="nav-item" onclick="location.reload()">Recarregar</div>
+  </div>
+</aside>
+
+<main class="main">
+  <header class="topbar">
+    <div>
+      <h1 class="page-title" id="pageTitle">Visão Geral</h1>
+      <p class="page-sub" id="pageSub">Carregando…</p>
+    </div>
+  </header>
+
+  <section id="section-overview" class="section active"></section>
+  <section id="section-status" class="section"></section>
+  <section id="section-equipe" class="section"></section>
+  <section id="section-projetos" class="section"></section>
+  <section id="section-analise" class="section"></section>
+</main>
+
+</div>
+
+<script src="data/dashboard_data.js?v=3"></script>
+<script src="data/analise_ia.js?v=3"></script>
+<script>
+const D = window.RDP_DATA || null;
+const $ = id => document.getElementById(id);
+
+function fmtDate(iso){
+  if(!iso) return '-';
+  const s = String(iso).slice(0,10);
+  const m = s.match(/(\d{4})-(\d{2})-(\d{2})/);
+  return m ? `${m[3]}/${m[2]}/${m[1]}` : s;
+}
+function escHtml(s){ return String(s||'').replace(/[<>&"]/g, c=>({"<":"&lt;",">":"&gt;","&":"&amp;",'"':"&quot;"}[c])); }
+
+document.querySelectorAll('.nav-item[data-tab]').forEach(n => {
+  n.onclick = () => {
+    document.querySelectorAll('.nav-item').forEach(x=>x.classList.remove('active'));
+    n.classList.add('active');
+    document.querySelectorAll('.section').forEach(s=>s.classList.remove('active'));
+    const id = n.dataset.tab;
+    $('section-'+id).classList.add('active');
+    const titles = {
+      overview:['Visão Geral','Convergint · Acompanhamento de RDP'],
+      status:['Status Diário','Convergint · Acompanhamento de RDP'],
+      equipe:['Por Equipe','Convergint · Acompanhamento de RDP'],
+      projetos:['RDPs do Dia / Projetos','Convergint · Acompanhamento de RDP'],
+      analise:['Análise IA','Convergint · Acompanhamento de RDP']
+    };
+    if(titles[id]){ $('pageTitle').textContent=titles[id][0]; $('pageSub').textContent=titles[id][1]; }
+  };
+});
+
+function toggleTheme(){
+  const cur = document.documentElement.getAttribute('data-theme') || 'light';
+  const nxt = cur==='light'?'dark':'light';
+  document.documentElement.setAttribute('data-theme', nxt);
+  try{ localStorage.setItem('rdp-theme', nxt); }catch(e){}
+}
+function abrirRDP(data, arquivo){
+  // Abre o arquivo RDP localmente
+  // Nota: navegadores bloqueiam file:// por segurança, então mostramos o caminho
+  if(!data || !arquivo) return;
+  const dataStr = data.slice(0,10); // YYYY-MM-DD
+  const baseDir = 'C:\\Users\\Joao.Chiarelli\\OneDrive - Convergint\\Claude\\Acompanhamento de projeto\\RDP';
+  const fullPath = `${baseDir}\\${dataStr}\\${arquivo}`;
+
+  // Tenta abrir via file:// protocol (navegadores modernos bloqueiam)
+  const filePath = `file:///${fullPath.replace(/\\/g, '/').replace(/ /g, '%20')}`;
+  const opened = window.open(filePath, '_blank');
+
+  // Se navegador bloqueou, mostra o caminho para o usuário copiar
+  if(!opened || opened.closed || typeof opened.closed === 'undefined'){
+    alert('Caminho do arquivo:\n\n' + fullPath + '\n\nO navegador bloqueou a abertura. Copie o caminho acima e abra no Explorador de Arquivos.');
+  }
+}
+function construirCaminhoRDP(data, arquivo){
+  // Versão anterior (mantida para compatibilidade)
+  if(!data || !arquivo) return null;
+  const dataStr = data.slice(0,10); // YYYY-MM-DD
+  const baseDir = 'C:/Users/Joao.Chiarelli/OneDrive - Convergint/Claude/Acompanhamento de projeto/RDP';
+  const fullPath = `${baseDir}/${dataStr}/${arquivo}`.replace(/ /g, '%20');
+  return `file:///${fullPath}`;
+}
+function exportarTudo(){
+  if(!D){ alert('Sem dados.'); return; }
+  const b = new Blob([JSON.stringify(D,null,2)], {type:'application/json'});
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(b); a.download = 'rdp_export.json';
+  document.body.appendChild(a); a.click(); a.remove();
+}
+
+// ── Helpers de filtro ───────────────────────────────────────────────────
+function rdpsDoDia(data){
+  if(!D) return [];
+  return (D.rdps||[]).filter(r => (r.data||'').startsWith(data));
+}
+function pessoaNoRDP(pessoa, r){
+  // Verifica se a pessoa está na lista de exclusão para este RDP
+  const excluidos = r.participantes_excluir || [];
+  if(excluidos.includes(pessoa.email.toLowerCase())) return false;
+
+  // Confere responsavel principal
+  if(r.email===pessoa.email) return true;
+  if((r.responsavel||'').toLowerCase()===pessoa.nome.toLowerCase()) return true;
+  // Confere participantes (todos que trabalharam no dia, mesmo que nao tenham assinado o arquivo)
+  const parts = r.participantes || [];
+  for(const p of parts){
+    if(p.email && p.email===pessoa.email) return true;
+    if((p.nome||'').toLowerCase()===pessoa.nome.toLowerCase()) return true;
+    // Fallback: se nao bateu exato, confere se o nome extraido eh parte do nome da pessoa
+    const nomeExt = (p.nome_extraido||'').toLowerCase();
+    const nomePessoa = pessoa.nome.toLowerCase();
+    if(nomeExt && nomeExt.length > 3){
+      const palavrasExt = nomeExt.split(/\s+/);
+      const palavrasPessoa = nomePessoa.split(/\s+/);
+      // Se todos as palavras extraidas estao em sequencia no nome da pessoa, match
+      let match = true;
+      if(palavrasExt.length > 0 && palavrasPessoa.length > 0){
+        if(palavrasExt[0] === palavrasPessoa[0]){
+          // Primeiro nome bate - confere se continua
+          let idx = 0;
+          for(const pal of palavrasExt){
+            if(idx < palavrasPessoa.length && pal === palavrasPessoa[idx]){
+              idx++;
+            } else {
+              match = false;
+              break;
+            }
+          }
+          if(match) return true;
+        }
+      }
+    }
+  }
+  return false;
+}
+function statusPessoa(pessoa, dataRef){
+  // Retorna RDP onde a pessoa é responsável OU participante
+  // Prioriza: 1º RDP onde é responsável, 2º RDP onde é participante
+  const dataRefStr = (dataRef||'').slice(0,10); // Garante apenas YYYY-MM-DD
+  const enviados = (D.rdps||[]).filter(r => {
+    const rData = (r.data||'').slice(0,10); // Extrai apenas YYYY-MM-DD
+    return rData === dataRefStr && pessoaNoRDP(pessoa, r);
+  });
+  if(enviados.length === 0) return null;
+
+  // Prioriza: RDP onde pessoa é responsável
+  const nomePessoa = (pessoa.nome||'').toLowerCase();
+  for(const r of enviados){
+    if((r.responsavel||'').toLowerCase() === nomePessoa){
+      return r;
+    }
+  }
+  // Fallback: primeiro RDP onde é participante
+  return enviados[0];
+}
+function ultimoEnvio(pessoa){
+  const env = (D.rdps||[])
+    .filter(r => pessoaNoRDP(pessoa, r))
+    .sort((a,b)=>(b.data||'').localeCompare(a.data||''));
+  return env[0] || null;
+}
+
+// Conversão de datas: YYYY-MM-DD ↔ DD/MM/AAAA
+function isoToUserDate(iso){
+  if(!iso || iso.length !== 10) return '';
+  const [y, m, d] = iso.split('-');
+  return `${d}/${m}/${y}`;
+}
+function userDateToIso(userDate){
+  if(!userDate || userDate.length !== 10) return '';
+  const [d, m, y] = userDate.split('/');
+  return `${y}-${m}-${d}`;
+}
+
+// ── Visão Geral ─────────────────────────────────────────────────────────
+function renderOverview(){
+  const sec = $('section-overview');
+  if(!D){ sec.innerHTML = '<div class="empty">Sem dados. Rode <code>python scripts/process_rdps.py</code>.</div>'; return; }
+
+  const today = (D.meta && D.meta.today) || new Date().toISOString().slice(0,10);
+  // Valida data no formato YYYY-MM-DD (mes 01-12, dia 01-31)
+  function isValidISODate(s){
+    if(!s || typeof s !== 'string') return false;
+    const m = s.match(/^(\d{4})-(\d{2})-(\d{2})$/);
+    if(!m) return false;
+    const mm = parseInt(m[2],10), dd = parseInt(m[3],10);
+    if(mm < 1 || mm > 12 || dd < 1 || dd > 31) return false;
+    const dt = new Date(s);
+    return !isNaN(dt.getTime());
+  }
+  const datasSet = new Set((D.rdps||[]).map(r => (r.data||'').slice(0,10)).filter(isValidISODate));
+  const datasOrd = Array.from(datasSet).filter(d => d <= today).sort();
+  // Default: últimos 7 dias do dataset OU últimos 7 dias até hoje
+  const lastDate = datasOrd[datasOrd.length-1] || today;
+  function dminus(d, n){
+    if(!isValidISODate(d)){ d = today; }
+    const x = new Date(d);
+    if(isNaN(x.getTime())) return today;
+    x.setDate(x.getDate()-n);
+    return x.toISOString().slice(0,10);
+  }
+  const defaultDe = sec.dataset.de || dminus(lastDate, 6);
+  const defaultAte = sec.dataset.ate || lastDate;
+  // Default: 'Todas' (se vazio ou undefined, use 'Todas')
+  const equipeFiltroStr = (sec.dataset.equipeFiltro || '').trim() || 'Todas';
+  const equipeFiltro = equipeFiltroStr === 'Todas' ? ['Todas'] : equipeFiltroStr.split('|').filter(Boolean);
+  const equipes = Array.from(new Set((D.pessoas||[]).map(p => p.equipe).filter(Boolean))).sort();
+
+  sec.innerHTML = `
+    <div class="filters">
+      <!-- Seção 1: Período -->
+      <fieldset class="filter-group">
+        <legend class="filter-legend">Período</legend>
+        <div class="filter-row">
+          <div class="field">
+            <label>De</label>
+            <input type="text" class="input" id="ovDe" placeholder="DD/MM/AAAA" value="${isoToUserDate(defaultDe)}" maxlength="10">
+          </div>
+          <div class="field">
+            <label>Até</label>
+            <input type="text" class="input" id="ovAte" placeholder="DD/MM/AAAA" value="${isoToUserDate(defaultAte)}" maxlength="10">
+          </div>
+        </div>
+        <div class="quick-buttons">
+          <button type="button" class="quick-btn" id="ovReset" title="Últimos 7 dias">7 dias</button>
+          <button type="button" class="quick-btn" id="ovReset30" title="Últimos 30 dias">30 dias</button>
+        </div>
+      </fieldset>
+
+      <!-- Seção 2: Equipes -->
+      <fieldset class="filter-group">
+        <legend class="filter-legend">Equipes</legend>
+        <select id="ovEquipeSelectMobile" class="equipe-select">
+          <option value="Todas">Todas</option>
+          ${equipes.map(e => `<option value="${escHtml(e)}" ${equipeFiltro.includes(e)?'selected':''}>${escHtml(e)}</option>`).join('')}
+        </select>
+        <div id="ovEquipeCheckboxes" class="filter-options">
+          <label>
+            <input type="checkbox" id="ovEqTodas" ${equipeFiltro.includes('Todas')?'checked':''}>
+            <span>Todas</span>
+          </label>
+          ${equipes.map(e => `<label>
+            <input type="checkbox" class="ovEqCheckbox" value="${escHtml(e)}" ${equipeFiltro.includes(e)?'checked':''}>
+            <span>${escHtml(e)}</span>
+          </label>`).join('')}
+        </div>
+      </fieldset>
+
+      <!-- Seção 3: Ações -->
+      <div class="filter-actions">
+        <button type="button" class="btn btn-primary" id="ovApply">Aplicar Filtros</button>
+        <button type="button" class="btn" id="ovResetAll" title="Resetar para padrão">Resetar</button>
+        <button type="button" class="btn" onclick="exportarTudo()">Exportar</button>
+      </div>
+    </div>
+    <p class="page-sub">Período: <b>${fmtDate(defaultDe)}</b> a <b>${fmtDate(defaultAte)}</b> · ${equipeFiltro.includes('Todas')?'todas as equipes':equipeFiltro.join(', ')} · gerado ${(D.meta||{}).generatedAt ? D.meta.generatedAt.slice(0,16) : '-'}</p>
+    <div id="ovKpis"></div>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px" class="ov-charts">
+      <div class="card"><div class="card-head"><h3>Desempenho por Equipe</h3><div class="card-sub">% de envio no período</div></div><div class="card-body"><canvas id="chEquipe" height="220"></canvas></div></div>
+      <div class="card"><div class="card-head"><h3>Entrega Diária</h3><div class="card-sub">RDPs por dia no período</div></div><div class="card-body"><canvas id="chDaily" height="220"></canvas></div></div>
+    </div>
+    <div class="card">
+      <div class="card-head"><h3>Colaboradores Pendentes <span class="badge badge-warning" id="ovPendCount"></span></h3><div class="card-sub">não enviaram nenhum RDP no período</div></div>
+      <div class="card-body no-pad"><table class="tbl">
+        <thead><tr><th>Colaborador</th><th>Equipe</th><th>Email</th><th>Último RDP</th><th>Projeto Ativo</th></tr></thead>
+        <tbody id="ovPendTbody"></tbody>
+      </table></div>
+    </div>
+    <div class="card">
+      <div class="card-head"><h3>Ranking Individual</h3><div class="card-sub">desempenho de todos no período</div></div>
+      <div class="card-body no-pad"><table class="tbl">
+        <thead><tr><th>#</th><th>Colaborador</th><th>Equipe</th><th>Enviados</th><th>Esperados</th><th>Taxa</th><th>Ultimo</th></tr></thead>
+        <tbody id="ovRankingTbody"></tbody>
+      </table></div>
+    </div>
+  `;
+
+  // Sincronizar select mobile com checkboxes desktop
+  const ovSelectMobile = $('ovEquipeSelectMobile');
+  if(ovSelectMobile){
+    ovSelectMobile.onchange = () => {
+      const val = ovSelectMobile.value;
+      $('ovEqTodas').checked = (val === 'Todas');
+      document.querySelectorAll('.ovEqCheckbox').forEach(c => {
+        c.checked = (c.value === val);
+      });
+    };
+  }
+
+  $('ovApply').onclick = () => {
+    const dVal = userDateToIso($('ovDe').value);
+    const aVal = userDateToIso($('ovAte').value);
+    if(dVal) sec.dataset.de = dVal;
+    if(aVal) sec.dataset.ate = aVal;
+
+    const todosChecked = $('ovEqTodas').checked;
+    let selectedEquipes = Array.from(document.querySelectorAll('.ovEqCheckbox:checked')).map(c => c.value);
+
+    if(todosChecked){
+      sec.dataset.equipeFiltro = 'Todas';
+    } else if(selectedEquipes.length === 0){
+      sec.dataset.equipeFiltro = 'Todas';
+    } else {
+      sec.dataset.equipeFiltro = selectedEquipes.join('|');
+    }
+    renderOverview();
+  };
+
+  // Sincronizar checkboxes: "Todas" desseleciona os outros e vice-versa
+  $('ovEqTodas').onchange = () => {
+    if($('ovEqTodas').checked){
+      document.querySelectorAll('.ovEqCheckbox').forEach(c => c.checked = false);
+    }
+  };
+  document.querySelectorAll('.ovEqCheckbox').forEach(c => {
+    c.onchange = () => {
+      if(c.checked && $('ovEqTodas').checked){
+        $('ovEqTodas').checked = false;
+      }
+    };
+  });
+
+  // Validação e formatação de datas DD/MM/AAAA
+  const formatDateInput = (input) => {
+    input.oninput = () => {
+      let val = input.value.replace(/\D/g, '');
+      if(val.length > 2) val = val.slice(0,2) + '/' + val.slice(2);
+      if(val.length > 5) val = val.slice(0,5) + '/' + val.slice(5);
+      input.value = val;
+    };
+  };
+  formatDateInput($('ovDe'));
+  formatDateInput($('ovAte'));
+  $('ovReset').onclick = () => {
+    sec.dataset.de = dminus(lastDate, 6); sec.dataset.ate = lastDate; renderOverview();
+  };
+  $('ovReset30').onclick = () => {
+    sec.dataset.de = dminus(lastDate, 29); sec.dataset.ate = lastDate; renderOverview();
+  };
+  $('ovResetAll').onclick = () => {
+    sec.dataset.de = dminus(lastDate, 6);
+    sec.dataset.ate = lastDate;
+    sec.dataset.equipeFiltro = 'Todas';
+    renderOverview();
+  };
+
+  // Calcular dias úteis (seg–sex) no range
+  function dataRange(de, ate){
+    const out = [];
+    const d = new Date(de); const fim = new Date(ate);
+    while(d <= fim){
+      const dow = d.getUTCDay();
+      const iso = d.toISOString().slice(0,10);
+      if(dow >= 1 && dow <= 5) out.push(iso);
+      d.setDate(d.getDate()+1);
+    }
+    return out;
+  }
+  const diasUteis = dataRange(defaultDe, defaultAte);
+
+  // Filtros
+  const pessoasFil = (D.pessoas||[]).filter(p => equipeFiltro.includes('Todas') || equipeFiltro.includes(p.equipe));
+  const rdpsRange = (D.rdps||[]).filter(r => {
+    const d = (r.data||'').slice(0,10);
+    return d >= defaultDe && d <= defaultAte;
+  });
+
+  // Calcular pessoa-dia: para cada pessoa, conta em quantos dias úteis ela apareceu (responsável ou participante)
+  let totalEnvios = 0;
+  const pessoaDiasEnviados = new Map(); // email/nome -> Set de datas
+  pessoasFil.forEach(p => {
+    const dias = new Set();
+    diasUteis.forEach(d => {
+      const enviou = rdpsRange.some(r =>
+        (r.data||'').slice(0,10) === d && pessoaNoRDP(p, r)
+      );
+      if(enviou) dias.add(d);
+    });
+    pessoaDiasEnviados.set(p.email.toLowerCase(), dias);
+    totalEnvios += dias.size;
+  });
+
+  const totalEsperado = pessoasFil.length * diasUteis.length;
+  const totalPendentes = totalEsperado - totalEnvios;
+  const conformidade = totalEsperado ? (totalEnvios/totalEsperado*100) : 0;
+  const projetosAtivos = new Set(rdpsRange.map(r => r.projeto_codigo).filter(Boolean));
+  const pendAbertas = (D.pendencias||[]).filter(p => (p.status||'').toLowerCase()==='aberta').length;
+
+  $('ovKpis').innerHTML = `<div class="kpi-grid">
+    <div class="kpi"><div class="kpi-label">Total Esperado</div><div class="kpi-value">${totalEsperado}</div><div class="kpi-sub">${pessoasFil.length} pessoas × ${diasUteis.length} dias úteis</div></div>
+    <div class="kpi kpi-success"><div class="kpi-label">Enviados</div><div class="kpi-value">${totalEnvios}</div><div class="kpi-sub">RDPs no período</div></div>
+    <div class="kpi kpi-warning"><div class="kpi-label">Pendentes</div><div class="kpi-value">${totalPendentes}</div><div class="kpi-sub">não enviados</div></div>
+    <div class="kpi ${conformidade>=80?'kpi-success':conformidade>=50?'kpi-warning':'kpi-danger'}"><div class="kpi-label">Conformidade</div><div class="kpi-value">${conformidade.toFixed(0)}%</div><div class="kpi-sub">meta: 95%</div></div>
+    <div class="kpi kpi-purple"><div class="kpi-label">Projetos</div><div class="kpi-value">${projetosAtivos.size}</div><div class="kpi-sub">com RDP no período</div></div>
+    <div class="kpi kpi-danger"><div class="kpi-label">Pendências Abertas</div><div class="kpi-value">${pendAbertas}</div><div class="kpi-sub">acumulado total</div></div>
+  </div>`;
+
+  // Pendentes: quem não enviou NENHUM RDP no período inteiro
+  const pendentes = pessoasFil.filter(p => (pessoaDiasEnviados.get(p.email.toLowerCase()) || new Set()).size === 0);
+  $('ovPendCount').textContent = pendentes.length;
+  $('ovPendTbody').innerHTML = pendentes.length ? pendentes.map(p => {
+    const ult = ultimoEnvio(p);
+    let ultBadge = '<span class="badge badge-danger">Nunca enviou</span>';
+    if(ult){
+      const diasAtras = Math.round((new Date(today) - new Date(ult.data))/86400000);
+      ultBadge = `${fmtDate(ult.data)} <span class="badge ${diasAtras>=3?'badge-danger':'badge-warning'}">${diasAtras} dia(s)</span>`;
+    }
+    return `<tr>
+      <td><b>${escHtml(p.nome)}</b></td>
+      <td><span class="badge badge-default">${escHtml(p.equipe)}</span></td>
+      <td><a style="color:var(--c-primary)" href="mailto:${escHtml(p.email)}">${escHtml(p.email)}</a></td>
+      <td>${ultBadge}</td>
+      <td>${ult && ult.projeto_codigo ? `<span class="badge badge-primary">${escHtml(ult.projeto_codigo)}</span>` : '—'}</td>
+    </tr>`;
+  }).join('') : '<tr><td colspan="5" class="empty">Todos enviaram pelo menos 1 RDP no período. </td></tr>';
+
+  // Ranking Individual: todas as pessoas com suas stats
+  const ranking = pessoasFil.map(p => {
+    let env = 0;
+    diasUteis.forEach(d => {
+      if(rdpsRange.some(r => (r.data||'').slice(0,10) === d && pessoaNoRDP(p, r))) env++;
+    });
+    const ult = ultimoEnvio(p);
+    return { pessoa: p, env, esperado: diasUteis.length, ultimo: ult ? ult.data : '' };
+  }).sort((a,b) => b.env - a.env || a.pessoa.nome.localeCompare(b.pessoa.nome));
+
+  $('ovRankingTbody').innerHTML = ranking.length ? ranking.map((r, i) => {
+    const taxa = r.esperado ? r.env/r.esperado*100 : 0;
+    const cor = taxa>=80?'var(--c-success)':taxa>=50?'var(--c-warning)':'var(--c-danger)';
+    return `<tr>
+      <td>${i+1}</td>
+      <td><b>${escHtml(r.pessoa.nome)}</b></td>
+      <td><span class="badge badge-default">${escHtml(r.pessoa.equipe)}</span></td>
+      <td>${r.env}</td><td>${r.esperado}</td>
+      <td><div class="taxa-cell"><div class="taxa-bar"><div class="taxa-bar-fill" style="width:${taxa.toFixed(0)}%;background:${cor}"></div></div><b style="color:${cor}">${taxa.toFixed(0)}%</b></div></td>
+      <td><small>${r.ultimo ? fmtDate(r.ultimo) : '-'}</small></td>
+    </tr>`;
+  }).join('') : '<tr><td colspan="7" class="empty">Sem pessoas neste período.</td></tr>';
+
+  // Charts
+  setTimeout(()=>{
+    // Desempenho por equipe: % envio no periodo (envios reais / esperado)
+    const eqGroups = {};
+    pessoasFil.forEach(p => {
+      const e = p.equipe || '-';
+      if(!eqGroups[e]) eqGroups[e] = {esperado:0, enviados:0};
+      eqGroups[e].esperado += diasUteis.length;
+      eqGroups[e].enviados += (pessoaDiasEnviados.get(p.email.toLowerCase()) || new Set()).size;
+    });
+    const eqLabels = Object.keys(eqGroups);
+    const eqData = eqLabels.map(l => eqGroups[l].esperado ? (eqGroups[l].enviados/eqGroups[l].esperado*100):0);
+    const ctx1 = $('chEquipe');
+    if(ctx1) new Chart(ctx1, { type:'bar', data:{labels:eqLabels,datasets:[{label:'% enviado',data:eqData,backgroundColor:'#3b82f6'}]}, options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},scales:{y:{beginAtZero:true,max:100,ticks:{callback:v=>v+'%'}}}} });
+    // Entrega diaria: dias do range, contando envios por dia (de pessoas filtradas)
+    const days = diasUteis;
+    const dailyVals = days.map(d => {
+      let n = 0;
+      pessoasFil.forEach(p => {
+        if(rdpsRange.some(r => (r.data||'').slice(0,10)===d && pessoaNoRDP(p, r))) n++;
+      });
+      return n;
+    });
+    const ctx2 = $('chDaily');
+    if(ctx2) new Chart(ctx2, { type:'line', data:{labels:days.map(fmtDate),datasets:[{label:'envios',data:dailyVals,borderColor:'#3b82f6',backgroundColor:'rgba(59,130,246,.15)',tension:.3,fill:true}]}, options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},scales:{y:{beginAtZero:true}}} });
+  }, 50);
+}
+
+// Status Diario
+function renderStatus(){
+  const sec = $('section-status');
+  if(!D){ sec.innerHTML = '<div class="empty">Sem dados.</div>'; return; }
+  const today = (D.meta && D.meta.today) || new Date().toISOString().slice(0,10);
+  const datasSet = new Set((D.rdps||[]).map(r => (r.data||'').slice(0,10)));
+  const datasOrd = Array.from(datasSet).filter(d => d <= today).sort().reverse();
+  const dataAtual = sec.dataset.data || (datasOrd[0] || today);
+  const equipeF = sec.dataset.equipe || 'Todas';
+  const statusF = sec.dataset.status || 'Todos';
+  const buscaF = (sec.dataset.busca || '').toLowerCase();
+  const equipes = Array.from(new Set((D.pessoas||[]).map(p => p.equipe).filter(Boolean))).sort();
+
+  let pessoas = (D.pessoas||[]);
+  if(equipeF!=='Todas') pessoas = pessoas.filter(p => p.equipe===equipeF);
+  if(buscaF) pessoas = pessoas.filter(p => p.nome.toLowerCase().includes(buscaF) || p.email.toLowerCase().includes(buscaF));
+  const enriquecido = pessoas.map(p => ({ pessoa: p, enviou: statusPessoa(p, dataAtual) }));
+  let listFiltrada = enriquecido;
+  if(statusF==='Enviou') listFiltrada = enriquecido.filter(x => x.enviou);
+  if(statusF==='Pendente') listFiltrada = enriquecido.filter(x => !x.enviou);
+  const enviaramN = enriquecido.filter(x=>x.enviou).length;
+  const pendentesN = enriquecido.length - enviaramN;
+
+  sec.innerHTML = `
+    <div class="filters">
+      <div class="field"><label>Data</label><select class="select" id="stDate">${datasOrd.map(d => `<option ${d===dataAtual?'selected':''}>${d}</option>`).join('')}</select></div>
+      <div class="field"><label>Equipe</label><select class="select" id="stEquipe"><option>Todas</option>${equipes.map(e => `<option ${e===equipeF?'selected':''}>${escHtml(e)}</option>`).join('')}</select></div>
+      <div class="field"><label>Status</label><select class="select" id="stStatus"><option>Todos</option><option ${statusF==='Enviou'?'selected':''}>Enviou</option><option ${statusF==='Pendente'?'selected':''}>Pendente</option></select></div>
+      <div class="field" style="flex:1"><label>Buscar</label><input class="input" id="stBusca" placeholder="Nome ou email..." value="${escHtml(buscaF)}"></div>
+      <div class="field"><label>&nbsp;</label><button class="btn btn-primary" id="stApply">Filtrar</button></div>
+    </div>
+    <div class="card">
+      <div class="card-head">
+        <h3>Colaboradores - ${fmtDate(dataAtual)}</h3>
+        <div style="display:flex;gap:8px"><span class="badge badge-success">${enviaramN} enviaram</span><span class="badge badge-warning">${pendentesN} pendentes</span></div>
+      </div>
+      <div class="card-body no-pad"><table class="tbl">
+        <thead><tr><th>Status</th><th>Colaborador</th><th>Equipe</th><th>Email</th><th>Disciplina</th><th>Projeto</th><th>Arquivo</th></tr></thead>
+        <tbody>${listFiltrada.length ? listFiltrada.map((x, idx) => {
+          const e = x.enviou;
+          const st = e ? '<span class="badge badge-success">Enviou</span>' : '<span class="badge badge-danger">Pendente</span>';
+          let arquivoCell = '-';
+          if(e && e.arquivo && e.data){
+            const btnId = `st-rdp-${idx}`;
+            arquivoCell = `<button id="${btnId}" title="Abrir RDP" style="background:none;border:none;color:var(--c-primary);cursor:pointer;font-size:11px;padding:0">📄 ${escHtml(e.arquivo).slice(0,35)}</button>`;
+          }
+          return `<tr>
+            <td>${st}</td>
+            <td><b>${escHtml(x.pessoa.nome)}</b><br><small style="color:var(--c-text-3)">${escHtml(x.pessoa.email)}</small></td>
+            <td><span class="badge badge-default">${escHtml(x.pessoa.equipe)}</span></td>
+            <td>${escHtml(x.pessoa.email)}</td>
+            <td>${escHtml(x.pessoa.disciplina)}</td>
+            <td>${e && e.projeto_codigo ? `<span class="badge badge-primary">${escHtml(e.projeto_codigo)}</span>` : '-'}</td>
+            <td><small>${arquivoCell}</small></td>
+          </tr>`;
+        }).join('') : '<tr><td colspan="7" class="empty">Sem registros.</td></tr>'}</tbody>
+      </table></div>
+    </div>
+  `;
+
+  // Attach click handlers para botões de RDP
+  listFiltrada.forEach((x, idx) => {
+    if(x.enviou && x.enviou.arquivo && x.enviou.data){
+      const btnId = `st-rdp-${idx}`;
+      const btn = $(btnId);
+      if(btn){
+        btn.onclick = () => abrirRDP(x.enviou.data, x.enviou.arquivo);
+      }
+    }
+  });
+
+  $('stApply').onclick = () => {
+    sec.dataset.data = $('stDate').value;
+    sec.dataset.equipe = $('stEquipe').value;
+    sec.dataset.status = $('stStatus').value;
+    sec.dataset.busca = $('stBusca').value;
+    renderStatus();
+  };
+}
+
+// Por Equipe
+function renderEquipe(){
+  const sec = $('section-equipe');
+  if(!D){ sec.innerHTML = '<div class="empty">Sem dados.</div>'; return; }
+  const today = (D.meta && D.meta.today) || new Date().toISOString().slice(0,10);
+  const datasSet = new Set((D.rdps||[]).map(r => (r.data||'').slice(0,10)));
+  const datasOrd = Array.from(datasSet).filter(d => d <= today).sort();
+  const de = sec.dataset.de || datasOrd[0] || '';
+  const ate = sec.dataset.ate || datasOrd[datasOrd.length-1] || '';
+  const equipes = {};
+  (D.pessoas||[]).forEach(p => {
+    if(!p.equipe) return;
+    if(!equipes[p.equipe]) equipes[p.equipe] = { membros:[], leader:'' };
+    equipes[p.equipe].membros.push(p);
+    // Prefere campo "lider" explicito (gravado pelo extrator); fallback: ultimo trecho do nome da equipe; fallback: a propria equipe
+    if(p.lider) {
+      equipes[p.equipe].leader = p.lider;
+    } else {
+      const m = p.equipe.split(" - ");
+      equipes[p.equipe].leader = m.length > 1 ? m[m.length-1] : p.equipe;
+    }
+  });
+  const datasPeriodo = datasOrd.filter(d => d>=de && d<=ate);
+  const compl = Object.entries(equipes).map(([nome, eq]) => {
+    const esperado = eq.membros.length * datasPeriodo.length;
+    let enviados = 0;
+    eq.membros.forEach(p => { datasPeriodo.forEach(d => { if(statusPessoa(p, d)) enviados++; }); });
+    return { nome, leader:eq.leader, membros:eq.membros.length, enviados, esperado, taxa: esperado?enviados/esperado*100:0 };
+  });
+  const ranking = (D.pessoas||[]).map(p => {
+    let env = 0; datasPeriodo.forEach(d => { if(statusPessoa(p,d)) env++; });
+    const ult = ultimoEnvio(p);
+    return { pessoa:p, env, esperado: datasPeriodo.length, ultimo: ult ? ult.data : '' };
+  }).sort((a,b) => b.env - a.env || a.pessoa.nome.localeCompare(b.pessoa.nome));
+
+  sec.innerHTML = `
+    <div class="filters">
+      <div class="field"><label>De</label><input class="input" type="text" placeholder="DD/MM/AAAA" id="eqDe" value="${isoToUserDate(de)}" maxlength="10"></div>
+      <div class="field"><label>Até</label><input class="input" type="text" placeholder="DD/MM/AAAA" id="eqAte" value="${isoToUserDate(ate)}" maxlength="10"></div>
+      <div class="field"><label>&nbsp;</label><button class="btn btn-primary" id="eqApply">Aplicar</button></div>
+    </div>
+    <div class="kpi-grid">
+      ${compl.map(c => {
+        const cor = c.taxa>=80?'var(--c-success)':c.taxa>=50?'var(--c-warning)':'var(--c-danger)';
+        return `<div class="equipe-card" style="border-top-color:${cor}">
+          <div style="font-weight:700;font-size:14px">${escHtml(c.nome.split(' - ')[0])}</div>
+          <div class="leader">Lider: ${escHtml(c.leader || '-')}</div>
+          <div class="equipe-row"><span>Membros</span><span class="v">${c.membros}</span></div>
+          <div class="equipe-row"><span>Compliance</span><span class="v" style="color:${cor}">${c.taxa.toFixed(0)}%</span></div>
+          <div style="font-size:11px;color:var(--c-text-3)">${c.enviados} envios de ${c.esperado} esperados</div>
+          <div class="compliance-bar"><div class="compliance-bar-fill" style="width:${c.taxa.toFixed(0)}%;background:${cor}"></div></div>
+        </div>`;
+      }).join('')}
+    </div>
+    <div class="card">
+      <div class="card-head"><h3>Ranking Individual</h3><div class="card-sub">ordenado por envios no periodo</div></div>
+      <div class="card-body no-pad"><table class="tbl">
+        <thead><tr><th>#</th><th>Colaborador</th><th>Equipe</th><th>Enviados</th><th>Esperados</th><th>Taxa</th><th>Ultimo</th></tr></thead>
+        <tbody>${ranking.map((r,i) => {
+          const taxa = r.esperado ? r.env/r.esperado*100 : 0;
+          const cor = taxa>=80?'var(--c-success)':taxa>=50?'var(--c-warning)':'var(--c-danger)';
+          return `<tr>
+            <td>${i+1}</td>
+            <td><b>${escHtml(r.pessoa.nome)}</b></td>
+            <td><span class="badge badge-default">${escHtml(r.pessoa.equipe)}</span></td>
+            <td>${r.env}</td><td>${r.esperado}</td>
+            <td><div class="taxa-cell"><div class="taxa-bar"><div class="taxa-bar-fill" style="width:${taxa.toFixed(0)}%;background:${cor}"></div></div><b style="color:${cor}">${taxa.toFixed(0)}%</b></div></td>
+            <td><small>${r.ultimo ? fmtDate(r.ultimo) : '-'}</small></td>
+          </tr>`;
+        }).join('')}</tbody>
+      </table></div>
+    </div>
+  `;
+  $('eqApply').onclick = () => {
+    const dVal = userDateToIso($('eqDe').value);
+    const aVal = userDateToIso($('eqAte').value);
+    if(dVal) sec.dataset.de = dVal;
+    if(aVal) sec.dataset.ate = aVal;
+    renderEquipe();
+  };
+
+  // Validação e formatação de datas DD/MM/AAAA
+  const formatEqDateInput = (input) => {
+    input.oninput = () => {
+      let val = input.value.replace(/\D/g, '');
+      if(val.length > 2) val = val.slice(0,2) + '/' + val.slice(2);
+      if(val.length > 5) val = val.slice(0,5) + '/' + val.slice(5);
+      input.value = val;
+    };
+  };
+  formatEqDateInput($('eqDe'));
+  formatEqDateInput($('eqAte'));
+}
+
+// ── Acoes em pendencias (persistencia local em localStorage) ────────────
+// ── Persistencia de acoes ─────────────────────────────────────────────
+// Estrategia: cache em memoria. Carrega no boot via fetch /api/acoes (servidor local).
+// Salva via POST /api/acoes (debounce 600ms). Fallback para localStorage se servidor offline.
+const ACOES_KEY = 'rdp-acoes-v1';
+let _acoesCache = {};
+let _acoesSrv = null; // null=desconhecido, true=servidor OK, false=offline
+let _acoesSaveTimer = null;
+
+async function acoesBootstrap(){
+  // 1) Tenta servidor
+  try {
+    const r = await fetch('/api/acoes', {cache:'no-store'});
+    if(r.ok){
+      _acoesCache = await r.json();
+      _acoesSrv = true;
+      // Migracao automatica: se localStorage tem dados e servidor nao, faz upload
+      try {
+        const ls = JSON.parse(localStorage.getItem(ACOES_KEY) || '{}');
+        if(Object.keys(ls).length && !Object.keys(_acoesCache).length){
+          _acoesCache = ls;
+          await fetch('/api/acoes', {method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify(ls)});
+          console.log('Acoes do localStorage migradas para o servidor.');
+        }
+      } catch(e){}
+      return;
+    }
+  } catch(e){ /* fall through */ }
+  // 2) Fallback: localStorage
+  _acoesSrv = false;
+  try { _acoesCache = JSON.parse(localStorage.getItem(ACOES_KEY) || '{}'); } catch(e){ _acoesCache = {}; }
+  console.warn('Servidor offline. Usando localStorage como fallback.');
+}
+
+function acoesLoad(){
+  return _acoesCache || {};
+}
+function acoesSave(obj){
+  _acoesCache = obj || {};
+  // Sempre salva no localStorage como backup imediato
+  try { localStorage.setItem(ACOES_KEY, JSON.stringify(_acoesCache)); } catch(e){}
+  // Debounce para servidor
+  if(_acoesSaveTimer) clearTimeout(_acoesSaveTimer);
+  _acoesSaveTimer = setTimeout(async () => {
+    if(_acoesSrv === false) return; // sem servidor
+    try {
+      const r = await fetch('/api/acoes', {method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify(_acoesCache)});
+      if(!r.ok) throw new Error('HTTP ' + r.status);
+      _acoesSrv = true;
+      atualizarStatusServidor();
+    } catch(e){
+      _acoesSrv = false;
+      atualizarStatusServidor();
+      console.warn('Falha ao salvar no servidor (mantido em localStorage):', e.message);
+    }
+  }, 600);
+}
+function atualizarStatusServidor(){
+  const el = document.getElementById('srvStatus');
+  if(!el) return;
+  if(_acoesSrv === true){
+    el.textContent = '● servidor';
+    el.style.color = 'var(--c-success)';
+    el.title = 'Acoes salvas em data/acoes.json';
+  } else if(_acoesSrv === false){
+    el.textContent = '○ offline (localStorage)';
+    el.style.color = 'var(--c-warning)';
+    el.title = 'Servidor nao iniciado. Rode start_server.bat para persistir em arquivo.';
+  } else {
+    el.textContent = '… conectando';
+    el.style.color = 'var(--c-text-3)';
+  }
+}
+function pendKey(projCodigo, sistema, descricao){
+  // Chave estavel da pendencia: projeto + sistema + primeiros 80 chars normalizados
+  const norm = String(descricao||'').toLowerCase().replace(/\s+/g,' ').trim().slice(0,80);
+  return projCodigo + '||' + sistema + '||' + norm;
+}
+function uuid(){
+  return 'a' + Math.random().toString(36).slice(2,11) + Date.now().toString(36).slice(-4);
+}
+function acaoAdd(pkey, txt, resp, prazo){
+  const all = acoesLoad();
+  if(!all[pkey]) all[pkey] = [];
+  all[pkey].push({
+    id: uuid(),
+    acao: txt,
+    responsavel: resp || '',
+    prazo: prazo || '',
+    status: 'Aberta',
+    criadoEm: new Date().toISOString(),
+    atualizadoEm: new Date().toISOString()
+  });
+  acoesSave(all);
+}
+function acaoUpdate(pkey, id, patch){
+  const all = acoesLoad();
+  const list = all[pkey] || [];
+  const idx = list.findIndex(x => x.id === id);
+  if(idx < 0) return;
+  Object.assign(list[idx], patch, { atualizadoEm: new Date().toISOString() });
+  acoesSave(all);
+}
+function acaoRemove(pkey, id){
+  const all = acoesLoad();
+  if(!all[pkey]) return;
+  all[pkey] = all[pkey].filter(x => x.id !== id);
+  if(!all[pkey].length) delete all[pkey];
+  acoesSave(all);
+}
+function exportarAcoes(){
+  const all = acoesLoad();
+  const blob = new Blob([JSON.stringify(all, null, 2)], {type:'application/json'});
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = 'rdp_acoes_' + new Date().toISOString().slice(0,10) + '.json';
+  document.body.appendChild(a); a.click(); a.remove();
+}
+function importarAcoes(){
+  const inp = document.createElement('input');
+  inp.type = 'file'; inp.accept = '.json';
+  inp.onchange = e => {
+    const f = e.target.files[0]; if(!f) return;
+    const r = new FileReader();
+    r.onload = () => {
+      try {
+        const data = JSON.parse(r.result);
+        const cur = acoesLoad();
+        // Merge: para cada chave, soma listas (sem dedup por id porque vem de outro device)
+        for(const k in data){
+          if(!cur[k]) cur[k] = [];
+          cur[k].push(...data[k]);
+        }
+        acoesSave(cur);
+        alert('Importado com sucesso. Recarregue a aba.');
+        renderProjetos();
+      } catch(err) { alert('Falha: ' + err.message); }
+    };
+    r.readAsText(f);
+  };
+  inp.click();
+}
+async function reloadAcoesFromServer(){
+  if(_acoesSrv === false){ alert('Servidor offline. Inicie start_server.bat.'); return; }
+  try {
+    const r = await fetch('/api/acoes', {cache:'no-store'});
+    if(!r.ok) throw new Error('HTTP ' + r.status);
+    _acoesCache = await r.json();
+    _acoesSrv = true;
+    atualizarStatusServidor();
+    renderProjetos();
+  } catch(e){
+    _acoesSrv = false;
+    atualizarStatusServidor();
+    alert('Falha: ' + e.message);
+  }
+}
+
+const STATUS_NEXT = { 'Aberta':'Em andamento', 'Em andamento':'Concluida', 'Concluida':'Aberta' };
+const STATUS_CLS = { 'Aberta':'aberta', 'Em andamento':'andamento', 'Concluida':'concluida' };
+const STATUS_BADGE_CLS = { 'Aberta':'badge-warning', 'Em andamento':'badge-primary', 'Concluida':'badge-success' };
+
+function renderPendenciaItem(projCodigo, sistema, it){
+  const pkey = pendKey(projCodigo, sistema, it.desc);
+  const acoes = (acoesLoad()[pkey] || []);
+  const hasAcao = acoes.length > 0;
+  const todasConcluidas = hasAcao && acoes.every(a => a.status === 'Concluida');
+  const cls = todasConcluidas ? 'concluida' : (hasAcao ? 'has-acao' : '');
+  const safeDesc = escHtml(it.desc);
+  return `<div class="proj-pend-item ${cls}" data-pkey="${pkey}" onclick="event.stopPropagation()">
+    <div class="proj-pend-info">
+      <div class="proj-pend-desc">${safeDesc}</div>
+      <small style="color:var(--c-text-3);white-space:nowrap">${fmtDate(it.data)} · ${escHtml(it.responsavel||'-')}</small>
+    </div>
+    <div style="display:flex;gap:8px;align-items:center;margin-top:4px">
+      <span class="proj-pend-toggle" onclick="this.closest('.proj-pend-item').classList.toggle('expanded')">${hasAcao ? '▸ '+acoes.length+' ação(ões)' : '+ adicionar ação'}</span>
+    </div>
+    <div class="acoes-box">
+      ${acoes.map(a => `
+        <div class="acao-item ${STATUS_CLS[a.status]||'aberta'}">
+          <span style="flex:1">${escHtml(a.acao)} ${a.responsavel?'· <b>'+escHtml(a.responsavel)+'</b>':''} ${a.prazo?'· prazo '+fmtDate(a.prazo):''}</span>
+          <button class="acao-status-btn ${STATUS_BADGE_CLS[a.status]||'badge-warning'}" onclick="acaoToggleStatus('${pkey}','${a.id}')">${a.status}</button>
+          <button class="acao-status-btn badge-default" onclick="acaoDel('${pkey}','${a.id}')" title="Remover">×</button>
+        </div>
+      `).join('')}
+      <div class="acao-add">
+        <input type="text" placeholder="Nova ação..." id="ac-${pkey.slice(-12)}-txt">
+        <input type="text" placeholder="Responsável" id="ac-${pkey.slice(-12)}-resp" style="flex:0 0 120px">
+        <input type="date" id="ac-${pkey.slice(-12)}-prazo">
+        <button onclick="acaoAddFromUI('${pkey}','${pkey.slice(-12)}')">Adicionar</button>
+      </div>
+    </div>
+  </div>`;
+}
+
+function acaoAddFromUI(pkey, suffix){
+  const txt = document.getElementById('ac-'+suffix+'-txt').value.trim();
+  if(!txt){ alert('Descreva a acao.'); return; }
+  const resp = document.getElementById('ac-'+suffix+'-resp').value.trim();
+  const prazo = document.getElementById('ac-'+suffix+'-prazo').value;
+  acaoAdd(pkey, txt, resp, prazo);
+  renderProjetos();
+}
+function acaoToggleStatus(pkey, id){
+  const all = acoesLoad();
+  const a = (all[pkey]||[]).find(x => x.id === id);
+  if(!a) return;
+  acaoUpdate(pkey, id, { status: STATUS_NEXT[a.status] || 'Aberta' });
+  renderProjetos();
+}
+function acaoDel(pkey, id){
+  if(!confirm('Remover esta acao?')) return;
+  acaoRemove(pkey, id);
+  renderProjetos();
+}
+
+// Projetos
+function renderProjetos(){
+  const sec = $('section-projetos');
+  if(!D){ sec.innerHTML = '<div class="empty">Sem dados.</div>'; return; }
+  const projs = D.projetos || [];
+  const buscaF = (sec.dataset.busca || '').toLowerCase();
+  const catF = sec.dataset.cat || 'Todas';
+  const buF = sec.dataset.bu || 'Todas';
+  const cats = Array.from(new Set(projs.map(p => p.categoria).filter(Boolean))).sort();
+  const bus = Array.from(new Set(projs.map(p => p.business_unit).filter(Boolean))).sort();
+  let filtrados = projs;
+  if(buscaF) filtrados = filtrados.filter(p => (p.codigo+p.nome+p.cliente).toLowerCase().includes(buscaF));
+  if(catF!=='Todas') filtrados = filtrados.filter(p => p.categoria===catF);
+  if(buF!=='Todas') filtrados = filtrados.filter(p => p.business_unit===buF);
+
+  // Conta total de acoes em pendencias dos projetos filtrados
+  const todasAcoes = acoesLoad();
+  let totalAcoes = 0, totalAbertas = 0;
+  for(const k in todasAcoes){
+    todasAcoes[k].forEach(a => { totalAcoes++; if(a.status !== 'Concluida') totalAbertas++; });
+  }
+
+  sec.innerHTML = `
+    <div class="filters">
+      <div class="field" style="flex:1"><label>Buscar</label><input class="input" id="pjBusca" placeholder="Codigo, nome ou cliente..." value="${escHtml(buscaF)}"></div>
+      <div class="field"><label>Categoria</label><select class="select" id="pjCat"><option>Todas</option>${cats.map(c => `<option ${c===catF?'selected':''}>${escHtml(c)}</option>`).join('')}</select></div>
+      <div class="field"><label>Business Unit</label><select class="select" id="pjBu"><option>Todas</option>${bus.map(bb => `<option ${bb===buF?'selected':''}>${escHtml(bb)}</option>`).join('')}</select></div>
+      <div class="field"><label>&nbsp;</label><button class="btn btn-primary" id="pjApply">Filtrar</button></div>
+    </div>
+    <p class="page-sub">${filtrados.length} projeto(s) com RDPs - clique no card para expandir · <b>${totalAbertas}</b> acoes abertas / ${totalAcoes} total</p>
+    <div id="pjList"></div>
+  `;
+  $('pjApply').onclick = () => { sec.dataset.busca = $('pjBusca').value; sec.dataset.cat = $('pjCat').value; sec.dataset.bu = $('pjBu').value; renderProjetos(); };
+  $('pjList').innerHTML = filtrados.length ? filtrados.map((p, pidx) => {
+    const sistemas = Object.keys(p.pendencias_por_sistema || {}).sort();
+    return `<div class="proj-card" onclick="this.classList.toggle('expanded')">
+      <div class="proj-head">
+        <div>
+          <div class="proj-code">${escHtml(p.codigo)} <small style="color:var(--c-text-3);font-weight:500;font-size:12px">- ${escHtml(p.nome || '-')}</small></div>
+          <div class="proj-name">${escHtml(p.cliente)}${p.uf?' - '+escHtml(p.uf):''}</div>
+          <div class="proj-tags">
+            ${p.categoria ? `<span class="badge badge-purple">${escHtml(p.categoria)}</span>` : ''}
+            ${p.business_unit ? `<span class="badge badge-primary">${escHtml(p.business_unit)}</span>` : ''}
+            ${p.segmento ? `<span class="badge badge-default">${escHtml(p.segmento)}</span>` : ''}
+            ${sistemas.map(s => `<span class="badge badge-warning">${escHtml(s)}</span>`).join('')}
+          </div>
+        </div>
+        <div class="proj-meta"><b>${(p.rdps||[]).length}</b> RDPs<br><small>Ultimo: ${fmtDate(p.ultimo_rdp)}</small></div>
+      </div>
+      <div class="proj-pend">
+        <h4 style="margin:0 0 8px;font-size:11px;text-transform:uppercase;color:var(--c-text-3)">RDPs no projeto</h4>
+        <table class="tbl" style="margin-bottom:14px"><thead><tr><th>Data</th><th>Responsavel</th><th>Sistema</th><th>Atividades</th><th>Pendencias</th><th></th></tr></thead>
+          <tbody>${(p.rdps||[]).map((r, ridx) => {
+            const hasFile = r.arquivo && r.data;
+            const btnId = `pj-rdp-${pidx}-${ridx}`;
+            const fileCell = hasFile ? `<button id="${btnId}" title="Abrir RDP" style="background:none;border:none;color:var(--c-primary);font-size:12px;cursor:pointer;padding:0">📄</button>` : '-';
+            return `<tr><td>${fmtDate(r.data)}</td><td>${escHtml(r.responsavel)}</td><td><span class="badge badge-default">${escHtml(r.sistema||'-')}</span></td><td>${r.n_atividades}</td><td>${r.n_pendencias}</td><td style="text-align:center">${fileCell}</td></tr>`;
+          }).join('')}</tbody></table>
+        ${sistemas.map(s => {
+          const ps = p.pendencias_por_sistema[s] || [];
+          if(!ps.length) return '';
+          return `<div class="proj-pend-grupo">
+            <h4>Pendencias - ${escHtml(s)} (${ps.length})</h4>
+            ${ps.map(it => renderPendenciaItem(p.codigo, s, it)).join('')}
+          </div>`;
+        }).join('')}
+      </div>
+    </div>`;
+  }).join('') : '<div class="empty">Nenhum projeto com RDPs encontrado.</div>';
+
+  // Attach click handlers para botões de RDP na seção de projetos
+  filtrados.forEach((p, pidx) => {
+    if(p.rdps && p.rdps.length > 0){
+      p.rdps.forEach((r, ridx) => {
+        if(r.arquivo && r.data){
+          const btnId = `pj-rdp-${pidx}-${ridx}`;
+          const btn = $(btnId);
+          if(btn){
+            btn.onclick = (e) => {
+              e.stopPropagation(); // Evita toggle do card
+              abrirRDP(r.data, r.arquivo);
+            };
+          }
+        }
+      });
+    }
+  });
+}
+
+// Analise IA
+function renderAnalise(){
+  const sec = $('section-analise');
+  const md = window.ANALISE_IA_MD;
+  if(!md){
+    sec.innerHTML = '<div class="alert info"><b>Analise IA ainda nao gerada.</b><br>O arquivo <code>data/analise_ia.js</code> nao foi encontrado.<br>Peca ao Claude: <i>"Atualize a analise IA dos RDPs de hoje"</i>.</div>';
+    return;
+  }
+  const html = md
+    .replace(/^### (.+)$/gm, '<h3 style="margi

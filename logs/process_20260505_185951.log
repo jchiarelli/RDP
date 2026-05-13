@@ -1,0 +1,325 @@
+[18:59:53] INFO  === process_rdps.py v2.2 ===
+[18:59:53] INFO  RDP: C:\Users\Joao.Chiarelli\OneDrive - Convergint\Claude\Acompanhamento de projeto\RDP | OUT: C:\Users\Joao.Chiarelli\OneDrive - Convergint\Claude\Acompanhamento de projeto\dashboard_v2\data
+[18:59:53] INFO  Pessoas: 53 | Projetos: 1470
+[18:59:53] INFO  Datas alvo: ['2026-04-22', '2026-04-23', '2026-04-24', '2026-04-26', '2026-04-27', '2026-04-28', '2026-04-29', '2026-04-30', '2026-05-01', '2026-05-03', '2026-05-04', '2026-05-05']
+[18:59:53] INFO  Arquivos: 159
+[18:59:53] INFO  -> ASV49919-2026-04-22_RDP_(BMS)_Larissa Isabelle.pdf
+[18:59:54] INFO     participantes: ['Larissa Isabelle da Silva']
+[18:59:54] INFO  -> PRJ16598_2026-04-22_RDP_(SEG)_Edison Shiobara.docx
+[18:59:54] INFO     participantes: ['Edison Hideki Shiobara']
+[18:59:54] INFO  -> PRJ34683_2026-04-17_RDP_(AV)_Fabio Araujo.docx
+[18:59:54] ERR   docx2txt PRJ34683_2026-04-17_RDP_(AV)_Fabio Araujo.docx: File is not a zip file
+[18:59:54] WARN  sem texto: PRJ34683_2026-04-17_RDP_(AV)_Fabio Araujo.docx
+[18:59:54] INFO  -> PRJ42188_2026-04-22_RDP_(SEG)_EDUARDO MOTA_SCA.pdf
+[18:59:54] INFO     participantes: ['Eduardo da Purificacao Mota dos Santos']
+[18:59:54] INFO  -> PRJ45503_2026-04-20_RDP_(BMS)_JhonatanAtaide.pdf
+[18:59:55] INFO     participantes: ['Jhonatan Camara de Ataide', 'Renan Silva Almeida']
+[18:59:55] INFO  -> PRJ45503_2026-04-22_RDP_(BMS)_Renan Almeida.pdf
+[18:59:55] INFO     participantes: ['Renan Silva Almeida', 'Jhonatan Camara de Ataide']
+[18:59:55] INFO  -> PRJ46618_2026-04-22_RDP_(SEC)_SergioOliveira.docx
+[18:59:55] INFO     participantes: ['Sergio Henrique Ferreira de Oliveira']
+[18:59:55] INFO  -> PRJ47108_2026-04-22_RDP_(BMS)_Thiago Berzin Telles.pdf
+[18:59:56] INFO     participantes: ['Thiago Berzin Telles']
+[18:59:56] INFO  -> PRJ55738-2026-04-22_RDP_(BMS)_Larissa Silva.pdf
+[18:59:56] INFO     participantes: ['Larissa Isabelle da Silva']
+[18:59:56] INFO  -> 2026-04-23_2502_C10257_PRJ48289 _RDP_SEC_Andre Chacon 1.pdf
+[18:59:56] INFO     participantes: ['Andre Chacon da Silveira']
+[18:59:56] INFO  -> CTR20593_2026-04-22_RDP_(SEG)_Michel Sato.docx
+[18:59:56] INFO     participantes: ['Michel Kenji Sato']
+[18:59:56] INFO  -> PRJ16598_2026-04-23_RDP_(SEG)_Edison Shiobara.docx
+[18:59:57] INFO     participantes: ['Edison Hideki Shiobara']
+[18:59:57] INFO  -> PRJ22499_2026-04-22_RDP_(BMS)_Noélio de Brito Oliveira.pdf
+[18:59:57] INFO     participantes: []
+[18:59:57] INFO  -> PRJ35873_2026-04-23_RDP_(SDAI)_João Viana.pdf
+[18:59:58] INFO     participantes: ['Joao Victor Sousa Viana']
+[18:59:58] INFO  -> PRJ40799_2026-04-23_RDP_(SEG)_Andre Chacon.pdf
+[18:59:58] INFO     participantes: ['Andre Chacon da Silveira']
+[18:59:58] INFO  -> PRJ45503_2026-04-23_RDP_(BMS)_Renan Almeida.pdf
+[18:59:58] INFO     participantes: ['Renan Silva Almeida', 'Jhonatan Camara de Ataide']
+[18:59:58] INFO  -> PRJ46618_2026-04-23_RDP_(SEC)_SergioOliveira.docx
+[18:59:58] INFO     participantes: ['Sergio Henrique Ferreira de Oliveira']
+[18:59:58] INFO  -> PRJ47108_2026-04-23_RDP_(BMS)_Thiago Berzin Telles.pdf
+[18:59:59] INFO     participantes: ['Thiago Berzin Telles']
+[18:59:59] INFO  -> PRJ50476-2026-04-23_RDP_(BMS)_Larissa Silva.pdf
+[18:59:59] INFO     participantes: ['Larissa Isabelle da Silva']
+[18:59:59] INFO  -> PRJ53722_2026-04-22_RDP_(BMS)_Alfredo da Silveira.pdf
+[19:00:00] INFO     participantes: ['Alfredo da Silveira']
+[19:00:00] INFO  -> PRJ53722_2026-04-22_RDP_(SDAI)_RODRIGO DE OLIVEIRA SOUSA.pdf
+[19:00:01] INFO     participantes: ['Rodrigo de Oliveira Sousa']
+[19:00:01] INFO  -> PRJ53722_2026-04-23_RDP_(BMS)_Alfredo da Silveira.pdf
+[19:00:01] INFO     participantes: ['Alfredo da Silveira']
+[19:00:01] INFO  -> PRJ53722_2026-04-23_RDP_(BMS)_Teylor Garibaldi.pdf
+[19:00:02] INFO     participantes: ['Teylor Soares da Silva Garibaldi Pereira', 'Lindemberg Silva do Carmo Junior', 'Wesley Gomes Vieira', 'Rodrigo de Oliveira Sousa']
+[19:00:02] INFO  -> PRJ16598_2026-04-24_RDP_(SEG)_Edison Shiobara.docx
+[19:00:02] INFO     participantes: ['Edison Hideki Shiobara']
+[19:00:02] INFO  -> PRJ19620-2026-04-22_RDP_(BMS)_Anderson.pdf
+[19:00:03] INFO     participantes: ['Anderson Caetano de Souza Pires']
+[19:00:03] INFO  -> PRJ19620-2026-04-23_RDP_(BMS)_Anderson.docx.pdf
+[19:00:04] INFO     participantes: ['Anderson Caetano de Souza Pires']
+[19:00:04] INFO  -> PRJ22499_2026-04-23_RDP_(BMS)_Noélio de Brito Oliveira.pdf
+[19:00:04] INFO     participantes: []
+[19:00:04] INFO  -> PRJ34683_2026-04-22_RDP_(AV)_Fabio Araujo.docx
+[19:00:04] INFO     participantes: ['Fabio Batista Pinheiro de Araujo']
+[19:00:04] INFO  -> PRJ34683_2026-04-24_RDP_(AV)_Fabio Araujo.docx
+[19:00:04] INFO     participantes: ['Fabio Batista Pinheiro de Araujo']
+[19:00:04] INFO  -> PRJ42548_2026-04-22_RDP_SEG_Salathiel_Martins.pdf
+[19:00:05] INFO     participantes: ['Salathiel da Silva Martins']
+[19:00:05] INFO  -> PRJ45503_2026-04-22_RDP_(BMS)_João Viana.pdf
+[19:00:06] INFO     participantes: ['Joao Victor Sousa Viana']
+[19:00:06] INFO  -> PRJ45503_2026-04-24_RDP_(BMS)_João Viana.pdf
+[19:00:07] INFO     participantes: ['Joao Victor Sousa Viana']
+[19:00:07] INFO  -> PRJ45503_2026-04-24_RDP_(BMS)_Renan Almeida.pdf
+[19:00:07] INFO     participantes: ['Renan Silva Almeida', 'Jhonatan Camara de Ataide']
+[19:00:07] INFO  -> PRJ46618_2026-04-24_RDP_(SEC)_SergioOliveira.docx
+[19:00:07] INFO     participantes: ['Sergio Henrique Ferreira de Oliveira']
+[19:00:07] INFO  -> PRJ53722_2026-04-23_RDP_(SDAI)_RODRIGO DE OLIVEIRA SOUSA.pdf
+[19:00:08] INFO     participantes: ['Rodrigo de Oliveira Sousa', 'Lindemberg Silva do Carmo Junior', 'Teylor Soares da Silva Garibaldi Pereira']
+[19:00:08] INFO  -> PRJ53722_2026-04-23_RDP_(Security)_Luiz Navero - R02.docx
+[19:00:08] INFO     participantes: ['Luiz Eduardo Rodrigues Navero']
+[19:00:08] INFO  -> PRJ53722_2026-04-24_RDP_(BMS)_Teylor Garibaldi.pdf
+[19:00:08] INFO     participantes: ['Teylor Soares da Silva Garibaldi Pereira', 'Lindemberg Silva do Carmo Junior', 'Wesley Gomes Vieira', 'Rodrigo de Oliveira Sousa']
+[19:00:08] INFO  -> PRJ53722_2026-04-24_RDP_(BMS)_THIAGO BORGES.pdf
+[19:00:09] INFO     participantes: ['Thiago Henrique Nunes Borges']
+[19:00:09] INFO  -> SBRF-TPS-478-4815-0A_ASBUILT.pdf
+[19:00:25] INFO     participantes: []
+[19:00:25] INFO  -> PRJ47108_2026-04-26_RDP_(SDAI)_Leonardo Rodrigues.pdf
+[19:00:26] INFO     participantes: ['Leonardo da Silva Rodrigues']
+[19:00:26] INFO  -> 2026-04-27_2502_C10257_PRJ48289 _RDP_SEC_Andre Chacon 1.pdf
+[19:00:26] INFO     participantes: ['Andre Chacon da Silveira']
+[19:00:26] INFO  -> ASV49919_2026-04-24_RDP_(BMS)_Cleiton Vieira.pdf
+[19:00:26] INFO     participantes: ['Cleiton Henrique da Silva Vieira', 'Roberto Said']
+[19:00:26] INFO  -> CTR19778_2025-04-24_RDP_(SEC)_Marcos Teixeira.pdf
+[19:00:27] INFO     participantes: ['Marcos Vinicius Salvadori Teixeira']
+[19:00:27] INFO  -> PRJ16598_2026-04-27_RDP_(SEG)_Edison Shiobara.docx
+[19:00:27] INFO     participantes: ['Edison Hideki Shiobara']
+[19:00:27] INFO  -> PRJ19620-2026-04-24_RDP_(BMS)_Anderson.pdf
+[19:00:28] INFO     participantes: ['Anderson Caetano de Souza Pires']
+[19:00:28] INFO  -> PRJ22499_2026-04-24_RDP_(BMS)_Noélio de Brito Oliveira.pdf
+[19:00:28] INFO     participantes: []
+[19:00:28] INFO  -> PRJ34683_2026-04-27_RDP_(AV)_Fabio Araujo.docx
+[19:00:28] INFO     participantes: ['Fabio Batista Pinheiro de Araujo']
+[19:00:29] INFO  -> PRJ40799_2026-04-27_RDP_(SEG)_Andre Chacon.pdf
+[19:00:29] INFO     participantes: ['Andre Chacon da Silveira']
+[19:00:29] INFO  -> PRJ42548_2026-04-24_RDP_SEG_Salathiel_Martins.pdf
+[19:00:29] INFO     participantes: ['Salathiel da Silva Martins']
+[19:00:29] INFO  -> PRJ45503_2026-04-27_RDP_(BMS)_JhonatanAtaide.pdf
+[19:00:30] INFO     participantes: ['Jhonatan Camara de Ataide', 'Renan Silva Almeida']
+[19:00:30] INFO  -> PRJ45503_2026-04-27_RDP_(BMS)_João Viana.pdf
+[19:00:31] INFO     participantes: ['Joao Victor Sousa Viana']
+[19:00:31] INFO  -> PRJ55924_2026-27-04_RDP_(AV)_Augusto-Valle.pdf
+[19:00:31] INFO     participantes: ['Augusto Cesar Flocco Valle', 'Caio Vinicius de Almeida', 'Edmilso Souza', 'Giovane Maino', 'Cristian Souza', 'Guilherme Ariz da Silva']
+[19:00:31] INFO  -> PRJ57394_2026-04-27_RDP_(SEG)_Tiago_Alves_Dutra.pdf
+[19:00:32] INFO     participantes: ['Tiago Alves Dutra', 'Leonardo da Silva Rodrigues']
+[19:00:32] INFO  -> SGRUTB08-MOB-34669 - LOGICAL SEGREGATION - PHASE 4_Rev3.docx
+[19:00:33] INFO     participantes: []
+[19:00:33] INFO  -> 2026-04-28_2502_C10257_PRJ48289 _RDP_SEC_Andre Chacon 1.pdf
+[19:00:33] INFO     participantes: ['Andre Chacon da Silveira']
+[19:00:33] INFO  -> 2312_C09874_PRJ22062_2026-04-08_01_RDP_AV_Thiago_Dos_Santos_Silva.docx
+[19:00:33] INFO     participantes: ['Thiago dos Santos Silva']
+[19:00:33] INFO  -> 2410_C01425_PRJ49431_2026-04-17_08_RDP_AV_Thiago_Dos_Santos_Silva.docx
+[19:00:33] INFO     participantes: ['Thiago dos Santos Silva']
+[19:00:33] INFO  -> Aena Recife - Prints sensores SDAI sem tags.docx
+[19:00:33] WARN  sem texto: Aena Recife - Prints sensores SDAI sem tags.docx
+[19:00:33] INFO  -> Aena Recife - Sensores SDAI fora do padrão.docx
+[19:00:33] WARN  sem texto: Aena Recife - Sensores SDAI fora do padrão.docx
+[19:00:33] INFO  -> CTR20593_2026-04-27_RDP_(SEG)_Michel Sato.docx
+[19:00:33] INFO     participantes: ['Michel Kenji Sato']
+[19:00:33] INFO  -> CTR55040_2026-04-27_RDP_(BMS)_THIAGO BORGES.pdf
+[19:00:34] INFO     participantes: ['Thiago Henrique Nunes Borges']
+[19:00:34] INFO  -> PRJ16598_2026-04-28_RDP_(SEG)_Edison Shiobara.docx
+[19:00:34] INFO     participantes: ['Edison Hideki Shiobara']
+[19:00:34] INFO  -> PRJ22499_2026-04-27_RDP_(BMS)_Noélio de Brito Oliveira.pdf
+[19:00:34] INFO     participantes: []
+[19:00:34] INFO  -> PRJ34683_2026-04-27_RDP_(AV)_Fabio Araujo.docx
+[19:00:34] INFO     participantes: ['Fabio Batista Pinheiro de Araujo']
+[19:00:34] INFO  -> PRJ34683_2026-04-28_RDP_(AV)_Fabio Araujo.docx
+[19:00:34] INFO     participantes: ['Fabio Araujo e Felipe Santos']
+[19:00:34] INFO  -> PRJ42548_2026-04-27_RDP_SEG_Salathiel_Martins.pdf
+[19:00:35] INFO     participantes: ['Salathiel da Silva Martins']
+[19:00:35] INFO  -> PRJ45503_2026-04-28_RDP_(BMS)_JhonatanAtaide.pdf
+[19:00:36] INFO     participantes: ['Jhonatan Camara de Ataide', 'Renan Silva Almeida']
+[19:00:36] INFO  -> PRJ47108_2026-04-27_RDP_(SDAI)_Jeilan Lima.pdf
+[19:00:36] INFO     participantes: ['Jeilan Souza de Lima', 'Pedro Joab', 'Rodrigo de Oliveira Sousa', 'Leonardo da Silva Rodrigues']
+[19:00:36] INFO  -> PRJ47108_2026-04-28_RDP_(BMS)_GUILHEME ARIZ DA SILVA.pdf
+[19:00:36] INFO     participantes: ['Guilherme Ariz da Silva']
+[19:00:36] INFO  -> PRJ53722_2026-04-24_RDP_(BMS)_Alfredo da Silveira.pdf
+[19:00:37] INFO     participantes: ['Alfredo da Silveira']
+[19:00:37] INFO  -> PRJ53722_2026-04-27_RDP_(BMS)_Alfredo da Silveira.pdf
+[19:00:37] INFO     participantes: ['Alfredo da Silveira']
+[19:00:37] INFO  -> PRJ53722_2026-04-27_RDP_(Security)_Luiz Navero - R02.docx
+[19:00:37] INFO     participantes: ['Luiz Eduardo Rodrigues Navero']
+[19:00:37] INFO  -> PRJ53722_2026-04-28_RDP_(BMS)_Alfredo da Silveira.pdf
+[19:00:38] INFO     participantes: ['Alfredo da Silveira']
+[19:00:38] INFO  -> PRJ53722_2026-04-28_RDP_(Security)_Luiz Navero - R02.docx
+[19:00:38] INFO     participantes: ['Luiz Eduardo Rodrigues Navero']
+[19:00:38] INFO  -> PRJ58937_2026-04-28_RDP_(BMS)_Larissa Silva.pdf
+[19:00:39] INFO     participantes: ['Larissa Isabelle da Silva']
+[19:00:39] INFO  -> PRJ59307_2026-04-28_RDP_(SEG)_EDUARDO MOTA.pdf
+[19:00:39] INFO     participantes: ['Eduardo da Purificacao Mota dos Santos']
+[19:00:39] INFO  -> PRJ61205_2026-04-28_RDP_(AV)_Jean Kevyn Correia Pessoa.docx
+[19:00:39] INFO     participantes: ['Jean Kevyn Correia Pessoa']
+[19:00:39] INFO  -> SGRUTB67-E-STC-3 ANDAR.pdf
+[19:01:07] INFO     participantes: []
+[19:01:07] INFO  -> 2026-04-29_2502_C10257_PRJ48289 _RDP_SEC_Andre Chacon .pdf
+[19:01:08] INFO     participantes: ['Andre Chacon da Silveira']
+[19:01:08] INFO  -> PRJ107443_2026-04-28_RDP_(SEG)_Edison Shiobara.docx
+[19:01:08] INFO     participantes: ['Edison Hideki Shiobara', 'Sidnei Martins']
+[19:01:08] INFO  -> PRJ22499_2026-04-28_RDP_(BMS)_Noélio de Brito Oliveira.pdf
+[19:01:09] INFO     participantes: []
+[19:01:09] INFO  -> PRJ31386_2026-04-29_RDP_(SDAI)_DAVISON CAMPOS.docx
+[19:01:09] INFO     participantes: ['Davison Campos']
+[19:01:09] INFO  -> PRJ31386_2026-04-29_RDP_(SDAI)_DAVISON CAMPOS.pdf
+[19:01:10] INFO     participantes: ['Davison Campos']
+[19:01:10] INFO  -> PRJ34724_2026-04-28_RDP_(SEC)_SergioOliveira.docx
+[19:01:10] INFO     participantes: ['Sergio Henrique Ferreira de Oliveira']
+[19:01:10] INFO  -> PRJ35632_2026-04-28_RDP_(SEG)_Michel Sato.docx
+[19:01:10] INFO     participantes: ['Michel Kenji Sato', 'Paulo Sena']
+[19:01:10] INFO  -> PRJ35873-2026-04-29_RDP_(BMS)_Renan_Silva.pdf
+[19:01:11] INFO     participantes: ['Renan de Souza Silva', 'Jennifer Sousa da Silva', 'Leonardo da Silva Rodrigues', 'Thiago Berzin Telles']
+[19:01:11] INFO  -> PRJ42548_2026-04-28_RDP_SEG_Salathiel_Martins.pdf
+[19:01:12] INFO     participantes: ['Salathiel da Silva Martins']
+[19:01:12] INFO  -> PRJ45503_2026-04-28_RDP_(BMS)_João Viana.pdf
+[19:01:13] INFO     participantes: ['Joao Victor Sousa Viana']
+[19:01:13] INFO  -> PRJ45503_2026-04-29_RDP_(BMS)_Renan Almeida.pdf
+[19:01:13] INFO     participantes: ['Renan Silva Almeida', 'Jhonatan Camara de Ataide', 'Larissa Isabelle da Silva']
+[19:01:13] INFO  -> PRJ45819_2026-04-28_RDP_(BMS)_THIAGO BORGES.pdf
+[19:01:14] INFO     participantes: ['Thiago Henrique Nunes Borges']
+[19:01:14] INFO  -> PRJ47108_2026-04-28_RDP_(SDAI)_Jeilan Lima.pdf
+[19:01:14] INFO     participantes: ['Jeilan Souza de Lima', 'Pedro Joab']
+[19:01:14] INFO  -> PRJ47108_2026-04-29_RDP_(SDAI)_Jeilan Lima.pdf
+[19:01:15] INFO     participantes: ['Jeilan Souza de Lima']
+[19:01:15] INFO  -> PRJ50476-2026-04-29_RDP_(BMS)_Larissa Silva.pdf
+[19:01:15] INFO     participantes: ['Larissa Isabelle da Silva']
+[19:01:15] INFO  -> PRJ53722_2026-04-29_RDP_(BMS)_Alfredo da Silveira.pdf
+[19:01:16] INFO     participantes: ['Alfredo da Silveira']
+[19:01:16] INFO  -> PRJ53722_2026-04-29_RDP_(Security)_Luiz Navero - R02.docx
+[19:01:16] INFO     participantes: ['Luiz Eduardo Rodrigues Navero']
+[19:01:16] INFO  -> PRJ55924_2026-29-04_RDP_(AV)_Augusto-Valle.pdf
+[19:01:16] INFO     participantes: ['Augusto Cesar Flocco Valle', 'Caio Vinicius de Almeida', 'Edmilso Souza', 'Giovane Maino', 'Cristian Souza']
+[19:01:16] INFO  -> PRJ57394_2026-04-28_RDP_(SEG)_Tiago_Alves_Dutra.pdf
+[19:01:17] INFO     participantes: ['Tiago Alves Dutra']
+[19:01:17] INFO  -> PRJ57394_2026-04-29_RDP_(SEG)_Tiago_Alves_Dutra.pdf
+[19:01:18] INFO     participantes: ['Tiago Alves Dutra']
+[19:01:18] INFO  -> PRJ57636_2026-04-29_RDP_(AV)_Jean Kevyn Correia Pessoa.docx
+[19:01:18] INFO     participantes: ['Jean Kevyn Correia Pessoa']
+[19:01:18] INFO  -> 2026-04-30_2502_C10257_PRJ48289 _RDP_SEC_Andre Chacon .pdf
+[19:01:18] INFO     participantes: ['Andre Chacon da Silveira']
+[19:01:18] INFO  -> Aena Recife - Print tags repetidas - 2026.04.30.docx
+[19:01:18] INFO     participantes: []
+[19:01:18] INFO  -> Aena Recife - Prints sensores SDAI sem tags - R01 - 2026.04.30.docx
+[19:01:18] WARN  sem texto: Aena Recife - Prints sensores SDAI sem tags - R01 - 2026.04.30.docx
+[19:01:18] INFO  -> ASV49919_2026-04-27_RDP_(BMS)_Cleiton Vieira.pdf
+[19:01:19] INFO     participantes: ['Cleiton Henrique da Silva Vieira', 'Eric de Oliveira Morais']
+[19:01:19] INFO  -> PRJ16598_2026-04-29_RDP_(SEG)_Edison Shiobara.docx
+[19:01:19] INFO     participantes: ['Edison Hideki Shiobara']
+[19:01:19] INFO  -> PRJ16598_2026-04-30_RDP_(SEG)_Edison Shiobara.docx
+[19:01:19] INFO     participantes: ['Edison Hideki Shiobara']
+[19:01:19] INFO  -> PRJ22062_2026-04-29_RDP_(SEC)_SergioOliveira.docx
+[19:01:19] INFO     participantes: ['Sergio Henrique Ferreira de Oliveira']
+[19:01:19] INFO  -> PRJ22499_2026-04-29_RDP_(BMS)_Noélio de Brito Oliveira.pdf
+[19:01:19] INFO     participantes: []
+[19:01:19] INFO  -> PRJ34683_2026-04-29_RDP_(AV)_Fabio Araujo.docx
+[19:01:19] INFO     participantes: ['Fabio Araujo e Felipe Santos']
+[19:01:19] INFO  -> PRJ34683_2026-04-30_RDP_(AV)_Fabio Araujo.docx
+[19:01:19] INFO     participantes: ['Fabio Araujo e Felipe Santos']
+[19:01:19] INFO  -> PRJ38381_2026-04-29_RDP_(BMS)_Cleiton Vieira.pdf
+[19:01:20] INFO     participantes: ['Cleiton Henrique da Silva Vieira']
+[19:01:20] INFO  -> PRJ42188_2026-04-30_RDP_(SEG)_EDUARDO MOTA_CFTV.pdf
+[19:01:20] INFO     participantes: ['Eduardo da Purificacao Mota dos Santos']
+[19:01:20] INFO  -> PRJ42548_2026-04-29_RDP_SEG_Salathiel_Martins.pdf
+[19:01:21] INFO     participantes: ['Salathiel da Silva Martins']
+[19:01:21] INFO  -> PRJ45503_2026-04-30_RDP_(BMS)_Renan Almeida.pdf
+[19:01:21] INFO     participantes: ['Renan Silva Almeida', 'Larissa Isabelle da Silva']
+[19:01:21] INFO  -> PRJ45819_2026-04-30_RDP_(BMS)_THIAGO BORGES.pdf
+[19:01:22] INFO     participantes: ['Thiago Henrique Nunes Borges']
+[19:01:22] INFO  -> PRJ46618_2026-04-29_RDP_(SEG)_Michel Sato.docx
+[19:01:22] INFO     participantes: ['Michel Kenji Sato', 'Cassius Mariano']
+[19:01:22] INFO  -> PRJ46618_2026-04-30_RDP_(SEG)_Michel Sato.docx
+[19:01:22] INFO     participantes: ['Michel Kenji Sato', 'Cassius Mariano']
+[19:01:22] INFO  -> PRJ47108_2026-04-30_RDP_(SDAI)_Jeilan Lima.pdf
+[19:01:22] INFO     participantes: ['Jeilan Souza de Lima', 'Pedro Joab']
+[19:01:22] INFO  -> PRJ53722_2026-04-24_RDP_(SDAI)_RODRIGO DE OLIVEIRA SOUSA.pdf
+[19:01:23] INFO     participantes: ['Rodrigo de Oliveira Sousa', 'Lindemberg Silva do Carmo Junior', 'Teylor Soares da Silva Garibaldi Pereira']
+[19:01:23] INFO  -> PRJ53722_2026-04-29_RDP_(BMS)_Teylor Garibaldi.pdf
+[19:01:24] INFO     participantes: ['Teylor Soares da Silva Garibaldi Pereira', 'Lindemberg Silva do Carmo Junior', 'Wesley Gomes Vieira']
+[19:01:24] INFO  -> PRJ53722_2026-04-29_RDP_(SDAI)_RODRIGO DE OLIVEIRA SOUSA.pdf
+[19:01:24] INFO     participantes: ['Rodrigo de Oliveira Sousa']
+[19:01:24] INFO  -> PRJ53722_2026-04-30_RDP_(BMS)_Alfredo da Silveira.pdf
+[19:01:25] INFO     participantes: ['Alfredo da Silveira']
+[19:01:25] INFO  -> PRJ53722_2026-04-30_RDP_(BMS)_Teylor Garibaldi.pdf
+[19:01:26] INFO     participantes: ['Teylor Soares da Silva Garibaldi Pereira', 'Lindemberg Silva do Carmo Junior', 'Wesley Gomes Vieira']
+[19:01:26] INFO  -> PRJ53722_2026-04-30_RDP_(Security)_Luiz Navero - R02.docx
+[19:01:26] INFO     participantes: ['Luiz Eduardo Rodrigues Navero']
+[19:01:26] INFO  -> PRJ55924_2026-30-04_RDP_(AV)_Augusto-Valle.pdf
+[19:01:26] INFO     participantes: ['Augusto Cesar Flocco Valle', 'Caio Vinicius de Almeida', 'Edmilso Souza', 'Giovane Maino']
+[19:01:26] INFO  -> Procedimento_Report_Alarmes.pdf
+[19:01:27] INFO     participantes: []
+[19:01:27] INFO  -> PRJ09134_2026-04-30_RDP_(AV)_Jean Kevyn Correia Pessoa.docx
+[19:01:27] INFO     participantes: ['Jean Kevyn Correia Pessoa']
+[19:01:27] INFO  -> PRJ47108_2026-05-01_RDP_(SDAI)_Leonardo Rodrigues.pdf
+[19:01:27] INFO     participantes: ['Leonardo da Silva Rodrigues']
+[19:01:27] INFO  -> PRJ61205_2026-04-30_RDP_(AV)_Jean Kevyn Correia Pessoa.docx
+[19:01:27] INFO     participantes: ['Jean Kevyn Correia Pessoa']
+[19:01:27] INFO  -> PRJ47108_2026-05-03_RDP_(SDAI)_Jeilan Lima.pdf
+[19:01:28] INFO     participantes: ['Jeilan Souza de Lima']
+[19:01:28] INFO  -> CTR19778_2026-04-27_RDP_(SEC)_Marcos Teixeira.pdf
+[19:01:28] INFO     participantes: ['Marcos Vinicius Salvadori Teixeira']
+[19:01:28] INFO  -> CTR19778_2026-04-28_RDP_(SEC)_Marcos Teixeira.pdf
+[19:01:29] INFO     participantes: ['Marcos Vinicius Salvadori Teixeira']
+[19:01:29] INFO  -> CTR19778_2026-04-29_RDP_(SEC)_Marcos Teixeira.pdf
+[19:01:29] INFO     participantes: ['Marcos Vinicius Salvadori Teixeira']
+[19:01:29] INFO  -> CTR19778_2026-04-30_RDP_(SEC)_Marcos Teixeira.pdf
+[19:01:30] INFO     participantes: ['Marcos Vinicius Salvadori Teixeira']
+[19:01:30] INFO  -> Device Maintenance  Reports_GOOGLE 0105_05022026_141405.pdf
+[19:01:44] INFO     participantes: []
+[19:01:44] INFO  -> PRJ19620-2026-04-27_RDP_(BMS)_Anderson.pdf
+[19:01:45] INFO     participantes: ['Anderson Caetano de Souza Pires']
+[19:01:45] INFO  -> PRJ19620-2026-04-28_RDP_(BMS)_Anderson.pdf
+[19:01:46] INFO     participantes: ['Anderson Caetano de Souza Pires']
+[19:01:46] INFO  -> PRJ19620-2026-04-29_RDP_(BMS)_Anderson.pdf
+[19:01:46] INFO     participantes: ['Anderson Caetano de Souza Pires']
+[19:01:46] INFO  -> PRJ19620-2026-04-30_RDP_(BMS)_Anderson.pdf
+[19:01:47] INFO     participantes: ['Anderson Caetano de Souza Pires']
+[19:01:47] INFO  -> PRJ19620-2026-05-04_RDP_(BMS)_Anderson.pdf
+[19:01:47] INFO     participantes: ['Anderson Caetano de Souza Pires']
+[19:01:47] INFO  -> PRJ22062_2026-05-04_RDP_(SEC)_SergioOliveira.docx
+[19:01:47] INFO     participantes: ['Sergio Henrique Ferreira de Oliveira']
+[19:01:47] INFO  -> PRJ22499_2026-04-30_RDP_(BMS)_Noélio de Brito Oliveira.pdf
+[19:01:48] INFO     participantes: []
+[19:01:48] INFO  -> PRJ34724_2026-04-30_RDP_(SEC)_SergioOliveira.docx
+[19:01:48] INFO     participantes: ['Sergio Henrique Ferreira de Oliveira']
+[19:01:48] INFO  -> PRJ42548_2026-04-30_RDP_SEG_Salathiel_Martins.pdf
+[19:01:48] INFO     participantes: ['Salathiel da Silva Martins']
+[19:01:48] INFO  -> PRJ45503_2026-05-04_RDP_(BMS)_Renan Almeida.pdf
+[19:01:49] INFO     participantes: ['Renan Silva Almeida', 'Larissa Isabelle da Silva']
+[19:01:49] INFO  -> PRJ47108_2026-05-02_RDP_(SDAI)_Leonardo Rodrigues.pdf
+[19:01:49] INFO     participantes: ['Leonardo da Silva Rodrigues']
+[19:01:49] INFO  -> PRJ55738-2026-05-04_RDP_(BMS)_Larissa Silva.pdf
+[19:01:50] INFO     participantes: ['Larissa Isabelle da Silva']
+[19:01:50] INFO  -> PRJ55924_2026-04-05_RDP_(AV)_Augusto-Valle.pdf.pdf
+[19:01:50] INFO     participantes: ['Augusto Cesar Flocco Valle', 'Caio Vinicius de Almeida', 'Edmilso Souza', 'Giovane Maino']
+[19:01:50] INFO  -> PRJ59747_2026-05-04_RDP_(SEG)_Michel Sato.docx
+[19:01:50] INFO     participantes: ['Michel Kenji Sato']
+[19:01:50] INFO  -> PRJ PRJ25026 - PRJ53722_2026-05-04_RDP_(Security)_Luiz Navero - R02.docx
+[19:01:50] INFO     participantes: ['Luiz Eduardo Rodrigues Navero']
+[19:01:50] INFO  -> PRJ29927-2026-05-05_RDP_(BMS)_Vinicius Nascimento.pdf
+[19:01:50] INFO     participantes: ['Vinicius do Nascimento', 'Muriel Panegassi Carletti']
+[19:01:50] INFO  -> PRJ29927_2026-05-04_RDP_(AV)_Jean Kevyn Correia Pessoa.docx
+[19:01:50] INFO     participantes: ['Jean Kevyn Correia Pessoa']
+[19:01:50] INFO  -> PRJ32503_2026-05-04_RDP_(SDAI)_DAVISON CAMPOS.pdf
+[19:01:51] INFO     participantes: ['Davison Campos', 'MICHAEL MONTEIRO', 'DENIS NOBRE']
+[19:01:51] INFO  -> PRJ35873-2026-04-05_RDP_(BMS)_Renan_Silva.pdf
+[19:01:51] INFO     participantes: ['Renan de Souza Silva', 'Jennifer Sousa da Silva', 'Thiago Berzin Telles']
+[19:01:51] INFO  -> PRJ45503_2026-04-29_RDP_(BMS)_João Viana.pdf
+[19:01:55] INFO     participantes: ['Joao Victor Sousa Viana']
+[19:01:55] INFO  -> PRJ47108_2026-05-05_RDP_(SDAI)_Jeilan Lima.pdf
+[19:01:55] INFO     participantes: ['Jeilan Souza de Lima']
+[19:01:55] INFO  -> PRJ53722_2026-05-04_RDP_(BMS)_Teylor Garibaldi.pdf
+[19:01:56] INFO     participantes: ['Teylor Soares da Silva Garibaldi Pereira', 'Lindemberg Silva do Carmo Junior', 'Wesley Gomes Vieira']
+[19:01:56] INFO  -> PRJ53722_2026-05-04_RDP_(BMS)_THIAGO BORGES.pdf
+[19:01:57] INFO     participantes: ['Thiago Henrique Nunes Borges']
+[19:01:57] INFO  -> PRJ57394_2026-05-04_RDP_(SEG)_Tiago_Alves_Dutra.pdf
+[19:01:57] INFO     participantes: ['Tiago Alves Dutra']
+[19:01:57] INFO  -> PRJ59935_2026-04-30_RDP_SEG_Salathiel_Martins.pdf
+[19:01:57] INFO     participantes: ['Salathiel da Silva Martins']
+[19:01:57] INFO  Estruturados: 155

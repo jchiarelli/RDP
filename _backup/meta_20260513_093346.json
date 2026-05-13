@@ -1,0 +1,15 @@
+{
+  "generatedAt": "2026-05-13T09:25:43.624584",
+  "today": "2026-05-13",
+  "version": "2.3.0",
+  "rdps_total": 144,
+  "pendencias_total": 108,
+  "projetos_total": 36,
+  "pessoas_total": 51,
+  "datas_processadas": [
+    "2026-05-12",
+    "2026-05-13"
+  ],
+  "warnings": 0,
+  "errors": 0
+}

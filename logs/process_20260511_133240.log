@@ -1,0 +1,52 @@
+[13:32:40] INFO  === process_rdps.py v2.2 ===
+[13:32:40] INFO  RDP: /sessions/exciting-great-cori/mnt/Acompanhamento de projeto/RDP | OUT: /sessions/exciting-great-cori/mnt/Acompanhamento de projeto/dashboard_v2/data
+[13:32:40] INFO  Pessoas: 53 | Projetos: 1470
+[13:32:40] INFO  Datas alvo: ['2026-05-06']
+[13:32:40] INFO  Arquivos: 23
+[13:32:40] INFO  -> 2026-05-05_2506_C00640_CTR54818 _RDP_SEC_Andre Chacon .pdf
+[13:32:41] INFO     pendencias: 0 | participantes: ['Andre Chacon da Silveira']
+[13:32:41] INFO  -> Device Maintenance  Reports_Odata RJ - Testes - 2026.05.06.pdf
+[13:32:42] INFO     pendencias: 0 | participantes: []
+[13:32:42] INFO  -> Device Maintenance  Reports_Odata RJ 2026.03.03 - Fase 5_05062026_092559.pdf
+[13:32:42] INFO     pendencias: 0 | participantes: []
+[13:32:42] INFO  -> Device Maintenance  Reports_Odata RJ 2026.03.03 - Fase 5_05062026_092657.pdf
+[13:32:44] INFO     pendencias: 0 | participantes: []
+[13:32:44] INFO  -> Lista de Verificação - SDAI - 2026.05.06.pdf
+[13:32:48] INFO     pendencias: 0 | participantes: []
+[13:32:48] INFO  -> PRJ29927-2026-05-06_RDP_(BMS)_Vinicius Nascimento.pdf
+[13:32:48] INFO     pendencias: 2 | participantes: ['Vinicius do Nascimento', 'Muriel Panegassi Carletti']
+[13:32:48] INFO  -> PRJ29927_2026-05-05_RDP_(AV)_Jean Kevyn Correia Pessoa.docx
+[13:32:48] INFO     pendencias: 1 | participantes: ['Jean Kevyn Correia Pessoa', 'Tarley Ferreira Dos Santos', 'Eduardo Arcanjo Raimundo']
+[13:32:48] INFO  -> PRJ32503_2026-05-05_RDP_(SDAI)_DAVISON CAMPOS.pdf
+[13:32:49] INFO     pendencias: 2 | participantes: ['Davison Campos', 'MICHAEL MONTEIRO', 'DENIS NOBRE']
+[13:32:49] INFO  -> PRJ34216_2026-05-05_RDP_(BMS)_JhonatanAtaide.pdf
+[13:32:50] INFO     pendencias: 3 | participantes: ['Jhonatan Camara de Ataide']
+[13:32:50] INFO  -> PRJ34216_2026-05-06_RDP_(BMS)_JhonatanAtaide.pdf
+[13:32:51] INFO     pendencias: 3 | participantes: ['Jhonatan Camara de Ataide']
+[13:32:51] INFO  -> PRJ40516_2026-05-06_RDP_(BMS)_Diego Santos Sousa Braga.pdf
+[13:32:51] INFO     pendencias: 0 | participantes: ['Diego Santos Sousa Braga']
+[13:32:51] INFO  -> PRJ40574_2026-05-05_RDP_(SDAI)_Miguel Meyer - R00.docx
+[13:32:51] INFO     pendencias: 0 | participantes: ['Miguel Felix Meyer']
+[13:32:51] INFO  -> PRJ40574_2026-05-05_RDP_(SDAI)_Miguel Meyer - R00.pdf
+[13:32:52] INFO     pendencias: 0 | participantes: ['Miguel Felix Meyer']
+[13:32:52] INFO  -> PRJ40574_2026-05-06_RDP_(SDAI)_Miguel Meyer - R00.docx
+[13:32:52] INFO     pendencias: 0 | participantes: ['Miguel Felix Meyer']
+[13:32:52] INFO  -> PRJ40574_2026-05-06_RDP_(SDAI)_Miguel Meyer - R00.pdf
+[13:32:53] INFO     pendencias: 0 | participantes: ['Miguel Felix Meyer']
+[13:32:53] INFO  -> PRJ45503_2026-05-05_RDP_(BMS)_Renan Almeida.pdf
+[13:32:54] INFO     pendencias: 0 | participantes: ['Renan Silva Almeida', 'Larissa Isabelle da Silva']
+[13:32:54] INFO  -> PRJ45503_2026-05-06_RDP_(BMS)_Renan Almeida.pdf
+[13:32:54] INFO     pendencias: 0 | participantes: ['Renan Silva Almeida', 'Larissa Isabelle da Silva']
+[13:32:54] INFO  -> PRJ53722_2026-05-04_RDP_(BMS)_Alfredo da Silveira.pdf
+[13:32:55] INFO     pendencias: 0 | participantes: ['Alfredo da Silveira']
+[13:32:55] INFO  -> PRJ53722_2026-05-05_RDP_(BMS)_Alfredo da Silveira.pdf
+[13:32:56] INFO     pendencias: 0 | participantes: ['Alfredo da Silveira']
+[13:32:56] INFO  -> PRJ53722_2026-05-05_RDP_(BMS)_THIAGO BORGES.pdf
+[13:32:57] INFO     pendencias: 0 | participantes: ['Thiago Henrique Nunes Borges']
+[13:32:57] INFO  -> PRJ55924_2026-06-05_RDP_(AV)_Augusto-Valle.pdf
+[13:32:57] INFO     pendencias: 0 | participantes: ['Augusto Cesar Flocco Valle', 'Marcio Leandro', 'Edmilso Souza', 'Giovane Maino', 'Guilherme Ariz da Silva']
+[13:32:57] INFO  -> PRJ57394_2026-05-05_RDP_(SEG)_Tiago_Alves_Dutra.pdf
+[13:32:58] INFO     pendencias: 0 | participantes: ['Tiago Alves Dutra']
+[13:32:58] INFO  -> PRJ59935_2026-05_05_RDP_SEG_Salathiel_Martins.pdf
+[13:32:59] INFO     pendencias: 0 | participantes: ['Salathiel da Silva Martins']
+[13:32:59] INFO  Estruturados: 23

@@ -1,0 +1,52 @@
+[13:45:18] INFO  === process_rdps.py v2.2 ===
+[13:45:18] INFO  RDP: C:\Users\Joao.Chiarelli\OneDrive - Convergint\Claude\Acompanhamento de projeto\RDP | OUT: C:\Users\Joao.Chiarelli\OneDrive - Convergint\Claude\Acompanhamento de projeto\dashboard_v2\data
+[13:45:18] INFO  Pessoas: 51 | Projetos: 1470
+[13:45:18] INFO  Datas alvo: ['2026-05-06']
+[13:45:18] INFO  Arquivos: 23
+[13:45:18] INFO  -> 2026-05-05_2506_C00640_CTR54818 _RDP_SEC_Andre Chacon .pdf
+[13:45:19] INFO     pendencias: 0 | participantes: ['Andre Chacon da Silveira']
+[13:45:19] INFO  -> Device Maintenance  Reports_Odata RJ - Testes - 2026.05.06.pdf
+[13:45:19] INFO     pendencias: 0 | participantes: []
+[13:45:19] INFO  -> Device Maintenance  Reports_Odata RJ 2026.03.03 - Fase 5_05062026_092559.pdf
+[13:45:20] INFO     pendencias: 0 | participantes: []
+[13:45:20] INFO  -> Device Maintenance  Reports_Odata RJ 2026.03.03 - Fase 5_05062026_092657.pdf
+[13:45:20] INFO     pendencias: 0 | participantes: []
+[13:45:20] INFO  -> Lista de Verificação - SDAI - 2026.05.06.pdf
+[13:45:23] INFO     pendencias: 0 | participantes: []
+[13:45:23] INFO  -> PRJ29927-2026-05-06_RDP_(BMS)_Vinicius Nascimento.pdf
+[13:45:23] INFO     pendencias: 2 | participantes: ['Vinicius do Nascimento', 'Muriel Panegassi Carletti']
+[13:45:23] INFO  -> PRJ29927_2026-05-05_RDP_(AV)_Jean Kevyn Correia Pessoa.docx
+[13:45:23] INFO     pendencias: 1 | participantes: ['Jean Kevyn Correia Pessoa', 'Gislan Almeida dos Santos', 'Eduardo Arcanjo Raimundo']
+[13:45:23] INFO  -> PRJ32503_2026-05-05_RDP_(SDAI)_DAVISON CAMPOS.pdf
+[13:45:24] INFO     pendencias: 2 | participantes: ['Davison Campos', 'MICHAEL MONTEIRO', 'DENIS NOBRE']
+[13:45:24] INFO  -> PRJ34216_2026-05-05_RDP_(BMS)_JhonatanAtaide.pdf
+[13:45:25] INFO     pendencias: 3 | participantes: ['Jhonatan Camara de Ataide']
+[13:45:25] INFO  -> PRJ34216_2026-05-06_RDP_(BMS)_JhonatanAtaide.pdf
+[13:45:25] INFO     pendencias: 3 | participantes: ['Jhonatan Camara de Ataide']
+[13:45:25] INFO  -> PRJ40516_2026-05-06_RDP_(BMS)_Diego Santos Sousa Braga.pdf
+[13:45:25] INFO     pendencias: 0 | participantes: ['Diego Santos Sousa Braga']
+[13:45:25] INFO  -> PRJ40574_2026-05-05_RDP_(SDAI)_Miguel Meyer - R00.docx
+[13:45:25] INFO     pendencias: 0 | participantes: ['Miguel Felix Meyer']
+[13:45:25] INFO  -> PRJ40574_2026-05-05_RDP_(SDAI)_Miguel Meyer - R00.pdf
+[13:45:26] INFO     pendencias: 0 | participantes: ['Miguel Felix Meyer']
+[13:45:26] INFO  -> PRJ40574_2026-05-06_RDP_(SDAI)_Miguel Meyer - R00.docx
+[13:45:26] INFO     pendencias: 0 | participantes: ['Miguel Felix Meyer']
+[13:45:26] INFO  -> PRJ40574_2026-05-06_RDP_(SDAI)_Miguel Meyer - R00.pdf
+[13:45:27] INFO     pendencias: 0 | participantes: ['Miguel Felix Meyer']
+[13:45:27] INFO  -> PRJ45503_2026-05-05_RDP_(BMS)_Renan Almeida.pdf
+[13:45:27] INFO     pendencias: 0 | participantes: ['Renan Silva Almeida', 'Larissa Isabelle da Silva']
+[13:45:27] INFO  -> PRJ45503_2026-05-06_RDP_(BMS)_Renan Almeida.pdf
+[13:45:28] INFO     pendencias: 0 | participantes: ['Renan Silva Almeida', 'Larissa Isabelle da Silva']
+[13:45:28] INFO  -> PRJ53722_2026-05-04_RDP_(BMS)_Alfredo da Silveira.pdf
+[13:45:28] INFO     pendencias: 0 | participantes: ['Alfredo da Silveira']
+[13:45:28] INFO  -> PRJ53722_2026-05-05_RDP_(BMS)_Alfredo da Silveira.pdf
+[13:45:29] INFO     pendencias: 0 | participantes: ['Alfredo da Silveira']
+[13:45:29] INFO  -> PRJ53722_2026-05-05_RDP_(BMS)_THIAGO BORGES.pdf
+[13:45:29] INFO     pendencias: 0 | participantes: ['Thiago Henrique Nunes Borges']
+[13:45:29] INFO  -> PRJ55924_2026-06-05_RDP_(AV)_Augusto-Valle.pdf
+[13:45:30] INFO     pendencias: 0 | participantes: ['Augusto Cesar Flocco Valle', 'Marcio Leandro', 'Edmilso Souza', 'Giovane Maino', 'Guilherme Ariz da Silva']
+[13:45:30] INFO  -> PRJ57394_2026-05-05_RDP_(SEG)_Tiago_Alves_Dutra.pdf
+[13:45:30] INFO     pendencias: 0 | participantes: ['Tiago Alves Dutra']
+[13:45:30] INFO  -> PRJ59935_2026-05_05_RDP_SEG_Salathiel_Martins.pdf
+[13:45:31] INFO     pendencias: 0 | participantes: ['Salathiel da Silva Martins']
+[13:45:31] INFO  Estruturados: 23

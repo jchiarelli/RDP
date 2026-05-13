@@ -1,0 +1,9 @@
+[09:10:50] INFO  === process_rdps.py v2.2 ===
+[09:10:50] INFO  RDP: C:\Users\Joao.Chiarelli\OneDrive - Convergint\Claude\Acompanhamento de projeto\RDP | OUT: C:\Users\Joao.Chiarelli\OneDrive - Convergint\Claude\Acompanhamento de projeto\dashboard_v2\data
+[09:10:50] INFO  Pessoas: 51 | Projetos: 1470
+[09:10:50] INFO  Datas alvo: ['2026-05-10', '2026-05-11']
+[09:10:50] WARN  sem pasta C:\Users\Joao.Chiarelli\OneDrive - Convergint\Claude\Acompanhamento de projeto\RDP\2026-05-10
+[09:10:50] INFO  Arquivos: 1
+[09:10:50] INFO  -> PRJ32503_2026-05-08_RDP_(SDAI)_DAVISON CAMPOS.pdf
+[09:10:51] INFO     pendencias: 0 | participantes: ['Davison Campos', 'DENIS NOBRE']
+[09:10:51] INFO  Estruturados: 1

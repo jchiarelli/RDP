@@ -1,0 +1,12 @@
+[13:22:15] INFO  === process_rdps.py v2.2 ===
+[13:22:15] INFO  RDP: /sessions/exciting-great-cori/mnt/Acompanhamento de projeto/RDP | OUT: /sessions/exciting-great-cori/mnt/Acompanhamento de projeto/dashboard_v2/data
+[13:22:15] INFO  Pessoas: 53 | Projetos: 1470
+[13:22:15] INFO  Datas alvo: ['2026-05-10', '2026-05-11']
+[13:22:15] WARN  sem pasta /sessions/exciting-great-cori/mnt/Acompanhamento de projeto/RDP/2026-05-10
+[13:22:15] INFO  Arquivos: 2
+[13:22:15] INFO  -> PRJ22499_2026-05-08_RDP_(BMS)_Noélio de Brito Oliveira.pdf
+[13:22:18] INFO     pendencias: 0 | participantes: ['Noelio de Brito Oliveira', 'Matheus de Sousa Damico', 'Gislan Almeida dos Santos']
+[13:22:18] INFO  -> PRJ32503_2026-05-08_RDP_(SDAI)_DAVISON CAMPOS.pdf
+[13:22:26] INFO     pendencias: 0 | participantes: ['Davison Campos', 'DENIS NOBRE']
+[13:22:26] INFO  Estruturados: 2
+[13:22:27] WARN  rdps.json ilegivel

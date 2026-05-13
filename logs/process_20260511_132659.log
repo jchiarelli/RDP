@@ -1,0 +1,12 @@
+[13:26:59] INFO  === process_rdps.py v2.2 ===
+[13:26:59] INFO  RDP: /sessions/exciting-great-cori/mnt/Acompanhamento de projeto/RDP | OUT: /sessions/exciting-great-cori/mnt/Acompanhamento de projeto/dashboard_v2/data
+[13:27:00] INFO  Pessoas: 53 | Projetos: 1470
+[13:27:00] INFO  Datas alvo: ['2026-05-01']
+[13:27:00] INFO  Arquivos: 3
+[13:27:00] INFO  -> PRJ09134_2026-04-30_RDP_(AV)_Jean Kevyn Correia Pessoa.docx
+[13:27:00] INFO     pendencias: 1 | participantes: ['Jean Kevyn Correia Pessoa']
+[13:27:00] INFO  -> PRJ47108_2026-05-01_RDP_(SDAI)_Leonardo Rodrigues.pdf
+[13:27:02] INFO     pendencias: 2 | participantes: ['Leonardo da Silva Rodrigues']
+[13:27:02] INFO  -> PRJ61205_2026-04-30_RDP_(AV)_Jean Kevyn Correia Pessoa.docx
+[13:27:03] INFO     pendencias: 0 | participantes: ['Jean Kevyn Correia Pessoa']
+[13:27:03] INFO  Estruturados: 3

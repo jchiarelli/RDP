@@ -1,0 +1,429 @@
+[10:22:47] INFO  === process_rdps.py iniciado ===
+[10:22:47] INFO  Pasta RDP: C:\Users\Joao.Chiarelli\OneDrive - Convergint\Claude\Acompanhamento de projeto\RDP
+[10:22:47] INFO  Pasta saída: C:\Users\Joao.Chiarelli\OneDrive - Convergint\Claude\Acompanhamento de projeto\dashboard_v2\data
+[10:22:47] INFO  Datas alvo: ['2026-04-22', '2026-04-23', '2026-04-24', '2026-04-26', '2026-04-27', '2026-04-28', '2026-04-29', '2026-04-30', '2026-05-01', '2026-05-03', '2026-05-04', '2026-05-05']
+[10:22:47] INFO  Arquivos encontrados: 156
+[10:22:47] INFO  Processando: ASV49919-2026-04-22_RDP_(BMS)_Larissa Isabelle.pdf
+[10:22:47] ERROR Nenhum extrator de PDF disponível para ASV49919-2026-04-22_RDP_(BMS)_Larissa Isabelle.pdf: [WinError 2] O sistema não pode encontrar o arquivo especificado
+[10:22:47] WARN  Sem texto extraído: ASV49919-2026-04-22_RDP_(BMS)_Larissa Isabelle.pdf
+[10:22:47] INFO  Processando: PRJ16598_2026-04-22_RDP_(SEG)_Edison Shiobara.docx
+[10:22:48] WARN  Sem texto extraído: PRJ16598_2026-04-22_RDP_(SEG)_Edison Shiobara.docx
+[10:22:48] INFO  Processando: PRJ34683_2026-04-17_RDP_(AV)_Fabio Araujo.docx
+[10:22:48] ERROR Nenhum extrator de DOCX disponível para PRJ34683_2026-04-17_RDP_(AV)_Fabio Araujo.docx: Package not found at 'C:\Users\Joao.Chiarelli\OneDrive - Convergint\Claude\Acompanhamento de projeto\RDP\2026-04-22\PRJ34683_2026-04-17_RDP_(AV)_Fabio Araujo.docx'
+[10:22:48] WARN  Sem texto extraído: PRJ34683_2026-04-17_RDP_(AV)_Fabio Araujo.docx
+[10:22:48] INFO  Processando: PRJ42188_2026-04-22_RDP_(SEG)_EDUARDO MOTA_SCA.pdf
+[10:22:48] ERROR Nenhum extrator de PDF disponível para PRJ42188_2026-04-22_RDP_(SEG)_EDUARDO MOTA_SCA.pdf: [WinError 2] O sistema não pode encontrar o arquivo especificado
+[10:22:48] WARN  Sem texto extraído: PRJ42188_2026-04-22_RDP_(SEG)_EDUARDO MOTA_SCA.pdf
+[10:22:48] INFO  Processando: PRJ45503_2026-04-20_RDP_(BMS)_JhonatanAtaide.pdf
+[10:22:48] ERROR Nenhum extrator de PDF disponível para PRJ45503_2026-04-20_RDP_(BMS)_JhonatanAtaide.pdf: [WinError 2] O sistema não pode encontrar o arquivo especificado
+[10:22:48] WARN  Sem texto extraído: PRJ45503_2026-04-20_RDP_(BMS)_JhonatanAtaide.pdf
+[10:22:48] INFO  Processando: PRJ45503_2026-04-22_RDP_(BMS)_Renan Almeida.pdf
+[10:22:48] ERROR Nenhum extrator de PDF disponível para PRJ45503_2026-04-22_RDP_(BMS)_Renan Almeida.pdf: [WinError 2] O sistema não pode encontrar o arquivo especificado
+[10:22:48] WARN  Sem texto extraído: PRJ45503_2026-04-22_RDP_(BMS)_Renan Almeida.pdf
+[10:22:48] INFO  Processando: PRJ46618_2026-04-22_RDP_(SEC)_SergioOliveira.docx
+[10:22:48] WARN  Sem texto extraído: PRJ46618_2026-04-22_RDP_(SEC)_SergioOliveira.docx
+[10:22:48] INFO  Processando: PRJ47108_2026-04-22_RDP_(BMS)_Thiago Berzin Telles.pdf
+[10:22:48] ERROR Nenhum extrator de PDF disponível para PRJ47108_2026-04-22_RDP_(BMS)_Thiago Berzin Telles.pdf: [WinError 2] O sistema não pode encontrar o arquivo especificado
+[10:22:48] WARN  Sem texto extraído: PRJ47108_2026-04-22_RDP_(BMS)_Thiago Berzin Telles.pdf
+[10:22:48] INFO  Processando: PRJ55738-2026-04-22_RDP_(BMS)_Larissa Silva.pdf
+[10:22:48] ERROR Nenhum extrator de PDF disponível para PRJ55738-2026-04-22_RDP_(BMS)_Larissa Silva.pdf: [WinError 2] O sistema não pode encontrar o arquivo especificado
+[10:22:48] WARN  Sem texto extraído: PRJ55738-2026-04-22_RDP_(BMS)_Larissa Silva.pdf
+[10:22:48] INFO  Processando: 2026-04-23_2502_C10257_PRJ48289 _RDP_SEC_Andre Chacon 1.pdf
+[10:22:48] ERROR Nenhum extrator de PDF disponível para 2026-04-23_2502_C10257_PRJ48289 _RDP_SEC_Andre Chacon 1.pdf: [WinError 2] O sistema não pode encontrar o arquivo especificado
+[10:22:48] WARN  Sem texto extraído: 2026-04-23_2502_C10257_PRJ48289 _RDP_SEC_Andre Chacon 1.pdf
+[10:22:48] INFO  Processando: CTR20593_2026-04-22_RDP_(SEG)_Michel Sato.docx
+[10:22:48] WARN  Sem texto extraído: CTR20593_2026-04-22_RDP_(SEG)_Michel Sato.docx
+[10:22:48] INFO  Processando: PRJ16598_2026-04-23_RDP_(SEG)_Edison Shiobara.docx
+[10:22:48] WARN  Sem texto extraído: PRJ16598_2026-04-23_RDP_(SEG)_Edison Shiobara.docx
+[10:22:48] INFO  Processando: PRJ22499_2026-04-22_RDP_(BMS)_Noélio de Brito Oliveira.pdf
+[10:22:48] ERROR Nenhum extrator de PDF disponível para PRJ22499_2026-04-22_RDP_(BMS)_Noélio de Brito Oliveira.pdf: [WinError 2] O sistema não pode encontrar o arquivo especificado
+[10:22:48] WARN  Sem texto extraído: PRJ22499_2026-04-22_RDP_(BMS)_Noélio de Brito Oliveira.pdf
+[10:22:48] INFO  Processando: PRJ35873_2026-04-23_RDP_(SDAI)_João Viana.pdf
+[10:22:48] ERROR Nenhum extrator de PDF disponível para PRJ35873_2026-04-23_RDP_(SDAI)_João Viana.pdf: [WinError 2] O sistema não pode encontrar o arquivo especificado
+[10:22:48] WARN  Sem texto extraído: PRJ35873_2026-04-23_RDP_(SDAI)_João Viana.pdf
+[10:22:48] INFO  Processando: PRJ40799_2026-04-23_RDP_(SEG)_Andre Chacon.pdf
+[10:22:48] ERROR Nenhum extrator de PDF disponível para PRJ40799_2026-04-23_RDP_(SEG)_Andre Chacon.pdf: [WinError 2] O sistema não pode encontrar o arquivo especificado
+[10:22:48] WARN  Sem texto extraído: PRJ40799_2026-04-23_RDP_(SEG)_Andre Chacon.pdf
+[10:22:48] INFO  Processando: PRJ45503_2026-04-23_RDP_(BMS)_Renan Almeida.pdf
+[10:22:48] ERROR Nenhum extrator de PDF disponível para PRJ45503_2026-04-23_RDP_(BMS)_Renan Almeida.pdf: [WinError 2] O sistema não pode encontrar o arquivo especificado
+[10:22:48] WARN  Sem texto extraído: PRJ45503_2026-04-23_RDP_(BMS)_Renan Almeida.pdf
+[10:22:48] INFO  Processando: PRJ46618_2026-04-23_RDP_(SEC)_SergioOliveira.docx
+[10:22:48] WARN  Sem texto extraído: PRJ46618_2026-04-23_RDP_(SEC)_SergioOliveira.docx
+[10:22:48] INFO  Processando: PRJ47108_2026-04-23_RDP_(BMS)_Thiago Berzin Telles.pdf
+[10:22:48] ERROR Nenhum extrator de PDF disponível para PRJ47108_2026-04-23_RDP_(BMS)_Thiago Berzin Telles.pdf: [WinError 2] O sistema não pode encontrar o arquivo especificado
+[10:22:48] WARN  Sem texto extraído: PRJ47108_2026-04-23_RDP_(BMS)_Thiago Berzin Telles.pdf
+[10:22:48] INFO  Processando: PRJ50476-2026-04-23_RDP_(BMS)_Larissa Silva.pdf
+[10:22:48] ERROR Nenhum extrator de PDF disponível para PRJ50476-2026-04-23_RDP_(BMS)_Larissa Silva.pdf: [WinError 2] O sistema não pode encontrar o arquivo especificado
+[10:22:48] WARN  Sem texto extraído: PRJ50476-2026-04-23_RDP_(BMS)_Larissa Silva.pdf
+[10:22:48] INFO  Processando: PRJ53722_2026-04-22_RDP_(BMS)_Alfredo da Silveira.pdf
+[10:22:48] ERROR Nenhum extrator de PDF disponível para PRJ53722_2026-04-22_RDP_(BMS)_Alfredo da Silveira.pdf: [WinError 2] O sistema não pode encontrar o arquivo especificado
+[10:22:48] WARN  Sem texto extraído: PRJ53722_2026-04-22_RDP_(BMS)_Alfredo da Silveira.pdf
+[10:22:48] INFO  Processando: PRJ53722_2026-04-22_RDP_(SDAI)_RODRIGO DE OLIVEIRA SOUSA.pdf
+[10:22:48] ERROR Nenhum extrator de PDF disponível para PRJ53722_2026-04-22_RDP_(SDAI)_RODRIGO DE OLIVEIRA SOUSA.pdf: [WinError 2] O sistema não pode encontrar o arquivo especificado
+[10:22:48] WARN  Sem texto extraído: PRJ53722_2026-04-22_RDP_(SDAI)_RODRIGO DE OLIVEIRA SOUSA.pdf
+[10:22:48] INFO  Processando: PRJ53722_2026-04-23_RDP_(BMS)_Alfredo da Silveira.pdf
+[10:22:48] ERROR Nenhum extrator de PDF disponível para PRJ53722_2026-04-23_RDP_(BMS)_Alfredo da Silveira.pdf: [WinError 2] O sistema não pode encontrar o arquivo especificado
+[10:22:48] WARN  Sem texto extraído: PRJ53722_2026-04-23_RDP_(BMS)_Alfredo da Silveira.pdf
+[10:22:48] INFO  Processando: PRJ53722_2026-04-23_RDP_(BMS)_Teylor Garibaldi.pdf
+[10:22:48] ERROR Nenhum extrator de PDF disponível para PRJ53722_2026-04-23_RDP_(BMS)_Teylor Garibaldi.pdf: [WinError 2] O sistema não pode encontrar o arquivo especificado
+[10:22:48] WARN  Sem texto extraído: PRJ53722_2026-04-23_RDP_(BMS)_Teylor Garibaldi.pdf
+[10:22:48] INFO  Processando: PRJ16598_2026-04-24_RDP_(SEG)_Edison Shiobara.docx
+[10:22:48] WARN  Sem texto extraído: PRJ16598_2026-04-24_RDP_(SEG)_Edison Shiobara.docx
+[10:22:48] INFO  Processando: PRJ19620-2026-04-22_RDP_(BMS)_Anderson.pdf
+[10:22:48] ERROR Nenhum extrator de PDF disponível para PRJ19620-2026-04-22_RDP_(BMS)_Anderson.pdf: [WinError 2] O sistema não pode encontrar o arquivo especificado
+[10:22:48] WARN  Sem texto extraído: PRJ19620-2026-04-22_RDP_(BMS)_Anderson.pdf
+[10:22:48] INFO  Processando: PRJ19620-2026-04-23_RDP_(BMS)_Anderson.docx.pdf
+[10:22:48] ERROR Nenhum extrator de PDF disponível para PRJ19620-2026-04-23_RDP_(BMS)_Anderson.docx.pdf: [WinError 2] O sistema não pode encontrar o arquivo especificado
+[10:22:48] WARN  Sem texto extraído: PRJ19620-2026-04-23_RDP_(BMS)_Anderson.docx.pdf
+[10:22:48] INFO  Processando: PRJ22499_2026-04-23_RDP_(BMS)_Noélio de Brito Oliveira.pdf
+[10:22:48] ERROR Nenhum extrator de PDF disponível para PRJ22499_2026-04-23_RDP_(BMS)_Noélio de Brito Oliveira.pdf: [WinError 2] O sistema não pode encontrar o arquivo especificado
+[10:22:48] WARN  Sem texto extraído: PRJ22499_2026-04-23_RDP_(BMS)_Noélio de Brito Oliveira.pdf
+[10:22:48] INFO  Processando: PRJ34683_2026-04-22_RDP_(AV)_Fabio Araujo.docx
+[10:22:48] WARN  Sem texto extraído: PRJ34683_2026-04-22_RDP_(AV)_Fabio Araujo.docx
+[10:22:48] INFO  Processando: PRJ34683_2026-04-24_RDP_(AV)_Fabio Araujo.docx
+[10:22:48] WARN  Sem texto extraído: PRJ34683_2026-04-24_RDP_(AV)_Fabio Araujo.docx
+[10:22:48] INFO  Processando: PRJ42548_2026-04-22_RDP_SEG_Salathiel_Martins.pdf
+[10:22:48] ERROR Nenhum extrator de PDF disponível para PRJ42548_2026-04-22_RDP_SEG_Salathiel_Martins.pdf: [WinError 2] O sistema não pode encontrar o arquivo especificado
+[10:22:48] WARN  Sem texto extraído: PRJ42548_2026-04-22_RDP_SEG_Salathiel_Martins.pdf
+[10:22:48] INFO  Processando: PRJ45503_2026-04-22_RDP_(BMS)_João Viana.pdf
+[10:22:48] ERROR Nenhum extrator de PDF disponível para PRJ45503_2026-04-22_RDP_(BMS)_João Viana.pdf: [WinError 2] O sistema não pode encontrar o arquivo especificado
+[10:22:48] WARN  Sem texto extraído: PRJ45503_2026-04-22_RDP_(BMS)_João Viana.pdf
+[10:22:48] INFO  Processando: PRJ45503_2026-04-24_RDP_(BMS)_João Viana.pdf
+[10:22:48] ERROR Nenhum extrator de PDF disponível para PRJ45503_2026-04-24_RDP_(BMS)_João Viana.pdf: [WinError 2] O sistema não pode encontrar o arquivo especificado
+[10:22:48] WARN  Sem texto extraído: PRJ45503_2026-04-24_RDP_(BMS)_João Viana.pdf
+[10:22:48] INFO  Processando: PRJ45503_2026-04-24_RDP_(BMS)_Renan Almeida.pdf
+[10:22:48] ERROR Nenhum extrator de PDF disponível para PRJ45503_2026-04-24_RDP_(BMS)_Renan Almeida.pdf: [WinError 2] O sistema não pode encontrar o arquivo especificado
+[10:22:48] WARN  Sem texto extraído: PRJ45503_2026-04-24_RDP_(BMS)_Renan Almeida.pdf
+[10:22:48] INFO  Processando: PRJ46618_2026-04-24_RDP_(SEC)_SergioOliveira.docx
+[10:22:48] WARN  Sem texto extraído: PRJ46618_2026-04-24_RDP_(SEC)_SergioOliveira.docx
+[10:22:48] INFO  Processando: PRJ53722_2026-04-23_RDP_(SDAI)_RODRIGO DE OLIVEIRA SOUSA.pdf
+[10:22:48] ERROR Nenhum extrator de PDF disponível para PRJ53722_2026-04-23_RDP_(SDAI)_RODRIGO DE OLIVEIRA SOUSA.pdf: [WinError 2] O sistema não pode encontrar o arquivo especificado
+[10:22:48] WARN  Sem texto extraído: PRJ53722_2026-04-23_RDP_(SDAI)_RODRIGO DE OLIVEIRA SOUSA.pdf
+[10:22:48] INFO  Processando: PRJ53722_2026-04-23_RDP_(Security)_Luiz Navero - R02.docx
+[10:22:48] WARN  Sem texto extraído: PRJ53722_2026-04-23_RDP_(Security)_Luiz Navero - R02.docx
+[10:22:48] INFO  Processando: PRJ53722_2026-04-24_RDP_(BMS)_Teylor Garibaldi.pdf
+[10:22:48] ERROR Nenhum extrator de PDF disponível para PRJ53722_2026-04-24_RDP_(BMS)_Teylor Garibaldi.pdf: [WinError 2] O sistema não pode encontrar o arquivo especificado
+[10:22:48] WARN  Sem texto extraído: PRJ53722_2026-04-24_RDP_(BMS)_Teylor Garibaldi.pdf
+[10:22:48] INFO  Processando: PRJ53722_2026-04-24_RDP_(BMS)_THIAGO BORGES.pdf
+[10:22:48] ERROR Nenhum extrator de PDF disponível para PRJ53722_2026-04-24_RDP_(BMS)_THIAGO BORGES.pdf: [WinError 2] O sistema não pode encontrar o arquivo especificado
+[10:22:48] WARN  Sem texto extraído: PRJ53722_2026-04-24_RDP_(BMS)_THIAGO BORGES.pdf
+[10:22:48] INFO  Processando: SBRF-TPS-478-4815-0A_ASBUILT.pdf
+[10:22:48] ERROR Nenhum extrator de PDF disponível para SBRF-TPS-478-4815-0A_ASBUILT.pdf: [WinError 2] O sistema não pode encontrar o arquivo especificado
+[10:22:48] WARN  Sem texto extraído: SBRF-TPS-478-4815-0A_ASBUILT.pdf
+[10:22:48] INFO  Processando: PRJ47108_2026-04-26_RDP_(SDAI)_Leonardo Rodrigues.pdf
+[10:22:48] ERROR Nenhum extrator de PDF disponível para PRJ47108_2026-04-26_RDP_(SDAI)_Leonardo Rodrigues.pdf: [WinError 2] O sistema não pode encontrar o arquivo especificado
+[10:22:48] WARN  Sem texto extraído: PRJ47108_2026-04-26_RDP_(SDAI)_Leonardo Rodrigues.pdf
+[10:22:48] INFO  Processando: 2026-04-27_2502_C10257_PRJ48289 _RDP_SEC_Andre Chacon 1.pdf
+[10:22:48] ERROR Nenhum extrator de PDF disponível para 2026-04-27_2502_C10257_PRJ48289 _RDP_SEC_Andre Chacon 1.pdf: [WinError 2] O sistema não pode encontrar o arquivo especificado
+[10:22:48] WARN  Sem texto extraído: 2026-04-27_2502_C10257_PRJ48289 _RDP_SEC_Andre Chacon 1.pdf
+[10:22:48] INFO  Processando: ASV49919_2026-04-24_RDP_(BMS)_Cleiton Vieira.pdf
+[10:22:48] ERROR Nenhum extrator de PDF disponível para ASV49919_2026-04-24_RDP_(BMS)_Cleiton Vieira.pdf: [WinError 2] O sistema não pode encontrar o arquivo especificado
+[10:22:48] WARN  Sem texto extraído: ASV49919_2026-04-24_RDP_(BMS)_Cleiton Vieira.pdf
+[10:22:48] INFO  Processando: CTR19778_2025-04-24_RDP_(SEC)_Marcos Teixeira.pdf
+[10:22:48] ERROR Nenhum extrator de PDF disponível para CTR19778_2025-04-24_RDP_(SEC)_Marcos Teixeira.pdf: [WinError 2] O sistema não pode encontrar o arquivo especificado
+[10:22:48] WARN  Sem texto extraído: CTR19778_2025-04-24_RDP_(SEC)_Marcos Teixeira.pdf
+[10:22:48] INFO  Processando: PRJ16598_2026-04-27_RDP_(SEG)_Edison Shiobara.docx
+[10:22:48] WARN  Sem texto extraído: PRJ16598_2026-04-27_RDP_(SEG)_Edison Shiobara.docx
+[10:22:48] INFO  Processando: PRJ19620-2026-04-24_RDP_(BMS)_Anderson.pdf
+[10:22:48] ERROR Nenhum extrator de PDF disponível para PRJ19620-2026-04-24_RDP_(BMS)_Anderson.pdf: [WinError 2] O sistema não pode encontrar o arquivo especificado
+[10:22:48] WARN  Sem texto extraído: PRJ19620-2026-04-24_RDP_(BMS)_Anderson.pdf
+[10:22:48] INFO  Processando: PRJ22499_2026-04-24_RDP_(BMS)_Noélio de Brito Oliveira.pdf
+[10:22:48] ERROR Nenhum extrator de PDF disponível para PRJ22499_2026-04-24_RDP_(BMS)_Noélio de Brito Oliveira.pdf: [WinError 2] O sistema não pode encontrar o arquivo especificado
+[10:22:48] WARN  Sem texto extraído: PRJ22499_2026-04-24_RDP_(BMS)_Noélio de Brito Oliveira.pdf
+[10:22:48] INFO  Processando: PRJ34683_2026-04-27_RDP_(AV)_Fabio Araujo.docx
+[10:22:48] WARN  Sem texto extraído: PRJ34683_2026-04-27_RDP_(AV)_Fabio Araujo.docx
+[10:22:48] INFO  Processando: PRJ40799_2026-04-27_RDP_(SEG)_Andre Chacon.pdf
+[10:22:48] ERROR Nenhum extrator de PDF disponível para PRJ40799_2026-04-27_RDP_(SEG)_Andre Chacon.pdf: [WinError 2] O sistema não pode encontrar o arquivo especificado
+[10:22:48] WARN  Sem texto extraído: PRJ40799_2026-04-27_RDP_(SEG)_Andre Chacon.pdf
+[10:22:48] INFO  Processando: PRJ42548_2026-04-24_RDP_SEG_Salathiel_Martins.pdf
+[10:22:48] ERROR Nenhum extrator de PDF disponível para PRJ42548_2026-04-24_RDP_SEG_Salathiel_Martins.pdf: [WinError 2] O sistema não pode encontrar o arquivo especificado
+[10:22:48] WARN  Sem texto extraído: PRJ42548_2026-04-24_RDP_SEG_Salathiel_Martins.pdf
+[10:22:48] INFO  Processando: PRJ45503_2026-04-27_RDP_(BMS)_JhonatanAtaide.pdf
+[10:22:48] ERROR Nenhum extrator de PDF disponível para PRJ45503_2026-04-27_RDP_(BMS)_JhonatanAtaide.pdf: [WinError 2] O sistema não pode encontrar o arquivo especificado
+[10:22:48] WARN  Sem texto extraído: PRJ45503_2026-04-27_RDP_(BMS)_JhonatanAtaide.pdf
+[10:22:48] INFO  Processando: PRJ45503_2026-04-27_RDP_(BMS)_João Viana.pdf
+[10:22:48] ERROR Nenhum extrator de PDF disponível para PRJ45503_2026-04-27_RDP_(BMS)_João Viana.pdf: [WinError 2] O sistema não pode encontrar o arquivo especificado
+[10:22:48] WARN  Sem texto extraído: PRJ45503_2026-04-27_RDP_(BMS)_João Viana.pdf
+[10:22:48] INFO  Processando: PRJ55924_2026-27-04_RDP_(AV)_Augusto-Valle.pdf
+[10:22:48] ERROR Nenhum extrator de PDF disponível para PRJ55924_2026-27-04_RDP_(AV)_Augusto-Valle.pdf: [WinError 2] O sistema não pode encontrar o arquivo especificado
+[10:22:48] WARN  Sem texto extraído: PRJ55924_2026-27-04_RDP_(AV)_Augusto-Valle.pdf
+[10:22:48] INFO  Processando: PRJ57394_2026-04-27_RDP_(SEG)_Tiago_Alves_Dutra.pdf
+[10:22:48] ERROR Nenhum extrator de PDF disponível para PRJ57394_2026-04-27_RDP_(SEG)_Tiago_Alves_Dutra.pdf: [WinError 2] O sistema não pode encontrar o arquivo especificado
+[10:22:48] WARN  Sem texto extraído: PRJ57394_2026-04-27_RDP_(SEG)_Tiago_Alves_Dutra.pdf
+[10:22:48] INFO  Processando: SGRUTB08-MOB-34669 - LOGICAL SEGREGATION - PHASE 4_Rev3.docx
+[10:22:49] INFO  Processando: 2026-04-28_2502_C10257_PRJ48289 _RDP_SEC_Andre Chacon 1.pdf
+[10:22:49] ERROR Nenhum extrator de PDF disponível para 2026-04-28_2502_C10257_PRJ48289 _RDP_SEC_Andre Chacon 1.pdf: [WinError 2] O sistema não pode encontrar o arquivo especificado
+[10:22:49] WARN  Sem texto extraído: 2026-04-28_2502_C10257_PRJ48289 _RDP_SEC_Andre Chacon 1.pdf
+[10:22:49] INFO  Processando: 2312_C09874_PRJ22062_2026-04-08_01_RDP_AV_Thiago_Dos_Santos_Silva.docx
+[10:22:49] WARN  Sem texto extraído: 2312_C09874_PRJ22062_2026-04-08_01_RDP_AV_Thiago_Dos_Santos_Silva.docx
+[10:22:49] INFO  Processando: 2410_C01425_PRJ49431_2026-04-17_08_RDP_AV_Thiago_Dos_Santos_Silva.docx
+[10:22:49] WARN  Sem texto extraído: 2410_C01425_PRJ49431_2026-04-17_08_RDP_AV_Thiago_Dos_Santos_Silva.docx
+[10:22:49] INFO  Processando: Aena Recife - Prints sensores SDAI sem tags.docx
+[10:22:49] WARN  Sem texto extraído: Aena Recife - Prints sensores SDAI sem tags.docx
+[10:22:49] INFO  Processando: Aena Recife - Sensores SDAI fora do padrão.docx
+[10:22:49] WARN  Sem texto extraído: Aena Recife - Sensores SDAI fora do padrão.docx
+[10:22:49] INFO  Processando: CTR20593_2026-04-27_RDP_(SEG)_Michel Sato.docx
+[10:22:49] WARN  Sem texto extraído: CTR20593_2026-04-27_RDP_(SEG)_Michel Sato.docx
+[10:22:49] INFO  Processando: CTR55040_2026-04-27_RDP_(BMS)_THIAGO BORGES.pdf
+[10:22:49] ERROR Nenhum extrator de PDF disponível para CTR55040_2026-04-27_RDP_(BMS)_THIAGO BORGES.pdf: [WinError 2] O sistema não pode encontrar o arquivo especificado
+[10:22:49] WARN  Sem texto extraído: CTR55040_2026-04-27_RDP_(BMS)_THIAGO BORGES.pdf
+[10:22:49] INFO  Processando: PRJ16598_2026-04-28_RDP_(SEG)_Edison Shiobara.docx
+[10:22:49] WARN  Sem texto extraído: PRJ16598_2026-04-28_RDP_(SEG)_Edison Shiobara.docx
+[10:22:49] INFO  Processando: PRJ22499_2026-04-27_RDP_(BMS)_Noélio de Brito Oliveira.pdf
+[10:22:49] ERROR Nenhum extrator de PDF disponível para PRJ22499_2026-04-27_RDP_(BMS)_Noélio de Brito Oliveira.pdf: [WinError 2] O sistema não pode encontrar o arquivo especificado
+[10:22:49] WARN  Sem texto extraído: PRJ22499_2026-04-27_RDP_(BMS)_Noélio de Brito Oliveira.pdf
+[10:22:49] INFO  Processando: PRJ34683_2026-04-27_RDP_(AV)_Fabio Araujo.docx
+[10:22:49] WARN  Sem texto extraído: PRJ34683_2026-04-27_RDP_(AV)_Fabio Araujo.docx
+[10:22:49] INFO  Processando: PRJ34683_2026-04-28_RDP_(AV)_Fabio Araujo.docx
+[10:22:49] WARN  Sem texto extraído: PRJ34683_2026-04-28_RDP_(AV)_Fabio Araujo.docx
+[10:22:49] INFO  Processando: PRJ42548_2026-04-27_RDP_SEG_Salathiel_Martins.pdf
+[10:22:49] ERROR Nenhum extrator de PDF disponível para PRJ42548_2026-04-27_RDP_SEG_Salathiel_Martins.pdf: [WinError 2] O sistema não pode encontrar o arquivo especificado
+[10:22:49] WARN  Sem texto extraído: PRJ42548_2026-04-27_RDP_SEG_Salathiel_Martins.pdf
+[10:22:49] INFO  Processando: PRJ45503_2026-04-28_RDP_(BMS)_JhonatanAtaide.pdf
+[10:22:49] ERROR Nenhum extrator de PDF disponível para PRJ45503_2026-04-28_RDP_(BMS)_JhonatanAtaide.pdf: [WinError 2] O sistema não pode encontrar o arquivo especificado
+[10:22:49] WARN  Sem texto extraído: PRJ45503_2026-04-28_RDP_(BMS)_JhonatanAtaide.pdf
+[10:22:49] INFO  Processando: PRJ47108_2026-04-27_RDP_(SDAI)_Jeilan Lima.pdf
+[10:22:49] ERROR Nenhum extrator de PDF disponível para PRJ47108_2026-04-27_RDP_(SDAI)_Jeilan Lima.pdf: [WinError 2] O sistema não pode encontrar o arquivo especificado
+[10:22:49] WARN  Sem texto extraído: PRJ47108_2026-04-27_RDP_(SDAI)_Jeilan Lima.pdf
+[10:22:49] INFO  Processando: PRJ47108_2026-04-28_RDP_(BMS)_GUILHEME ARIZ DA SILVA.pdf
+[10:22:49] ERROR Nenhum extrator de PDF disponível para PRJ47108_2026-04-28_RDP_(BMS)_GUILHEME ARIZ DA SILVA.pdf: [WinError 2] O sistema não pode encontrar o arquivo especificado
+[10:22:49] WARN  Sem texto extraído: PRJ47108_2026-04-28_RDP_(BMS)_GUILHEME ARIZ DA SILVA.pdf
+[10:22:49] INFO  Processando: PRJ53722_2026-04-24_RDP_(BMS)_Alfredo da Silveira.pdf
+[10:22:49] ERROR Nenhum extrator de PDF disponível para PRJ53722_2026-04-24_RDP_(BMS)_Alfredo da Silveira.pdf: [WinError 2] O sistema não pode encontrar o arquivo especificado
+[10:22:49] WARN  Sem texto extraído: PRJ53722_2026-04-24_RDP_(BMS)_Alfredo da Silveira.pdf
+[10:22:49] INFO  Processando: PRJ53722_2026-04-27_RDP_(BMS)_Alfredo da Silveira.pdf
+[10:22:49] ERROR Nenhum extrator de PDF disponível para PRJ53722_2026-04-27_RDP_(BMS)_Alfredo da Silveira.pdf: [WinError 2] O sistema não pode encontrar o arquivo especificado
+[10:22:49] WARN  Sem texto extraído: PRJ53722_2026-04-27_RDP_(BMS)_Alfredo da Silveira.pdf
+[10:22:49] INFO  Processando: PRJ53722_2026-04-27_RDP_(Security)_Luiz Navero - R02.docx
+[10:22:49] WARN  Sem texto extraído: PRJ53722_2026-04-27_RDP_(Security)_Luiz Navero - R02.docx
+[10:22:49] INFO  Processando: PRJ53722_2026-04-28_RDP_(BMS)_Alfredo da Silveira.pdf
+[10:22:49] ERROR Nenhum extrator de PDF disponível para PRJ53722_2026-04-28_RDP_(BMS)_Alfredo da Silveira.pdf: [WinError 2] O sistema não pode encontrar o arquivo especificado
+[10:22:49] WARN  Sem texto extraído: PRJ53722_2026-04-28_RDP_(BMS)_Alfredo da Silveira.pdf
+[10:22:49] INFO  Processando: PRJ53722_2026-04-28_RDP_(Security)_Luiz Navero - R02.docx
+[10:22:49] WARN  Sem texto extraído: PRJ53722_2026-04-28_RDP_(Security)_Luiz Navero - R02.docx
+[10:22:49] INFO  Processando: PRJ58937_2026-04-28_RDP_(BMS)_Larissa Silva.pdf
+[10:22:49] ERROR Nenhum extrator de PDF disponível para PRJ58937_2026-04-28_RDP_(BMS)_Larissa Silva.pdf: [WinError 2] O sistema não pode encontrar o arquivo especificado
+[10:22:49] WARN  Sem texto extraído: PRJ58937_2026-04-28_RDP_(BMS)_Larissa Silva.pdf
+[10:22:49] INFO  Processando: PRJ59307_2026-04-28_RDP_(SEG)_EDUARDO MOTA.pdf
+[10:22:49] ERROR Nenhum extrator de PDF disponível para PRJ59307_2026-04-28_RDP_(SEG)_EDUARDO MOTA.pdf: [WinError 2] O sistema não pode encontrar o arquivo especificado
+[10:22:49] WARN  Sem texto extraído: PRJ59307_2026-04-28_RDP_(SEG)_EDUARDO MOTA.pdf
+[10:22:49] INFO  Processando: PRJ61205_2026-04-28_RDP_(AV)_Jean Kevyn Correia Pessoa.docx
+[10:22:49] WARN  Sem texto extraído: PRJ61205_2026-04-28_RDP_(AV)_Jean Kevyn Correia Pessoa.docx
+[10:22:49] INFO  Processando: SGRUTB67-E-STC-3 ANDAR.pdf
+[10:22:49] ERROR Nenhum extrator de PDF disponível para SGRUTB67-E-STC-3 ANDAR.pdf: [WinError 2] O sistema não pode encontrar o arquivo especificado
+[10:22:49] WARN  Sem texto extraído: SGRUTB67-E-STC-3 ANDAR.pdf
+[10:22:49] INFO  Processando: 2026-04-29_2502_C10257_PRJ48289 _RDP_SEC_Andre Chacon .pdf
+[10:22:49] ERROR Nenhum extrator de PDF disponível para 2026-04-29_2502_C10257_PRJ48289 _RDP_SEC_Andre Chacon .pdf: [WinError 2] O sistema não pode encontrar o arquivo especificado
+[10:22:49] WARN  Sem texto extraído: 2026-04-29_2502_C10257_PRJ48289 _RDP_SEC_Andre Chacon .pdf
+[10:22:49] INFO  Processando: PRJ107443_2026-04-28_RDP_(SEG)_Edison Shiobara.docx
+[10:22:49] WARN  Sem texto extraído: PRJ107443_2026-04-28_RDP_(SEG)_Edison Shiobara.docx
+[10:22:49] INFO  Processando: PRJ22499_2026-04-28_RDP_(BMS)_Noélio de Brito Oliveira.pdf
+[10:22:49] ERROR Nenhum extrator de PDF disponível para PRJ22499_2026-04-28_RDP_(BMS)_Noélio de Brito Oliveira.pdf: [WinError 2] O sistema não pode encontrar o arquivo especificado
+[10:22:49] WARN  Sem texto extraído: PRJ22499_2026-04-28_RDP_(BMS)_Noélio de Brito Oliveira.pdf
+[10:22:49] INFO  Processando: PRJ31386_2026-04-29_RDP_(SDAI)_DAVISON CAMPOS.docx
+[10:22:49] WARN  Sem texto extraído: PRJ31386_2026-04-29_RDP_(SDAI)_DAVISON CAMPOS.docx
+[10:22:49] INFO  Processando: PRJ31386_2026-04-29_RDP_(SDAI)_DAVISON CAMPOS.pdf
+[10:22:49] ERROR Nenhum extrator de PDF disponível para PRJ31386_2026-04-29_RDP_(SDAI)_DAVISON CAMPOS.pdf: [WinError 2] O sistema não pode encontrar o arquivo especificado
+[10:22:49] WARN  Sem texto extraído: PRJ31386_2026-04-29_RDP_(SDAI)_DAVISON CAMPOS.pdf
+[10:22:49] INFO  Processando: PRJ34724_2026-04-28_RDP_(SEC)_SergioOliveira.docx
+[10:22:49] WARN  Sem texto extraído: PRJ34724_2026-04-28_RDP_(SEC)_SergioOliveira.docx
+[10:22:49] INFO  Processando: PRJ35632_2026-04-28_RDP_(SEG)_Michel Sato.docx
+[10:22:49] WARN  Sem texto extraído: PRJ35632_2026-04-28_RDP_(SEG)_Michel Sato.docx
+[10:22:49] INFO  Processando: PRJ35873-2026-04-29_RDP_(BMS)_Renan_Silva.pdf
+[10:22:49] ERROR Nenhum extrator de PDF disponível para PRJ35873-2026-04-29_RDP_(BMS)_Renan_Silva.pdf: [WinError 2] O sistema não pode encontrar o arquivo especificado
+[10:22:49] WARN  Sem texto extraído: PRJ35873-2026-04-29_RDP_(BMS)_Renan_Silva.pdf
+[10:22:49] INFO  Processando: PRJ42548_2026-04-28_RDP_SEG_Salathiel_Martins.pdf
+[10:22:49] ERROR Nenhum extrator de PDF disponível para PRJ42548_2026-04-28_RDP_SEG_Salathiel_Martins.pdf: [WinError 2] O sistema não pode encontrar o arquivo especificado
+[10:22:49] WARN  Sem texto extraído: PRJ42548_2026-04-28_RDP_SEG_Salathiel_Martins.pdf
+[10:22:49] INFO  Processando: PRJ45503_2026-04-28_RDP_(BMS)_João Viana.pdf
+[10:22:49] ERROR Nenhum extrator de PDF disponível para PRJ45503_2026-04-28_RDP_(BMS)_João Viana.pdf: [WinError 2] O sistema não pode encontrar o arquivo especificado
+[10:22:49] WARN  Sem texto extraído: PRJ45503_2026-04-28_RDP_(BMS)_João Viana.pdf
+[10:22:49] INFO  Processando: PRJ45503_2026-04-29_RDP_(BMS)_Renan Almeida.pdf
+[10:22:49] ERROR Nenhum extrator de PDF disponível para PRJ45503_2026-04-29_RDP_(BMS)_Renan Almeida.pdf: [WinError 2] O sistema não pode encontrar o arquivo especificado
+[10:22:49] WARN  Sem texto extraído: PRJ45503_2026-04-29_RDP_(BMS)_Renan Almeida.pdf
+[10:22:49] INFO  Processando: PRJ45819_2026-04-28_RDP_(BMS)_THIAGO BORGES.pdf
+[10:22:49] ERROR Nenhum extrator de PDF disponível para PRJ45819_2026-04-28_RDP_(BMS)_THIAGO BORGES.pdf: [WinError 2] O sistema não pode encontrar o arquivo especificado
+[10:22:49] WARN  Sem texto extraído: PRJ45819_2026-04-28_RDP_(BMS)_THIAGO BORGES.pdf
+[10:22:49] INFO  Processando: PRJ47108_2026-04-28_RDP_(SDAI)_Jeilan Lima.pdf
+[10:22:49] ERROR Nenhum extrator de PDF disponível para PRJ47108_2026-04-28_RDP_(SDAI)_Jeilan Lima.pdf: [WinError 2] O sistema não pode encontrar o arquivo especificado
+[10:22:49] WARN  Sem texto extraído: PRJ47108_2026-04-28_RDP_(SDAI)_Jeilan Lima.pdf
+[10:22:49] INFO  Processando: PRJ47108_2026-04-29_RDP_(SDAI)_Jeilan Lima.pdf
+[10:22:49] ERROR Nenhum extrator de PDF disponível para PRJ47108_2026-04-29_RDP_(SDAI)_Jeilan Lima.pdf: [WinError 2] O sistema não pode encontrar o arquivo especificado
+[10:22:49] WARN  Sem texto extraído: PRJ47108_2026-04-29_RDP_(SDAI)_Jeilan Lima.pdf
+[10:22:49] INFO  Processando: PRJ50476-2026-04-29_RDP_(BMS)_Larissa Silva.pdf
+[10:22:49] ERROR Nenhum extrator de PDF disponível para PRJ50476-2026-04-29_RDP_(BMS)_Larissa Silva.pdf: [WinError 2] O sistema não pode encontrar o arquivo especificado
+[10:22:49] WARN  Sem texto extraído: PRJ50476-2026-04-29_RDP_(BMS)_Larissa Silva.pdf
+[10:22:49] INFO  Processando: PRJ53722_2026-04-29_RDP_(BMS)_Alfredo da Silveira.pdf
+[10:22:49] ERROR Nenhum extrator de PDF disponível para PRJ53722_2026-04-29_RDP_(BMS)_Alfredo da Silveira.pdf: [WinError 2] O sistema não pode encontrar o arquivo especificado
+[10:22:49] WARN  Sem texto extraído: PRJ53722_2026-04-29_RDP_(BMS)_Alfredo da Silveira.pdf
+[10:22:49] INFO  Processando: PRJ53722_2026-04-29_RDP_(Security)_Luiz Navero - R02.docx
+[10:22:49] WARN  Sem texto extraído: PRJ53722_2026-04-29_RDP_(Security)_Luiz Navero - R02.docx
+[10:22:49] INFO  Processando: PRJ55924_2026-29-04_RDP_(AV)_Augusto-Valle.pdf
+[10:22:49] ERROR Nenhum extrator de PDF disponível para PRJ55924_2026-29-04_RDP_(AV)_Augusto-Valle.pdf: [WinError 2] O sistema não pode encontrar o arquivo especificado
+[10:22:49] WARN  Sem texto extraído: PRJ55924_2026-29-04_RDP_(AV)_Augusto-Valle.pdf
+[10:22:49] INFO  Processando: PRJ57394_2026-04-28_RDP_(SEG)_Tiago_Alves_Dutra.pdf
+[10:22:49] ERROR Nenhum extrator de PDF disponível para PRJ57394_2026-04-28_RDP_(SEG)_Tiago_Alves_Dutra.pdf: [WinError 2] O sistema não pode encontrar o arquivo especificado
+[10:22:49] WARN  Sem texto extraído: PRJ57394_2026-04-28_RDP_(SEG)_Tiago_Alves_Dutra.pdf
+[10:22:49] INFO  Processando: PRJ57394_2026-04-29_RDP_(SEG)_Tiago_Alves_Dutra.pdf
+[10:22:49] ERROR Nenhum extrator de PDF disponível para PRJ57394_2026-04-29_RDP_(SEG)_Tiago_Alves_Dutra.pdf: [WinError 2] O sistema não pode encontrar o arquivo especificado
+[10:22:49] WARN  Sem texto extraído: PRJ57394_2026-04-29_RDP_(SEG)_Tiago_Alves_Dutra.pdf
+[10:22:49] INFO  Processando: PRJ57636_2026-04-29_RDP_(AV)_Jean Kevyn Correia Pessoa.docx
+[10:22:49] WARN  Sem texto extraído: PRJ57636_2026-04-29_RDP_(AV)_Jean Kevyn Correia Pessoa.docx
+[10:22:49] INFO  Processando: 2026-04-30_2502_C10257_PRJ48289 _RDP_SEC_Andre Chacon .pdf
+[10:22:49] ERROR Nenhum extrator de PDF disponível para 2026-04-30_2502_C10257_PRJ48289 _RDP_SEC_Andre Chacon .pdf: [WinError 2] O sistema não pode encontrar o arquivo especificado
+[10:22:49] WARN  Sem texto extraído: 2026-04-30_2502_C10257_PRJ48289 _RDP_SEC_Andre Chacon .pdf
+[10:22:49] INFO  Processando: Aena Recife - Print tags repetidas - 2026.04.30.docx
+[10:22:49] INFO  Processando: Aena Recife - Prints sensores SDAI sem tags - R01 - 2026.04.30.docx
+[10:22:49] WARN  Sem texto extraído: Aena Recife - Prints sensores SDAI sem tags - R01 - 2026.04.30.docx
+[10:22:49] INFO  Processando: ASV49919_2026-04-27_RDP_(BMS)_Cleiton Vieira.pdf
+[10:22:49] ERROR Nenhum extrator de PDF disponível para ASV49919_2026-04-27_RDP_(BMS)_Cleiton Vieira.pdf: [WinError 2] O sistema não pode encontrar o arquivo especificado
+[10:22:49] WARN  Sem texto extraído: ASV49919_2026-04-27_RDP_(BMS)_Cleiton Vieira.pdf
+[10:22:49] INFO  Processando: PRJ16598_2026-04-29_RDP_(SEG)_Edison Shiobara.docx
+[10:22:50] WARN  Sem texto extraído: PRJ16598_2026-04-29_RDP_(SEG)_Edison Shiobara.docx
+[10:22:50] INFO  Processando: PRJ16598_2026-04-30_RDP_(SEG)_Edison Shiobara.docx
+[10:22:50] WARN  Sem texto extraído: PRJ16598_2026-04-30_RDP_(SEG)_Edison Shiobara.docx
+[10:22:50] INFO  Processando: PRJ22062_2026-04-29_RDP_(SEC)_SergioOliveira.docx
+[10:22:50] WARN  Sem texto extraído: PRJ22062_2026-04-29_RDP_(SEC)_SergioOliveira.docx
+[10:22:50] INFO  Processando: PRJ22499_2026-04-29_RDP_(BMS)_Noélio de Brito Oliveira.pdf
+[10:22:50] ERROR Nenhum extrator de PDF disponível para PRJ22499_2026-04-29_RDP_(BMS)_Noélio de Brito Oliveira.pdf: [WinError 2] O sistema não pode encontrar o arquivo especificado
+[10:22:50] WARN  Sem texto extraído: PRJ22499_2026-04-29_RDP_(BMS)_Noélio de Brito Oliveira.pdf
+[10:22:50] INFO  Processando: PRJ34683_2026-04-29_RDP_(AV)_Fabio Araujo.docx
+[10:22:50] WARN  Sem texto extraído: PRJ34683_2026-04-29_RDP_(AV)_Fabio Araujo.docx
+[10:22:50] INFO  Processando: PRJ34683_2026-04-30_RDP_(AV)_Fabio Araujo.docx
+[10:22:50] WARN  Sem texto extraído: PRJ34683_2026-04-30_RDP_(AV)_Fabio Araujo.docx
+[10:22:50] INFO  Processando: PRJ38381_2026-04-29_RDP_(BMS)_Cleiton Vieira.pdf
+[10:22:50] ERROR Nenhum extrator de PDF disponível para PRJ38381_2026-04-29_RDP_(BMS)_Cleiton Vieira.pdf: [WinError 2] O sistema não pode encontrar o arquivo especificado
+[10:22:50] WARN  Sem texto extraído: PRJ38381_2026-04-29_RDP_(BMS)_Cleiton Vieira.pdf
+[10:22:50] INFO  Processando: PRJ42188_2026-04-30_RDP_(SEG)_EDUARDO MOTA_CFTV.pdf
+[10:22:50] ERROR Nenhum extrator de PDF disponível para PRJ42188_2026-04-30_RDP_(SEG)_EDUARDO MOTA_CFTV.pdf: [WinError 2] O sistema não pode encontrar o arquivo especificado
+[10:22:50] WARN  Sem texto extraído: PRJ42188_2026-04-30_RDP_(SEG)_EDUARDO MOTA_CFTV.pdf
+[10:22:50] INFO  Processando: PRJ42548_2026-04-29_RDP_SEG_Salathiel_Martins.pdf
+[10:22:50] ERROR Nenhum extrator de PDF disponível para PRJ42548_2026-04-29_RDP_SEG_Salathiel_Martins.pdf: [WinError 2] O sistema não pode encontrar o arquivo especificado
+[10:22:50] WARN  Sem texto extraído: PRJ42548_2026-04-29_RDP_SEG_Salathiel_Martins.pdf
+[10:22:50] INFO  Processando: PRJ45503_2026-04-30_RDP_(BMS)_Renan Almeida.pdf
+[10:22:50] ERROR Nenhum extrator de PDF disponível para PRJ45503_2026-04-30_RDP_(BMS)_Renan Almeida.pdf: [WinError 2] O sistema não pode encontrar o arquivo especificado
+[10:22:50] WARN  Sem texto extraído: PRJ45503_2026-04-30_RDP_(BMS)_Renan Almeida.pdf
+[10:22:50] INFO  Processando: PRJ45819_2026-04-30_RDP_(BMS)_THIAGO BORGES.pdf
+[10:22:50] ERROR Nenhum extrator de PDF disponível para PRJ45819_2026-04-30_RDP_(BMS)_THIAGO BORGES.pdf: [WinError 2] O sistema não pode encontrar o arquivo especificado
+[10:22:50] WARN  Sem texto extraído: PRJ45819_2026-04-30_RDP_(BMS)_THIAGO BORGES.pdf
+[10:22:50] INFO  Processando: PRJ46618_2026-04-29_RDP_(SEG)_Michel Sato.docx
+[10:22:50] WARN  Sem texto extraído: PRJ46618_2026-04-29_RDP_(SEG)_Michel Sato.docx
+[10:22:50] INFO  Processando: PRJ46618_2026-04-30_RDP_(SEG)_Michel Sato.docx
+[10:22:50] WARN  Sem texto extraído: PRJ46618_2026-04-30_RDP_(SEG)_Michel Sato.docx
+[10:22:50] INFO  Processando: PRJ47108_2026-04-30_RDP_(SDAI)_Jeilan Lima.pdf
+[10:22:50] ERROR Nenhum extrator de PDF disponível para PRJ47108_2026-04-30_RDP_(SDAI)_Jeilan Lima.pdf: [WinError 2] O sistema não pode encontrar o arquivo especificado
+[10:22:50] WARN  Sem texto extraído: PRJ47108_2026-04-30_RDP_(SDAI)_Jeilan Lima.pdf
+[10:22:50] INFO  Processando: PRJ53722_2026-04-24_RDP_(SDAI)_RODRIGO DE OLIVEIRA SOUSA.pdf
+[10:22:50] ERROR Nenhum extrator de PDF disponível para PRJ53722_2026-04-24_RDP_(SDAI)_RODRIGO DE OLIVEIRA SOUSA.pdf: [WinError 2] O sistema não pode encontrar o arquivo especificado
+[10:22:50] WARN  Sem texto extraído: PRJ53722_2026-04-24_RDP_(SDAI)_RODRIGO DE OLIVEIRA SOUSA.pdf
+[10:22:50] INFO  Processando: PRJ53722_2026-04-29_RDP_(BMS)_Teylor Garibaldi.pdf
+[10:22:50] ERROR Nenhum extrator de PDF disponível para PRJ53722_2026-04-29_RDP_(BMS)_Teylor Garibaldi.pdf: [WinError 2] O sistema não pode encontrar o arquivo especificado
+[10:22:50] WARN  Sem texto extraído: PRJ53722_2026-04-29_RDP_(BMS)_Teylor Garibaldi.pdf
+[10:22:50] INFO  Processando: PRJ53722_2026-04-29_RDP_(SDAI)_RODRIGO DE OLIVEIRA SOUSA.pdf
+[10:22:50] ERROR Nenhum extrator de PDF disponível para PRJ53722_2026-04-29_RDP_(SDAI)_RODRIGO DE OLIVEIRA SOUSA.pdf: [WinError 2] O sistema não pode encontrar o arquivo especificado
+[10:22:50] WARN  Sem texto extraído: PRJ53722_2026-04-29_RDP_(SDAI)_RODRIGO DE OLIVEIRA SOUSA.pdf
+[10:22:50] INFO  Processando: PRJ53722_2026-04-30_RDP_(BMS)_Alfredo da Silveira.pdf
+[10:22:50] ERROR Nenhum extrator de PDF disponível para PRJ53722_2026-04-30_RDP_(BMS)_Alfredo da Silveira.pdf: [WinError 2] O sistema não pode encontrar o arquivo especificado
+[10:22:50] WARN  Sem texto extraído: PRJ53722_2026-04-30_RDP_(BMS)_Alfredo da Silveira.pdf
+[10:22:50] INFO  Processando: PRJ53722_2026-04-30_RDP_(BMS)_Teylor Garibaldi.pdf
+[10:22:50] ERROR Nenhum extrator de PDF disponível para PRJ53722_2026-04-30_RDP_(BMS)_Teylor Garibaldi.pdf: [WinError 2] O sistema não pode encontrar o arquivo especificado
+[10:22:50] WARN  Sem texto extraído: PRJ53722_2026-04-30_RDP_(BMS)_Teylor Garibaldi.pdf
+[10:22:50] INFO  Processando: PRJ53722_2026-04-30_RDP_(Security)_Luiz Navero - R02.docx
+[10:22:50] WARN  Sem texto extraído: PRJ53722_2026-04-30_RDP_(Security)_Luiz Navero - R02.docx
+[10:22:50] INFO  Processando: PRJ55924_2026-30-04_RDP_(AV)_Augusto-Valle.pdf
+[10:22:50] ERROR Nenhum extrator de PDF disponível para PRJ55924_2026-30-04_RDP_(AV)_Augusto-Valle.pdf: [WinError 2] O sistema não pode encontrar o arquivo especificado
+[10:22:50] WARN  Sem texto extraído: PRJ55924_2026-30-04_RDP_(AV)_Augusto-Valle.pdf
+[10:22:50] INFO  Processando: Procedimento_Report_Alarmes.pdf
+[10:22:50] ERROR Nenhum extrator de PDF disponível para Procedimento_Report_Alarmes.pdf: [WinError 2] O sistema não pode encontrar o arquivo especificado
+[10:22:50] WARN  Sem texto extraído: Procedimento_Report_Alarmes.pdf
+[10:22:50] INFO  Processando: PRJ09134_2026-04-30_RDP_(AV)_Jean Kevyn Correia Pessoa.docx
+[10:22:50] WARN  Sem texto extraído: PRJ09134_2026-04-30_RDP_(AV)_Jean Kevyn Correia Pessoa.docx
+[10:22:50] INFO  Processando: PRJ47108_2026-05-01_RDP_(SDAI)_Leonardo Rodrigues.pdf
+[10:22:50] ERROR Nenhum extrator de PDF disponível para PRJ47108_2026-05-01_RDP_(SDAI)_Leonardo Rodrigues.pdf: [WinError 2] O sistema não pode encontrar o arquivo especificado
+[10:22:50] WARN  Sem texto extraído: PRJ47108_2026-05-01_RDP_(SDAI)_Leonardo Rodrigues.pdf
+[10:22:50] INFO  Processando: PRJ61205_2026-04-30_RDP_(AV)_Jean Kevyn Correia Pessoa.docx
+[10:22:50] WARN  Sem texto extraído: PRJ61205_2026-04-30_RDP_(AV)_Jean Kevyn Correia Pessoa.docx
+[10:22:50] INFO  Processando: PRJ47108_2026-05-03_RDP_(SDAI)_Jeilan Lima.pdf
+[10:22:50] ERROR Nenhum extrator de PDF disponível para PRJ47108_2026-05-03_RDP_(SDAI)_Jeilan Lima.pdf: [WinError 2] O sistema não pode encontrar o arquivo especificado
+[10:22:50] WARN  Sem texto extraído: PRJ47108_2026-05-03_RDP_(SDAI)_Jeilan Lima.pdf
+[10:22:50] INFO  Processando: CTR19778_2026-04-27_RDP_(SEC)_Marcos Teixeira.pdf
+[10:22:50] ERROR Nenhum extrator de PDF disponível para CTR19778_2026-04-27_RDP_(SEC)_Marcos Teixeira.pdf: [WinError 2] O sistema não pode encontrar o arquivo especificado
+[10:22:50] WARN  Sem texto extraído: CTR19778_2026-04-27_RDP_(SEC)_Marcos Teixeira.pdf
+[10:22:50] INFO  Processando: CTR19778_2026-04-28_RDP_(SEC)_Marcos Teixeira.pdf
+[10:22:50] ERROR Nenhum extrator de PDF disponível para CTR19778_2026-04-28_RDP_(SEC)_Marcos Teixeira.pdf: [WinError 2] O sistema não pode encontrar o arquivo especificado
+[10:22:50] WARN  Sem texto extraído: CTR19778_2026-04-28_RDP_(SEC)_Marcos Teixeira.pdf
+[10:22:50] INFO  Processando: CTR19778_2026-04-29_RDP_(SEC)_Marcos Teixeira.pdf
+[10:22:50] ERROR Nenhum extrator de PDF disponível para CTR19778_2026-04-29_RDP_(SEC)_Marcos Teixeira.pdf: [WinError 2] O sistema não pode encontrar o arquivo especificado
+[10:22:50] WARN  Sem texto extraído: CTR19778_2026-04-29_RDP_(SEC)_Marcos Teixeira.pdf
+[10:22:50] INFO  Processando: CTR19778_2026-04-30_RDP_(SEC)_Marcos Teixeira.pdf
+[10:22:50] ERROR Nenhum extrator de PDF disponível para CTR19778_2026-04-30_RDP_(SEC)_Marcos Teixeira.pdf: [WinError 2] O sistema não pode encontrar o arquivo especificado
+[10:22:50] WARN  Sem texto extraído: CTR19778_2026-04-30_RDP_(SEC)_Marcos Teixeira.pdf
+[10:22:50] INFO  Processando: Device Maintenance  Reports_GOOGLE 0105_05022026_141405.pdf
+[10:22:50] ERROR Nenhum extrator de PDF disponível para Device Maintenance  Reports_GOOGLE 0105_05022026_141405.pdf: [WinError 2] O sistema não pode encontrar o arquivo especificado
+[10:22:50] WARN  Sem texto extraído: Device Maintenance  Reports_GOOGLE 0105_05022026_141405.pdf
+[10:22:50] INFO  Processando: PRJ19620-2026-04-27_RDP_(BMS)_Anderson.pdf
+[10:22:50] ERROR Nenhum extrator de PDF disponível para PRJ19620-2026-04-27_RDP_(BMS)_Anderson.pdf: [WinError 2] O sistema não pode encontrar o arquivo especificado
+[10:22:50] WARN  Sem texto extraído: PRJ19620-2026-04-27_RDP_(BMS)_Anderson.pdf
+[10:22:50] INFO  Processando: PRJ19620-2026-04-28_RDP_(BMS)_Anderson.pdf
+[10:22:50] ERROR Nenhum extrator de PDF disponível para PRJ19620-2026-04-28_RDP_(BMS)_Anderson.pdf: [WinError 2] O sistema não pode encontrar o arquivo especificado
+[10:22:50] WARN  Sem texto extraído: PRJ19620-2026-04-28_RDP_(BMS)_Anderson.pdf
+[10:22:50] INFO  Processando: PRJ19620-2026-04-29_RDP_(BMS)_Anderson.pdf
+[10:22:50] ERROR Nenhum extrator de PDF disponível para PRJ19620-2026-04-29_RDP_(BMS)_Anderson.pdf: [WinError 2] O sistema não pode encontrar o arquivo especificado
+[10:22:50] WARN  Sem texto extraído: PRJ19620-2026-04-29_RDP_(BMS)_Anderson.pdf
+[10:22:50] INFO  Processando: PRJ19620-2026-04-30_RDP_(BMS)_Anderson.pdf
+[10:22:50] ERROR Nenhum extrator de PDF disponível para PRJ19620-2026-04-30_RDP_(BMS)_Anderson.pdf: [WinError 2] O sistema não pode encontrar o arquivo especificado
+[10:22:50] WARN  Sem texto extraído: PRJ19620-2026-04-30_RDP_(BMS)_Anderson.pdf
+[10:22:50] INFO  Processando: PRJ19620-2026-05-04_RDP_(BMS)_Anderson.pdf
+[10:22:50] ERROR Nenhum extrator de PDF disponível para PRJ19620-2026-05-04_RDP_(BMS)_Anderson.pdf: [WinError 2] O sistema não pode encontrar o arquivo especificado
+[10:22:50] WARN  Sem texto extraído: PRJ19620-2026-05-04_RDP_(BMS)_Anderson.pdf
+[10:22:50] INFO  Processando: PRJ22062_2026-05-04_RDP_(SEC)_SergioOliveira.docx
+[10:22:50] WARN  Sem texto extraído: PRJ22062_2026-05-04_RDP_(SEC)_SergioOliveira.docx
+[10:22:50] INFO  Processando: PRJ22499_2026-04-30_RDP_(BMS)_Noélio de Brito Oliveira.pdf
+[10:22:50] ERROR Nenhum extrator de PDF disponível para PRJ22499_2026-04-30_RDP_(BMS)_Noélio de Brito Oliveira.pdf: [WinError 2] O sistema não pode encontrar o arquivo especificado
+[10:22:50] WARN  Sem texto extraído: PRJ22499_2026-04-30_RDP_(BMS)_Noélio de Brito Oliveira.pdf
+[10:22:50] INFO  Processando: PRJ34724_2026-04-30_RDP_(SEC)_SergioOliveira.docx
+[10:22:50] WARN  Sem texto extraído: PRJ34724_2026-04-30_RDP_(SEC)_SergioOliveira.docx
+[10:22:50] INFO  Processando: PRJ42548_2026-04-30_RDP_SEG_Salathiel_Martins.pdf
+[10:22:50] ERROR Nenhum extrator de PDF disponível para PRJ42548_2026-04-30_RDP_SEG_Salathiel_Martins.pdf: [WinError 2] O sistema não pode encontrar o arquivo especificado
+[10:22:50] WARN  Sem texto extraído: PRJ42548_2026-04-30_RDP_SEG_Salathiel_Martins.pdf
+[10:22:50] INFO  Processando: PRJ45503_2026-05-04_RDP_(BMS)_Renan Almeida.pdf
+[10:22:50] ERROR Nenhum extrator de PDF disponível para PRJ45503_2026-05-04_RDP_(BMS)_Renan Almeida.pdf: [WinError 2] O sistema não pode encontrar o arquivo especificado
+[10:22:50] WARN  Sem texto extraído: PRJ45503_2026-05-04_RDP_(BMS)_Renan Almeida.pdf
+[10:22:50] INFO  Processando: PRJ47108_2026-05-02_RDP_(SDAI)_Leonardo Rodrigues.pdf
+[10:22:50] ERROR Nenhum extrator de PDF disponível para PRJ47108_2026-05-02_RDP_(SDAI)_Leonardo Rodrigues.pdf: [WinError 2] O sistema não pode encontrar o arquivo especificado
+[10:22:50] WARN  Sem texto extraído: PRJ47108_2026-05-02_RDP_(SDAI)_Leonardo Rodrigues.pdf
+[10:22:50] INFO  Processando: PRJ55738-2026-05-04_RDP_(BMS)_Larissa Silva.pdf
+[10:22:50] ERROR Nenhum extrator de PDF disponível para PRJ55738-2026-05-04_RDP_(BMS)_Larissa Silva.pdf: [WinError 2] O sistema não pode encontrar o arquivo especificado
+[10:22:50] WARN  Sem texto extraído: PRJ55738-2026-05-04_RDP_(BMS)_Larissa Silva.pdf
+[10:22:50] INFO  Processando: PRJ55924_2026-04-05_RDP_(AV)_Augusto-Valle.pdf.pdf
+[10:22:50] ERROR Nenhum extrator de PDF disponível para PRJ55924_2026-04-05_RDP_(AV)_Augusto-Valle.pdf.pdf: [WinError 2] O sistema não pode encontrar o arquivo especificado
+[10:22:50] WARN  Sem texto extraído: PRJ55924_2026-04-05_RDP_(AV)_Augusto-Valle.pdf.pdf
+[10:22:50] INFO  Processando: PRJ59747_2026-05-04_RDP_(SEG)_Michel Sato.docx
+[10:22:50] WARN  Sem texto extraído: PRJ59747_2026-05-04_RDP_(SEG)_Michel Sato.docx
+[10:22:50] INFO  Processando: PRJ PRJ25026 - PRJ53722_2026-05-04_RDP_(Security)_Luiz Navero - R02.docx
+[10:22:50] WARN  Sem texto extraído: PRJ PRJ25026 - PRJ53722_2026-05-04_RDP_(Security)_Luiz Navero - R02.docx
+[10:22:50] INFO  Processando: PRJ29927_2026-05-04_RDP_(AV)_Jean Kevyn Correia Pessoa.docx
+[10:22:50] WARN  Sem texto extraído: PRJ29927_2026-05-04_RDP_(AV)_Jean Kevyn Correia Pessoa.docx
+[10:22:50] INFO  Processando: PRJ32503_2026-05-04_RDP_(SDAI)_DAVISON CAMPOS.pdf
+[10:22:50] ERROR Nenhum extrator de PDF disponível para PRJ32503_2026-05-04_RDP_(SDAI)_DAVISON CAMPOS.pdf: [WinError 2] O sistema não pode encontrar o arquivo especificado
+[10:22:50] WARN  Sem texto extraído: PRJ32503_2026-05-04_RDP_(SDAI)_DAVISON CAMPOS.pdf
+[10:22:50] INFO  Processando: PRJ47108_2026-05-05_RDP_(SDAI)_Jeilan Lima.pdf
+[10:22:50] ERROR Nenhum extrator de PDF disponível para PRJ47108_2026-05-05_RDP_(SDAI)_Jeilan Lima.pdf: [WinError 2] O sistema não pode encontrar o arquivo especificado
+[10:22:50] WARN  Sem texto extraído: PRJ47108_2026-05-05_RDP_(SDAI)_Jeilan Lima.pdf
+[10:22:50] INFO  Processando: PRJ53722_2026-05-04_RDP_(BMS)_Teylor Garibaldi.pdf
+[10:22:50] ERROR Nenhum extrator de PDF disponível para PRJ53722_2026-05-04_RDP_(BMS)_Teylor Garibaldi.pdf: [WinError 2] O sistema não pode encontrar o arquivo especificado
+[10:22:50] WARN  Sem texto extraído: PRJ53722_2026-05-04_RDP_(BMS)_Teylor Garibaldi.pdf
+[10:22:50] INFO  Processando: PRJ53722_2026-05-04_RDP_(BMS)_THIAGO BORGES.pdf
+[10:22:50] ERROR Nenhum extrator de PDF disponível para PRJ53722_2026-05-04_RDP_(BMS)_THIAGO BORGES.pdf: [WinError 2] O sistema não pode encontrar o arquivo especificado
+[10:22:50] WARN  Sem texto extraído: PRJ53722_2026-05-04_RDP_(BMS)_THIAGO BORGES.pdf
+[10:22:50] INFO  Processando: PRJ57394_2026-05-04_RDP_(SEG)_Tiago_Alves_Dutra.pdf
+[10:22:50] ERROR Nenhum extrator de PDF disponível para PRJ57394_2026-05-04_RDP_(SEG)_Tiago_Alves_Dutra.pdf: [WinError 2] O sistema não pode encontrar o arquivo especificado
+[10:22:50] WARN  Sem texto extraído: PRJ57394_2026-05-04_RDP_(SEG)_Tiago_Alves_Dutra.pdf
+[10:22:50] INFO  Processando: PRJ59935_2026-04-30_RDP_SEG_Salathiel_Martins.pdf
+[10:22:50] ERROR Nenhum extrator de PDF disponível para PRJ59935_2026-04-30_RDP_SEG_Salathiel_Martins.pdf: [WinError 2] O sistema não pode encontrar o arquivo especificado
+[10:22:50] WARN  Sem texto extraído: PRJ59935_2026-04-30_RDP_SEG_Salathiel_Martins.pdf
+[10:22:50] INFO  RDPs analisados: 2
+[10:22:50] INFO  Novas pendências: 0
+[10:22:50] INFO  rdps.json salvo: 8 registros
+[10:22:50] INFO  pendencias.json salvo: 2 registros
+[10:22:50] INFO  dashboard_data.js salvo: 9501 bytes

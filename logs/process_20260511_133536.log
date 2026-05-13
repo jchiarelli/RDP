@@ -1,0 +1,7 @@
+[13:35:37] INFO  === process_rdps.py v2.2 ===
+[13:35:37] INFO  RDP: /sessions/exciting-great-cori/mnt/Acompanhamento de projeto/RDP | OUT: /sessions/exciting-great-cori/mnt/Acompanhamento de projeto/dashboard_v2/data
+[13:35:37] INFO  Pessoas: 53 | Projetos: 1470
+[13:35:37] INFO  Datas alvo: ['2026-05-20']
+[13:35:37] WARN  sem pasta /sessions/exciting-great-cori/mnt/Acompanhamento de projeto/RDP/2026-05-20
+[13:35:37] INFO  Arquivos: 0
+[13:35:37] INFO  Estruturados: 0

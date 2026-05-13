@@ -1,0 +1,20 @@
+[12:17:59] INFO  === process_rdps.py v2.2 ===
+[12:17:59] INFO  RDP: C:\Users\Joao.Chiarelli\OneDrive - Convergint\Claude\Acompanhamento de projeto\RDP | OUT: C:\Users\Joao.Chiarelli\OneDrive - Convergint\Claude\Acompanhamento de projeto\dashboard_v2\data
+[12:17:59] INFO  Pessoas: 51 | Projetos: 1470
+[12:17:59] INFO  Datas alvo: ['2026-05-07']
+[12:17:59] INFO  Arquivos: 7
+[12:17:59] INFO  -> PRJ19620-2026-05-05_RDP_(BMS)_Anderson.pdf
+[12:18:00] INFO     pendencias: 0 | participantes: ['Anderson Caetano de Souza Pires', 'Marcos Judensnaider Knijnik']
+[12:18:00] INFO  -> PRJ19620-2026-05-06_RDP_(BMS)_Anderson.pdf
+[12:18:01] INFO     pendencias: 1 | participantes: ['Anderson Caetano de Souza Pires', 'Marcos Judensnaider Knijnik']
+[12:18:01] INFO  -> PRJ29927_2026-05-06_RDP_(AV)_Jean Kevyn Correia Pessoa.docx
+[12:18:01] INFO     pendencias: 1 | participantes: ['Jean Kevyn Correia Pessoa', 'Gislan Almeida dos Santos', 'Eduardo Arcanjo Raimundo']
+[12:18:01] INFO  -> PRJ32503_2026-05-06_RDP_(SDAI)_DAVISON CAMPOS.pdf
+[12:18:02] INFO     pendencias: 0 | participantes: ['Davison Campos', 'MICHAEL MONTEIRO', 'DENIS NOBRE']
+[12:18:02] INFO  -> PRJ42548_2026-05-06_RDP_SEG_Salathiel_Martins.pdf
+[12:18:02] INFO     pendencias: 0 | participantes: ['Salathiel da Silva Martins']
+[12:18:02] INFO  -> PRJ53722_2026-05-06_RDP_(BMS)_Alfredo da Silveira.pdf
+[12:18:03] INFO     pendencias: 0 | participantes: ['Alfredo da Silveira']
+[12:18:03] INFO  -> PRJ57394_2026-05-06_RDP_(SEG)_Tiago_Alves_Dutra.pdf
+[12:18:04] INFO     pendencias: 0 | participantes: ['Tiago Alves Dutra']
+[12:18:04] INFO  Estruturados: 7

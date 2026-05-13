@@ -1,0 +1,16 @@
+[11:50:12] INFO  === process_rdps.py iniciado ===
+[11:50:12] INFO  Pasta RDP: /sessions/wizardly-funny-ritchie/mnt/Acompanhamento de projeto/RDP
+[11:50:12] INFO  Pasta saída: /sessions/wizardly-funny-ritchie/mnt/Acompanhamento de projeto/dashboard_v2/data
+[11:50:12] INFO  Datas alvo: ['2026-05-05']
+[11:50:12] INFO  Arquivos encontrados: 6
+[11:50:12] INFO  Processando: PRJ PRJ25026 - PRJ53722_2026-05-04_RDP_(Security)_Luiz Navero - R02.docx
+[11:50:12] INFO  Processando: PRJ29927_2026-05-04_RDP_(AV)_Jean Kevyn Correia Pessoa.docx
+[11:50:12] INFO  Processando: PRJ32503_2026-05-04_RDP_(SDAI)_DAVISON CAMPOS.pdf
+[11:50:14] INFO  Processando: PRJ53722_2026-05-04_RDP_(BMS)_THIAGO BORGES.pdf
+[11:50:15] INFO  Processando: PRJ57394_2026-05-04_RDP_(SEG)_Tiago_Alves_Dutra.pdf
+[11:50:16] INFO  Processando: PRJ59935_2026-04-30_RDP_SEG_Salathiel_Martins.pdf
+[11:50:18] INFO  RDPs analisados: 6
+[11:50:18] INFO  Novas pendências: 2
+[11:50:18] INFO  rdps.json salvo: 6 registros
+[11:50:18] INFO  pendencias.json salvo: 2 registros
+[11:50:18] INFO  dashboard_data.js salvo: 8075 bytes

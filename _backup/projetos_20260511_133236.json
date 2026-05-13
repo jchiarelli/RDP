@@ -1,0 +1,617 @@
+[
+  {
+    "codigo": "PRJ22499",
+    "nome": "RETROFIT BMS- PRÉDIO 1",
+    "cliente": "INSPER",
+    "uf": "SP",
+    "categoria": "Automation",
+    "segmento": "Others",
+    "business_unit": "Vertical Markets",
+    "rdps": [
+      {
+        "data": "2026-05-08",
+        "responsavel": "Noelio de Brito Oliveira",
+        "sistema": "BMS",
+        "arquivo": "PRJ22499_2026-05-08_RDP_(BMS)_Noélio de Brito Oliveira.pdf",
+        "n_atividades": 0,
+        "n_pendencias": 0,
+        "participantes": [
+          "Noelio de Brito Oliveira",
+          "Matheus de Sousa Damico",
+          "Gislan Almeida dos Santos"
+        ]
+      },
+      {
+        "data": "2026-04-30",
+        "responsavel": "Noelio de Brito Oliveira",
+        "sistema": "BMS",
+        "arquivo": "PRJ22499_2026-04-30_RDP_(BMS)_Noélio de Brito Oliveira.pdf",
+        "n_atividades": 0,
+        "n_pendencias": 0,
+        "participantes": [
+          "Noelio de Brito Oliveira",
+          "Matheus de Sousa Damico",
+          "Gislan Almeida dos Santos",
+          "Guilherme Ariz da Silva"
+        ]
+      }
+    ],
+    "pendencias_por_sistema": {
+      "BMS": []
+    },
+    "ultimo_rdp": "2026-05-08"
+  },
+  {
+    "codigo": "PRJ32503",
+    "nome": "SDAI - VALE CAPANEMA",
+    "cliente": "VALE",
+    "uf": "RJ",
+    "categoria": "Automation",
+    "segmento": "Others",
+    "business_unit": "Vertical Markets",
+    "rdps": [
+      {
+        "data": "2026-05-08",
+        "responsavel": "Davison Campos",
+        "sistema": "SDAI",
+        "arquivo": "PRJ32503_2026-05-08_RDP_(SDAI)_DAVISON CAMPOS.pdf",
+        "n_atividades": 11,
+        "n_pendencias": 0,
+        "participantes": [
+          "Davison Campos",
+          "DENIS NOBRE"
+        ]
+      }
+    ],
+    "pendencias_por_sistema": {
+      "SDAI": []
+    },
+    "ultimo_rdp": "2026-05-08"
+  },
+  {
+    "codigo": "PRJ19620",
+    "nome": "SISTEMAS ELETRÔNICOS",
+    "cliente": "AEROPORTO RECIFE",
+    "uf": "PE",
+    "categoria": "Automation",
+    "segmento": "Infrastructure / Transport",
+    "business_unit": "Vertical Markets",
+    "rdps": [
+      {
+        "data": "2026-05-04",
+        "responsavel": "Anderson Caetano de Souza Pires",
+        "sistema": "BMS",
+        "arquivo": "PRJ19620-2026-05-04_RDP_(BMS)_Anderson.pdf",
+        "n_atividades": 14,
+        "n_pendencias": 1,
+        "participantes": [
+          "Anderson Caetano de Souza Pires"
+        ]
+      },
+      {
+        "data": "2026-04-30",
+        "responsavel": "Anderson Caetano de Souza Pires",
+        "sistema": "BMS",
+        "arquivo": "PRJ19620-2026-04-30_RDP_(BMS)_Anderson.pdf",
+        "n_atividades": 5,
+        "n_pendencias": 8,
+        "participantes": [
+          "Anderson Caetano de Souza Pires"
+        ]
+      },
+      {
+        "data": "2026-04-29",
+        "responsavel": "Anderson Caetano de Souza Pires",
+        "sistema": "BMS",
+        "arquivo": "PRJ19620-2026-04-29_RDP_(BMS)_Anderson.pdf",
+        "n_atividades": 15,
+        "n_pendencias": 0,
+        "participantes": [
+          "Anderson Caetano de Souza Pires"
+        ]
+      },
+      {
+        "data": "2026-04-28",
+        "responsavel": "Anderson Caetano de Souza Pires",
+        "sistema": "BMS",
+        "arquivo": "PRJ19620-2026-04-28_RDP_(BMS)_Anderson.pdf",
+        "n_atividades": 13,
+        "n_pendencias": 2,
+        "participantes": [
+          "Anderson Caetano de Souza Pires"
+        ]
+      },
+      {
+        "data": "2026-04-27",
+        "responsavel": "Anderson Caetano de Souza Pires",
+        "sistema": "BMS",
+        "arquivo": "PRJ19620-2026-04-27_RDP_(BMS)_Anderson.pdf",
+        "n_atividades": 5,
+        "n_pendencias": 1,
+        "participantes": [
+          "Anderson Caetano de Souza Pires"
+        ]
+      }
+    ],
+    "pendencias_por_sistema": {
+      "BMS": [
+        {
+          "data": "2026-05-04",
+          "desc": "6. Elaboração de relatório [STATUS: Pendente]",
+          "responsavel": "Anderson Caetano de Souza Pires"
+        },
+        {
+          "data": "2026-04-30",
+          "desc": "Elaboração de relatório pendente",
+          "responsavel": "Anderson Caetano de Souza Pires"
+        },
+        {
+          "data": "2026-04-30",
+          "desc": "Realizada a elaboração da RDP do dia 27/04",
+          "responsavel": "Anderson Caetano de Souza Pires"
+        },
+        {
+          "data": "2026-04-30",
+          "desc": "Realizada a elaboração da RDP do dia 28/04",
+          "responsavel": "Anderson Caetano de Souza Pires"
+        },
+        {
+          "data": "2026-04-30",
+          "desc": "Iniciada a elaboração da RDP do dia 29/04",
+          "responsavel": "Anderson Caetano de Souza Pires"
+        },
+        {
+          "data": "2026-04-30",
+          "desc": "Elaboração de esquema dos reservatórios de reuso.",
+          "responsavel": "Anderson Caetano de Souza Pires"
+        },
+        {
+          "data": "2026-04-30",
+          "desc": "Atividade foi interrompida no período da tarde para elaboração de RDP pendente. [STATUS: Pendente]",
+          "responsavel": "Anderson Caetano de Souza Pires"
+        },
+        {
+          "data": "2026-04-30",
+          "desc": "6. Elaboração de relatório [STATUS: Pendente]",
+          "responsavel": "Anderson Caetano de Souza Pires"
+        },
+        {
+          "data": "2026-04-30",
+          "desc": "Thayná, ela me solicitou que a forneça a lista dos quadros que ainda falta",
+          "responsavel": "Anderson Caetano de Souza Pires"
+        },
+        {
+          "data": "2026-04-28",
+          "desc": "Ainda está pendente a finalização dos demais disjuntores do painel. Os projetos não são claros em [STATUS: Pendente]",
+          "responsavel": "Anderson Caetano de Souza Pires"
+        },
+        {
+          "data": "2026-04-28",
+          "desc": "Devido ao horário, não foi possível realizar a validação hoje",
+          "responsavel": "Anderson Caetano de Souza Pires"
+        },
+        {
+          "data": "2026-04-27",
+          "desc": "Diante das tarefas que tínhamos para hoje, esse apoio não foi possível de ser realizado.",
+          "responsavel": "Anderson Caetano de Souza Pires"
+        }
+      ]
+    },
+    "ultimo_rdp": "2026-05-04"
+  },
+  {
+    "codigo": "PRJ22062",
+    "nome": "PROJETO INFRAESTRUTURA, AVI, CCO, CFTV E CCA",
+    "cliente": "SESEC",
+    "uf": "CE",
+    "categoria": "Audio and Video",
+    "segmento": "Others",
+    "business_unit": "Governo",
+    "rdps": [
+      {
+        "data": "2026-05-04",
+        "responsavel": "SergioOliveira",
+        "sistema": "SEC",
+        "arquivo": "PRJ22062_2026-05-04_RDP_(SEC)_SergioOliveira.docx",
+        "n_atividades": 0,
+        "n_pendencias": 0,
+        "participantes": [
+          "Sergio Henrique Ferreira de Oliveira"
+        ]
+      }
+    ],
+    "pendencias_por_sistema": {
+      "SEC": []
+    },
+    "ultimo_rdp": "2026-05-04"
+  },
+  {
+    "codigo": "PRJ45503",
+    "nome": "TB67",
+    "cliente": "SCALA",
+    "uf": "SP",
+    "categoria": "Automation",
+    "segmento": "Datacenter",
+    "business_unit": "Vertical Markets",
+    "rdps": [
+      {
+        "data": "2026-05-04",
+        "responsavel": "Renan Silva Almeida",
+        "sistema": "BMS",
+        "arquivo": "PRJ45503_2026-05-04_RDP_(BMS)_Renan Almeida.pdf",
+        "n_atividades": 0,
+        "n_pendencias": 1,
+        "participantes": [
+          "Renan Silva Almeida",
+          "Larissa Isabelle da Silva"
+        ]
+      }
+    ],
+    "pendencias_por_sistema": {
+      "BMS": [
+        {
+          "data": "2026-05-04",
+          "desc": " No momento, permanece pendente a integração entre a interface gráfica e a programação, para que o [STATUS: Pendente]",
+          "responsavel": "Renan Silva Almeida"
+        }
+      ]
+    },
+    "ultimo_rdp": "2026-05-04"
+  },
+  {
+    "codigo": "PRJ55738",
+    "nome": "FORNECIMENTO E INSTALAÇÃO DE HIDROMETROS_POA",
+    "cliente": "FRAPORT",
+    "uf": "RS",
+    "categoria": "Automation",
+    "segmento": "Infrastructure / Transport",
+    "business_unit": "Vertical Markets",
+    "rdps": [
+      {
+        "data": "2026-05-04",
+        "responsavel": "Larissa Isabelle da Silva",
+        "sistema": "BMS",
+        "arquivo": "PRJ55738-2026-05-04_RDP_(BMS)_Larissa Silva.pdf",
+        "n_atividades": 6,
+        "n_pendencias": 7,
+        "participantes": [
+          "Larissa Isabelle da Silva"
+        ]
+      }
+    ],
+    "pendencias_por_sistema": {
+      "BMS": [
+        {
+          "data": "2026-05-04",
+          "desc": "14 BIS – QGBT: Subestação com IP alterado, mas sem comunicação em rede. O cliente irá",
+          "responsavel": "Larissa Isabelle da Silva"
+        },
+        {
+          "data": "2026-05-04",
+          "desc": "Teca Internacional: QDAC ajustado, mas é necessário que a TI do cliente ajuste o ponto de rede",
+          "responsavel": "Larissa Isabelle da Silva"
+        },
+        {
+          "data": "2026-05-04",
+          "desc": "Mediante solicitação da Schneider será aplicado o hotfix, dessa forma, estamos aguardando o",
+          "responsavel": "Larissa Isabelle da Silva"
+        },
+        {
+          "data": "2026-05-04",
+          "desc": "CAQ: CLP em campo não está comunicando, será necessário ação da Fraport;",
+          "responsavel": "Larissa Isabelle da Silva"
+        },
+        {
+          "data": "2026-05-04",
+          "desc": "NOBK0120: Verificado no dia 04/05/2026, o Nobreak segue sem comunicação devido à falta de ativação do IP na",
+          "responsavel": "Larissa Isabelle da Silva"
+        },
+        {
+          "data": "2026-05-04",
+          "desc": "Restauração da comunicação com o PME (14 BIS): Verificado no dia 04/05/2026 e seguem sem comunicação.",
+          "responsavel": "Larissa Isabelle da Silva"
+        },
+        {
+          "data": "2026-05-04",
+          "desc": "14 BIS – QGBT: Subestação com IP alterado, mas sem comunicação em rede.",
+          "responsavel": "Larissa Isabelle da Silva"
+        }
+      ]
+    },
+    "ultimo_rdp": "2026-05-04"
+  },
+  {
+    "codigo": "PRJ59747",
+    "nome": "Paulinia CFTV",
+    "cliente": "EUROCHEM",
+    "uf": "SP",
+    "categoria": "Security",
+    "segmento": "Agribusiness",
+    "business_unit": "COMERCIAL MULTISECTOR SP",
+    "rdps": [
+      {
+        "data": "2026-05-04",
+        "responsavel": "Michel Kenji Sato",
+        "sistema": "SEG",
+        "arquivo": "PRJ59747_2026-05-04_RDP_(SEG)_Michel Sato.docx",
+        "n_atividades": 0,
+        "n_pendencias": 0,
+        "participantes": [
+          "Michel Kenji Sato"
+        ]
+      }
+    ],
+    "pendencias_por_sistema": {
+      "SEG": []
+    },
+    "ultimo_rdp": "2026-05-04"
+  },
+  {
+    "codigo": "PRJ47108",
+    "nome": "Racional",
+    "cliente": "GOOGLE",
+    "uf": "SP",
+    "categoria": "Automation",
+    "segmento": "Construction",
+    "business_unit": "Vertical Markets",
+    "rdps": [
+      {
+        "data": "2026-05-03",
+        "responsavel": "Jeilan Souza de Lima",
+        "sistema": "SDAI",
+        "arquivo": "PRJ47108_2026-05-03_RDP_(SDAI)_Jeilan Lima.pdf",
+        "n_atividades": 0,
+        "n_pendencias": 0,
+        "participantes": [
+          "Jeilan Souza de Lima"
+        ]
+      },
+      {
+        "data": "2026-05-02",
+        "responsavel": "Leonardo da Silva Rodrigues",
+        "sistema": "SDAI",
+        "arquivo": "PRJ47108_2026-05-02_RDP_(SDAI)_Leonardo Rodrigues.pdf",
+        "n_atividades": 3,
+        "n_pendencias": 1,
+        "participantes": [
+          "Leonardo da Silva Rodrigues"
+        ]
+      },
+      {
+        "data": "2026-05-01",
+        "responsavel": "Leonardo da Silva Rodrigues",
+        "sistema": "SDAI",
+        "arquivo": "PRJ47108_2026-05-01_RDP_(SDAI)_Leonardo Rodrigues.pdf",
+        "n_atividades": 4,
+        "n_pendencias": 2,
+        "participantes": [
+          "Leonardo da Silva Rodrigues"
+        ]
+      }
+    ],
+    "pendencias_por_sistema": {
+      "SDAI": [
+        {
+          "data": "2026-05-02",
+          "desc": "Os laços continuam com falhas. Segue a lista atualizada:",
+          "responsavel": "Leonardo da Silva Rodrigues"
+        },
+        {
+          "data": "2026-05-01",
+          "desc": "Os Laços 1, 2, 3 e 4 continuam abertos, impossibilitando o comissionamento completo deles.",
+          "responsavel": "Leonardo da Silva Rodrigues"
+        },
+        {
+          "data": "2026-05-01",
+          "desc": "Os Laços 5, 6, 7 e 8 continuam com falhas. Foi passado para o Lázaro a lista de falhas em cada um",
+          "responsavel": "Leonardo da Silva Rodrigues"
+        }
+      ]
+    },
+    "ultimo_rdp": "2026-05-03"
+  },
+  {
+    "codigo": "PRJ09134",
+    "nome": "MODERNIZAÇÃO DE AMBIENTES",
+    "cliente": "TJDFT",
+    "uf": "DF",
+    "categoria": "Audio and Video",
+    "segmento": "Public Service (court, aeronautics, army, police in general)",
+    "business_unit": "Governo",
+    "rdps": [
+      {
+        "data": "2026-04-30",
+        "responsavel": "Jean Kevyn Correia Pessoa",
+        "sistema": "AV",
+        "arquivo": "PRJ09134_2026-04-30_RDP_(AV)_Jean Kevyn Correia Pessoa.docx",
+        "n_atividades": 3,
+        "n_pendencias": 1,
+        "participantes": [
+          "Jean Kevyn Correia Pessoa"
+        ]
+      }
+    ],
+    "pendencias_por_sistema": {
+      "AV": [
+        {
+          "data": "2026-04-30",
+          "desc": "Não Solucionado [STATUS: Não Solucionado]",
+          "responsavel": "Jean Kevyn Correia Pessoa"
+        }
+      ]
+    },
+    "ultimo_rdp": "2026-04-30"
+  },
+  {
+    "codigo": "PRJ61205",
+    "nome": "AV Design and Project Management",
+    "cliente": "SERVICENOW",
+    "uf": "SP",
+    "categoria": "Audio and Video",
+    "segmento": "Corporate offices",
+    "business_unit": "Global Accounts",
+    "rdps": [
+      {
+        "data": "2026-04-30",
+        "responsavel": "Jean Kevyn Correia Pessoa",
+        "sistema": "AV",
+        "arquivo": "PRJ61205_2026-04-30_RDP_(AV)_Jean Kevyn Correia Pessoa.docx",
+        "n_atividades": 1,
+        "n_pendencias": 0,
+        "participantes": [
+          "Jean Kevyn Correia Pessoa"
+        ]
+      }
+    ],
+    "pendencias_por_sistema": {
+      "AV": []
+    },
+    "ultimo_rdp": "2026-04-30"
+  },
+  {
+    "codigo": "CTR19778",
+    "nome": "CONTROLE DE ACESSO",
+    "cliente": "AUTORIDADE PORTUARIA",
+    "uf": "SP",
+    "categoria": "Security",
+    "segmento": "Infrastructure / Transport",
+    "business_unit": "Governo",
+    "rdps": [
+      {
+        "data": "2026-04-30",
+        "responsavel": "Marcos Vinicius Salvadori Teixeira",
+        "sistema": "SEC",
+        "arquivo": "CTR19778_2026-04-30_RDP_(SEC)_Marcos Teixeira.pdf",
+        "n_atividades": 2,
+        "n_pendencias": 0,
+        "participantes": [
+          "Marcos Vinicius Salvadori Teixeira"
+        ]
+      },
+      {
+        "data": "2026-04-29",
+        "responsavel": "Marcos Vinicius Salvadori Teixeira",
+        "sistema": "SEC",
+        "arquivo": "CTR19778_2026-04-29_RDP_(SEC)_Marcos Teixeira.pdf",
+        "n_atividades": 2,
+        "n_pendencias": 0,
+        "participantes": [
+          "Marcos Vinicius Salvadori Teixeira"
+        ]
+      },
+      {
+        "data": "2026-04-28",
+        "responsavel": "Marcos Vinicius Salvadori Teixeira",
+        "sistema": "SEC",
+        "arquivo": "CTR19778_2026-04-28_RDP_(SEC)_Marcos Teixeira.pdf",
+        "n_atividades": 3,
+        "n_pendencias": 0,
+        "participantes": [
+          "Marcos Vinicius Salvadori Teixeira"
+        ]
+      },
+      {
+        "data": "2026-04-27",
+        "responsavel": "Marcos Vinicius Salvadori Teixeira",
+        "sistema": "SEC",
+        "arquivo": "CTR19778_2026-04-27_RDP_(SEC)_Marcos Teixeira.pdf",
+        "n_atividades": 2,
+        "n_pendencias": 0,
+        "participantes": [
+          "Marcos Vinicius Salvadori Teixeira"
+        ]
+      }
+    ],
+    "pendencias_por_sistema": {
+      "SEC": []
+    },
+    "ultimo_rdp": "2026-04-30"
+  },
+  {
+    "codigo": "PRJ34724",
+    "nome": "Controle de Acesso e CFTV - WT",
+    "cliente": "UNILEVER",
+    "uf": "SP",
+    "categoria": "Security",
+    "segmento": "Others",
+    "business_unit": "Global Accounts",
+    "rdps": [
+      {
+        "data": "2026-04-30",
+        "responsavel": "SergioOliveira",
+        "sistema": "SEC",
+        "arquivo": "PRJ34724_2026-04-30_RDP_(SEC)_SergioOliveira.docx",
+        "n_atividades": 0,
+        "n_pendencias": 0,
+        "participantes": [
+          "Sergio Henrique Ferreira de Oliveira"
+        ]
+      }
+    ],
+    "pendencias_por_sistema": {
+      "SEC": []
+    },
+    "ultimo_rdp": "2026-04-30"
+  },
+  {
+    "codigo": "PRJ42548",
+    "nome": "IMPLANTAÇÃO CFTV - COANA",
+    "cliente": "CSN MINERAÇÃO",
+    "uf": "MG",
+    "categoria": "Automation",
+    "segmento": "Others",
+    "business_unit": "Vertical Markets",
+    "rdps": [
+      {
+        "data": "2026-04-30",
+        "responsavel": "Salathiel da Silva Martins",
+        "sistema": "SEC",
+        "arquivo": "PRJ42548_2026-04-30_RDP_SEG_Salathiel_Martins.pdf",
+        "n_atividades": 3,
+        "n_pendencias": 1,
+        "participantes": [
+          "Salathiel da Silva Martins"
+        ]
+      }
+    ],
+    "pendencias_por_sistema": {
+      "SEC": [
+        {
+          "data": "2026-04-30",
+          "desc": "1) Fotos dos trechos verificados que estão com câmeras offline, sem comunicação com o servidor.",
+          "responsavel": "Salathiel da Silva Martins"
+        }
+      ]
+    },
+    "ultimo_rdp": "2026-04-30"
+  },
+  {
+    "codigo": "PRJ55924",
+    "nome": "SLE01 - Retrofit AV Auditórios",
+    "cliente": "SAP",
+    "uf": "RS",
+    "categoria": "Audio and Video",
+    "segmento": "Corporate offices",
+    "business_unit": "Global Accounts",
+    "rdps": [
+      {
+        "data": "2026-04-05",
+        "responsavel": "Augusto Cesar Flocco Valle",
+        "sistema": "AV",
+        "arquivo": "PRJ55924_2026-04-05_RDP_(AV)_Augusto-Valle.pdf.pdf",
+        "n_atividades": 0,
+        "n_pendencias": 0,
+        "participantes": [
+          "Augusto Cesar Flocco Valle",
+          "Caio Vinicius de Almeida",
+          "Edmilso Souza",
+          "Giovane Maino"
+        ]
+      }
+    ],
+    "pendencias_por_sistema": {
+      "AV": []
+    },
+    "ultimo_rdp": "2026-04-05"
+  }
+]

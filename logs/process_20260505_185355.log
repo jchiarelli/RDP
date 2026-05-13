@@ -1,0 +1,594 @@
+[18:53:55] INFO  === process_rdps.py v2.2 ===
+[18:53:55] INFO  RDP: C:\Users\Joao.Chiarelli\OneDrive - Convergint\Claude\Acompanhamento de projeto\RDP | OUT: C:\Users\Joao.Chiarelli\OneDrive - Convergint\Claude\Acompanhamento de projeto\dashboard_v2\data
+[18:53:55] INFO  Pessoas: 53 | Projetos: 1470
+[18:53:55] INFO  Datas alvo: ['2026-04-22', '2026-04-23', '2026-04-24', '2026-04-26', '2026-04-27', '2026-04-28', '2026-04-29', '2026-04-30', '2026-05-01', '2026-05-03', '2026-05-04', '2026-05-05']
+[18:53:55] INFO  Arquivos: 159
+[18:53:55] INFO  -> ASV49919-2026-04-22_RDP_(BMS)_Larissa Isabelle.pdf
+[18:53:55] WARN  pdfplumber ASV49919-2026-04-22_RDP_(BMS)_Larissa Isabelle.pdf: No module named 'pdfplumber'
+[18:53:55] ERR   pypdf ASV49919-2026-04-22_RDP_(BMS)_Larissa Isabelle.pdf: No module named 'pypdf'
+[18:53:55] WARN  sem texto: ASV49919-2026-04-22_RDP_(BMS)_Larissa Isabelle.pdf
+[18:53:55] INFO  -> PRJ16598_2026-04-22_RDP_(SEG)_Edison Shiobara.docx
+[18:53:55] ERR   docx2txt PRJ16598_2026-04-22_RDP_(SEG)_Edison Shiobara.docx: No module named 'docx2txt'
+[18:53:55] WARN  sem texto: PRJ16598_2026-04-22_RDP_(SEG)_Edison Shiobara.docx
+[18:53:55] INFO  -> PRJ34683_2026-04-17_RDP_(AV)_Fabio Araujo.docx
+[18:53:55] ERR   docx2txt PRJ34683_2026-04-17_RDP_(AV)_Fabio Araujo.docx: No module named 'docx2txt'
+[18:53:55] WARN  sem texto: PRJ34683_2026-04-17_RDP_(AV)_Fabio Araujo.docx
+[18:53:55] INFO  -> PRJ42188_2026-04-22_RDP_(SEG)_EDUARDO MOTA_SCA.pdf
+[18:53:55] WARN  pdfplumber PRJ42188_2026-04-22_RDP_(SEG)_EDUARDO MOTA_SCA.pdf: No module named 'pdfplumber'
+[18:53:55] ERR   pypdf PRJ42188_2026-04-22_RDP_(SEG)_EDUARDO MOTA_SCA.pdf: No module named 'pypdf'
+[18:53:55] WARN  sem texto: PRJ42188_2026-04-22_RDP_(SEG)_EDUARDO MOTA_SCA.pdf
+[18:53:55] INFO  -> PRJ45503_2026-04-20_RDP_(BMS)_JhonatanAtaide.pdf
+[18:53:55] WARN  pdfplumber PRJ45503_2026-04-20_RDP_(BMS)_JhonatanAtaide.pdf: No module named 'pdfplumber'
+[18:53:55] ERR   pypdf PRJ45503_2026-04-20_RDP_(BMS)_JhonatanAtaide.pdf: No module named 'pypdf'
+[18:53:55] WARN  sem texto: PRJ45503_2026-04-20_RDP_(BMS)_JhonatanAtaide.pdf
+[18:53:55] INFO  -> PRJ45503_2026-04-22_RDP_(BMS)_Renan Almeida.pdf
+[18:53:55] WARN  pdfplumber PRJ45503_2026-04-22_RDP_(BMS)_Renan Almeida.pdf: No module named 'pdfplumber'
+[18:53:55] ERR   pypdf PRJ45503_2026-04-22_RDP_(BMS)_Renan Almeida.pdf: No module named 'pypdf'
+[18:53:55] WARN  sem texto: PRJ45503_2026-04-22_RDP_(BMS)_Renan Almeida.pdf
+[18:53:55] INFO  -> PRJ46618_2026-04-22_RDP_(SEC)_SergioOliveira.docx
+[18:53:55] ERR   docx2txt PRJ46618_2026-04-22_RDP_(SEC)_SergioOliveira.docx: No module named 'docx2txt'
+[18:53:55] WARN  sem texto: PRJ46618_2026-04-22_RDP_(SEC)_SergioOliveira.docx
+[18:53:55] INFO  -> PRJ47108_2026-04-22_RDP_(BMS)_Thiago Berzin Telles.pdf
+[18:53:55] WARN  pdfplumber PRJ47108_2026-04-22_RDP_(BMS)_Thiago Berzin Telles.pdf: No module named 'pdfplumber'
+[18:53:55] ERR   pypdf PRJ47108_2026-04-22_RDP_(BMS)_Thiago Berzin Telles.pdf: No module named 'pypdf'
+[18:53:55] WARN  sem texto: PRJ47108_2026-04-22_RDP_(BMS)_Thiago Berzin Telles.pdf
+[18:53:55] INFO  -> PRJ55738-2026-04-22_RDP_(BMS)_Larissa Silva.pdf
+[18:53:55] WARN  pdfplumber PRJ55738-2026-04-22_RDP_(BMS)_Larissa Silva.pdf: No module named 'pdfplumber'
+[18:53:55] ERR   pypdf PRJ55738-2026-04-22_RDP_(BMS)_Larissa Silva.pdf: No module named 'pypdf'
+[18:53:55] WARN  sem texto: PRJ55738-2026-04-22_RDP_(BMS)_Larissa Silva.pdf
+[18:53:55] INFO  -> 2026-04-23_2502_C10257_PRJ48289 _RDP_SEC_Andre Chacon 1.pdf
+[18:53:55] WARN  pdfplumber 2026-04-23_2502_C10257_PRJ48289 _RDP_SEC_Andre Chacon 1.pdf: No module named 'pdfplumber'
+[18:53:55] ERR   pypdf 2026-04-23_2502_C10257_PRJ48289 _RDP_SEC_Andre Chacon 1.pdf: No module named 'pypdf'
+[18:53:55] WARN  sem texto: 2026-04-23_2502_C10257_PRJ48289 _RDP_SEC_Andre Chacon 1.pdf
+[18:53:55] INFO  -> CTR20593_2026-04-22_RDP_(SEG)_Michel Sato.docx
+[18:53:55] ERR   docx2txt CTR20593_2026-04-22_RDP_(SEG)_Michel Sato.docx: No module named 'docx2txt'
+[18:53:55] WARN  sem texto: CTR20593_2026-04-22_RDP_(SEG)_Michel Sato.docx
+[18:53:55] INFO  -> PRJ16598_2026-04-23_RDP_(SEG)_Edison Shiobara.docx
+[18:53:55] ERR   docx2txt PRJ16598_2026-04-23_RDP_(SEG)_Edison Shiobara.docx: No module named 'docx2txt'
+[18:53:55] WARN  sem texto: PRJ16598_2026-04-23_RDP_(SEG)_Edison Shiobara.docx
+[18:53:55] INFO  -> PRJ22499_2026-04-22_RDP_(BMS)_Noélio de Brito Oliveira.pdf
+[18:53:55] WARN  pdfplumber PRJ22499_2026-04-22_RDP_(BMS)_Noélio de Brito Oliveira.pdf: No module named 'pdfplumber'
+[18:53:55] ERR   pypdf PRJ22499_2026-04-22_RDP_(BMS)_Noélio de Brito Oliveira.pdf: No module named 'pypdf'
+[18:53:55] WARN  sem texto: PRJ22499_2026-04-22_RDP_(BMS)_Noélio de Brito Oliveira.pdf
+[18:53:55] INFO  -> PRJ35873_2026-04-23_RDP_(SDAI)_João Viana.pdf
+[18:53:55] WARN  pdfplumber PRJ35873_2026-04-23_RDP_(SDAI)_João Viana.pdf: No module named 'pdfplumber'
+[18:53:55] ERR   pypdf PRJ35873_2026-04-23_RDP_(SDAI)_João Viana.pdf: No module named 'pypdf'
+[18:53:55] WARN  sem texto: PRJ35873_2026-04-23_RDP_(SDAI)_João Viana.pdf
+[18:53:55] INFO  -> PRJ40799_2026-04-23_RDP_(SEG)_Andre Chacon.pdf
+[18:53:55] WARN  pdfplumber PRJ40799_2026-04-23_RDP_(SEG)_Andre Chacon.pdf: No module named 'pdfplumber'
+[18:53:55] ERR   pypdf PRJ40799_2026-04-23_RDP_(SEG)_Andre Chacon.pdf: No module named 'pypdf'
+[18:53:55] WARN  sem texto: PRJ40799_2026-04-23_RDP_(SEG)_Andre Chacon.pdf
+[18:53:55] INFO  -> PRJ45503_2026-04-23_RDP_(BMS)_Renan Almeida.pdf
+[18:53:55] WARN  pdfplumber PRJ45503_2026-04-23_RDP_(BMS)_Renan Almeida.pdf: No module named 'pdfplumber'
+[18:53:55] ERR   pypdf PRJ45503_2026-04-23_RDP_(BMS)_Renan Almeida.pdf: No module named 'pypdf'
+[18:53:55] WARN  sem texto: PRJ45503_2026-04-23_RDP_(BMS)_Renan Almeida.pdf
+[18:53:55] INFO  -> PRJ46618_2026-04-23_RDP_(SEC)_SergioOliveira.docx
+[18:53:55] ERR   docx2txt PRJ46618_2026-04-23_RDP_(SEC)_SergioOliveira.docx: No module named 'docx2txt'
+[18:53:55] WARN  sem texto: PRJ46618_2026-04-23_RDP_(SEC)_SergioOliveira.docx
+[18:53:55] INFO  -> PRJ47108_2026-04-23_RDP_(BMS)_Thiago Berzin Telles.pdf
+[18:53:55] WARN  pdfplumber PRJ47108_2026-04-23_RDP_(BMS)_Thiago Berzin Telles.pdf: No module named 'pdfplumber'
+[18:53:55] ERR   pypdf PRJ47108_2026-04-23_RDP_(BMS)_Thiago Berzin Telles.pdf: No module named 'pypdf'
+[18:53:55] WARN  sem texto: PRJ47108_2026-04-23_RDP_(BMS)_Thiago Berzin Telles.pdf
+[18:53:55] INFO  -> PRJ50476-2026-04-23_RDP_(BMS)_Larissa Silva.pdf
+[18:53:55] WARN  pdfplumber PRJ50476-2026-04-23_RDP_(BMS)_Larissa Silva.pdf: No module named 'pdfplumber'
+[18:53:55] ERR   pypdf PRJ50476-2026-04-23_RDP_(BMS)_Larissa Silva.pdf: No module named 'pypdf'
+[18:53:55] WARN  sem texto: PRJ50476-2026-04-23_RDP_(BMS)_Larissa Silva.pdf
+[18:53:55] INFO  -> PRJ53722_2026-04-22_RDP_(BMS)_Alfredo da Silveira.pdf
+[18:53:55] WARN  pdfplumber PRJ53722_2026-04-22_RDP_(BMS)_Alfredo da Silveira.pdf: No module named 'pdfplumber'
+[18:53:55] ERR   pypdf PRJ53722_2026-04-22_RDP_(BMS)_Alfredo da Silveira.pdf: No module named 'pypdf'
+[18:53:55] WARN  sem texto: PRJ53722_2026-04-22_RDP_(BMS)_Alfredo da Silveira.pdf
+[18:53:55] INFO  -> PRJ53722_2026-04-22_RDP_(SDAI)_RODRIGO DE OLIVEIRA SOUSA.pdf
+[18:53:55] WARN  pdfplumber PRJ53722_2026-04-22_RDP_(SDAI)_RODRIGO DE OLIVEIRA SOUSA.pdf: No module named 'pdfplumber'
+[18:53:55] ERR   pypdf PRJ53722_2026-04-22_RDP_(SDAI)_RODRIGO DE OLIVEIRA SOUSA.pdf: No module named 'pypdf'
+[18:53:55] WARN  sem texto: PRJ53722_2026-04-22_RDP_(SDAI)_RODRIGO DE OLIVEIRA SOUSA.pdf
+[18:53:55] INFO  -> PRJ53722_2026-04-23_RDP_(BMS)_Alfredo da Silveira.pdf
+[18:53:55] WARN  pdfplumber PRJ53722_2026-04-23_RDP_(BMS)_Alfredo da Silveira.pdf: No module named 'pdfplumber'
+[18:53:55] ERR   pypdf PRJ53722_2026-04-23_RDP_(BMS)_Alfredo da Silveira.pdf: No module named 'pypdf'
+[18:53:55] WARN  sem texto: PRJ53722_2026-04-23_RDP_(BMS)_Alfredo da Silveira.pdf
+[18:53:55] INFO  -> PRJ53722_2026-04-23_RDP_(BMS)_Teylor Garibaldi.pdf
+[18:53:55] WARN  pdfplumber PRJ53722_2026-04-23_RDP_(BMS)_Teylor Garibaldi.pdf: No module named 'pdfplumber'
+[18:53:55] ERR   pypdf PRJ53722_2026-04-23_RDP_(BMS)_Teylor Garibaldi.pdf: No module named 'pypdf'
+[18:53:55] WARN  sem texto: PRJ53722_2026-04-23_RDP_(BMS)_Teylor Garibaldi.pdf
+[18:53:55] INFO  -> PRJ16598_2026-04-24_RDP_(SEG)_Edison Shiobara.docx
+[18:53:55] ERR   docx2txt PRJ16598_2026-04-24_RDP_(SEG)_Edison Shiobara.docx: No module named 'docx2txt'
+[18:53:55] WARN  sem texto: PRJ16598_2026-04-24_RDP_(SEG)_Edison Shiobara.docx
+[18:53:55] INFO  -> PRJ19620-2026-04-22_RDP_(BMS)_Anderson.pdf
+[18:53:55] WARN  pdfplumber PRJ19620-2026-04-22_RDP_(BMS)_Anderson.pdf: No module named 'pdfplumber'
+[18:53:55] ERR   pypdf PRJ19620-2026-04-22_RDP_(BMS)_Anderson.pdf: No module named 'pypdf'
+[18:53:55] WARN  sem texto: PRJ19620-2026-04-22_RDP_(BMS)_Anderson.pdf
+[18:53:55] INFO  -> PRJ19620-2026-04-23_RDP_(BMS)_Anderson.docx.pdf
+[18:53:55] WARN  pdfplumber PRJ19620-2026-04-23_RDP_(BMS)_Anderson.docx.pdf: No module named 'pdfplumber'
+[18:53:55] ERR   pypdf PRJ19620-2026-04-23_RDP_(BMS)_Anderson.docx.pdf: No module named 'pypdf'
+[18:53:55] WARN  sem texto: PRJ19620-2026-04-23_RDP_(BMS)_Anderson.docx.pdf
+[18:53:55] INFO  -> PRJ22499_2026-04-23_RDP_(BMS)_Noélio de Brito Oliveira.pdf
+[18:53:55] WARN  pdfplumber PRJ22499_2026-04-23_RDP_(BMS)_Noélio de Brito Oliveira.pdf: No module named 'pdfplumber'
+[18:53:55] ERR   pypdf PRJ22499_2026-04-23_RDP_(BMS)_Noélio de Brito Oliveira.pdf: No module named 'pypdf'
+[18:53:55] WARN  sem texto: PRJ22499_2026-04-23_RDP_(BMS)_Noélio de Brito Oliveira.pdf
+[18:53:55] INFO  -> PRJ34683_2026-04-22_RDP_(AV)_Fabio Araujo.docx
+[18:53:55] ERR   docx2txt PRJ34683_2026-04-22_RDP_(AV)_Fabio Araujo.docx: No module named 'docx2txt'
+[18:53:55] WARN  sem texto: PRJ34683_2026-04-22_RDP_(AV)_Fabio Araujo.docx
+[18:53:55] INFO  -> PRJ34683_2026-04-24_RDP_(AV)_Fabio Araujo.docx
+[18:53:55] ERR   docx2txt PRJ34683_2026-04-24_RDP_(AV)_Fabio Araujo.docx: No module named 'docx2txt'
+[18:53:55] WARN  sem texto: PRJ34683_2026-04-24_RDP_(AV)_Fabio Araujo.docx
+[18:53:55] INFO  -> PRJ42548_2026-04-22_RDP_SEG_Salathiel_Martins.pdf
+[18:53:55] WARN  pdfplumber PRJ42548_2026-04-22_RDP_SEG_Salathiel_Martins.pdf: No module named 'pdfplumber'
+[18:53:55] ERR   pypdf PRJ42548_2026-04-22_RDP_SEG_Salathiel_Martins.pdf: No module named 'pypdf'
+[18:53:55] WARN  sem texto: PRJ42548_2026-04-22_RDP_SEG_Salathiel_Martins.pdf
+[18:53:55] INFO  -> PRJ45503_2026-04-22_RDP_(BMS)_João Viana.pdf
+[18:53:55] WARN  pdfplumber PRJ45503_2026-04-22_RDP_(BMS)_João Viana.pdf: No module named 'pdfplumber'
+[18:53:55] ERR   pypdf PRJ45503_2026-04-22_RDP_(BMS)_João Viana.pdf: No module named 'pypdf'
+[18:53:55] WARN  sem texto: PRJ45503_2026-04-22_RDP_(BMS)_João Viana.pdf
+[18:53:55] INFO  -> PRJ45503_2026-04-24_RDP_(BMS)_João Viana.pdf
+[18:53:55] WARN  pdfplumber PRJ45503_2026-04-24_RDP_(BMS)_João Viana.pdf: No module named 'pdfplumber'
+[18:53:55] ERR   pypdf PRJ45503_2026-04-24_RDP_(BMS)_João Viana.pdf: No module named 'pypdf'
+[18:53:55] WARN  sem texto: PRJ45503_2026-04-24_RDP_(BMS)_João Viana.pdf
+[18:53:55] INFO  -> PRJ45503_2026-04-24_RDP_(BMS)_Renan Almeida.pdf
+[18:53:55] WARN  pdfplumber PRJ45503_2026-04-24_RDP_(BMS)_Renan Almeida.pdf: No module named 'pdfplumber'
+[18:53:55] ERR   pypdf PRJ45503_2026-04-24_RDP_(BMS)_Renan Almeida.pdf: No module named 'pypdf'
+[18:53:55] WARN  sem texto: PRJ45503_2026-04-24_RDP_(BMS)_Renan Almeida.pdf
+[18:53:55] INFO  -> PRJ46618_2026-04-24_RDP_(SEC)_SergioOliveira.docx
+[18:53:55] ERR   docx2txt PRJ46618_2026-04-24_RDP_(SEC)_SergioOliveira.docx: No module named 'docx2txt'
+[18:53:55] WARN  sem texto: PRJ46618_2026-04-24_RDP_(SEC)_SergioOliveira.docx
+[18:53:55] INFO  -> PRJ53722_2026-04-23_RDP_(SDAI)_RODRIGO DE OLIVEIRA SOUSA.pdf
+[18:53:55] WARN  pdfplumber PRJ53722_2026-04-23_RDP_(SDAI)_RODRIGO DE OLIVEIRA SOUSA.pdf: No module named 'pdfplumber'
+[18:53:55] ERR   pypdf PRJ53722_2026-04-23_RDP_(SDAI)_RODRIGO DE OLIVEIRA SOUSA.pdf: No module named 'pypdf'
+[18:53:55] WARN  sem texto: PRJ53722_2026-04-23_RDP_(SDAI)_RODRIGO DE OLIVEIRA SOUSA.pdf
+[18:53:55] INFO  -> PRJ53722_2026-04-23_RDP_(Security)_Luiz Navero - R02.docx
+[18:53:55] ERR   docx2txt PRJ53722_2026-04-23_RDP_(Security)_Luiz Navero - R02.docx: No module named 'docx2txt'
+[18:53:55] WARN  sem texto: PRJ53722_2026-04-23_RDP_(Security)_Luiz Navero - R02.docx
+[18:53:55] INFO  -> PRJ53722_2026-04-24_RDP_(BMS)_Teylor Garibaldi.pdf
+[18:53:55] WARN  pdfplumber PRJ53722_2026-04-24_RDP_(BMS)_Teylor Garibaldi.pdf: No module named 'pdfplumber'
+[18:53:55] ERR   pypdf PRJ53722_2026-04-24_RDP_(BMS)_Teylor Garibaldi.pdf: No module named 'pypdf'
+[18:53:55] WARN  sem texto: PRJ53722_2026-04-24_RDP_(BMS)_Teylor Garibaldi.pdf
+[18:53:55] INFO  -> PRJ53722_2026-04-24_RDP_(BMS)_THIAGO BORGES.pdf
+[18:53:55] WARN  pdfplumber PRJ53722_2026-04-24_RDP_(BMS)_THIAGO BORGES.pdf: No module named 'pdfplumber'
+[18:53:55] ERR   pypdf PRJ53722_2026-04-24_RDP_(BMS)_THIAGO BORGES.pdf: No module named 'pypdf'
+[18:53:55] WARN  sem texto: PRJ53722_2026-04-24_RDP_(BMS)_THIAGO BORGES.pdf
+[18:53:55] INFO  -> SBRF-TPS-478-4815-0A_ASBUILT.pdf
+[18:53:55] WARN  pdfplumber SBRF-TPS-478-4815-0A_ASBUILT.pdf: No module named 'pdfplumber'
+[18:53:55] ERR   pypdf SBRF-TPS-478-4815-0A_ASBUILT.pdf: No module named 'pypdf'
+[18:53:55] WARN  sem texto: SBRF-TPS-478-4815-0A_ASBUILT.pdf
+[18:53:55] INFO  -> PRJ47108_2026-04-26_RDP_(SDAI)_Leonardo Rodrigues.pdf
+[18:53:55] WARN  pdfplumber PRJ47108_2026-04-26_RDP_(SDAI)_Leonardo Rodrigues.pdf: No module named 'pdfplumber'
+[18:53:55] ERR   pypdf PRJ47108_2026-04-26_RDP_(SDAI)_Leonardo Rodrigues.pdf: No module named 'pypdf'
+[18:53:55] WARN  sem texto: PRJ47108_2026-04-26_RDP_(SDAI)_Leonardo Rodrigues.pdf
+[18:53:55] INFO  -> 2026-04-27_2502_C10257_PRJ48289 _RDP_SEC_Andre Chacon 1.pdf
+[18:53:55] WARN  pdfplumber 2026-04-27_2502_C10257_PRJ48289 _RDP_SEC_Andre Chacon 1.pdf: No module named 'pdfplumber'
+[18:53:55] ERR   pypdf 2026-04-27_2502_C10257_PRJ48289 _RDP_SEC_Andre Chacon 1.pdf: No module named 'pypdf'
+[18:53:55] WARN  sem texto: 2026-04-27_2502_C10257_PRJ48289 _RDP_SEC_Andre Chacon 1.pdf
+[18:53:55] INFO  -> ASV49919_2026-04-24_RDP_(BMS)_Cleiton Vieira.pdf
+[18:53:55] WARN  pdfplumber ASV49919_2026-04-24_RDP_(BMS)_Cleiton Vieira.pdf: No module named 'pdfplumber'
+[18:53:55] ERR   pypdf ASV49919_2026-04-24_RDP_(BMS)_Cleiton Vieira.pdf: No module named 'pypdf'
+[18:53:55] WARN  sem texto: ASV49919_2026-04-24_RDP_(BMS)_Cleiton Vieira.pdf
+[18:53:55] INFO  -> CTR19778_2025-04-24_RDP_(SEC)_Marcos Teixeira.pdf
+[18:53:55] WARN  pdfplumber CTR19778_2025-04-24_RDP_(SEC)_Marcos Teixeira.pdf: No module named 'pdfplumber'
+[18:53:55] ERR   pypdf CTR19778_2025-04-24_RDP_(SEC)_Marcos Teixeira.pdf: No module named 'pypdf'
+[18:53:55] WARN  sem texto: CTR19778_2025-04-24_RDP_(SEC)_Marcos Teixeira.pdf
+[18:53:55] INFO  -> PRJ16598_2026-04-27_RDP_(SEG)_Edison Shiobara.docx
+[18:53:55] ERR   docx2txt PRJ16598_2026-04-27_RDP_(SEG)_Edison Shiobara.docx: No module named 'docx2txt'
+[18:53:55] WARN  sem texto: PRJ16598_2026-04-27_RDP_(SEG)_Edison Shiobara.docx
+[18:53:55] INFO  -> PRJ19620-2026-04-24_RDP_(BMS)_Anderson.pdf
+[18:53:55] WARN  pdfplumber PRJ19620-2026-04-24_RDP_(BMS)_Anderson.pdf: No module named 'pdfplumber'
+[18:53:55] ERR   pypdf PRJ19620-2026-04-24_RDP_(BMS)_Anderson.pdf: No module named 'pypdf'
+[18:53:55] WARN  sem texto: PRJ19620-2026-04-24_RDP_(BMS)_Anderson.pdf
+[18:53:55] INFO  -> PRJ22499_2026-04-24_RDP_(BMS)_Noélio de Brito Oliveira.pdf
+[18:53:55] WARN  pdfplumber PRJ22499_2026-04-24_RDP_(BMS)_Noélio de Brito Oliveira.pdf: No module named 'pdfplumber'
+[18:53:55] ERR   pypdf PRJ22499_2026-04-24_RDP_(BMS)_Noélio de Brito Oliveira.pdf: No module named 'pypdf'
+[18:53:55] WARN  sem texto: PRJ22499_2026-04-24_RDP_(BMS)_Noélio de Brito Oliveira.pdf
+[18:53:55] INFO  -> PRJ34683_2026-04-27_RDP_(AV)_Fabio Araujo.docx
+[18:53:55] ERR   docx2txt PRJ34683_2026-04-27_RDP_(AV)_Fabio Araujo.docx: No module named 'docx2txt'
+[18:53:55] WARN  sem texto: PRJ34683_2026-04-27_RDP_(AV)_Fabio Araujo.docx
+[18:53:55] INFO  -> PRJ40799_2026-04-27_RDP_(SEG)_Andre Chacon.pdf
+[18:53:55] WARN  pdfplumber PRJ40799_2026-04-27_RDP_(SEG)_Andre Chacon.pdf: No module named 'pdfplumber'
+[18:53:55] ERR   pypdf PRJ40799_2026-04-27_RDP_(SEG)_Andre Chacon.pdf: No module named 'pypdf'
+[18:53:55] WARN  sem texto: PRJ40799_2026-04-27_RDP_(SEG)_Andre Chacon.pdf
+[18:53:55] INFO  -> PRJ42548_2026-04-24_RDP_SEG_Salathiel_Martins.pdf
+[18:53:55] WARN  pdfplumber PRJ42548_2026-04-24_RDP_SEG_Salathiel_Martins.pdf: No module named 'pdfplumber'
+[18:53:55] ERR   pypdf PRJ42548_2026-04-24_RDP_SEG_Salathiel_Martins.pdf: No module named 'pypdf'
+[18:53:55] WARN  sem texto: PRJ42548_2026-04-24_RDP_SEG_Salathiel_Martins.pdf
+[18:53:55] INFO  -> PRJ45503_2026-04-27_RDP_(BMS)_JhonatanAtaide.pdf
+[18:53:55] WARN  pdfplumber PRJ45503_2026-04-27_RDP_(BMS)_JhonatanAtaide.pdf: No module named 'pdfplumber'
+[18:53:55] ERR   pypdf PRJ45503_2026-04-27_RDP_(BMS)_JhonatanAtaide.pdf: No module named 'pypdf'
+[18:53:55] WARN  sem texto: PRJ45503_2026-04-27_RDP_(BMS)_JhonatanAtaide.pdf
+[18:53:55] INFO  -> PRJ45503_2026-04-27_RDP_(BMS)_João Viana.pdf
+[18:53:55] WARN  pdfplumber PRJ45503_2026-04-27_RDP_(BMS)_João Viana.pdf: No module named 'pdfplumber'
+[18:53:55] ERR   pypdf PRJ45503_2026-04-27_RDP_(BMS)_João Viana.pdf: No module named 'pypdf'
+[18:53:55] WARN  sem texto: PRJ45503_2026-04-27_RDP_(BMS)_João Viana.pdf
+[18:53:55] INFO  -> PRJ55924_2026-27-04_RDP_(AV)_Augusto-Valle.pdf
+[18:53:55] WARN  pdfplumber PRJ55924_2026-27-04_RDP_(AV)_Augusto-Valle.pdf: No module named 'pdfplumber'
+[18:53:55] ERR   pypdf PRJ55924_2026-27-04_RDP_(AV)_Augusto-Valle.pdf: No module named 'pypdf'
+[18:53:55] WARN  sem texto: PRJ55924_2026-27-04_RDP_(AV)_Augusto-Valle.pdf
+[18:53:55] INFO  -> PRJ57394_2026-04-27_RDP_(SEG)_Tiago_Alves_Dutra.pdf
+[18:53:55] WARN  pdfplumber PRJ57394_2026-04-27_RDP_(SEG)_Tiago_Alves_Dutra.pdf: No module named 'pdfplumber'
+[18:53:55] ERR   pypdf PRJ57394_2026-04-27_RDP_(SEG)_Tiago_Alves_Dutra.pdf: No module named 'pypdf'
+[18:53:55] WARN  sem texto: PRJ57394_2026-04-27_RDP_(SEG)_Tiago_Alves_Dutra.pdf
+[18:53:55] INFO  -> SGRUTB08-MOB-34669 - LOGICAL SEGREGATION - PHASE 4_Rev3.docx
+[18:53:55] ERR   docx2txt SGRUTB08-MOB-34669 - LOGICAL SEGREGATION - PHASE 4_Rev3.docx: No module named 'docx2txt'
+[18:53:55] WARN  sem texto: SGRUTB08-MOB-34669 - LOGICAL SEGREGATION - PHASE 4_Rev3.docx
+[18:53:55] INFO  -> 2026-04-28_2502_C10257_PRJ48289 _RDP_SEC_Andre Chacon 1.pdf
+[18:53:55] WARN  pdfplumber 2026-04-28_2502_C10257_PRJ48289 _RDP_SEC_Andre Chacon 1.pdf: No module named 'pdfplumber'
+[18:53:55] ERR   pypdf 2026-04-28_2502_C10257_PRJ48289 _RDP_SEC_Andre Chacon 1.pdf: No module named 'pypdf'
+[18:53:55] WARN  sem texto: 2026-04-28_2502_C10257_PRJ48289 _RDP_SEC_Andre Chacon 1.pdf
+[18:53:55] INFO  -> 2312_C09874_PRJ22062_2026-04-08_01_RDP_AV_Thiago_Dos_Santos_Silva.docx
+[18:53:55] ERR   docx2txt 2312_C09874_PRJ22062_2026-04-08_01_RDP_AV_Thiago_Dos_Santos_Silva.docx: No module named 'docx2txt'
+[18:53:55] WARN  sem texto: 2312_C09874_PRJ22062_2026-04-08_01_RDP_AV_Thiago_Dos_Santos_Silva.docx
+[18:53:55] INFO  -> 2410_C01425_PRJ49431_2026-04-17_08_RDP_AV_Thiago_Dos_Santos_Silva.docx
+[18:53:55] ERR   docx2txt 2410_C01425_PRJ49431_2026-04-17_08_RDP_AV_Thiago_Dos_Santos_Silva.docx: No module named 'docx2txt'
+[18:53:55] WARN  sem texto: 2410_C01425_PRJ49431_2026-04-17_08_RDP_AV_Thiago_Dos_Santos_Silva.docx
+[18:53:55] INFO  -> Aena Recife - Prints sensores SDAI sem tags.docx
+[18:53:55] ERR   docx2txt Aena Recife - Prints sensores SDAI sem tags.docx: No module named 'docx2txt'
+[18:53:55] WARN  sem texto: Aena Recife - Prints sensores SDAI sem tags.docx
+[18:53:55] INFO  -> Aena Recife - Sensores SDAI fora do padrão.docx
+[18:53:55] ERR   docx2txt Aena Recife - Sensores SDAI fora do padrão.docx: No module named 'docx2txt'
+[18:53:55] WARN  sem texto: Aena Recife - Sensores SDAI fora do padrão.docx
+[18:53:55] INFO  -> CTR20593_2026-04-27_RDP_(SEG)_Michel Sato.docx
+[18:53:55] ERR   docx2txt CTR20593_2026-04-27_RDP_(SEG)_Michel Sato.docx: No module named 'docx2txt'
+[18:53:55] WARN  sem texto: CTR20593_2026-04-27_RDP_(SEG)_Michel Sato.docx
+[18:53:55] INFO  -> CTR55040_2026-04-27_RDP_(BMS)_THIAGO BORGES.pdf
+[18:53:55] WARN  pdfplumber CTR55040_2026-04-27_RDP_(BMS)_THIAGO BORGES.pdf: No module named 'pdfplumber'
+[18:53:55] ERR   pypdf CTR55040_2026-04-27_RDP_(BMS)_THIAGO BORGES.pdf: No module named 'pypdf'
+[18:53:55] WARN  sem texto: CTR55040_2026-04-27_RDP_(BMS)_THIAGO BORGES.pdf
+[18:53:55] INFO  -> PRJ16598_2026-04-28_RDP_(SEG)_Edison Shiobara.docx
+[18:53:55] ERR   docx2txt PRJ16598_2026-04-28_RDP_(SEG)_Edison Shiobara.docx: No module named 'docx2txt'
+[18:53:55] WARN  sem texto: PRJ16598_2026-04-28_RDP_(SEG)_Edison Shiobara.docx
+[18:53:55] INFO  -> PRJ22499_2026-04-27_RDP_(BMS)_Noélio de Brito Oliveira.pdf
+[18:53:55] WARN  pdfplumber PRJ22499_2026-04-27_RDP_(BMS)_Noélio de Brito Oliveira.pdf: No module named 'pdfplumber'
+[18:53:55] ERR   pypdf PRJ22499_2026-04-27_RDP_(BMS)_Noélio de Brito Oliveira.pdf: No module named 'pypdf'
+[18:53:55] WARN  sem texto: PRJ22499_2026-04-27_RDP_(BMS)_Noélio de Brito Oliveira.pdf
+[18:53:55] INFO  -> PRJ34683_2026-04-27_RDP_(AV)_Fabio Araujo.docx
+[18:53:55] ERR   docx2txt PRJ34683_2026-04-27_RDP_(AV)_Fabio Araujo.docx: No module named 'docx2txt'
+[18:53:55] WARN  sem texto: PRJ34683_2026-04-27_RDP_(AV)_Fabio Araujo.docx
+[18:53:55] INFO  -> PRJ34683_2026-04-28_RDP_(AV)_Fabio Araujo.docx
+[18:53:55] ERR   docx2txt PRJ34683_2026-04-28_RDP_(AV)_Fabio Araujo.docx: No module named 'docx2txt'
+[18:53:55] WARN  sem texto: PRJ34683_2026-04-28_RDP_(AV)_Fabio Araujo.docx
+[18:53:55] INFO  -> PRJ42548_2026-04-27_RDP_SEG_Salathiel_Martins.pdf
+[18:53:55] WARN  pdfplumber PRJ42548_2026-04-27_RDP_SEG_Salathiel_Martins.pdf: No module named 'pdfplumber'
+[18:53:55] ERR   pypdf PRJ42548_2026-04-27_RDP_SEG_Salathiel_Martins.pdf: No module named 'pypdf'
+[18:53:55] WARN  sem texto: PRJ42548_2026-04-27_RDP_SEG_Salathiel_Martins.pdf
+[18:53:55] INFO  -> PRJ45503_2026-04-28_RDP_(BMS)_JhonatanAtaide.pdf
+[18:53:55] WARN  pdfplumber PRJ45503_2026-04-28_RDP_(BMS)_JhonatanAtaide.pdf: No module named 'pdfplumber'
+[18:53:55] ERR   pypdf PRJ45503_2026-04-28_RDP_(BMS)_JhonatanAtaide.pdf: No module named 'pypdf'
+[18:53:55] WARN  sem texto: PRJ45503_2026-04-28_RDP_(BMS)_JhonatanAtaide.pdf
+[18:53:55] INFO  -> PRJ47108_2026-04-27_RDP_(SDAI)_Jeilan Lima.pdf
+[18:53:55] WARN  pdfplumber PRJ47108_2026-04-27_RDP_(SDAI)_Jeilan Lima.pdf: No module named 'pdfplumber'
+[18:53:55] ERR   pypdf PRJ47108_2026-04-27_RDP_(SDAI)_Jeilan Lima.pdf: No module named 'pypdf'
+[18:53:55] WARN  sem texto: PRJ47108_2026-04-27_RDP_(SDAI)_Jeilan Lima.pdf
+[18:53:55] INFO  -> PRJ47108_2026-04-28_RDP_(BMS)_GUILHEME ARIZ DA SILVA.pdf
+[18:53:55] WARN  pdfplumber PRJ47108_2026-04-28_RDP_(BMS)_GUILHEME ARIZ DA SILVA.pdf: No module named 'pdfplumber'
+[18:53:55] ERR   pypdf PRJ47108_2026-04-28_RDP_(BMS)_GUILHEME ARIZ DA SILVA.pdf: No module named 'pypdf'
+[18:53:55] WARN  sem texto: PRJ47108_2026-04-28_RDP_(BMS)_GUILHEME ARIZ DA SILVA.pdf
+[18:53:55] INFO  -> PRJ53722_2026-04-24_RDP_(BMS)_Alfredo da Silveira.pdf
+[18:53:55] WARN  pdfplumber PRJ53722_2026-04-24_RDP_(BMS)_Alfredo da Silveira.pdf: No module named 'pdfplumber'
+[18:53:55] ERR   pypdf PRJ53722_2026-04-24_RDP_(BMS)_Alfredo da Silveira.pdf: No module named 'pypdf'
+[18:53:55] WARN  sem texto: PRJ53722_2026-04-24_RDP_(BMS)_Alfredo da Silveira.pdf
+[18:53:55] INFO  -> PRJ53722_2026-04-27_RDP_(BMS)_Alfredo da Silveira.pdf
+[18:53:55] WARN  pdfplumber PRJ53722_2026-04-27_RDP_(BMS)_Alfredo da Silveira.pdf: No module named 'pdfplumber'
+[18:53:55] ERR   pypdf PRJ53722_2026-04-27_RDP_(BMS)_Alfredo da Silveira.pdf: No module named 'pypdf'
+[18:53:55] WARN  sem texto: PRJ53722_2026-04-27_RDP_(BMS)_Alfredo da Silveira.pdf
+[18:53:55] INFO  -> PRJ53722_2026-04-27_RDP_(Security)_Luiz Navero - R02.docx
+[18:53:55] ERR   docx2txt PRJ53722_2026-04-27_RDP_(Security)_Luiz Navero - R02.docx: No module named 'docx2txt'
+[18:53:55] WARN  sem texto: PRJ53722_2026-04-27_RDP_(Security)_Luiz Navero - R02.docx
+[18:53:55] INFO  -> PRJ53722_2026-04-28_RDP_(BMS)_Alfredo da Silveira.pdf
+[18:53:55] WARN  pdfplumber PRJ53722_2026-04-28_RDP_(BMS)_Alfredo da Silveira.pdf: No module named 'pdfplumber'
+[18:53:55] ERR   pypdf PRJ53722_2026-04-28_RDP_(BMS)_Alfredo da Silveira.pdf: No module named 'pypdf'
+[18:53:55] WARN  sem texto: PRJ53722_2026-04-28_RDP_(BMS)_Alfredo da Silveira.pdf
+[18:53:55] INFO  -> PRJ53722_2026-04-28_RDP_(Security)_Luiz Navero - R02.docx
+[18:53:55] ERR   docx2txt PRJ53722_2026-04-28_RDP_(Security)_Luiz Navero - R02.docx: No module named 'docx2txt'
+[18:53:55] WARN  sem texto: PRJ53722_2026-04-28_RDP_(Security)_Luiz Navero - R02.docx
+[18:53:55] INFO  -> PRJ58937_2026-04-28_RDP_(BMS)_Larissa Silva.pdf
+[18:53:55] WARN  pdfplumber PRJ58937_2026-04-28_RDP_(BMS)_Larissa Silva.pdf: No module named 'pdfplumber'
+[18:53:55] ERR   pypdf PRJ58937_2026-04-28_RDP_(BMS)_Larissa Silva.pdf: No module named 'pypdf'
+[18:53:55] WARN  sem texto: PRJ58937_2026-04-28_RDP_(BMS)_Larissa Silva.pdf
+[18:53:55] INFO  -> PRJ59307_2026-04-28_RDP_(SEG)_EDUARDO MOTA.pdf
+[18:53:55] WARN  pdfplumber PRJ59307_2026-04-28_RDP_(SEG)_EDUARDO MOTA.pdf: No module named 'pdfplumber'
+[18:53:55] ERR   pypdf PRJ59307_2026-04-28_RDP_(SEG)_EDUARDO MOTA.pdf: No module named 'pypdf'
+[18:53:55] WARN  sem texto: PRJ59307_2026-04-28_RDP_(SEG)_EDUARDO MOTA.pdf
+[18:53:55] INFO  -> PRJ61205_2026-04-28_RDP_(AV)_Jean Kevyn Correia Pessoa.docx
+[18:53:55] ERR   docx2txt PRJ61205_2026-04-28_RDP_(AV)_Jean Kevyn Correia Pessoa.docx: No module named 'docx2txt'
+[18:53:55] WARN  sem texto: PRJ61205_2026-04-28_RDP_(AV)_Jean Kevyn Correia Pessoa.docx
+[18:53:55] INFO  -> SGRUTB67-E-STC-3 ANDAR.pdf
+[18:53:55] WARN  pdfplumber SGRUTB67-E-STC-3 ANDAR.pdf: No module named 'pdfplumber'
+[18:53:55] ERR   pypdf SGRUTB67-E-STC-3 ANDAR.pdf: No module named 'pypdf'
+[18:53:55] WARN  sem texto: SGRUTB67-E-STC-3 ANDAR.pdf
+[18:53:55] INFO  -> 2026-04-29_2502_C10257_PRJ48289 _RDP_SEC_Andre Chacon .pdf
+[18:53:55] WARN  pdfplumber 2026-04-29_2502_C10257_PRJ48289 _RDP_SEC_Andre Chacon .pdf: No module named 'pdfplumber'
+[18:53:55] ERR   pypdf 2026-04-29_2502_C10257_PRJ48289 _RDP_SEC_Andre Chacon .pdf: No module named 'pypdf'
+[18:53:55] WARN  sem texto: 2026-04-29_2502_C10257_PRJ48289 _RDP_SEC_Andre Chacon .pdf
+[18:53:55] INFO  -> PRJ107443_2026-04-28_RDP_(SEG)_Edison Shiobara.docx
+[18:53:55] ERR   docx2txt PRJ107443_2026-04-28_RDP_(SEG)_Edison Shiobara.docx: No module named 'docx2txt'
+[18:53:55] WARN  sem texto: PRJ107443_2026-04-28_RDP_(SEG)_Edison Shiobara.docx
+[18:53:55] INFO  -> PRJ22499_2026-04-28_RDP_(BMS)_Noélio de Brito Oliveira.pdf
+[18:53:55] WARN  pdfplumber PRJ22499_2026-04-28_RDP_(BMS)_Noélio de Brito Oliveira.pdf: No module named 'pdfplumber'
+[18:53:55] ERR   pypdf PRJ22499_2026-04-28_RDP_(BMS)_Noélio de Brito Oliveira.pdf: No module named 'pypdf'
+[18:53:55] WARN  sem texto: PRJ22499_2026-04-28_RDP_(BMS)_Noélio de Brito Oliveira.pdf
+[18:53:55] INFO  -> PRJ31386_2026-04-29_RDP_(SDAI)_DAVISON CAMPOS.docx
+[18:53:55] ERR   docx2txt PRJ31386_2026-04-29_RDP_(SDAI)_DAVISON CAMPOS.docx: No module named 'docx2txt'
+[18:53:55] WARN  sem texto: PRJ31386_2026-04-29_RDP_(SDAI)_DAVISON CAMPOS.docx
+[18:53:55] INFO  -> PRJ31386_2026-04-29_RDP_(SDAI)_DAVISON CAMPOS.pdf
+[18:53:55] WARN  pdfplumber PRJ31386_2026-04-29_RDP_(SDAI)_DAVISON CAMPOS.pdf: No module named 'pdfplumber'
+[18:53:55] ERR   pypdf PRJ31386_2026-04-29_RDP_(SDAI)_DAVISON CAMPOS.pdf: No module named 'pypdf'
+[18:53:55] WARN  sem texto: PRJ31386_2026-04-29_RDP_(SDAI)_DAVISON CAMPOS.pdf
+[18:53:55] INFO  -> PRJ34724_2026-04-28_RDP_(SEC)_SergioOliveira.docx
+[18:53:55] ERR   docx2txt PRJ34724_2026-04-28_RDP_(SEC)_SergioOliveira.docx: No module named 'docx2txt'
+[18:53:55] WARN  sem texto: PRJ34724_2026-04-28_RDP_(SEC)_SergioOliveira.docx
+[18:53:55] INFO  -> PRJ35632_2026-04-28_RDP_(SEG)_Michel Sato.docx
+[18:53:55] ERR   docx2txt PRJ35632_2026-04-28_RDP_(SEG)_Michel Sato.docx: No module named 'docx2txt'
+[18:53:55] WARN  sem texto: PRJ35632_2026-04-28_RDP_(SEG)_Michel Sato.docx
+[18:53:55] INFO  -> PRJ35873-2026-04-29_RDP_(BMS)_Renan_Silva.pdf
+[18:53:55] WARN  pdfplumber PRJ35873-2026-04-29_RDP_(BMS)_Renan_Silva.pdf: No module named 'pdfplumber'
+[18:53:55] ERR   pypdf PRJ35873-2026-04-29_RDP_(BMS)_Renan_Silva.pdf: No module named 'pypdf'
+[18:53:55] WARN  sem texto: PRJ35873-2026-04-29_RDP_(BMS)_Renan_Silva.pdf
+[18:53:55] INFO  -> PRJ42548_2026-04-28_RDP_SEG_Salathiel_Martins.pdf
+[18:53:55] WARN  pdfplumber PRJ42548_2026-04-28_RDP_SEG_Salathiel_Martins.pdf: No module named 'pdfplumber'
+[18:53:55] ERR   pypdf PRJ42548_2026-04-28_RDP_SEG_Salathiel_Martins.pdf: No module named 'pypdf'
+[18:53:55] WARN  sem texto: PRJ42548_2026-04-28_RDP_SEG_Salathiel_Martins.pdf
+[18:53:55] INFO  -> PRJ45503_2026-04-28_RDP_(BMS)_João Viana.pdf
+[18:53:55] WARN  pdfplumber PRJ45503_2026-04-28_RDP_(BMS)_João Viana.pdf: No module named 'pdfplumber'
+[18:53:55] ERR   pypdf PRJ45503_2026-04-28_RDP_(BMS)_João Viana.pdf: No module named 'pypdf'
+[18:53:55] WARN  sem texto: PRJ45503_2026-04-28_RDP_(BMS)_João Viana.pdf
+[18:53:55] INFO  -> PRJ45503_2026-04-29_RDP_(BMS)_Renan Almeida.pdf
+[18:53:55] WARN  pdfplumber PRJ45503_2026-04-29_RDP_(BMS)_Renan Almeida.pdf: No module named 'pdfplumber'
+[18:53:55] ERR   pypdf PRJ45503_2026-04-29_RDP_(BMS)_Renan Almeida.pdf: No module named 'pypdf'
+[18:53:55] WARN  sem texto: PRJ45503_2026-04-29_RDP_(BMS)_Renan Almeida.pdf
+[18:53:55] INFO  -> PRJ45819_2026-04-28_RDP_(BMS)_THIAGO BORGES.pdf
+[18:53:55] WARN  pdfplumber PRJ45819_2026-04-28_RDP_(BMS)_THIAGO BORGES.pdf: No module named 'pdfplumber'
+[18:53:55] ERR   pypdf PRJ45819_2026-04-28_RDP_(BMS)_THIAGO BORGES.pdf: No module named 'pypdf'
+[18:53:55] WARN  sem texto: PRJ45819_2026-04-28_RDP_(BMS)_THIAGO BORGES.pdf
+[18:53:55] INFO  -> PRJ47108_2026-04-28_RDP_(SDAI)_Jeilan Lima.pdf
+[18:53:55] WARN  pdfplumber PRJ47108_2026-04-28_RDP_(SDAI)_Jeilan Lima.pdf: No module named 'pdfplumber'
+[18:53:55] ERR   pypdf PRJ47108_2026-04-28_RDP_(SDAI)_Jeilan Lima.pdf: No module named 'pypdf'
+[18:53:55] WARN  sem texto: PRJ47108_2026-04-28_RDP_(SDAI)_Jeilan Lima.pdf
+[18:53:55] INFO  -> PRJ47108_2026-04-29_RDP_(SDAI)_Jeilan Lima.pdf
+[18:53:55] WARN  pdfplumber PRJ47108_2026-04-29_RDP_(SDAI)_Jeilan Lima.pdf: No module named 'pdfplumber'
+[18:53:55] ERR   pypdf PRJ47108_2026-04-29_RDP_(SDAI)_Jeilan Lima.pdf: No module named 'pypdf'
+[18:53:55] WARN  sem texto: PRJ47108_2026-04-29_RDP_(SDAI)_Jeilan Lima.pdf
+[18:53:55] INFO  -> PRJ50476-2026-04-29_RDP_(BMS)_Larissa Silva.pdf
+[18:53:55] WARN  pdfplumber PRJ50476-2026-04-29_RDP_(BMS)_Larissa Silva.pdf: No module named 'pdfplumber'
+[18:53:55] ERR   pypdf PRJ50476-2026-04-29_RDP_(BMS)_Larissa Silva.pdf: No module named 'pypdf'
+[18:53:55] WARN  sem texto: PRJ50476-2026-04-29_RDP_(BMS)_Larissa Silva.pdf
+[18:53:55] INFO  -> PRJ53722_2026-04-29_RDP_(BMS)_Alfredo da Silveira.pdf
+[18:53:55] WARN  pdfplumber PRJ53722_2026-04-29_RDP_(BMS)_Alfredo da Silveira.pdf: No module named 'pdfplumber'
+[18:53:55] ERR   pypdf PRJ53722_2026-04-29_RDP_(BMS)_Alfredo da Silveira.pdf: No module named 'pypdf'
+[18:53:55] WARN  sem texto: PRJ53722_2026-04-29_RDP_(BMS)_Alfredo da Silveira.pdf
+[18:53:55] INFO  -> PRJ53722_2026-04-29_RDP_(Security)_Luiz Navero - R02.docx
+[18:53:55] ERR   docx2txt PRJ53722_2026-04-29_RDP_(Security)_Luiz Navero - R02.docx: No module named 'docx2txt'
+[18:53:55] WARN  sem texto: PRJ53722_2026-04-29_RDP_(Security)_Luiz Navero - R02.docx
+[18:53:55] INFO  -> PRJ55924_2026-29-04_RDP_(AV)_Augusto-Valle.pdf
+[18:53:55] WARN  pdfplumber PRJ55924_2026-29-04_RDP_(AV)_Augusto-Valle.pdf: No module named 'pdfplumber'
+[18:53:55] ERR   pypdf PRJ55924_2026-29-04_RDP_(AV)_Augusto-Valle.pdf: No module named 'pypdf'
+[18:53:55] WARN  sem texto: PRJ55924_2026-29-04_RDP_(AV)_Augusto-Valle.pdf
+[18:53:55] INFO  -> PRJ57394_2026-04-28_RDP_(SEG)_Tiago_Alves_Dutra.pdf
+[18:53:55] WARN  pdfplumber PRJ57394_2026-04-28_RDP_(SEG)_Tiago_Alves_Dutra.pdf: No module named 'pdfplumber'
+[18:53:55] ERR   pypdf PRJ57394_2026-04-28_RDP_(SEG)_Tiago_Alves_Dutra.pdf: No module named 'pypdf'
+[18:53:55] WARN  sem texto: PRJ57394_2026-04-28_RDP_(SEG)_Tiago_Alves_Dutra.pdf
+[18:53:55] INFO  -> PRJ57394_2026-04-29_RDP_(SEG)_Tiago_Alves_Dutra.pdf
+[18:53:55] WARN  pdfplumber PRJ57394_2026-04-29_RDP_(SEG)_Tiago_Alves_Dutra.pdf: No module named 'pdfplumber'
+[18:53:55] ERR   pypdf PRJ57394_2026-04-29_RDP_(SEG)_Tiago_Alves_Dutra.pdf: No module named 'pypdf'
+[18:53:55] WARN  sem texto: PRJ57394_2026-04-29_RDP_(SEG)_Tiago_Alves_Dutra.pdf
+[18:53:55] INFO  -> PRJ57636_2026-04-29_RDP_(AV)_Jean Kevyn Correia Pessoa.docx
+[18:53:55] ERR   docx2txt PRJ57636_2026-04-29_RDP_(AV)_Jean Kevyn Correia Pessoa.docx: No module named 'docx2txt'
+[18:53:55] WARN  sem texto: PRJ57636_2026-04-29_RDP_(AV)_Jean Kevyn Correia Pessoa.docx
+[18:53:55] INFO  -> 2026-04-30_2502_C10257_PRJ48289 _RDP_SEC_Andre Chacon .pdf
+[18:53:55] WARN  pdfplumber 2026-04-30_2502_C10257_PRJ48289 _RDP_SEC_Andre Chacon .pdf: No module named 'pdfplumber'
+[18:53:55] ERR   pypdf 2026-04-30_2502_C10257_PRJ48289 _RDP_SEC_Andre Chacon .pdf: No module named 'pypdf'
+[18:53:55] WARN  sem texto: 2026-04-30_2502_C10257_PRJ48289 _RDP_SEC_Andre Chacon .pdf
+[18:53:55] INFO  -> Aena Recife - Print tags repetidas - 2026.04.30.docx
+[18:53:55] ERR   docx2txt Aena Recife - Print tags repetidas - 2026.04.30.docx: No module named 'docx2txt'
+[18:53:55] WARN  sem texto: Aena Recife - Print tags repetidas - 2026.04.30.docx
+[18:53:55] INFO  -> Aena Recife - Prints sensores SDAI sem tags - R01 - 2026.04.30.docx
+[18:53:55] ERR   docx2txt Aena Recife - Prints sensores SDAI sem tags - R01 - 2026.04.30.docx: No module named 'docx2txt'
+[18:53:55] WARN  sem texto: Aena Recife - Prints sensores SDAI sem tags - R01 - 2026.04.30.docx
+[18:53:55] INFO  -> ASV49919_2026-04-27_RDP_(BMS)_Cleiton Vieira.pdf
+[18:53:55] WARN  pdfplumber ASV49919_2026-04-27_RDP_(BMS)_Cleiton Vieira.pdf: No module named 'pdfplumber'
+[18:53:55] ERR   pypdf ASV49919_2026-04-27_RDP_(BMS)_Cleiton Vieira.pdf: No module named 'pypdf'
+[18:53:55] WARN  sem texto: ASV49919_2026-04-27_RDP_(BMS)_Cleiton Vieira.pdf
+[18:53:55] INFO  -> PRJ16598_2026-04-29_RDP_(SEG)_Edison Shiobara.docx
+[18:53:55] ERR   docx2txt PRJ16598_2026-04-29_RDP_(SEG)_Edison Shiobara.docx: No module named 'docx2txt'
+[18:53:55] WARN  sem texto: PRJ16598_2026-04-29_RDP_(SEG)_Edison Shiobara.docx
+[18:53:55] INFO  -> PRJ16598_2026-04-30_RDP_(SEG)_Edison Shiobara.docx
+[18:53:55] ERR   docx2txt PRJ16598_2026-04-30_RDP_(SEG)_Edison Shiobara.docx: No module named 'docx2txt'
+[18:53:55] WARN  sem texto: PRJ16598_2026-04-30_RDP_(SEG)_Edison Shiobara.docx
+[18:53:55] INFO  -> PRJ22062_2026-04-29_RDP_(SEC)_SergioOliveira.docx
+[18:53:55] ERR   docx2txt PRJ22062_2026-04-29_RDP_(SEC)_SergioOliveira.docx: No module named 'docx2txt'
+[18:53:55] WARN  sem texto: PRJ22062_2026-04-29_RDP_(SEC)_SergioOliveira.docx
+[18:53:55] INFO  -> PRJ22499_2026-04-29_RDP_(BMS)_Noélio de Brito Oliveira.pdf
+[18:53:55] WARN  pdfplumber PRJ22499_2026-04-29_RDP_(BMS)_Noélio de Brito Oliveira.pdf: No module named 'pdfplumber'
+[18:53:55] ERR   pypdf PRJ22499_2026-04-29_RDP_(BMS)_Noélio de Brito Oliveira.pdf: No module named 'pypdf'
+[18:53:55] WARN  sem texto: PRJ22499_2026-04-29_RDP_(BMS)_Noélio de Brito Oliveira.pdf
+[18:53:55] INFO  -> PRJ34683_2026-04-29_RDP_(AV)_Fabio Araujo.docx
+[18:53:55] ERR   docx2txt PRJ34683_2026-04-29_RDP_(AV)_Fabio Araujo.docx: No module named 'docx2txt'
+[18:53:55] WARN  sem texto: PRJ34683_2026-04-29_RDP_(AV)_Fabio Araujo.docx
+[18:53:55] INFO  -> PRJ34683_2026-04-30_RDP_(AV)_Fabio Araujo.docx
+[18:53:55] ERR   docx2txt PRJ34683_2026-04-30_RDP_(AV)_Fabio Araujo.docx: No module named 'docx2txt'
+[18:53:55] WARN  sem texto: PRJ34683_2026-04-30_RDP_(AV)_Fabio Araujo.docx
+[18:53:55] INFO  -> PRJ38381_2026-04-29_RDP_(BMS)_Cleiton Vieira.pdf
+[18:53:55] WARN  pdfplumber PRJ38381_2026-04-29_RDP_(BMS)_Cleiton Vieira.pdf: No module named 'pdfplumber'
+[18:53:55] ERR   pypdf PRJ38381_2026-04-29_RDP_(BMS)_Cleiton Vieira.pdf: No module named 'pypdf'
+[18:53:55] WARN  sem texto: PRJ38381_2026-04-29_RDP_(BMS)_Cleiton Vieira.pdf
+[18:53:55] INFO  -> PRJ42188_2026-04-30_RDP_(SEG)_EDUARDO MOTA_CFTV.pdf
+[18:53:55] WARN  pdfplumber PRJ42188_2026-04-30_RDP_(SEG)_EDUARDO MOTA_CFTV.pdf: No module named 'pdfplumber'
+[18:53:55] ERR   pypdf PRJ42188_2026-04-30_RDP_(SEG)_EDUARDO MOTA_CFTV.pdf: No module named 'pypdf'
+[18:53:55] WARN  sem texto: PRJ42188_2026-04-30_RDP_(SEG)_EDUARDO MOTA_CFTV.pdf
+[18:53:55] INFO  -> PRJ42548_2026-04-29_RDP_SEG_Salathiel_Martins.pdf
+[18:53:55] WARN  pdfplumber PRJ42548_2026-04-29_RDP_SEG_Salathiel_Martins.pdf: No module named 'pdfplumber'
+[18:53:55] ERR   pypdf PRJ42548_2026-04-29_RDP_SEG_Salathiel_Martins.pdf: No module named 'pypdf'
+[18:53:55] WARN  sem texto: PRJ42548_2026-04-29_RDP_SEG_Salathiel_Martins.pdf
+[18:53:55] INFO  -> PRJ45503_2026-04-30_RDP_(BMS)_Renan Almeida.pdf
+[18:53:55] WARN  pdfplumber PRJ45503_2026-04-30_RDP_(BMS)_Renan Almeida.pdf: No module named 'pdfplumber'
+[18:53:55] ERR   pypdf PRJ45503_2026-04-30_RDP_(BMS)_Renan Almeida.pdf: No module named 'pypdf'
+[18:53:55] WARN  sem texto: PRJ45503_2026-04-30_RDP_(BMS)_Renan Almeida.pdf
+[18:53:55] INFO  -> PRJ45819_2026-04-30_RDP_(BMS)_THIAGO BORGES.pdf
+[18:53:55] WARN  pdfplumber PRJ45819_2026-04-30_RDP_(BMS)_THIAGO BORGES.pdf: No module named 'pdfplumber'
+[18:53:55] ERR   pypdf PRJ45819_2026-04-30_RDP_(BMS)_THIAGO BORGES.pdf: No module named 'pypdf'
+[18:53:55] WARN  sem texto: PRJ45819_2026-04-30_RDP_(BMS)_THIAGO BORGES.pdf
+[18:53:55] INFO  -> PRJ46618_2026-04-29_RDP_(SEG)_Michel Sato.docx
+[18:53:55] ERR   docx2txt PRJ46618_2026-04-29_RDP_(SEG)_Michel Sato.docx: No module named 'docx2txt'
+[18:53:55] WARN  sem texto: PRJ46618_2026-04-29_RDP_(SEG)_Michel Sato.docx
+[18:53:55] INFO  -> PRJ46618_2026-04-30_RDP_(SEG)_Michel Sato.docx
+[18:53:55] ERR   docx2txt PRJ46618_2026-04-30_RDP_(SEG)_Michel Sato.docx: No module named 'docx2txt'
+[18:53:55] WARN  sem texto: PRJ46618_2026-04-30_RDP_(SEG)_Michel Sato.docx
+[18:53:55] INFO  -> PRJ47108_2026-04-30_RDP_(SDAI)_Jeilan Lima.pdf
+[18:53:55] WARN  pdfplumber PRJ47108_2026-04-30_RDP_(SDAI)_Jeilan Lima.pdf: No module named 'pdfplumber'
+[18:53:55] ERR   pypdf PRJ47108_2026-04-30_RDP_(SDAI)_Jeilan Lima.pdf: No module named 'pypdf'
+[18:53:55] WARN  sem texto: PRJ47108_2026-04-30_RDP_(SDAI)_Jeilan Lima.pdf
+[18:53:55] INFO  -> PRJ53722_2026-04-24_RDP_(SDAI)_RODRIGO DE OLIVEIRA SOUSA.pdf
+[18:53:55] WARN  pdfplumber PRJ53722_2026-04-24_RDP_(SDAI)_RODRIGO DE OLIVEIRA SOUSA.pdf: No module named 'pdfplumber'
+[18:53:55] ERR   pypdf PRJ53722_2026-04-24_RDP_(SDAI)_RODRIGO DE OLIVEIRA SOUSA.pdf: No module named 'pypdf'
+[18:53:55] WARN  sem texto: PRJ53722_2026-04-24_RDP_(SDAI)_RODRIGO DE OLIVEIRA SOUSA.pdf
+[18:53:55] INFO  -> PRJ53722_2026-04-29_RDP_(BMS)_Teylor Garibaldi.pdf
+[18:53:55] WARN  pdfplumber PRJ53722_2026-04-29_RDP_(BMS)_Teylor Garibaldi.pdf: No module named 'pdfplumber'
+[18:53:55] ERR   pypdf PRJ53722_2026-04-29_RDP_(BMS)_Teylor Garibaldi.pdf: No module named 'pypdf'
+[18:53:55] WARN  sem texto: PRJ53722_2026-04-29_RDP_(BMS)_Teylor Garibaldi.pdf
+[18:53:55] INFO  -> PRJ53722_2026-04-29_RDP_(SDAI)_RODRIGO DE OLIVEIRA SOUSA.pdf
+[18:53:55] WARN  pdfplumber PRJ53722_2026-04-29_RDP_(SDAI)_RODRIGO DE OLIVEIRA SOUSA.pdf: No module named 'pdfplumber'
+[18:53:55] ERR   pypdf PRJ53722_2026-04-29_RDP_(SDAI)_RODRIGO DE OLIVEIRA SOUSA.pdf: No module named 'pypdf'
+[18:53:55] WARN  sem texto: PRJ53722_2026-04-29_RDP_(SDAI)_RODRIGO DE OLIVEIRA SOUSA.pdf
+[18:53:55] INFO  -> PRJ53722_2026-04-30_RDP_(BMS)_Alfredo da Silveira.pdf
+[18:53:55] WARN  pdfplumber PRJ53722_2026-04-30_RDP_(BMS)_Alfredo da Silveira.pdf: No module named 'pdfplumber'
+[18:53:55] ERR   pypdf PRJ53722_2026-04-30_RDP_(BMS)_Alfredo da Silveira.pdf: No module named 'pypdf'
+[18:53:55] WARN  sem texto: PRJ53722_2026-04-30_RDP_(BMS)_Alfredo da Silveira.pdf
+[18:53:55] INFO  -> PRJ53722_2026-04-30_RDP_(BMS)_Teylor Garibaldi.pdf
+[18:53:55] WARN  pdfplumber PRJ53722_2026-04-30_RDP_(BMS)_Teylor Garibaldi.pdf: No module named 'pdfplumber'
+[18:53:55] ERR   pypdf PRJ53722_2026-04-30_RDP_(BMS)_Teylor Garibaldi.pdf: No module named 'pypdf'
+[18:53:55] WARN  sem texto: PRJ53722_2026-04-30_RDP_(BMS)_Teylor Garibaldi.pdf
+[18:53:55] INFO  -> PRJ53722_2026-04-30_RDP_(Security)_Luiz Navero - R02.docx
+[18:53:55] ERR   docx2txt PRJ53722_2026-04-30_RDP_(Security)_Luiz Navero - R02.docx: No module named 'docx2txt'
+[18:53:55] WARN  sem texto: PRJ53722_2026-04-30_RDP_(Security)_Luiz Navero - R02.docx
+[18:53:55] INFO  -> PRJ55924_2026-30-04_RDP_(AV)_Augusto-Valle.pdf
+[18:53:55] WARN  pdfplumber PRJ55924_2026-30-04_RDP_(AV)_Augusto-Valle.pdf: No module named 'pdfplumber'
+[18:53:55] ERR   pypdf PRJ55924_2026-30-04_RDP_(AV)_Augusto-Valle.pdf: No module named 'pypdf'
+[18:53:55] WARN  sem texto: PRJ55924_2026-30-04_RDP_(AV)_Augusto-Valle.pdf
+[18:53:55] INFO  -> Procedimento_Report_Alarmes.pdf
+[18:53:55] WARN  pdfplumber Procedimento_Report_Alarmes.pdf: No module named 'pdfplumber'
+[18:53:55] ERR   pypdf Procedimento_Report_Alarmes.pdf: No module named 'pypdf'
+[18:53:55] WARN  sem texto: Procedimento_Report_Alarmes.pdf
+[18:53:55] INFO  -> PRJ09134_2026-04-30_RDP_(AV)_Jean Kevyn Correia Pessoa.docx
+[18:53:55] ERR   docx2txt PRJ09134_2026-04-30_RDP_(AV)_Jean Kevyn Correia Pessoa.docx: No module named 'docx2txt'
+[18:53:55] WARN  sem texto: PRJ09134_2026-04-30_RDP_(AV)_Jean Kevyn Correia Pessoa.docx
+[18:53:55] INFO  -> PRJ47108_2026-05-01_RDP_(SDAI)_Leonardo Rodrigues.pdf
+[18:53:55] WARN  pdfplumber PRJ47108_2026-05-01_RDP_(SDAI)_Leonardo Rodrigues.pdf: No module named 'pdfplumber'
+[18:53:55] ERR   pypdf PRJ47108_2026-05-01_RDP_(SDAI)_Leonardo Rodrigues.pdf: No module named 'pypdf'
+[18:53:55] WARN  sem texto: PRJ47108_2026-05-01_RDP_(SDAI)_Leonardo Rodrigues.pdf
+[18:53:55] INFO  -> PRJ61205_2026-04-30_RDP_(AV)_Jean Kevyn Correia Pessoa.docx
+[18:53:55] ERR   docx2txt PRJ61205_2026-04-30_RDP_(AV)_Jean Kevyn Correia Pessoa.docx: No module named 'docx2txt'
+[18:53:55] WARN  sem texto: PRJ61205_2026-04-30_RDP_(AV)_Jean Kevyn Correia Pessoa.docx
+[18:53:55] INFO  -> PRJ47108_2026-05-03_RDP_(SDAI)_Jeilan Lima.pdf
+[18:53:55] WARN  pdfplumber PRJ47108_2026-05-03_RDP_(SDAI)_Jeilan Lima.pdf: No module named 'pdfplumber'
+[18:53:55] ERR   pypdf PRJ47108_2026-05-03_RDP_(SDAI)_Jeilan Lima.pdf: No module named 'pypdf'
+[18:53:55] WARN  sem texto: PRJ47108_2026-05-03_RDP_(SDAI)_Jeilan Lima.pdf
+[18:53:55] INFO  -> CTR19778_2026-04-27_RDP_(SEC)_Marcos Teixeira.pdf
+[18:53:55] WARN  pdfplumber CTR19778_2026-04-27_RDP_(SEC)_Marcos Teixeira.pdf: No module named 'pdfplumber'
+[18:53:55] ERR   pypdf CTR19778_2026-04-27_RDP_(SEC)_Marcos Teixeira.pdf: No module named 'pypdf'
+[18:53:55] WARN  sem texto: CTR19778_2026-04-27_RDP_(SEC)_Marcos Teixeira.pdf
+[18:53:55] INFO  -> CTR19778_2026-04-28_RDP_(SEC)_Marcos Teixeira.pdf
+[18:53:55] WARN  pdfplumber CTR19778_2026-04-28_RDP_(SEC)_Marcos Teixeira.pdf: No module named 'pdfplumber'
+[18:53:55] ERR   pypdf CTR19778_2026-04-28_RDP_(SEC)_Marcos Teixeira.pdf: No module named 'pypdf'
+[18:53:55] WARN  sem texto: CTR19778_2026-04-28_RDP_(SEC)_Marcos Teixeira.pdf
+[18:53:55] INFO  -> CTR19778_2026-04-29_RDP_(SEC)_Marcos Teixeira.pdf
+[18:53:55] WARN  pdfplumber CTR19778_2026-04-29_RDP_(SEC)_Marcos Teixeira.pdf: No module named 'pdfplumber'
+[18:53:55] ERR   pypdf CTR19778_2026-04-29_RDP_(SEC)_Marcos Teixeira.pdf: No module named 'pypdf'
+[18:53:55] WARN  sem texto: CTR19778_2026-04-29_RDP_(SEC)_Marcos Teixeira.pdf
+[18:53:55] INFO  -> CTR19778_2026-04-30_RDP_(SEC)_Marcos Teixeira.pdf
+[18:53:55] WARN  pdfplumber CTR19778_2026-04-30_RDP_(SEC)_Marcos Teixeira.pdf: No module named 'pdfplumber'
+[18:53:55] ERR   pypdf CTR19778_2026-04-30_RDP_(SEC)_Marcos Teixeira.pdf: No module named 'pypdf'
+[18:53:55] WARN  sem texto: CTR19778_2026-04-30_RDP_(SEC)_Marcos Teixeira.pdf
+[18:53:55] INFO  -> Device Maintenance  Reports_GOOGLE 0105_05022026_141405.pdf
+[18:53:55] WARN  pdfplumber Device Maintenance  Reports_GOOGLE 0105_05022026_141405.pdf: No module named 'pdfplumber'
+[18:53:55] ERR   pypdf Device Maintenance  Reports_GOOGLE 0105_05022026_141405.pdf: No module named 'pypdf'
+[18:53:55] WARN  sem texto: Device Maintenance  Reports_GOOGLE 0105_05022026_141405.pdf
+[18:53:55] INFO  -> PRJ19620-2026-04-27_RDP_(BMS)_Anderson.pdf
+[18:53:55] WARN  pdfplumber PRJ19620-2026-04-27_RDP_(BMS)_Anderson.pdf: No module named 'pdfplumber'
+[18:53:55] ERR   pypdf PRJ19620-2026-04-27_RDP_(BMS)_Anderson.pdf: No module named 'pypdf'
+[18:53:55] WARN  sem texto: PRJ19620-2026-04-27_RDP_(BMS)_Anderson.pdf
+[18:53:55] INFO  -> PRJ19620-2026-04-28_RDP_(BMS)_Anderson.pdf
+[18:53:55] WARN  pdfplumber PRJ19620-2026-04-28_RDP_(BMS)_Anderson.pdf: No module named 'pdfplumber'
+[18:53:55] ERR   pypdf PRJ19620-2026-04-28_RDP_(BMS)_Anderson.pdf: No module named 'pypdf'
+[18:53:55] WARN  sem texto: PRJ19620-2026-04-28_RDP_(BMS)_Anderson.pdf
+[18:53:55] INFO  -> PRJ19620-2026-04-29_RDP_(BMS)_Anderson.pdf
+[18:53:55] WARN  pdfplumber PRJ19620-2026-04-29_RDP_(BMS)_Anderson.pdf: No module named 'pdfplumber'
+[18:53:55] ERR   pypdf PRJ19620-2026-04-29_RDP_(BMS)_Anderson.pdf: No module named 'pypdf'
+[18:53:55] WARN  sem texto: PRJ19620-2026-04-29_RDP_(BMS)_Anderson.pdf
+[18:53:55] INFO  -> PRJ19620-2026-04-30_RDP_(BMS)_Anderson.pdf
+[18:53:55] WARN  pdfplumber PRJ19620-2026-04-30_RDP_(BMS)_Anderson.pdf: No module named 'pdfplumber'
+[18:53:55] ERR   pypdf PRJ19620-2026-04-30_RDP_(BMS)_Anderson.pdf: No module named 'pypdf'
+[18:53:55] WARN  sem texto: PRJ19620-2026-04-30_RDP_(BMS)_Anderson.pdf
+[18:53:55] INFO  -> PRJ19620-2026-05-04_RDP_(BMS)_Anderson.pdf
+[18:53:55] WARN  pdfplumber PRJ19620-2026-05-04_RDP_(BMS)_Anderson.pdf: No module named 'pdfplumber'
+[18:53:55] ERR   pypdf PRJ19620-2026-05-04_RDP_(BMS)_Anderson.pdf: No module named 'pypdf'
+[18:53:55] WARN  sem texto: PRJ19620-2026-05-04_RDP_(BMS)_Anderson.pdf
+[18:53:55] INFO  -> PRJ22062_2026-05-04_RDP_(SEC)_SergioOliveira.docx
+[18:53:55] ERR   docx2txt PRJ22062_2026-05-04_RDP_(SEC)_SergioOliveira.docx: No module named 'docx2txt'
+[18:53:55] WARN  sem texto: PRJ22062_2026-05-04_RDP_(SEC)_SergioOliveira.docx
+[18:53:55] INFO  -> PRJ22499_2026-04-30_RDP_(BMS)_Noélio de Brito Oliveira.pdf
+[18:53:55] WARN  pdfplumber PRJ22499_2026-04-30_RDP_(BMS)_Noélio de Brito Oliveira.pdf: No module named 'pdfplumber'
+[18:53:55] ERR   pypdf PRJ22499_2026-04-30_RDP_(BMS)_Noélio de Brito Oliveira.pdf: No module named 'pypdf'
+[18:53:55] WARN  sem texto: PRJ22499_2026-04-30_RDP_(BMS)_Noélio de Brito Oliveira.pdf
+[18:53:55] INFO  -> PRJ34724_2026-04-30_RDP_(SEC)_SergioOliveira.docx
+[18:53:55] ERR   docx2txt PRJ34724_2026-04-30_RDP_(SEC)_SergioOliveira.docx: No module named 'docx2txt'
+[18:53:55] WARN  sem texto: PRJ34724_2026-04-30_RDP_(SEC)_SergioOliveira.docx
+[18:53:55] INFO  -> PRJ42548_2026-04-30_RDP_SEG_Salathiel_Martins.pdf
+[18:53:55] WARN  pdfplumber PRJ42548_2026-04-30_RDP_SEG_Salathiel_Martins.pdf: No module named 'pdfplumber'
+[18:53:55] ERR   pypdf PRJ42548_2026-04-30_RDP_SEG_Salathiel_Martins.pdf: No module named 'pypdf'
+[18:53:55] WARN  sem texto: PRJ42548_2026-04-30_RDP_SEG_Salathiel_Martins.pdf
+[18:53:55] INFO  -> PRJ45503_2026-05-04_RDP_(BMS)_Renan Almeida.pdf
+[18:53:55] WARN  pdfplumber PRJ45503_2026-05-04_RDP_(BMS)_Renan Almeida.pdf: No module named 'pdfplumber'
+[18:53:55] ERR   pypdf PRJ45503_2026-05-04_RDP_(BMS)_Renan Almeida.pdf: No module named 'pypdf'
+[18:53:55] WARN  sem texto: PRJ45503_2026-05-04_RDP_(BMS)_Renan Almeida.pdf
+[18:53:55] INFO  -> PRJ47108_2026-05-02_RDP_(SDAI)_Leonardo Rodrigues.pdf
+[18:53:55] WARN  pdfplumber PRJ47108_2026-05-02_RDP_(SDAI)_Leonardo Rodrigues.pdf: No module named 'pdfplumber'
+[18:53:55] ERR   pypdf PRJ47108_2026-05-02_RDP_(SDAI)_Leonardo Rodrigues.pdf: No module named 'pypdf'
+[18:53:55] WARN  sem texto: PRJ47108_2026-05-02_RDP_(SDAI)_Leonardo Rodrigues.pdf
+[18:53:55] INFO  -> PRJ55738-2026-05-04_RDP_(BMS)_Larissa Silva.pdf
+[18:53:55] WARN  pdfplumber PRJ55738-2026-05-04_RDP_(BMS)_Larissa Silva.pdf: No module named 'pdfplumber'
+[18:53:55] ERR   pypdf PRJ55738-2026-05-04_RDP_(BMS)_Larissa Silva.pdf: No module named 'pypdf'
+[18:53:55] WARN  sem texto: PRJ55738-2026-05-04_RDP_(BMS)_Larissa Silva.pdf
+[18:53:55] INFO  -> PRJ55924_2026-04-05_RDP_(AV)_Augusto-Valle.pdf.pdf
+[18:53:55] WARN  pdfplumber PRJ55924_2026-04-05_RDP_(AV)_Augusto-Valle.pdf.pdf: No module named 'pdfplumber'
+[18:53:55] ERR   pypdf PRJ55924_2026-04-05_RDP_(AV)_Augusto-Valle.pdf.pdf: No module named 'pypdf'
+[18:53:55] WARN  sem texto: PRJ55924_2026-04-05_RDP_(AV)_Augusto-Valle.pdf.pdf
+[18:53:55] INFO  -> PRJ59747_2026-05-04_RDP_(SEG)_Michel Sato.docx
+[18:53:55] ERR   docx2txt PRJ59747_2026-05-04_RDP_(SEG)_Michel Sato.docx: No module named 'docx2txt'
+[18:53:55] WARN  sem texto: PRJ59747_2026-05-04_RDP_(SEG)_Michel Sato.docx
+[18:53:55] INFO  -> PRJ PRJ25026 - PRJ53722_2026-05-04_RDP_(Security)_Luiz Navero - R02.docx
+[18:53:55] ERR   docx2txt PRJ PRJ25026 - PRJ53722_2026-05-04_RDP_(Security)_Luiz Navero - R02.docx: No module named 'docx2txt'
+[18:53:55] WARN  sem texto: PRJ PRJ25026 - PRJ53722_2026-05-04_RDP_(Security)_Luiz Navero - R02.docx
+[18:53:55] INFO  -> PRJ29927-2026-05-05_RDP_(BMS)_Vinicius Nascimento.pdf
+[18:53:55] WARN  pdfplumber PRJ29927-2026-05-05_RDP_(BMS)_Vinicius Nascimento.pdf: No module named 'pdfplumber'
+[18:53:55] ERR   pypdf PRJ29927-2026-05-05_RDP_(BMS)_Vinicius Nascimento.pdf: No module named 'pypdf'
+[18:53:55] WARN  sem texto: PRJ29927-2026-05-05_RDP_(BMS)_Vinicius Nascimento.pdf
+[18:53:55] INFO  -> PRJ29927_2026-05-04_RDP_(AV)_Jean Kevyn Correia Pessoa.docx
+[18:53:55] ERR   docx2txt PRJ29927_2026-05-04_RDP_(AV)_Jean Kevyn Correia Pessoa.docx: No module named 'docx2txt'
+[18:53:55] WARN  sem texto: PRJ29927_2026-05-04_RDP_(AV)_Jean Kevyn Correia Pessoa.docx
+[18:53:55] INFO  -> PRJ32503_2026-05-04_RDP_(SDAI)_DAVISON CAMPOS.pdf
+[18:53:55] WARN  pdfplumber PRJ32503_2026-05-04_RDP_(SDAI)_DAVISON CAMPOS.pdf: No module named 'pdfplumber'
+[18:53:55] ERR   pypdf PRJ32503_2026-05-04_RDP_(SDAI)_DAVISON CAMPOS.pdf: No module named 'pypdf'
+[18:53:55] WARN  sem texto: PRJ32503_2026-05-04_RDP_(SDAI)_DAVISON CAMPOS.pdf
+[18:53:55] INFO  -> PRJ35873-2026-04-05_RDP_(BMS)_Renan_Silva.pdf
+[18:53:55] WARN  pdfplumber PRJ35873-2026-04-05_RDP_(BMS)_Renan_Silva.pdf: No module named 'pdfplumber'
+[18:53:55] ERR   pypdf PRJ35873-2026-04-05_RDP_(BMS)_Renan_Silva.pdf: No module named 'pypdf'
+[18:53:55] WARN  sem texto: PRJ35873-2026-04-05_RDP_(BMS)_Renan_Silva.pdf
+[18:53:55] INFO  -> PRJ45503_2026-04-29_RDP_(BMS)_João Viana.pdf
+[18:53:55] WARN  pdfplumber PRJ45503_2026-04-29_RDP_(BMS)_João Viana.pdf: No module named 'pdfplumber'
+[18:53:55] ERR   pypdf PRJ45503_2026-04-29_RDP_(BMS)_João Viana.pdf: No module named 'pypdf'
+[18:53:55] WARN  sem texto: PRJ45503_2026-04-29_RDP_(BMS)_João Viana.pdf
+[18:53:55] INFO  -> PRJ47108_2026-05-05_RDP_(SDAI)_Jeilan Lima.pdf
+[18:53:55] WARN  pdfplumber PRJ47108_2026-05-05_RDP_(SDAI)_Jeilan Lima.pdf: No module named 'pdfplumber'
+[18:53:55] ERR   pypdf PRJ47108_2026-05-05_RDP_(SDAI)_Jeilan Lima.pdf: No module named 'pypdf'
+[18:53:55] WARN  sem texto: PRJ47108_2026-05-05_RDP_(SDAI)_Jeilan Lima.pdf
+[18:53:55] INFO  -> PRJ53722_2026-05-04_RDP_(BMS)_Teylor Garibaldi.pdf
+[18:53:55] WARN  pdfplumber PRJ53722_2026-05-04_RDP_(BMS)_Teylor Garibaldi.pdf: No module named 'pdfplumber'
+[18:53:55] ERR   pypdf PRJ53722_2026-05-04_RDP_(BMS)_Teylor Garibaldi.pdf: No module named 'pypdf'
+[18:53:55] WARN  sem texto: PRJ53722_2026-05-04_RDP_(BMS)_Teylor Garibaldi.pdf
+[18:53:55] INFO  -> PRJ53722_2026-05-04_RDP_(BMS)_THIAGO BORGES.pdf
+[18:53:55] WARN  pdfplumber PRJ53722_2026-05-04_RDP_(BMS)_THIAGO BORGES.pdf: No module named 'pdfplumber'
+[18:53:55] ERR   pypdf PRJ53722_2026-05-04_RDP_(BMS)_THIAGO BORGES.pdf: No module named 'pypdf'
+[18:53:55] WARN  sem texto: PRJ53722_2026-05-04_RDP_(BMS)_THIAGO BORGES.pdf
+[18:53:55] INFO  -> PRJ57394_2026-05-04_RDP_(SEG)_Tiago_Alves_Dutra.pdf
+[18:53:55] WARN  pdfplumber PRJ57394_2026-05-04_RDP_(SEG)_Tiago_Alves_Dutra.pdf: No module named 'pdfplumber'
+[18:53:55] ERR   pypdf PRJ57394_2026-05-04_RDP_(SEG)_Tiago_Alves_Dutra.pdf: No module named 'pypdf'
+[18:53:55] WARN  sem texto: PRJ57394_2026-05-04_RDP_(SEG)_Tiago_Alves_Dutra.pdf
+[18:53:55] INFO  -> PRJ59935_2026-04-30_RDP_SEG_Salathiel_Martins.pdf
+[18:53:55] WARN  pdfplumber PRJ59935_2026-04-30_RDP_SEG_Salathiel_Martins.pdf: No module named 'pdfplumber'
+[18:53:55] ERR   pypdf PRJ59935_2026-04-30_RDP_SEG_Salathiel_Martins.pdf: No module named 'pypdf'
+[18:53:55] WARN  sem texto: PRJ59935_2026-04-30_RDP_SEG_Salathiel_Martins.pdf
+[18:53:55] INFO  Estruturados: 0

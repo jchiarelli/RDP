@@ -1,0 +1,410 @@
+[
+  {
+    "nome": "Alfredo da Silveira",
+    "email": "alfredo.silveira@convergint.com",
+    "equipe": "BMS Desenvolvimento Telas - JOAO ESPINOSA",
+    "disciplina": "BMS Desenvolvimento Telas",
+    "lider": "JOAO ESPINOSA",
+    "id": "pessoa_279222"
+  },
+  {
+    "nome": "Anderson Caetano de Souza Pires",
+    "email": "anderson.pires@convergint.com",
+    "equipe": "BMS - UNIVERSO NUNES JULIAO",
+    "disciplina": "BMS",
+    "lider": "UNIVERSO NUNES JULIAO",
+    "id": "pessoa_047441"
+  },
+  {
+    "nome": "Andre Chacon da Silveira",
+    "email": "andre.silveira@convergint.com",
+    "equipe": "SEC - ALEXANDRE KODA",
+    "disciplina": "SEC",
+    "lider": "ALEXANDRE KODA",
+    "id": "pessoa_592833"
+  },
+  {
+    "nome": "Augusto Cesar Flocco Valle",
+    "email": "augusto.valle.ext@convergint.com",
+    "equipe": "AV - THIAGO BELLAZZI",
+    "disciplina": "AV",
+    "lider": "THIAGO BELLAZZI",
+    "id": "pessoa_469443"
+  },
+  {
+    "nome": "Caio Hunke Vieira da Silva",
+    "email": "caio.silva@convergint.com",
+    "equipe": "AV - THIAGO BELLAZZI",
+    "disciplina": "AV",
+    "lider": "THIAGO BELLAZZI",
+    "id": "pessoa_427596"
+  },
+  {
+    "nome": "Caio Vinicius de Almeida",
+    "email": "caio.almeida@convergint.com",
+    "equipe": "AV - THIAGO BELLAZZI",
+    "disciplina": "AV",
+    "lider": "THIAGO BELLAZZI",
+    "id": "pessoa_480671"
+  },
+  {
+    "nome": "Cleiton Henrique da Silva Vieira",
+    "email": "cleiton.vieira@convergint.com",
+    "equipe": "BMS - UNIVERSO NUNES JULIAO",
+    "disciplina": "BMS",
+    "lider": "UNIVERSO NUNES JULIAO",
+    "id": "pessoa_905796"
+  },
+  {
+    "nome": "Davison Campos",
+    "email": "davison.campos@convergint.com",
+    "equipe": "SDAI - UNIVERSO NUNES JULIAO",
+    "disciplina": "SDAI",
+    "lider": "UNIVERSO NUNES JULIAO",
+    "id": "pessoa_485296"
+  },
+  {
+    "nome": "Diego Santos Sousa Braga",
+    "email": "diego.braga@convergint.com",
+    "equipe": "BMS Desenvolvimento Telas - JOAO ESPINOSA",
+    "disciplina": "BMS Desenvolvimento Telas",
+    "lider": "JOAO ESPINOSA",
+    "id": "pessoa_408997"
+  },
+  {
+    "nome": "Edison Hideki Shiobara",
+    "email": "edison.shiobara.ext@convergint.com",
+    "equipe": "SEC - ALEXANDRE KODA",
+    "disciplina": "SEC",
+    "lider": "ALEXANDRE KODA",
+    "id": "pessoa_308150"
+  },
+  {
+    "nome": "Eduardo da Purificacao Mota dos Santos",
+    "email": "e.santos@convergint.com",
+    "equipe": "SEC - ALEXANDRE KODA",
+    "disciplina": "SEC",
+    "lider": "ALEXANDRE KODA",
+    "id": "pessoa_732257"
+  },
+  {
+    "nome": "Eric de Oliveira Morais",
+    "email": "eric.morais@convergint.com",
+    "equipe": "BMS - UNIVERSO NUNES JULIAO",
+    "disciplina": "BMS",
+    "lider": "UNIVERSO NUNES JULIAO",
+    "id": "pessoa_945097"
+  },
+  {
+    "nome": "Fabio Batista Pinheiro de Araujo",
+    "email": "fabio.araujo@convergint.com",
+    "equipe": "AV - THIAGO BELLAZZI",
+    "disciplina": "AV",
+    "lider": "THIAGO BELLAZZI",
+    "id": "pessoa_224676"
+  },
+  {
+    "nome": "Felipe Custodio Rocha",
+    "email": "felipe.rocha@convergint.com",
+    "equipe": "AV - THIAGO BELLAZZI",
+    "disciplina": "AV",
+    "lider": "THIAGO BELLAZZI",
+    "id": "pessoa_181355"
+  },
+  {
+    "nome": "Felipe Henrique dos Santos",
+    "email": "felipe.hsantos@convergint.com",
+    "equipe": "AV - THIAGO BELLAZZI",
+    "disciplina": "AV",
+    "lider": "THIAGO BELLAZZI",
+    "id": "pessoa_213205"
+  },
+  {
+    "nome": "Gislan Almeida dos Santos",
+    "email": "gislan.santos@convergint.com",
+    "equipe": "BMS - UNIVERSO NUNES JULIAO",
+    "disciplina": "BMS",
+    "lider": "UNIVERSO NUNES JULIAO",
+    "id": "pessoa_330776"
+  },
+  {
+    "nome": "Guilherme Ariz da Silva",
+    "email": "guilherme.s@convergint.com",
+    "equipe": "BMS - UNIVERSO NUNES JULIAO",
+    "disciplina": "BMS",
+    "lider": "UNIVERSO NUNES JULIAO",
+    "id": "pessoa_669925"
+  },
+  {
+    "nome": "Heitor Pereira da Rocha",
+    "email": "heitor.rocha@convergint.com",
+    "equipe": "AV - THIAGO BELLAZZI",
+    "disciplina": "AV",
+    "lider": "THIAGO BELLAZZI",
+    "id": "pessoa_816907"
+  },
+  {
+    "nome": "Jean Kevyn Correia Pessoa",
+    "email": "jean.pessoa@convergint.com",
+    "equipe": "AV - THIAGO BELLAZZI",
+    "disciplina": "AV",
+    "lider": "THIAGO BELLAZZI",
+    "id": "pessoa_491235"
+  },
+  {
+    "nome": "Jeilan Souza de Lima",
+    "email": "jeilan.lima.ext@convergint.com",
+    "equipe": "SDAI - UNIVERSO NUNES JULIAO",
+    "disciplina": "SDAI",
+    "lider": "UNIVERSO NUNES JULIAO",
+    "id": "pessoa_665841"
+  },
+  {
+    "nome": "Jennifer Sousa da Silva",
+    "email": "jennifer.silva@convergint.com",
+    "equipe": "BMS - UNIVERSO NUNES JULIAO",
+    "disciplina": "BMS",
+    "lider": "UNIVERSO NUNES JULIAO",
+    "id": "pessoa_016467"
+  },
+  {
+    "nome": "Jhonatan Camara de Ataide",
+    "email": "jhonatan.ataide@convergint.com",
+    "equipe": "BMS - UNIVERSO NUNES JULIAO",
+    "disciplina": "BMS",
+    "lider": "UNIVERSO NUNES JULIAO",
+    "id": "pessoa_297163"
+  },
+  {
+    "nome": "Joao Marcelo dos Santos Kolm",
+    "email": "joao.kolm@convergint.com",
+    "equipe": "BMS Desenvolvimento Telas - JOAO ESPINOSA",
+    "disciplina": "BMS Desenvolvimento Telas",
+    "lider": "JOAO ESPINOSA",
+    "id": "pessoa_652450"
+  },
+  {
+    "nome": "Joao Victor Sousa Viana",
+    "email": "joao.viana@convergint.com",
+    "equipe": "SDAI - UNIVERSO NUNES JULIAO",
+    "disciplina": "SDAI",
+    "lider": "UNIVERSO NUNES JULIAO",
+    "id": "pessoa_587538"
+  },
+  {
+    "nome": "Jonilson Lopes Campos Filho",
+    "email": "jonilson.campos@convergint.com",
+    "equipe": "SEC - ALEXANDRE KODA",
+    "disciplina": "SEC",
+    "lider": "ALEXANDRE KODA",
+    "id": "pessoa_623709"
+  },
+  {
+    "nome": "Larissa Isabelle da Silva",
+    "email": "larissa.silva@convergint.com",
+    "equipe": "BMS Desenvolvimento Telas - JOAO ESPINOSA",
+    "disciplina": "BMS Desenvolvimento Telas",
+    "lider": "JOAO ESPINOSA",
+    "id": "pessoa_937705"
+  },
+  {
+    "nome": "Leonardo da Silva Rodrigues",
+    "email": "l.rodrigues@convergint.com",
+    "equipe": "BMS - UNIVERSO NUNES JULIAO",
+    "disciplina": "BMS",
+    "lider": "UNIVERSO NUNES JULIAO",
+    "id": "pessoa_060498"
+  },
+  {
+    "nome": "Lindemberg Silva do Carmo Junior",
+    "email": "lindemberg.junior@convergint.com",
+    "equipe": "BMS Desenvolvimento Telas - JOAO ESPINOSA",
+    "disciplina": "BMS Desenvolvimento Telas",
+    "lider": "JOAO ESPINOSA",
+    "id": "pessoa_029095"
+  },
+  {
+    "nome": "Luiz Eduardo Rodrigues Navero",
+    "email": "luiz.navero@convergint.com",
+    "equipe": "SEC - ALEXANDRE KODA",
+    "disciplina": "SEC",
+    "lider": "ALEXANDRE KODA",
+    "id": "pessoa_113811"
+  },
+  {
+    "nome": "Marcos Judensnaider Knijnik",
+    "email": "marcos.knijnik@convergint.com",
+    "equipe": "BMS Desenvolvimento Telas - JOAO ESPINOSA",
+    "disciplina": "BMS Desenvolvimento Telas",
+    "lider": "JOAO ESPINOSA",
+    "id": "pessoa_304436"
+  },
+  {
+    "nome": "Marcos Vinicius Salvadori Teixeira",
+    "email": "marcos.teixeira@convergint.com",
+    "equipe": "SEC - ALEXANDRE KODA",
+    "disciplina": "SEC",
+    "lider": "ALEXANDRE KODA",
+    "id": "pessoa_291020"
+  },
+  {
+    "nome": "Matheus de Sousa Damico",
+    "email": "matheus.damico@convergint.com",
+    "equipe": "BMS - UNIVERSO NUNES JULIAO",
+    "disciplina": "BMS",
+    "lider": "UNIVERSO NUNES JULIAO",
+    "id": "pessoa_215240"
+  },
+  {
+    "nome": "Michel Kenji Sato",
+    "email": "michel.sato@convergint.com",
+    "equipe": "SEC - ALEXANDRE KODA",
+    "disciplina": "SEC",
+    "lider": "ALEXANDRE KODA",
+    "id": "pessoa_411607"
+  },
+  {
+    "nome": "Miguel Felix Meyer",
+    "email": "miguel.meyer.ext@convergint.com",
+    "equipe": "BMS - UNIVERSO NUNES JULIAO",
+    "disciplina": "BMS",
+    "lider": "UNIVERSO NUNES JULIAO",
+    "id": "pessoa_840003"
+  },
+  {
+    "nome": "Muriel Panegassi Carletti",
+    "email": "muriel.carletti@convergint.com",
+    "equipe": "BMS Desenvolvimento Telas - JOAO ESPINOSA",
+    "disciplina": "BMS Desenvolvimento Telas",
+    "lider": "JOAO ESPINOSA",
+    "id": "pessoa_452862"
+  },
+  {
+    "nome": "Noelio de Brito Oliveira",
+    "email": "noelio.oliveira@convergint.com",
+    "equipe": "BMS - UNIVERSO NUNES JULIAO",
+    "disciplina": "BMS",
+    "lider": "UNIVERSO NUNES JULIAO",
+    "id": "pessoa_411612"
+  },
+  {
+    "nome": "Paulo Sergio de Jesus Fernandes",
+    "email": "paulo.jfernandes@convergint.com",
+    "equipe": "AV - THIAGO BELLAZZI",
+    "disciplina": "AV",
+    "lider": "THIAGO BELLAZZI",
+    "id": "pessoa_459527"
+  },
+  {
+    "nome": "Rafael Martins Lacerda",
+    "email": "rafael.lacerda@convergint.com",
+    "equipe": "SEC - ALEXANDRE KODA",
+    "disciplina": "SEC",
+    "lider": "ALEXANDRE KODA",
+    "id": "pessoa_195041"
+  },
+  {
+    "nome": "Renan de Souza Silva",
+    "email": "renan.silva@convergint.com",
+    "equipe": "BMS - UNIVERSO NUNES JULIAO",
+    "disciplina": "BMS",
+    "lider": "UNIVERSO NUNES JULIAO",
+    "id": "pessoa_751449"
+  },
+  {
+    "nome": "Renan Silva Almeida",
+    "email": "renan.almeida@convergint.com",
+    "equipe": "BMS - UNIVERSO NUNES JULIAO",
+    "disciplina": "BMS",
+    "lider": "UNIVERSO NUNES JULIAO",
+    "id": "pessoa_519884"
+  },
+  {
+    "nome": "Rodrigo de Oliveira Sousa",
+    "email": "rodrigo.oliveira@convergint.com",
+    "equipe": "SDAI - UNIVERSO NUNES JULIAO",
+    "disciplina": "SDAI",
+    "lider": "UNIVERSO NUNES JULIAO",
+    "id": "pessoa_619166"
+  },
+  {
+    "nome": "Salathiel da Silva Martins",
+    "email": "salathiel.martins@convergint.com",
+    "equipe": "SEC - ALEXANDRE KODA",
+    "disciplina": "SEC",
+    "lider": "ALEXANDRE KODA",
+    "id": "pessoa_828208"
+  },
+  {
+    "nome": "Sergio Henrique Ferreira de Oliveira",
+    "email": "sergio.oliveira@convergint.com",
+    "equipe": "SEC - ALEXANDRE KODA",
+    "disciplina": "SEC",
+    "lider": "ALEXANDRE KODA",
+    "id": "pessoa_219157"
+  },
+  {
+    "nome": "Teylor Soares da Silva Garibaldi Pereira",
+    "email": "teylor.garibaldi.ext@convergint.com",
+    "equipe": "BMS - UNIVERSO NUNES JULIAO",
+    "disciplina": "BMS",
+    "lider": "UNIVERSO NUNES JULIAO",
+    "id": "pessoa_789165"
+  },
+  {
+    "nome": "Thiago Berzin Telles",
+    "email": "thiago.telles@convergint.com",
+    "equipe": "BMS - UNIVERSO NUNES JULIAO",
+    "disciplina": "BMS",
+    "lider": "UNIVERSO NUNES JULIAO",
+    "id": "pessoa_492717"
+  },
+  {
+    "nome": "Thiago dos Santos Silva",
+    "email": "thiago.silva@convergint.com",
+    "equipe": "AV - THIAGO BELLAZZI",
+    "disciplina": "AV",
+    "lider": "THIAGO BELLAZZI",
+    "id": "pessoa_005653"
+  },
+  {
+    "nome": "Thiago Henrique Nunes Borges",
+    "email": "thiago.borges@convergint.com",
+    "equipe": "BMS - UNIVERSO NUNES JULIAO",
+    "disciplina": "BMS",
+    "lider": "UNIVERSO NUNES JULIAO",
+    "id": "pessoa_847349"
+  },
+  {
+    "nome": "Tiago Alves Dutra",
+    "email": "tiago.dutra@convergint.com",
+    "equipe": "SEC - ALEXANDRE KODA",
+    "disciplina": "SEC",
+    "lider": "ALEXANDRE KODA",
+    "id": "pessoa_179679"
+  },
+  {
+    "nome": "Vinicius do Nascimento",
+    "email": "vinicius.nascimento@convergint.com",
+    "equipe": "BMS - UNIVERSO NUNES JULIAO",
+    "disciplina": "BMS",
+    "lider": "UNIVERSO NUNES JULIAO",
+    "id": "pessoa_581406"
+  },
+  {
+    "nome": "Vinicius Ribeiro da Silva",
+    "email": "vinicius.silva@convergint.com",
+    "equipe": "AV - THIAGO BELLAZZI",
+    "disciplina": "AV",
+    "lider": "THIAGO BELLAZZI",
+    "id": "pessoa_060046"
+  },
+  {
+    "nome": "Wesley Gomes Vieira",
+    "email": "wesley.vieira@convergint.com",
+    "equipe": "BMS - UNIVERSO NUNES JULIAO",
+    "disciplina": "BMS",
+    "lider": "UNIVERSO NUNES JULIAO",
+    "id": "pessoa_702609"
+  }
+]

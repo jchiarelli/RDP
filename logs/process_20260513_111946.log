@@ -1,0 +1,510 @@
+[11:19:47] INFO  === process_rdps.py v2.2 ===
+[11:19:47] INFO  RDP: C:\Users\Joao.Chiarelli\OneDrive - Convergint\Claude\Acompanhamento de projeto\RDP | OUT: C:\Users\Joao.Chiarelli\OneDrive - Convergint\Claude\Acompanhamento de projeto\dashboard_v2\data
+[11:19:47] INFO  Pessoas: 51 | Projetos: 1470
+[11:19:47] INFO  Datas alvo: ['2026-05-12', '2026-05-13']
+[11:19:47] INFO  Arquivos: 29
+[11:19:47] INFO  -> CTR20593_2026-05-11_RDP_(SEG)_Michel Sato.docx
+[11:19:47] INFO     pendencias: 0 | participantes: ['Michel Kenji Sato', 'Guilherme Ariz da Silva', 'Rafael Martins Lacerda']
+[11:19:47] INFO  -> CTR55040_2026-05-11_RDP_(BMS)_THIAGO BORGES.pdf
+[11:19:48] INFO     pendencias: 3 | participantes: ['Thiago Henrique Nunes Borges']
+[11:19:48] INFO  -> MONIN-PRE-SCA-GER-MO-R02.pdf
+[11:19:49] INFO     pendencias: 3 | participantes: []
+[11:19:49] INFO  -> PRJ22499_2026-05-11_RDP_(BMS)_Noélio de Brito Oliveira.pdf
+[11:19:50] INFO     pendencias: 0 | participantes: ['Noelio de Brito Oliveira', 'Matheus de Sousa Damico', 'Gislan Almeida dos Santos']
+[11:19:50] INFO  -> PRJ29927-2026-05-12_RDP_(BMS)_Vinicius Nascimento.pdf
+[11:19:50] INFO     pendencias: 0 | participantes: ['Vinicius do Nascimento']
+[11:19:50] INFO  -> PRJ29927_2026-05-11_RDP_(AV)_Jean Kevyn Correia Pessoa.docx
+[11:19:50] INFO     pendencias: 0 | participantes: ['Jean Kevyn Correia Pessoa', 'Gislan Almeida dos Santos', 'Eduardo da Purificacao Mota dos Santos']
+[11:19:50] INFO  -> PRJ29927_2026-05-11_RDP_(SEG)_Michel Sato.docx
+[11:19:50] INFO     pendencias: 1 | participantes: ['Michel Kenji Sato', 'Eduardo da Purificacao Mota dos Santos']
+[11:19:50] INFO  -> PRJ31386-2026-05-12_RDP_(SDAI)_Vinicius Nascimento.pdf
+[11:19:51] INFO     pendencias: 0 | participantes: ['Vinicius do Nascimento']
+[11:19:51] INFO  -> PRJ32503_2026-05-11_RDP_(SDAI)_DAVISON CAMPOS.pdf
+[11:19:51] INFO     pendencias: 7 | participantes: ['Davison Campos', 'MICHAEL JOSÉ MONTEIRO']
+[11:19:51] INFO  -> PRJ42188_2026-12_5_RDP_(SEG)_EDUARDO MOTA_SCA.pdf
+[11:19:52] INFO     pendencias: 1 | participantes: ['Eduardo da Purificacao Mota dos Santos']
+[11:19:52] INFO  -> PRJ42548_2026-05-11_RDP_SEG_Salathiel_Martins.pdf
+[11:19:53] INFO     pendencias: 0 | participantes: ['Salathiel da Silva Martins']
+[11:19:53] INFO  -> PRJ45503_2026-05-11_RDP_(BMS)_Renan Almeida.pdf
+[11:19:53] INFO     pendencias: 0 | participantes: ['Renan Silva Almeida', 'Larissa Isabelle da Silva']
+[11:19:53] INFO  -> PRJ45503_2026-05-12_RDP_(BMS)_Renan Almeida.pdf
+[11:19:54] INFO     pendencias: 5 | participantes: ['Renan Silva Almeida', 'Larissa Isabelle da Silva']
+[11:19:54] INFO  -> PRJ46618_2026-05-12_RDP_(SEC)_SergioOliveira.docx
+[11:19:54] INFO     pendencias: 1 | participantes: ['Sergio Henrique Ferreira de Oliveira']
+[11:19:54] INFO  -> PRJ47108_2026-05-11_RDP_(BMS)_Thiago Berzin Telles.pdf
+[11:19:54] INFO     pendencias: 1 | participantes: ['Thiago Berzin Telles', 'Jennifer Sousa da Silva']
+[11:19:54] INFO  -> PRJ53653_2026-05-11_RDP_(SEG)_Michel Sato.docx
+[11:19:54] INFO     pendencias: 0 | participantes: ['Michel Kenji Sato', 'Guilherme Ariz da Silva']
+[11:19:54] INFO  -> PRJ57394_2026-05-11_RDP_(SEG)_Tiago_Alves_Dutra.pdf
+[11:19:55] INFO     pendencias: 0 | participantes: ['Tiago Alves Dutra']
+[11:19:55] INFO  -> PRJ57394_2026-05-12_RDP_(SEG)_Tiago_Alves_Dutra.pdf
+[11:19:55] INFO     pendencias: 0 | participantes: ['Tiago Alves Dutra']
+[11:19:55] INFO  -> PRJ59747_2026-05-12_RDP_(SEG)_Michel Sato.docx
+[11:19:55] INFO     pendencias: 0 | participantes: ['Michel Kenji Sato']
+[11:19:55] INFO  -> PRJ59946_2026-05-08_RDP_(AV)_PAULO_SERGIO_DE_JESUS_FERNANDES - R02.docx
+[11:19:55] INFO     pendencias: 0 | participantes: ['Paulo Sergio de Jesus Fernandes', 'Leonardo da Silva Rodrigues', 'Renan de Souza Silva']
+[11:19:55] INFO  -> PRJ59946_2026-05-11_RDP_(AV)_PAULO_SERGIO_DE_JESUS_FERNANDES - R02.docx
+[11:19:56] INFO     pendencias: 0 | participantes: ['Paulo Sergio de Jesus Fernandes', 'Leonardo da Silva Rodrigues', 'Renan de Souza Silva', 'EXPEDITO ARAUJO', 'HENRIQUE FARIA', 'Salathiel da Silva Martins', 'YAN FORTES']
+[11:19:56] INFO  -> SENAC_CTR50136_2026-12-05_RDP_(AV)_Augusto-Valle.pdf
+[11:19:56] INFO     pendencias: 0 | participantes: ['Augusto Cesar Flocco Valle', 'Salathiel da Silva Martins']
+[11:19:56] INFO  -> PRJ22499_2026-05-12_RDP_(BMS)_Noélio de Brito Oliveira.pdf
+[11:19:57] INFO     pendencias: 0 | participantes: ['Noelio de Brito Oliveira', 'Matheus de Sousa Damico', 'Gislan Almeida dos Santos']
+[11:19:57] INFO  -> PRJ29927_2026-05-12_RDP_(AV)_Jean Kevyn Correia Pessoa.docx
+[11:19:57] INFO     pendencias: 0 | participantes: ['Jean Kevyn Correia Pessoa', 'Gislan Almeida dos Santos', 'Eduardo da Purificacao Mota dos Santos']
+[11:19:57] INFO  -> PRJ31386_2026-05-12_RDP_(SDAI)_RODRIGO DE OLIVEIRA SOUSA.pdf
+[11:19:57] INFO     pendencias: 0 | participantes: ['Rodrigo de Oliveira Sousa', 'Jeilan Souza de Lima', 'Anderson Caetano de Souza Pires']
+[11:19:57] INFO  -> PRJ40574_2026-05-12_RDP_SEG_Salathiel_Martins.pdf
+[11:19:57] INFO     pendencias: 0 | participantes: ['Salathiel da Silva Martins']
+[11:19:57] INFO  -> PRJ47108_2026-05-12_RDP_(BMS)_Thiago Berzin Telles.pdf
+[11:19:58] INFO     pendencias: 1 | participantes: ['Thiago Berzin Telles', 'Jennifer Sousa da Silva']
+[11:19:58] INFO  -> PRJ47108_2026-05-12_RDP_(SDAI)_Jeilan Lima.pdf
+[11:19:59] INFO     pendencias: 0 | participantes: ['Jeilan Souza de Lima', 'Leonardo da Silva Rodrigues']
+[11:19:59] INFO  -> PRJ53722_2026-05-12_RDP_(BMS)_Teylor Garibaldi.pdf
+[11:19:59] INFO     pendencias: 3 | participantes: ['Teylor Soares da Silva Garibaldi Pereira', 'Lindemberg Silva do Carmo Junior', 'Wesley Gomes Vieira']
+[11:19:59] INFO  Estruturados: 29
+[11:19:59] INFO  === Iniciando sincronizacao com Supabase ===
+[11:20:00] INFO  Supabase conectado: 200
+[11:20:00] WARN  Sync SENAC_CTR50136_2026-12-05_RDP_(AV)_Augusto-Valle.pdf: HTTP 400
+[11:20:00] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:00] WARN    Payload: {'arquivo': 'SENAC_CTR50136_2026-12-05_RDP_(AV)_Augusto-Valle.pdf', 'data': '2026-12-05', 'responsavel': 'Augusto Cesar Flocco Valle', 'projeto_codigo': 'CTR50136', 'sistema': 'AV', 'n_atividades': 0, 'n_pendencias': 0}
+[11:20:00] WARN  Sync PRJ55924_2026-11-05_RDP_(AV)_Augusto-Valle.pdf: HTTP 400
+[11:20:00] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:00] WARN    Payload: {'arquivo': 'PRJ55924_2026-11-05_RDP_(AV)_Augusto-Valle.pdf', 'data': '2026-11-05', 'responsavel': 'Augusto Cesar Flocco Valle', 'projeto_codigo': 'PRJ55924', 'sistema': 'AV', 'n_atividades': 0, 'n_pendencias': 0}
+[11:20:00] WARN  Sync SENAC_CTR50136_2026-11-05_RDP_(AV)_Augusto-Valle.pdf: HTTP 400
+[11:20:00] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:00] WARN    Payload: {'arquivo': 'SENAC_CTR50136_2026-11-05_RDP_(AV)_Augusto-Valle.pdf', 'data': '2026-11-05', 'responsavel': 'Augusto Cesar Flocco Valle', 'projeto_codigo': 'CTR50136', 'sistema': 'AV', 'n_atividades': 0, 'n_pendencias': 0}
+[11:20:00] WARN  Sync PRJ55924_2026-09-05_RDP_(AV)_Augusto-Valle.pdf: HTTP 400
+[11:20:00] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:00] WARN    Payload: {'arquivo': 'PRJ55924_2026-09-05_RDP_(AV)_Augusto-Valle.pdf', 'data': '2026-09-05', 'responsavel': 'Augusto Cesar Flocco Valle', 'projeto_codigo': 'PRJ55924', 'sistema': 'AV', 'n_atividades': 0, 'n_pendencias': 2}
+[11:20:01] WARN  Sync PRJ55924_2026-07-05_RDP_(AV)_Augusto-Valle.pdf: HTTP 400
+[11:20:01] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:01] WARN    Payload: {'arquivo': 'PRJ55924_2026-07-05_RDP_(AV)_Augusto-Valle.pdf', 'data': '2026-07-05', 'responsavel': 'Augusto Cesar Flocco Valle', 'projeto_codigo': 'PRJ55924', 'sistema': 'AV', 'n_atividades': 0, 'n_pendencias': 0}
+[11:20:01] WARN  Sync PRJ55924_2026-06-05_RDP_(AV)_Augusto-Valle.pdf: HTTP 400
+[11:20:01] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:01] WARN    Payload: {'arquivo': 'PRJ55924_2026-06-05_RDP_(AV)_Augusto-Valle.pdf', 'data': '2026-06-05', 'responsavel': 'Augusto Cesar Flocco Valle', 'projeto_codigo': 'PRJ55924', 'sistema': 'AV', 'n_atividades': 0, 'n_pendencias': 0}
+[11:20:02] WARN  Sync MONIN-PRE-SCA-GER-MO-R02.pdf: HTTP 400
+[11:20:02] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:02] WARN    Payload: {'arquivo': 'MONIN-PRE-SCA-GER-MO-R02.pdf', 'data': '2026-05-12', 'responsavel': '-', 'sistema': '-', 'n_atividades': 15, 'n_pendencias': 3}
+[11:20:02] WARN  Sync PRJ29927-2026-05-12_RDP_(BMS)_Vinicius Nascimento.pdf: HTTP 400
+[11:20:02] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:02] WARN    Payload: {'arquivo': 'PRJ29927-2026-05-12_RDP_(BMS)_Vinicius Nascimento.pdf', 'data': '2026-05-12', 'responsavel': 'Vinicius do Nascimento', 'projeto_codigo': 'PRJ29927', 'sistema': 'BMS', 'n_atividades': 4, 'n_pendencias': 0}
+[11:20:02] WARN  Sync PRJ31386-2026-05-12_RDP_(SDAI)_Vinicius Nascimento.pdf: HTTP 400
+[11:20:02] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:02] WARN    Payload: {'arquivo': 'PRJ31386-2026-05-12_RDP_(SDAI)_Vinicius Nascimento.pdf', 'data': '2026-05-12', 'responsavel': 'Vinicius do Nascimento', 'projeto_codigo': 'PRJ31386', 'sistema': 'SDAI', 'n_atividades': 1, 'n_pendencias': 0}
+[11:20:02] WARN  Sync PRJ42188_2026-12_5_RDP_(SEG)_EDUARDO MOTA_SCA.pdf: HTTP 400
+[11:20:02] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:02] WARN    Payload: {'arquivo': 'PRJ42188_2026-12_5_RDP_(SEG)_EDUARDO MOTA_SCA.pdf', 'data': '2026-05-12', 'responsavel': 'Eduardo da Purificacao Mota dos Santos', 'projeto_codigo': 'PRJ42188', 'sistema': 'SEG', 'n_atividades': 6, 'n_pendencias': 1}
+[11:20:02] WARN  Sync PRJ45503_2026-05-12_RDP_(BMS)_Renan Almeida.pdf: HTTP 400
+[11:20:02] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:02] WARN    Payload: {'arquivo': 'PRJ45503_2026-05-12_RDP_(BMS)_Renan Almeida.pdf', 'data': '2026-05-12', 'responsavel': 'Renan Silva Almeida', 'projeto_codigo': 'PRJ45503', 'sistema': 'BMS', 'n_atividades': 2, 'n_pendencias': 5}
+[11:20:03] WARN  Sync PRJ46618_2026-05-12_RDP_(SEC)_SergioOliveira.docx: HTTP 400
+[11:20:03] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:03] WARN    Payload: {'arquivo': 'PRJ46618_2026-05-12_RDP_(SEC)_SergioOliveira.docx', 'data': '2026-05-12', 'responsavel': 'SergioOliveira', 'projeto_codigo': 'PRJ46618', 'sistema': 'SEC', 'n_atividades': 0, 'n_pendencias': 1}
+[11:20:03] WARN  Sync PRJ57394_2026-05-12_RDP_(SEG)_Tiago_Alves_Dutra.pdf: HTTP 400
+[11:20:03] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:03] WARN    Payload: {'arquivo': 'PRJ57394_2026-05-12_RDP_(SEG)_Tiago_Alves_Dutra.pdf', 'data': '2026-05-12', 'responsavel': 'Tiago Alves Dutra', 'projeto_codigo': 'PRJ57394', 'sistema': 'SEG', 'n_atividades': 3, 'n_pendencias': 0}
+[11:20:04] WARN  Sync PRJ59747_2026-05-12_RDP_(SEG)_Michel Sato.docx: HTTP 400
+[11:20:04] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:04] WARN    Payload: {'arquivo': 'PRJ59747_2026-05-12_RDP_(SEG)_Michel Sato.docx', 'data': '2026-05-12', 'responsavel': 'Michel Kenji Sato', 'projeto_codigo': 'PRJ59747', 'sistema': 'SEG', 'n_atividades': 0, 'n_pendencias': 0}
+[11:20:04] WARN  Sync PRJ29927_2026-05-12_RDP_(AV)_Jean Kevyn Correia Pessoa.docx: HTTP 400
+[11:20:04] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:04] WARN    Payload: {'arquivo': 'PRJ29927_2026-05-12_RDP_(AV)_Jean Kevyn Correia Pessoa.docx', 'data': '2026-05-12', 'responsavel': 'Jean Kevyn Correia Pessoa', 'projeto_codigo': 'PRJ29927', 'sistema': 'AV', 'n_atividades': 1, 'n_pendencias': 0}
+[11:20:04] WARN  Sync PRJ40574_2026-05-12_RDP_SEG_Salathiel_Martins.pdf: HTTP 400
+[11:20:04] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:04] WARN    Payload: {'arquivo': 'PRJ40574_2026-05-12_RDP_SEG_Salathiel_Martins.pdf', 'data': '2026-05-12', 'responsavel': 'Salathiel da Silva Martins', 'projeto_codigo': 'PRJ40574', 'sistema': 'SEC', 'n_atividades': 2, 'n_pendencias': 0}
+[11:20:05] WARN  Sync PRJ47108_2026-05-12_RDP_(BMS)_Thiago Berzin Telles.pdf: HTTP 400
+[11:20:05] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:05] WARN    Payload: {'arquivo': 'PRJ47108_2026-05-12_RDP_(BMS)_Thiago Berzin Telles.pdf', 'data': '2026-05-12', 'responsavel': 'Thiago Berzin Telles', 'projeto_codigo': 'PRJ47108', 'sistema': 'BMS', 'n_atividades': 0, 'n_pendencias': 1}
+[11:20:05] WARN  Sync PRJ22499_2026-05-12_RDP_(BMS)_Noélio de Brito Oliveira.pdf: HTTP 400
+[11:20:05] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:05] WARN    Payload: {'arquivo': 'PRJ22499_2026-05-12_RDP_(BMS)_Noélio de Brito Oliveira.pdf', 'data': '2026-05-12', 'responsavel': 'Noelio de Brito Oliveira', 'projeto_codigo': 'PRJ22499', 'sistema': 'BMS', 'n_atividades': 0, 'n_pendencias': 0}
+[11:20:05] WARN  Sync PRJ31386_2026-05-12_RDP_(SDAI)_RODRIGO DE OLIVEIRA SOUSA.pdf: HTTP 400
+[11:20:05] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:05] WARN    Payload: {'arquivo': 'PRJ31386_2026-05-12_RDP_(SDAI)_RODRIGO DE OLIVEIRA SOUSA.pdf', 'data': '2026-05-12', 'responsavel': 'Rodrigo de Oliveira Sousa', 'projeto_codigo': 'PRJ31386', 'sistema': 'SDAI', 'n_atividades': 6, 'n_pendencias': 0}
+[11:20:06] WARN  Sync PRJ53722_2026-05-12_RDP_(BMS)_Teylor Garibaldi.pdf: HTTP 400
+[11:20:06] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:06] WARN    Payload: {'arquivo': 'PRJ53722_2026-05-12_RDP_(BMS)_Teylor Garibaldi.pdf', 'data': '2026-05-12', 'responsavel': 'Teylor Soares da Silva Garibaldi Pereira', 'projeto_codigo': 'PRJ53722', 'sistema': 'BMS', 'n_atividades': 15, 'n_pendencias': 3}
+[11:20:06] WARN  Sync PRJ47108_2026-05-12_RDP_(SDAI)_Jeilan Lima.pdf: HTTP 400
+[11:20:06] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:06] WARN    Payload: {'arquivo': 'PRJ47108_2026-05-12_RDP_(SDAI)_Jeilan Lima.pdf', 'data': '2026-05-12', 'responsavel': 'Jeilan Souza de Lima', 'projeto_codigo': 'PRJ47108', 'sistema': 'SDAI', 'n_atividades': 0, 'n_pendencias': 0}
+[11:20:06] WARN  Sync Aena Recife - Prints sensores SDAI sem tags RESPOSTAS.pdf: HTTP 400
+[11:20:06] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:06] WARN    Payload: {'arquivo': 'Aena Recife - Prints sensores SDAI sem tags RESPOSTAS.pdf', 'data': '2026-05-11', 'responsavel': '-', 'sistema': 'SDAI', 'n_atividades': 0, 'n_pendencias': 0}
+[11:20:06] WARN  Sync CTR19778_2026-05-11_RDP_(SEC)_Marcos Teixeira.pdf: HTTP 400
+[11:20:06] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:06] WARN    Payload: {'arquivo': 'CTR19778_2026-05-11_RDP_(SEC)_Marcos Teixeira.pdf', 'data': '2026-05-11', 'responsavel': 'Marcos Vinicius Salvadori Teixeira', 'projeto_codigo': 'CTR19778', 'sistema': 'SEC', 'n_atividades': 2, 'n_pendencias': 0}
+[11:20:07] WARN  Sync PRJ29927-2026-05-11_RDP_(BMS)_Vinicius Nascimento.pdf: HTTP 400
+[11:20:07] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:07] WARN    Payload: {'arquivo': 'PRJ29927-2026-05-11_RDP_(BMS)_Vinicius Nascimento.pdf', 'data': '2026-05-11', 'responsavel': 'Vinicius do Nascimento', 'projeto_codigo': 'PRJ29927', 'sistema': 'BMS', 'n_atividades': 2, 'n_pendencias': 0}
+[11:20:07] WARN  Sync PRJ42188_2026-11_5_RDP_(SEG)_EDUARDO MOTA_SCA.pdf: HTTP 400
+[11:20:07] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:07] WARN    Payload: {'arquivo': 'PRJ42188_2026-11_5_RDP_(SEG)_EDUARDO MOTA_SCA.pdf', 'data': '2026-05-11', 'responsavel': 'Eduardo da Purificacao Mota dos Santos', 'projeto_codigo': 'PRJ42188', 'sistema': 'SEG', 'n_atividades': 2, 'n_pendencias': 0}
+[11:20:07] WARN  Sync PRJ46618_2026-05-11_RDP_(SEC)_SergioOliveira.docx: HTTP 400
+[11:20:07] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:07] WARN    Payload: {'arquivo': 'PRJ46618_2026-05-11_RDP_(SEC)_SergioOliveira.docx', 'data': '2026-05-11', 'responsavel': 'SergioOliveira', 'projeto_codigo': 'PRJ46618', 'sistema': 'SEC', 'n_atividades': 0, 'n_pendencias': 0}
+[11:20:07] WARN  Sync PRJ53722_2026-05-11_RDP_(BMS)_Alfredo da Silveira.pdf: HTTP 400
+[11:20:07] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:07] WARN    Payload: {'arquivo': 'PRJ53722_2026-05-11_RDP_(BMS)_Alfredo da Silveira.pdf', 'data': '2026-05-11', 'responsavel': 'Alfredo da Silveira', 'projeto_codigo': 'PRJ53722', 'sistema': 'BMS', 'n_atividades': 1, 'n_pendencias': 0}
+[11:20:07] WARN  Sync PRJ57429_2026-05-11_RDP_(AV)_Caio_Hunke - R02.docx: HTTP 400
+[11:20:07] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:07] WARN    Payload: {'arquivo': 'PRJ57429_2026-05-11_RDP_(AV)_Caio_Hunke - R02.docx', 'data': '2026-05-11', 'responsavel': 'Caio Hunke Vieira da Silva', 'projeto_codigo': 'PRJ57429', 'sistema': 'AV', 'n_atividades': 0, 'n_pendencias': 0}
+[11:20:08] WARN  Sync CTR20593_2026-05-11_RDP_(SEG)_Michel Sato.docx: HTTP 400
+[11:20:08] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:08] WARN    Payload: {'arquivo': 'CTR20593_2026-05-11_RDP_(SEG)_Michel Sato.docx', 'data': '2026-05-11', 'responsavel': 'Michel Kenji Sato', 'projeto_codigo': 'CTR20593', 'sistema': 'SEG', 'n_atividades': 1, 'n_pendencias': 0}
+[11:20:08] WARN  Sync CTR55040_2026-05-11_RDP_(BMS)_THIAGO BORGES.pdf: HTTP 400
+[11:20:08] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:08] WARN    Payload: {'arquivo': 'CTR55040_2026-05-11_RDP_(BMS)_THIAGO BORGES.pdf', 'data': '2026-05-11', 'responsavel': 'Thiago Henrique Nunes Borges', 'projeto_codigo': 'CTR55040', 'sistema': 'BMS', 'n_atividades': 2, 'n_pendencias': 3}
+[11:20:08] WARN  Sync PRJ22499_2026-05-11_RDP_(BMS)_Noélio de Brito Oliveira.pdf: HTTP 400
+[11:20:08] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:08] WARN    Payload: {'arquivo': 'PRJ22499_2026-05-11_RDP_(BMS)_Noélio de Brito Oliveira.pdf', 'data': '2026-05-11', 'responsavel': 'Noelio de Brito Oliveira', 'projeto_codigo': 'PRJ22499', 'sistema': 'BMS', 'n_atividades': 0, 'n_pendencias': 0}
+[11:20:08] WARN  Sync PRJ29927_2026-05-11_RDP_(AV)_Jean Kevyn Correia Pessoa.docx: HTTP 400
+[11:20:08] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:08] WARN    Payload: {'arquivo': 'PRJ29927_2026-05-11_RDP_(AV)_Jean Kevyn Correia Pessoa.docx', 'data': '2026-05-11', 'responsavel': 'Jean Kevyn Correia Pessoa', 'projeto_codigo': 'PRJ29927', 'sistema': 'AV', 'n_atividades': 1, 'n_pendencias': 0}
+[11:20:09] WARN  Sync PRJ29927_2026-05-11_RDP_(SEG)_Michel Sato.docx: HTTP 400
+[11:20:09] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:09] WARN    Payload: {'arquivo': 'PRJ29927_2026-05-11_RDP_(SEG)_Michel Sato.docx', 'data': '2026-05-11', 'responsavel': 'Michel Kenji Sato', 'projeto_codigo': 'PRJ29927', 'sistema': 'SEG', 'n_atividades': 0, 'n_pendencias': 1}
+[11:20:09] WARN  Sync PRJ32503_2026-05-11_RDP_(SDAI)_DAVISON CAMPOS.pdf: HTTP 400
+[11:20:09] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:09] WARN    Payload: {'arquivo': 'PRJ32503_2026-05-11_RDP_(SDAI)_DAVISON CAMPOS.pdf', 'data': '2026-05-11', 'responsavel': 'Davison Campos', 'projeto_codigo': 'PRJ32503', 'sistema': 'SDAI', 'n_atividades': 9, 'n_pendencias': 7}
+[11:20:10] WARN  Sync PRJ42548_2026-05-11_RDP_SEG_Salathiel_Martins.pdf: HTTP 400
+[11:20:10] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:10] WARN    Payload: {'arquivo': 'PRJ42548_2026-05-11_RDP_SEG_Salathiel_Martins.pdf', 'data': '2026-05-11', 'responsavel': 'Salathiel da Silva Martins', 'projeto_codigo': 'PRJ42548', 'sistema': 'SEC', 'n_atividades': 6, 'n_pendencias': 0}
+[11:20:10] WARN  Sync PRJ47108_2026-05-11_RDP_(BMS)_Thiago Berzin Telles.pdf: HTTP 400
+[11:20:10] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:10] WARN    Payload: {'arquivo': 'PRJ47108_2026-05-11_RDP_(BMS)_Thiago Berzin Telles.pdf', 'data': '2026-05-11', 'responsavel': 'Thiago Berzin Telles', 'projeto_codigo': 'PRJ47108', 'sistema': 'BMS', 'n_atividades': 0, 'n_pendencias': 1}
+[11:20:10] WARN  Sync PRJ53653_2026-05-11_RDP_(SEG)_Michel Sato.docx: HTTP 400
+[11:20:10] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:10] WARN    Payload: {'arquivo': 'PRJ53653_2026-05-11_RDP_(SEG)_Michel Sato.docx', 'data': '2026-05-11', 'responsavel': 'Michel Kenji Sato', 'projeto_codigo': 'PRJ53653', 'sistema': 'SEG', 'n_atividades': 0, 'n_pendencias': 0}
+[11:20:11] WARN  Sync PRJ57394_2026-05-11_RDP_(SEG)_Tiago_Alves_Dutra.pdf: HTTP 400
+[11:20:11] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:11] WARN    Payload: {'arquivo': 'PRJ57394_2026-05-11_RDP_(SEG)_Tiago_Alves_Dutra.pdf', 'data': '2026-05-11', 'responsavel': 'Tiago Alves Dutra', 'projeto_codigo': 'PRJ57394', 'sistema': 'SEG', 'n_atividades': 3, 'n_pendencias': 0}
+[11:20:11] WARN  Sync PRJ59946_2026-05-11_RDP_(AV)_PAULO_SERGIO_DE_JESUS_FERNANDES - R02.docx: HTTP 400
+[11:20:11] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:11] WARN    Payload: {'arquivo': 'PRJ59946_2026-05-11_RDP_(AV)_PAULO_SERGIO_DE_JESUS_FERNANDES - R02.docx', 'data': '2026-05-11', 'responsavel': 'Paulo Sergio de Jesus Fernandes', 'projeto_codigo': 'PRJ59946', 'sistema': 'AV', 'n_atividades': 5, 'n_pendencias': 0}
+[11:20:11] WARN  Sync PRJ45503_2026-05-11_RDP_(BMS)_Renan Almeida.pdf: HTTP 400
+[11:20:11] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:11] WARN    Payload: {'arquivo': 'PRJ45503_2026-05-11_RDP_(BMS)_Renan Almeida.pdf', 'data': '2026-05-11', 'responsavel': 'Renan Silva Almeida', 'projeto_codigo': 'PRJ45503', 'sistema': 'BMS', 'n_atividades': 1, 'n_pendencias': 0}
+[11:20:11] WARN  Sync 2511_C06295_CTR59356_2026-05-09_RDP_(Security)_Jonilson Campos - R02.docx: HTTP 400
+[11:20:11] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:11] WARN    Payload: {'arquivo': '2511_C06295_CTR59356_2026-05-09_RDP_(Security)_Jonilson Campos - R02.docx', 'data': '2026-05-09', 'responsavel': 'Jonilson Lopes Campos Filho', 'projeto_codigo': 'CTR59356', 'sistema': 'SECURITY', 'n_atividades': 0, 'n_pendencias': 0}
+[11:20:12] WARN  Sync PRJ22499_2026-05-08_RDP_(BMS)_Noélio de Brito Oliveira.pdf: HTTP 400
+[11:20:12] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:12] WARN    Payload: {'arquivo': 'PRJ22499_2026-05-08_RDP_(BMS)_Noélio de Brito Oliveira.pdf', 'data': '2026-05-08', 'responsavel': 'Noelio de Brito Oliveira', 'projeto_codigo': 'PRJ22499', 'sistema': 'BMS', 'n_atividades': 0, 'n_pendencias': 0}
+[11:20:12] WARN  Sync PRJ32503_2026-05-08_RDP_(SDAI)_DAVISON CAMPOS.pdf: HTTP 400
+[11:20:12] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:12] WARN    Payload: {'arquivo': 'PRJ32503_2026-05-08_RDP_(SDAI)_DAVISON CAMPOS.pdf', 'data': '2026-05-08', 'responsavel': 'Davison Campos', 'projeto_codigo': 'PRJ32503', 'sistema': 'SDAI', 'n_atividades': 11, 'n_pendencias': 0}
+[11:20:12] WARN  Sync 2511_C06295_CTR59356_2026-05-08_RDP_(Security)_Jonilson Campos - R02.docx: HTTP 400
+[11:20:12] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:12] WARN    Payload: {'arquivo': '2511_C06295_CTR59356_2026-05-08_RDP_(Security)_Jonilson Campos - R02.docx', 'data': '2026-05-08', 'responsavel': 'Jonilson Lopes Campos Filho', 'projeto_codigo': 'CTR59356', 'sistema': 'SECURITY', 'n_atividades': 4, 'n_pendencias': 0}
+[11:20:13] WARN  Sync Device Maintenance  Reports_Odata RJ - Testes - 2026.05.08.pdf: HTTP 400
+[11:20:13] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:13] WARN    Payload: {'arquivo': 'Device Maintenance  Reports_Odata RJ - Testes - 2026.05.08.pdf', 'data': '2026-05-08', 'responsavel': '-', 'sistema': '-', 'n_atividades': 0, 'n_pendencias': 0}
+[11:20:13] WARN  Sync Lista de Verificação - SDAI - 2026.05.08.pdf: HTTP 400
+[11:20:13] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:13] WARN    Payload: {'arquivo': 'Lista de Verificação - SDAI - 2026.05.08.pdf', 'data': '2026-05-08', 'responsavel': '-', 'sistema': 'SDAI', 'n_atividades': 0, 'n_pendencias': 0}
+[11:20:13] WARN  Sync PRJ29927-2026-05-08_RDP_(BMS)_Vinicius Nascimento.pdf: HTTP 400
+[11:20:13] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:13] WARN    Payload: {'arquivo': 'PRJ29927-2026-05-08_RDP_(BMS)_Vinicius Nascimento.pdf', 'data': '2026-05-08', 'responsavel': 'Vinicius do Nascimento', 'projeto_codigo': 'PRJ29927', 'sistema': 'BMS', 'n_atividades': 3, 'n_pendencias': 0}
+[11:20:13] WARN  Sync PRJ29927_2026-05-08_RDP_(AV)_Jean Kevyn Correia Pessoa.docx: HTTP 400
+[11:20:13] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:13] WARN    Payload: {'arquivo': 'PRJ29927_2026-05-08_RDP_(AV)_Jean Kevyn Correia Pessoa.docx', 'data': '2026-05-08', 'responsavel': 'Jean Kevyn Correia Pessoa', 'projeto_codigo': 'PRJ29927', 'sistema': 'AV', 'n_atividades': 1, 'n_pendencias': 0}
+[11:20:14] WARN  Sync PRJ34216_2026-05-08_RDP_(BMS)_JhonatanAtaide.pdf: HTTP 400
+[11:20:14] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:14] WARN    Payload: {'arquivo': 'PRJ34216_2026-05-08_RDP_(BMS)_JhonatanAtaide.pdf', 'data': '2026-05-08', 'responsavel': 'Jhonatan Camara de Ataide', 'projeto_codigo': 'PRJ34216', 'sistema': 'BMS', 'n_atividades': 0, 'n_pendencias': 0}
+[11:20:14] WARN  Sync PRJ40574_2026-05-08_RDP_(SDAI)_Miguel Meyer - R00.docx: HTTP 400
+[11:20:14] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:14] WARN    Payload: {'arquivo': 'PRJ40574_2026-05-08_RDP_(SDAI)_Miguel Meyer - R00.docx', 'data': '2026-05-08', 'responsavel': 'Miguel Felix Meyer', 'projeto_codigo': 'PRJ40574', 'sistema': 'SDAI', 'n_atividades': 1, 'n_pendencias': 0}
+[11:20:14] WARN  Sync PRJ40574_2026-05-08_RDP_(SDAI)_Miguel Meyer - R00.pdf: HTTP 400
+[11:20:14] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:14] WARN    Payload: {'arquivo': 'PRJ40574_2026-05-08_RDP_(SDAI)_Miguel Meyer - R00.pdf', 'data': '2026-05-08', 'responsavel': 'Miguel Felix Meyer', 'projeto_codigo': 'PRJ40574', 'sistema': 'SDAI', 'n_atividades': 1, 'n_pendencias': 0}
+[11:20:14] WARN  Sync PRJ45503_2026-05-08_RDP_(BMS)_Renan Almeida.pdf: HTTP 400
+[11:20:14] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:14] WARN    Payload: {'arquivo': 'PRJ45503_2026-05-08_RDP_(BMS)_Renan Almeida.pdf', 'data': '2026-05-08', 'responsavel': 'Renan Silva Almeida', 'projeto_codigo': 'PRJ45503', 'sistema': 'BMS', 'n_atividades': 8, 'n_pendencias': 0}
+[11:20:14] WARN  Sync PRJ45503_2026-05-08_RDP_(SDAI)_João Viana.pdf: HTTP 400
+[11:20:14] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:14] WARN    Payload: {'arquivo': 'PRJ45503_2026-05-08_RDP_(SDAI)_João Viana.pdf', 'data': '2026-05-08', 'responsavel': 'Joao Victor Sousa Viana', 'projeto_codigo': 'PRJ45503', 'sistema': 'SDAI', 'n_atividades': 1, 'n_pendencias': 0}
+[11:20:15] WARN  Sync PRJ47108_2026-05-08_RDP_(BMS)_Thiago Berzin Telles.pdf: HTTP 400
+[11:20:15] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:15] WARN    Payload: {'arquivo': 'PRJ47108_2026-05-08_RDP_(BMS)_Thiago Berzin Telles.pdf', 'data': '2026-05-08', 'responsavel': 'Thiago Berzin Telles', 'projeto_codigo': 'PRJ47108', 'sistema': 'BMS', 'n_atividades': 0, 'n_pendencias': 1}
+[11:20:15] WARN  Sync PRJ48289_2026-05-08_2502_C10257 _RDP_SEC_Andre Chacon .pdf: HTTP 400
+[11:20:15] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:15] WARN    Payload: {'arquivo': 'PRJ48289_2026-05-08_2502_C10257 _RDP_SEC_Andre Chacon .pdf', 'data': '2026-05-08', 'responsavel': 'Andre Chacon da Silveira', 'projeto_codigo': 'PRJ48289', 'sistema': 'SEC', 'n_atividades': 0, 'n_pendencias': 0}
+[11:20:15] WARN  Sync PRJ49550_2026-05-08_2509_C09677_RDP_(SEC)_Andre Chacon.pdf: HTTP 400
+[11:20:15] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:15] WARN    Payload: {'arquivo': 'PRJ49550_2026-05-08_2509_C09677_RDP_(SEC)_Andre Chacon.pdf', 'data': '2026-05-08', 'responsavel': 'Andre Chacon da Silveira', 'projeto_codigo': 'PRJ49550', 'sistema': 'SEC', 'n_atividades': 0, 'n_pendencias': 0}
+[11:20:15] WARN  Sync PRJ53722_2026-05-08_RDP_(BMS)_Alfredo da Silveira.pdf: HTTP 400
+[11:20:15] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:15] WARN    Payload: {'arquivo': 'PRJ53722_2026-05-08_RDP_(BMS)_Alfredo da Silveira.pdf', 'data': '2026-05-08', 'responsavel': 'Alfredo da Silveira', 'projeto_codigo': 'PRJ53722', 'sistema': 'BMS', 'n_atividades': 1, 'n_pendencias': 0}
+[11:20:16] WARN  Sync PRJ53722_2026-05-08_RDP_(SDAI)_RODRIGO DE OLIVEIRA SOUSA.pdf: HTTP 400
+[11:20:16] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:16] WARN    Payload: {'arquivo': 'PRJ53722_2026-05-08_RDP_(SDAI)_RODRIGO DE OLIVEIRA SOUSA.pdf', 'data': '2026-05-08', 'responsavel': 'Rodrigo de Oliveira Sousa', 'projeto_codigo': 'PRJ53722', 'sistema': 'SDAI', 'n_atividades': 2, 'n_pendencias': 0}
+[11:20:16] WARN  Sync PRJ55924_2026-05-08_RDP_(AV)_Augusto-Valle.pdf: HTTP 400
+[11:20:16] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:16] WARN    Payload: {'arquivo': 'PRJ55924_2026-05-08_RDP_(AV)_Augusto-Valle.pdf', 'data': '2026-05-08', 'responsavel': 'Augusto Cesar Flocco Valle', 'projeto_codigo': 'PRJ55924', 'sistema': 'AV', 'n_atividades': 0, 'n_pendencias': 0}
+[11:20:16] WARN  Sync PRJ57394_2026-05-08_RDP_(SEG)_Tiago_Alves_Dutra.pdf: HTTP 400
+[11:20:16] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:16] WARN    Payload: {'arquivo': 'PRJ57394_2026-05-08_RDP_(SEG)_Tiago_Alves_Dutra.pdf', 'data': '2026-05-08', 'responsavel': 'Tiago Alves Dutra', 'projeto_codigo': 'PRJ57394', 'sistema': 'SEG', 'n_atividades': 3, 'n_pendencias': 0}
+[11:20:16] WARN  Sync CTR19778_2026-05-08_RDP_(SEC)_Marcos Teixeira.pdf: HTTP 400
+[11:20:16] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:16] WARN    Payload: {'arquivo': 'CTR19778_2026-05-08_RDP_(SEC)_Marcos Teixeira.pdf', 'data': '2026-05-08', 'responsavel': 'Marcos Vinicius Salvadori Teixeira', 'projeto_codigo': 'CTR19778', 'sistema': 'SEC', 'n_atividades': 2, 'n_pendencias': 0}
+[11:20:17] WARN  Sync PRJ42548_2026-05-08_RDP_SEG_Salathiel_Martins.pdf: HTTP 400
+[11:20:17] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:17] WARN    Payload: {'arquivo': 'PRJ42548_2026-05-08_RDP_SEG_Salathiel_Martins.pdf', 'data': '2026-05-08', 'responsavel': 'Salathiel da Silva Martins', 'projeto_codigo': 'PRJ42548', 'sistema': 'SEC', 'n_atividades': 2, 'n_pendencias': 1}
+[11:20:17] WARN  Sync PRJ57429_2026-05-08_RDP_(AV)_Caio_Hunke - R02.docx: HTTP 400
+[11:20:17] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:17] WARN    Payload: {'arquivo': 'PRJ57429_2026-05-08_RDP_(AV)_Caio_Hunke - R02.docx', 'data': '2026-05-08', 'responsavel': 'Caio Hunke Vieira da Silva', 'projeto_codigo': 'PRJ57429', 'sistema': 'AV', 'n_atividades': 0, 'n_pendencias': 0}
+[11:20:17] WARN  Sync PRJ59946_2026-05-08_RDP_(AV)_PAULO_SERGIO_DE_JESUS_FERNANDES - R02.docx: HTTP 400
+[11:20:17] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:17] WARN    Payload: {'arquivo': 'PRJ59946_2026-05-08_RDP_(AV)_PAULO_SERGIO_DE_JESUS_FERNANDES - R02.docx', 'data': '2026-05-08', 'responsavel': 'Paulo Sergio de Jesus Fernandes', 'projeto_codigo': 'PRJ59946', 'sistema': 'AV', 'n_atividades': 0, 'n_pendencias': 0}
+[11:20:18] WARN  Sync 2026-05-07_RDP_GSIPR- 2110_C01160_00107839_SEC_Andre Chacon.pdf: HTTP 400
+[11:20:18] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:18] WARN    Payload: {'arquivo': '2026-05-07_RDP_GSIPR- 2110_C01160_00107839_SEC_Andre Chacon.pdf', 'data': '2026-05-07', 'responsavel': '2110 C01160 00107839 SEC Andre Chacon', 'sistema': '-', 'n_atividades': 0, 'n_pendencias': 0}
+[11:20:18] WARN  Sync AEG61320-2026-05-07_RDP_(BMS)_Larissa Isabelle.pdf: HTTP 400
+[11:20:18] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:18] WARN    Payload: {'arquivo': 'AEG61320-2026-05-07_RDP_(BMS)_Larissa Isabelle.pdf', 'data': '2026-05-07', 'responsavel': 'Larissa Isabelle da Silva', 'sistema': 'BMS', 'n_atividades': 1, 'n_pendencias': 0}
+[11:20:18] WARN  Sync Device Maintenance  Reports_Odata RJ - Testes - 2026.05.07.pdf: HTTP 400
+[11:20:18] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:18] WARN    Payload: {'arquivo': 'Device Maintenance  Reports_Odata RJ - Testes - 2026.05.07.pdf', 'data': '2026-05-07', 'responsavel': '-', 'sistema': '-', 'n_atividades': 0, 'n_pendencias': 0}
+[11:20:18] WARN  Sync Lista de Verificação - SDAI - 2026.05.07.pdf: HTTP 400
+[11:20:18] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:18] WARN    Payload: {'arquivo': 'Lista de Verificação - SDAI - 2026.05.07.pdf', 'data': '2026-05-07', 'responsavel': '-', 'sistema': 'SDAI', 'n_atividades': 0, 'n_pendencias': 0}
+[11:20:18] WARN  Sync PRJ19620-2026-05-07_RDP_(BMS)_Anderson.pdf: HTTP 400
+[11:20:18] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:18] WARN    Payload: {'arquivo': 'PRJ19620-2026-05-07_RDP_(BMS)_Anderson.pdf', 'data': '2026-05-07', 'responsavel': 'Anderson Caetano de Souza Pires', 'projeto_codigo': 'PRJ19620', 'sistema': 'BMS', 'n_atividades': 7, 'n_pendencias': 0}
+[11:20:19] WARN  Sync PRJ29927-2026-05-07_RDP_(BMS)_Vinicius Nascimento.pdf: HTTP 400
+[11:20:19] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:19] WARN    Payload: {'arquivo': 'PRJ29927-2026-05-07_RDP_(BMS)_Vinicius Nascimento.pdf', 'data': '2026-05-07', 'responsavel': 'Vinicius do Nascimento', 'projeto_codigo': 'PRJ29927', 'sistema': 'BMS', 'n_atividades': 2, 'n_pendencias': 0}
+[11:20:21] WARN  Sync PRJ40574_2026-05-07_RDP_(SDAI)_Miguel Meyer - R00.docx: HTTP 400
+[11:20:21] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:21] WARN    Payload: {'arquivo': 'PRJ40574_2026-05-07_RDP_(SDAI)_Miguel Meyer - R00.docx', 'data': '2026-05-07', 'responsavel': 'Miguel Felix Meyer', 'projeto_codigo': 'PRJ40574', 'sistema': 'SDAI', 'n_atividades': 1, 'n_pendencias': 0}
+[11:20:21] WARN  Sync PRJ40574_2026-05-07_RDP_(SDAI)_Miguel Meyer - R00.pdf: HTTP 400
+[11:20:21] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:21] WARN    Payload: {'arquivo': 'PRJ40574_2026-05-07_RDP_(SDAI)_Miguel Meyer - R00.pdf', 'data': '2026-05-07', 'responsavel': 'Miguel Felix Meyer', 'projeto_codigo': 'PRJ40574', 'sistema': 'SDAI', 'n_atividades': 1, 'n_pendencias': 0}
+[11:20:22] WARN  Sync PRJ42188_2026-07_5_RDP_(SEG)_EDUARDO MOTA_SCA.pdf: HTTP 400
+[11:20:22] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:22] WARN    Payload: {'arquivo': 'PRJ42188_2026-07_5_RDP_(SEG)_EDUARDO MOTA_SCA.pdf', 'data': '2026-05-07', 'responsavel': 'Eduardo da Purificacao Mota dos Santos', 'projeto_codigo': 'PRJ42188', 'sistema': 'SEG', 'n_atividades': 9, 'n_pendencias': 0}
+[11:20:22] WARN  Sync PRJ45503_2026-05-07_RDP_(BMS)_Renan Almeida.pdf: HTTP 400
+[11:20:22] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:22] WARN    Payload: {'arquivo': 'PRJ45503_2026-05-07_RDP_(BMS)_Renan Almeida.pdf', 'data': '2026-05-07', 'responsavel': 'Renan Silva Almeida', 'projeto_codigo': 'PRJ45503', 'sistema': 'BMS', 'n_atividades': 8, 'n_pendencias': 0}
+[11:20:22] WARN  Sync PRJ47108_2026-05-07_RDP_(BMS)_GUILHEME ARIZ DA SILVA.pdf: HTTP 400
+[11:20:22] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:22] WARN    Payload: {'arquivo': 'PRJ47108_2026-05-07_RDP_(BMS)_GUILHEME ARIZ DA SILVA.pdf', 'data': '2026-05-07', 'responsavel': 'Guilherme Ariz da Silva', 'projeto_codigo': 'PRJ47108', 'sistema': 'BMS', 'n_atividades': 1, 'n_pendencias': 0}
+[11:20:22] WARN  Sync PRJ47108_2026-05-07_RDP_(SDAI)_Jeilan Lima.pdf: HTTP 400
+[11:20:22] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:22] WARN    Payload: {'arquivo': 'PRJ47108_2026-05-07_RDP_(SDAI)_Jeilan Lima.pdf', 'data': '2026-05-07', 'responsavel': 'Jeilan Souza de Lima', 'projeto_codigo': 'PRJ47108', 'sistema': 'SDAI', 'n_atividades': 0, 'n_pendencias': 0}
+[11:20:22] WARN  Sync PRJ29927_2026-05-07_RDP_(AV)_Jean Kevyn Correia Pessoa.docx: HTTP 400
+[11:20:22] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:22] WARN    Payload: {'arquivo': 'PRJ29927_2026-05-07_RDP_(AV)_Jean Kevyn Correia Pessoa.docx', 'data': '2026-05-07', 'responsavel': 'Jean Kevyn Correia Pessoa', 'projeto_codigo': 'PRJ29927', 'sistema': 'AV', 'n_atividades': 1, 'n_pendencias': 4}
+[11:20:23] WARN  Sync PRJ32503_2026-05-07_RDP_(SDAI)_DAVISON CAMPOS.pdf: HTTP 400
+[11:20:23] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:23] WARN    Payload: {'arquivo': 'PRJ32503_2026-05-07_RDP_(SDAI)_DAVISON CAMPOS.pdf', 'data': '2026-05-07', 'responsavel': 'Davison Campos', 'projeto_codigo': 'PRJ32503', 'sistema': 'SDAI', 'n_atividades': 15, 'n_pendencias': 3}
+[11:20:23] WARN  Sync PRJ42548_2026-05-07_RDP_SEG_Salathiel_Martins.pdf: HTTP 400
+[11:20:23] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:23] WARN    Payload: {'arquivo': 'PRJ42548_2026-05-07_RDP_SEG_Salathiel_Martins.pdf', 'data': '2026-05-07', 'responsavel': 'Salathiel da Silva Martins', 'projeto_codigo': 'PRJ42548', 'sistema': 'SEC', 'n_atividades': 2, 'n_pendencias': 0}
+[11:20:23] WARN  Sync PRJ45503_2026-05-07_RDP_(SDAI)_João Viana.pdf: HTTP 400
+[11:20:23] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:23] WARN    Payload: {'arquivo': 'PRJ45503_2026-05-07_RDP_(SDAI)_João Viana.pdf', 'data': '2026-05-07', 'responsavel': 'Joao Victor Sousa Viana', 'projeto_codigo': 'PRJ45503', 'sistema': 'SDAI', 'n_atividades': 5, 'n_pendencias': 0}
+[11:20:23] WARN  Sync PRJ47108_2026-05-07_RDP_(BMS)_Thiago Berzin Telles.pdf: HTTP 400
+[11:20:23] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:23] WARN    Payload: {'arquivo': 'PRJ47108_2026-05-07_RDP_(BMS)_Thiago Berzin Telles.pdf', 'data': '2026-05-07', 'responsavel': 'Thiago Berzin Telles', 'projeto_codigo': 'PRJ47108', 'sistema': 'BMS', 'n_atividades': 0, 'n_pendencias': 1}
+[11:20:24] WARN  Sync PRJ53722_2026-05-07_RDP_(BMS)_Alfredo da Silveira.pdf: HTTP 400
+[11:20:24] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:24] WARN    Payload: {'arquivo': 'PRJ53722_2026-05-07_RDP_(BMS)_Alfredo da Silveira.pdf', 'data': '2026-05-07', 'responsavel': 'Alfredo da Silveira', 'projeto_codigo': 'PRJ53722', 'sistema': 'BMS', 'n_atividades': 1, 'n_pendencias': 0}
+[11:20:24] WARN  Sync PRJ57394_2026-05-07_RDP_(SEG)_Tiago_Alves_Dutra.pdf: HTTP 400
+[11:20:24] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:24] WARN    Payload: {'arquivo': 'PRJ57394_2026-05-07_RDP_(SEG)_Tiago_Alves_Dutra.pdf', 'data': '2026-05-07', 'responsavel': 'Tiago Alves Dutra', 'projeto_codigo': 'PRJ57394', 'sistema': 'SEG', 'n_atividades': 3, 'n_pendencias': 0}
+[11:20:24] WARN  Sync CTR19778_2026-05-07_RDP_(SEC)_Marcos Teixeira.pdf: HTTP 400
+[11:20:24] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:24] WARN    Payload: {'arquivo': 'CTR19778_2026-05-07_RDP_(SEC)_Marcos Teixeira.pdf', 'data': '2026-05-07', 'responsavel': 'Marcos Vinicius Salvadori Teixeira', 'projeto_codigo': 'CTR19778', 'sistema': 'SEC', 'n_atividades': 3, 'n_pendencias': 2}
+[11:20:24] WARN  Sync Device Maintenance  Reports_Odata RJ - Testes - 2026.05.06.pdf: HTTP 400
+[11:20:24] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:24] WARN    Payload: {'arquivo': 'Device Maintenance  Reports_Odata RJ - Testes - 2026.05.06.pdf', 'data': '2026-05-06', 'responsavel': '-', 'sistema': '-', 'n_atividades': 0, 'n_pendencias': 0}
+[11:20:24] WARN  Sync Device Maintenance  Reports_Odata RJ 2026.03.03 - Fase 5_05062026_092559.pdf: HTTP 400
+[11:20:24] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:24] WARN    Payload: {'arquivo': 'Device Maintenance  Reports_Odata RJ 2026.03.03 - Fase 5_05062026_092559.pdf', 'data': '2026-05-06', 'responsavel': '-', 'sistema': '-', 'n_atividades': 0, 'n_pendencias': 0}
+[11:20:25] WARN  Sync Device Maintenance  Reports_Odata RJ 2026.03.03 - Fase 5_05062026_092657.pdf: HTTP 400
+[11:20:25] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:25] WARN    Payload: {'arquivo': 'Device Maintenance  Reports_Odata RJ 2026.03.03 - Fase 5_05062026_092657.pdf', 'data': '2026-05-06', 'responsavel': '-', 'sistema': '-', 'n_atividades': 0, 'n_pendencias': 0}
+[11:20:25] WARN  Sync Lista de Verificação - SDAI - 2026.05.06.pdf: HTTP 400
+[11:20:25] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:25] WARN    Payload: {'arquivo': 'Lista de Verificação - SDAI - 2026.05.06.pdf', 'data': '2026-05-06', 'responsavel': '-', 'sistema': 'SDAI', 'n_atividades': 0, 'n_pendencias': 0}
+[11:20:25] WARN  Sync PRJ29927-2026-05-06_RDP_(BMS)_Vinicius Nascimento.pdf: HTTP 400
+[11:20:25] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:25] WARN    Payload: {'arquivo': 'PRJ29927-2026-05-06_RDP_(BMS)_Vinicius Nascimento.pdf', 'data': '2026-05-06', 'responsavel': 'Vinicius do Nascimento', 'projeto_codigo': 'PRJ29927', 'sistema': 'BMS', 'n_atividades': 4, 'n_pendencias': 2}
+[11:20:25] WARN  Sync PRJ34216_2026-05-06_RDP_(BMS)_JhonatanAtaide.pdf: HTTP 400
+[11:20:25] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:25] WARN    Payload: {'arquivo': 'PRJ34216_2026-05-06_RDP_(BMS)_JhonatanAtaide.pdf', 'data': '2026-05-06', 'responsavel': 'Jhonatan Camara de Ataide', 'projeto_codigo': 'PRJ34216', 'sistema': 'BMS', 'n_atividades': 3, 'n_pendencias': 3}
+[11:20:26] WARN  Sync PRJ40516_2026-05-06_RDP_(BMS)_Diego Santos Sousa Braga.pdf: HTTP 400
+[11:20:26] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:26] WARN    Payload: {'arquivo': 'PRJ40516_2026-05-06_RDP_(BMS)_Diego Santos Sousa Braga.pdf', 'data': '2026-05-06', 'responsavel': 'Diego Santos Sousa Braga', 'projeto_codigo': 'PRJ40516', 'sistema': 'BMS', 'n_atividades': 0, 'n_pendencias': 0}
+[11:20:26] WARN  Sync PRJ40574_2026-05-06_RDP_(SDAI)_Miguel Meyer - R00.docx: HTTP 400
+[11:20:26] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:26] WARN    Payload: {'arquivo': 'PRJ40574_2026-05-06_RDP_(SDAI)_Miguel Meyer - R00.docx', 'data': '2026-05-06', 'responsavel': 'Miguel Felix Meyer', 'projeto_codigo': 'PRJ40574', 'sistema': 'SDAI', 'n_atividades': 1, 'n_pendencias': 0}
+[11:20:26] WARN  Sync PRJ40574_2026-05-06_RDP_(SDAI)_Miguel Meyer - R00.pdf: HTTP 400
+[11:20:26] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:26] WARN    Payload: {'arquivo': 'PRJ40574_2026-05-06_RDP_(SDAI)_Miguel Meyer - R00.pdf', 'data': '2026-05-06', 'responsavel': 'Miguel Felix Meyer', 'projeto_codigo': 'PRJ40574', 'sistema': 'SDAI', 'n_atividades': 1, 'n_pendencias': 0}
+[11:20:26] WARN  Sync PRJ45503_2026-05-06_RDP_(BMS)_Renan Almeida.pdf: HTTP 400
+[11:20:26] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:26] WARN    Payload: {'arquivo': 'PRJ45503_2026-05-06_RDP_(BMS)_Renan Almeida.pdf', 'data': '2026-05-06', 'responsavel': 'Renan Silva Almeida', 'projeto_codigo': 'PRJ45503', 'sistema': 'BMS', 'n_atividades': 0, 'n_pendencias': 0}
+[11:20:26] WARN  Sync PRJ59935_2026-05_05_RDP_SEG_Salathiel_Martins.pdf: HTTP 400
+[11:20:26] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:26] WARN    Payload: {'arquivo': 'PRJ59935_2026-05_05_RDP_SEG_Salathiel_Martins.pdf', 'data': '2026-05-06', 'responsavel': 'Salathiel da Silva Martins', 'projeto_codigo': 'PRJ59935', 'sistema': 'SEC', 'n_atividades': 6, 'n_pendencias': 0}
+[11:20:27] WARN  Sync PRJ19620-2026-05-06_RDP_(BMS)_Anderson.pdf: HTTP 400
+[11:20:27] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:27] WARN    Payload: {'arquivo': 'PRJ19620-2026-05-06_RDP_(BMS)_Anderson.pdf', 'data': '2026-05-06', 'responsavel': 'Anderson Caetano de Souza Pires', 'projeto_codigo': 'PRJ19620', 'sistema': 'BMS', 'n_atividades': 13, 'n_pendencias': 1}
+[11:20:27] WARN  Sync PRJ29927_2026-05-06_RDP_(AV)_Jean Kevyn Correia Pessoa.docx: HTTP 400
+[11:20:27] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:27] WARN    Payload: {'arquivo': 'PRJ29927_2026-05-06_RDP_(AV)_Jean Kevyn Correia Pessoa.docx', 'data': '2026-05-06', 'responsavel': 'Jean Kevyn Correia Pessoa', 'projeto_codigo': 'PRJ29927', 'sistema': 'AV', 'n_atividades': 1, 'n_pendencias': 1}
+[11:20:27] WARN  Sync PRJ32503_2026-05-06_RDP_(SDAI)_DAVISON CAMPOS.pdf: HTTP 400
+[11:20:27] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:27] WARN    Payload: {'arquivo': 'PRJ32503_2026-05-06_RDP_(SDAI)_DAVISON CAMPOS.pdf', 'data': '2026-05-06', 'responsavel': 'Davison Campos', 'projeto_codigo': 'PRJ32503', 'sistema': 'SDAI', 'n_atividades': 6, 'n_pendencias': 0}
+[11:20:27] WARN  Sync PRJ42548_2026-05-06_RDP_SEG_Salathiel_Martins.pdf: HTTP 400
+[11:20:27] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:27] WARN    Payload: {'arquivo': 'PRJ42548_2026-05-06_RDP_SEG_Salathiel_Martins.pdf', 'data': '2026-05-06', 'responsavel': 'Salathiel da Silva Martins', 'projeto_codigo': 'PRJ42548', 'sistema': 'SEC', 'n_atividades': 3, 'n_pendencias': 0}
+[11:20:28] WARN  Sync PRJ53722_2026-05-06_RDP_(BMS)_Alfredo da Silveira.pdf: HTTP 400
+[11:20:28] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:28] WARN    Payload: {'arquivo': 'PRJ53722_2026-05-06_RDP_(BMS)_Alfredo da Silveira.pdf', 'data': '2026-05-06', 'responsavel': 'Alfredo da Silveira', 'projeto_codigo': 'PRJ53722', 'sistema': 'BMS', 'n_atividades': 1, 'n_pendencias': 0}
+[11:20:28] WARN  Sync PRJ57394_2026-05-06_RDP_(SEG)_Tiago_Alves_Dutra.pdf: HTTP 400
+[11:20:28] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:28] WARN    Payload: {'arquivo': 'PRJ57394_2026-05-06_RDP_(SEG)_Tiago_Alves_Dutra.pdf', 'data': '2026-05-06', 'responsavel': 'Tiago Alves Dutra', 'projeto_codigo': 'PRJ57394', 'sistema': 'SEG', 'n_atividades': 3, 'n_pendencias': 0}
+[11:20:28] WARN  Sync PRJ47108_2026-05-06_RDP_(BMS)_Thiago Berzin Telles.pdf: HTTP 400
+[11:20:28] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:28] WARN    Payload: {'arquivo': 'PRJ47108_2026-05-06_RDP_(BMS)_Thiago Berzin Telles.pdf', 'data': '2026-05-06', 'responsavel': 'Thiago Berzin Telles', 'projeto_codigo': 'PRJ47108', 'sistema': 'BMS', 'n_atividades': 0, 'n_pendencias': 1}
+[11:20:28] WARN  Sync PRJ29927-2026-05-05_RDP_(BMS)_Vinicius Nascimento.pdf: HTTP 400
+[11:20:28] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:28] WARN    Payload: {'arquivo': 'PRJ29927-2026-05-05_RDP_(BMS)_Vinicius Nascimento.pdf', 'data': '2026-05-05', 'responsavel': 'Vinicius do Nascimento', 'projeto_codigo': 'PRJ29927', 'sistema': 'BMS', 'n_atividades': 2, 'n_pendencias': 0}
+[11:20:29] WARN  Sync PRJ47108_2026-05-05_RDP_(SDAI)_Jeilan Lima.pdf: HTTP 400
+[11:20:29] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:29] WARN    Payload: {'arquivo': 'PRJ47108_2026-05-05_RDP_(SDAI)_Jeilan Lima.pdf', 'data': '2026-05-05', 'responsavel': 'Jeilan Souza de Lima', 'projeto_codigo': 'PRJ47108', 'sistema': 'SDAI', 'n_atividades': 0, 'n_pendencias': 0}
+[11:20:29] WARN  Sync 2026-05-05_2506_C00640_CTR54818 _RDP_SEC_Andre Chacon .pdf: HTTP 400
+[11:20:29] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:29] WARN    Payload: {'arquivo': '2026-05-05_2506_C00640_CTR54818 _RDP_SEC_Andre Chacon .pdf', 'data': '2026-05-05', 'responsavel': 'Andre Chacon da Silveira', 'projeto_codigo': 'CTR54818', 'sistema': 'SEC', 'n_atividades': 0, 'n_pendencias': 0}
+[11:20:29] WARN  Sync PRJ29927_2026-05-05_RDP_(AV)_Jean Kevyn Correia Pessoa.docx: HTTP 400
+[11:20:29] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:29] WARN    Payload: {'arquivo': 'PRJ29927_2026-05-05_RDP_(AV)_Jean Kevyn Correia Pessoa.docx', 'data': '2026-05-05', 'responsavel': 'Jean Kevyn Correia Pessoa', 'projeto_codigo': 'PRJ29927', 'sistema': 'AV', 'n_atividades': 1, 'n_pendencias': 1}
+[11:20:32] WARN  Sync PRJ32503_2026-05-05_RDP_(SDAI)_DAVISON CAMPOS.pdf: HTTP 400
+[11:20:32] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:32] WARN    Payload: {'arquivo': 'PRJ32503_2026-05-05_RDP_(SDAI)_DAVISON CAMPOS.pdf', 'data': '2026-05-05', 'responsavel': 'Davison Campos', 'projeto_codigo': 'PRJ32503', 'sistema': 'SDAI', 'n_atividades': 7, 'n_pendencias': 2}
+[11:20:32] WARN  Sync PRJ34216_2026-05-05_RDP_(BMS)_JhonatanAtaide.pdf: HTTP 400
+[11:20:32] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:32] WARN    Payload: {'arquivo': 'PRJ34216_2026-05-05_RDP_(BMS)_JhonatanAtaide.pdf', 'data': '2026-05-05', 'responsavel': 'Jhonatan Camara de Ataide', 'projeto_codigo': 'PRJ34216', 'sistema': 'BMS', 'n_atividades': 3, 'n_pendencias': 3}
+[11:20:32] WARN  Sync PRJ40574_2026-05-05_RDP_(SDAI)_Miguel Meyer - R00.docx: HTTP 400
+[11:20:32] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:32] WARN    Payload: {'arquivo': 'PRJ40574_2026-05-05_RDP_(SDAI)_Miguel Meyer - R00.docx', 'data': '2026-05-05', 'responsavel': 'Miguel Felix Meyer', 'projeto_codigo': 'PRJ40574', 'sistema': 'SDAI', 'n_atividades': 1, 'n_pendencias': 0}
+[11:20:33] WARN  Sync PRJ40574_2026-05-05_RDP_(SDAI)_Miguel Meyer - R00.pdf: HTTP 400
+[11:20:33] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:33] WARN    Payload: {'arquivo': 'PRJ40574_2026-05-05_RDP_(SDAI)_Miguel Meyer - R00.pdf', 'data': '2026-05-05', 'responsavel': 'Miguel Felix Meyer', 'projeto_codigo': 'PRJ40574', 'sistema': 'SDAI', 'n_atividades': 1, 'n_pendencias': 0}
+[11:20:33] WARN  Sync PRJ45503_2026-05-05_RDP_(BMS)_Renan Almeida.pdf: HTTP 400
+[11:20:33] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:33] WARN    Payload: {'arquivo': 'PRJ45503_2026-05-05_RDP_(BMS)_Renan Almeida.pdf', 'data': '2026-05-05', 'responsavel': 'Renan Silva Almeida', 'projeto_codigo': 'PRJ45503', 'sistema': 'BMS', 'n_atividades': 3, 'n_pendencias': 0}
+[11:20:33] WARN  Sync PRJ53722_2026-05-05_RDP_(BMS)_Alfredo da Silveira.pdf: HTTP 400
+[11:20:33] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:33] WARN    Payload: {'arquivo': 'PRJ53722_2026-05-05_RDP_(BMS)_Alfredo da Silveira.pdf', 'data': '2026-05-05', 'responsavel': 'Alfredo da Silveira', 'projeto_codigo': 'PRJ53722', 'sistema': 'BMS', 'n_atividades': 1, 'n_pendencias': 0}
+[11:20:33] WARN  Sync PRJ53722_2026-05-05_RDP_(BMS)_THIAGO BORGES.pdf: HTTP 400
+[11:20:33] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:33] WARN    Payload: {'arquivo': 'PRJ53722_2026-05-05_RDP_(BMS)_THIAGO BORGES.pdf', 'data': '2026-05-05', 'responsavel': 'Thiago Henrique Nunes Borges', 'projeto_codigo': 'PRJ53722', 'sistema': 'BMS', 'n_atividades': 0, 'n_pendencias': 0}
+[11:20:33] WARN  Sync PRJ57394_2026-05-05_RDP_(SEG)_Tiago_Alves_Dutra.pdf: HTTP 400
+[11:20:33] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:33] WARN    Payload: {'arquivo': 'PRJ57394_2026-05-05_RDP_(SEG)_Tiago_Alves_Dutra.pdf', 'data': '2026-05-05', 'responsavel': 'Tiago Alves Dutra', 'projeto_codigo': 'PRJ57394', 'sistema': 'SEG', 'n_atividades': 3, 'n_pendencias': 0}
+[11:20:34] WARN  Sync PRJ19620-2026-05-05_RDP_(BMS)_Anderson.pdf: HTTP 400
+[11:20:34] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:34] WARN    Payload: {'arquivo': 'PRJ19620-2026-05-05_RDP_(BMS)_Anderson.pdf', 'data': '2026-05-05', 'responsavel': 'Anderson Caetano de Souza Pires', 'projeto_codigo': 'PRJ19620', 'sistema': 'BMS', 'n_atividades': 12, 'n_pendencias': 0}
+[11:20:34] WARN  Sync Device Maintenance  Reports_GOOGLE 0105_05022026_141405.pdf: HTTP 400
+[11:20:34] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:34] WARN    Payload: {'arquivo': 'Device Maintenance  Reports_GOOGLE 0105_05022026_141405.pdf', 'data': '2026-05-04', 'responsavel': '-', 'sistema': '-', 'n_atividades': 0, 'n_pendencias': 0}
+[11:20:34] WARN  Sync PRJ19620-2026-05-04_RDP_(BMS)_Anderson.pdf: HTTP 400
+[11:20:34] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:34] WARN    Payload: {'arquivo': 'PRJ19620-2026-05-04_RDP_(BMS)_Anderson.pdf', 'data': '2026-05-04', 'responsavel': 'Anderson Caetano de Souza Pires', 'projeto_codigo': 'PRJ19620', 'sistema': 'BMS', 'n_atividades': 14, 'n_pendencias': 1}
+[11:20:34] WARN  Sync PRJ22062_2026-05-04_RDP_(SEC)_SergioOliveira.docx: HTTP 400
+[11:20:34] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:34] WARN    Payload: {'arquivo': 'PRJ22062_2026-05-04_RDP_(SEC)_SergioOliveira.docx', 'data': '2026-05-04', 'responsavel': 'SergioOliveira', 'projeto_codigo': 'PRJ22062', 'sistema': 'SEC', 'n_atividades': 0, 'n_pendencias': 0}
+[11:20:35] WARN  Sync PRJ45503_2026-05-04_RDP_(BMS)_Renan Almeida.pdf: HTTP 400
+[11:20:35] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:35] WARN    Payload: {'arquivo': 'PRJ45503_2026-05-04_RDP_(BMS)_Renan Almeida.pdf', 'data': '2026-05-04', 'responsavel': 'Renan Silva Almeida', 'projeto_codigo': 'PRJ45503', 'sistema': 'BMS', 'n_atividades': 0, 'n_pendencias': 1}
+[11:20:35] WARN  Sync PRJ55738-2026-05-04_RDP_(BMS)_Larissa Silva.pdf: HTTP 400
+[11:20:35] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:35] WARN    Payload: {'arquivo': 'PRJ55738-2026-05-04_RDP_(BMS)_Larissa Silva.pdf', 'data': '2026-05-04', 'responsavel': 'Larissa Isabelle da Silva', 'projeto_codigo': 'PRJ55738', 'sistema': 'BMS', 'n_atividades': 6, 'n_pendencias': 7}
+[11:20:35] WARN  Sync PRJ59747_2026-05-04_RDP_(SEG)_Michel Sato.docx: HTTP 400
+[11:20:35] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:35] WARN    Payload: {'arquivo': 'PRJ59747_2026-05-04_RDP_(SEG)_Michel Sato.docx', 'data': '2026-05-04', 'responsavel': 'Michel Kenji Sato', 'projeto_codigo': 'PRJ59747', 'sistema': 'SEG', 'n_atividades': 0, 'n_pendencias': 0}
+[11:20:35] WARN  Sync PRJ PRJ25026 - PRJ53722_2026-05-04_RDP_(Security)_Luiz Navero - R02.docx: HTTP 400
+[11:20:35] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:35] WARN    Payload: {'arquivo': 'PRJ PRJ25026 - PRJ53722_2026-05-04_RDP_(Security)_Luiz Navero - R02.docx', 'data': '2026-05-04', 'responsavel': 'Luiz Eduardo Rodrigues Navero', 'projeto_codigo': 'PRJ25026', 'sistema': 'SECURITY', 'n_atividades': 0, 'n_pendencias': 0}
+[11:20:35] WARN  Sync PRJ29927_2026-05-04_RDP_(AV)_Jean Kevyn Correia Pessoa.docx: HTTP 400
+[11:20:35] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:35] WARN    Payload: {'arquivo': 'PRJ29927_2026-05-04_RDP_(AV)_Jean Kevyn Correia Pessoa.docx', 'data': '2026-05-04', 'responsavel': 'Jean Kevyn Correia Pessoa', 'projeto_codigo': 'PRJ29927', 'sistema': 'AV', 'n_atividades': 1, 'n_pendencias': 1}
+[11:20:36] WARN  Sync PRJ32503_2026-05-04_RDP_(SDAI)_DAVISON CAMPOS.pdf: HTTP 400
+[11:20:36] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:36] WARN    Payload: {'arquivo': 'PRJ32503_2026-05-04_RDP_(SDAI)_DAVISON CAMPOS.pdf', 'data': '2026-05-04', 'responsavel': 'Davison Campos', 'projeto_codigo': 'PRJ32503', 'sistema': 'SDAI', 'n_atividades': 9, 'n_pendencias': 3}
+[11:20:36] WARN  Sync PRJ53722_2026-05-04_RDP_(BMS)_Teylor Garibaldi.pdf: HTTP 400
+[11:20:36] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:36] WARN    Payload: {'arquivo': 'PRJ53722_2026-05-04_RDP_(BMS)_Teylor Garibaldi.pdf', 'data': '2026-05-04', 'responsavel': 'Teylor Soares da Silva Garibaldi Pereira', 'projeto_codigo': 'PRJ53722', 'sistema': 'BMS', 'n_atividades': 15, 'n_pendencias': 32}
+[11:20:36] WARN  Sync PRJ53722_2026-05-04_RDP_(BMS)_THIAGO BORGES.pdf: HTTP 400
+[11:20:36] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:36] WARN    Payload: {'arquivo': 'PRJ53722_2026-05-04_RDP_(BMS)_THIAGO BORGES.pdf', 'data': '2026-05-04', 'responsavel': 'Thiago Henrique Nunes Borges', 'projeto_codigo': 'PRJ53722', 'sistema': 'BMS', 'n_atividades': 0, 'n_pendencias': 0}
+[11:20:36] WARN  Sync PRJ57394_2026-05-04_RDP_(SEG)_Tiago_Alves_Dutra.pdf: HTTP 400
+[11:20:36] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:36] WARN    Payload: {'arquivo': 'PRJ57394_2026-05-04_RDP_(SEG)_Tiago_Alves_Dutra.pdf', 'data': '2026-05-04', 'responsavel': 'Tiago Alves Dutra', 'projeto_codigo': 'PRJ57394', 'sistema': 'SEG', 'n_atividades': 11, 'n_pendencias': 0}
+[11:20:36] WARN  Sync PRJ53722_2026-05-04_RDP_(BMS)_Alfredo da Silveira.pdf: HTTP 400
+[11:20:36] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:36] WARN    Payload: {'arquivo': 'PRJ53722_2026-05-04_RDP_(BMS)_Alfredo da Silveira.pdf', 'data': '2026-05-04', 'responsavel': 'Alfredo da Silveira', 'projeto_codigo': 'PRJ53722', 'sistema': 'BMS', 'n_atividades': 1, 'n_pendencias': 0}
+[11:20:37] WARN  Sync PRJ47108_2026-05-03_RDP_(SDAI)_Jeilan Lima.pdf: HTTP 400
+[11:20:37] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:37] WARN    Payload: {'arquivo': 'PRJ47108_2026-05-03_RDP_(SDAI)_Jeilan Lima.pdf', 'data': '2026-05-03', 'responsavel': 'Jeilan Souza de Lima', 'projeto_codigo': 'PRJ47108', 'sistema': 'SDAI', 'n_atividades': 0, 'n_pendencias': 0}
+[11:20:37] WARN  Sync PRJ47108_2026-05-02_RDP_(SDAI)_Leonardo Rodrigues.pdf: HTTP 400
+[11:20:37] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:37] WARN    Payload: {'arquivo': 'PRJ47108_2026-05-02_RDP_(SDAI)_Leonardo Rodrigues.pdf', 'data': '2026-05-02', 'responsavel': 'Leonardo da Silva Rodrigues', 'projeto_codigo': 'PRJ47108', 'sistema': 'SDAI', 'n_atividades': 3, 'n_pendencias': 1}
+[11:20:37] WARN  Sync PRJ47108_2026-05-01_RDP_(SDAI)_Leonardo Rodrigues.pdf: HTTP 400
+[11:20:37] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:37] WARN    Payload: {'arquivo': 'PRJ47108_2026-05-01_RDP_(SDAI)_Leonardo Rodrigues.pdf', 'data': '2026-05-01', 'responsavel': 'Leonardo da Silva Rodrigues', 'projeto_codigo': 'PRJ47108', 'sistema': 'SDAI', 'n_atividades': 4, 'n_pendencias': 2}
+[11:20:37] WARN  Sync PRJ09134_2026-04-30_RDP_(AV)_Jean Kevyn Correia Pessoa.docx: HTTP 400
+[11:20:37] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:37] WARN    Payload: {'arquivo': 'PRJ09134_2026-04-30_RDP_(AV)_Jean Kevyn Correia Pessoa.docx', 'data': '2026-04-30', 'responsavel': 'Jean Kevyn Correia Pessoa', 'projeto_codigo': 'PRJ09134', 'sistema': 'AV', 'n_atividades': 3, 'n_pendencias': 1}
+[11:20:38] WARN  Sync PRJ61205_2026-04-30_RDP_(AV)_Jean Kevyn Correia Pessoa.docx: HTTP 400
+[11:20:38] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:38] WARN    Payload: {'arquivo': 'PRJ61205_2026-04-30_RDP_(AV)_Jean Kevyn Correia Pessoa.docx', 'data': '2026-04-30', 'responsavel': 'Jean Kevyn Correia Pessoa', 'projeto_codigo': 'PRJ61205', 'sistema': 'AV', 'n_atividades': 1, 'n_pendencias': 0}
+[11:20:38] WARN  Sync CTR19778_2026-04-30_RDP_(SEC)_Marcos Teixeira.pdf: HTTP 400
+[11:20:38] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:38] WARN    Payload: {'arquivo': 'CTR19778_2026-04-30_RDP_(SEC)_Marcos Teixeira.pdf', 'data': '2026-04-30', 'responsavel': 'Marcos Vinicius Salvadori Teixeira', 'projeto_codigo': 'CTR19778', 'sistema': 'SEC', 'n_atividades': 2, 'n_pendencias': 0}
+[11:20:38] WARN  Sync PRJ19620-2026-04-30_RDP_(BMS)_Anderson.pdf: HTTP 400
+[11:20:38] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:38] WARN    Payload: {'arquivo': 'PRJ19620-2026-04-30_RDP_(BMS)_Anderson.pdf', 'data': '2026-04-30', 'responsavel': 'Anderson Caetano de Souza Pires', 'projeto_codigo': 'PRJ19620', 'sistema': 'BMS', 'n_atividades': 5, 'n_pendencias': 8}
+[11:20:38] WARN  Sync PRJ22499_2026-04-30_RDP_(BMS)_Noélio de Brito Oliveira.pdf: HTTP 400
+[11:20:38] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:38] WARN    Payload: {'arquivo': 'PRJ22499_2026-04-30_RDP_(BMS)_Noélio de Brito Oliveira.pdf', 'data': '2026-04-30', 'responsavel': 'Noelio de Brito Oliveira', 'projeto_codigo': 'PRJ22499', 'sistema': 'BMS', 'n_atividades': 0, 'n_pendencias': 0}
+[11:20:38] WARN  Sync PRJ34724_2026-04-30_RDP_(SEC)_SergioOliveira.docx: HTTP 400
+[11:20:38] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:38] WARN    Payload: {'arquivo': 'PRJ34724_2026-04-30_RDP_(SEC)_SergioOliveira.docx', 'data': '2026-04-30', 'responsavel': 'SergioOliveira', 'projeto_codigo': 'PRJ34724', 'sistema': 'SEC', 'n_atividades': 0, 'n_pendencias': 0}
+[11:20:39] WARN  Sync PRJ42548_2026-04-30_RDP_SEG_Salathiel_Martins.pdf: HTTP 400
+[11:20:39] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:39] WARN    Payload: {'arquivo': 'PRJ42548_2026-04-30_RDP_SEG_Salathiel_Martins.pdf', 'data': '2026-04-30', 'responsavel': 'Salathiel da Silva Martins', 'projeto_codigo': 'PRJ42548', 'sistema': 'SEC', 'n_atividades': 3, 'n_pendencias': 1}
+[11:20:39] WARN  Sync PRJ59935_2026-04-30_RDP_SEG_Salathiel_Martins.pdf: HTTP 400
+[11:20:39] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:39] WARN    Payload: {'arquivo': 'PRJ59935_2026-04-30_RDP_SEG_Salathiel_Martins.pdf', 'data': '2026-04-30', 'responsavel': 'Salathiel da Silva Martins', 'projeto_codigo': 'PRJ59935', 'sistema': 'SEC', 'n_atividades': 7, 'n_pendencias': 1}
+[11:20:40] WARN  Sync CTR19778_2026-04-29_RDP_(SEC)_Marcos Teixeira.pdf: HTTP 400
+[11:20:40] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:40] WARN    Payload: {'arquivo': 'CTR19778_2026-04-29_RDP_(SEC)_Marcos Teixeira.pdf', 'data': '2026-04-29', 'responsavel': 'Marcos Vinicius Salvadori Teixeira', 'projeto_codigo': 'CTR19778', 'sistema': 'SEC', 'n_atividades': 2, 'n_pendencias': 0}
+[11:20:40] WARN  Sync PRJ19620-2026-04-29_RDP_(BMS)_Anderson.pdf: HTTP 400
+[11:20:40] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:40] WARN    Payload: {'arquivo': 'PRJ19620-2026-04-29_RDP_(BMS)_Anderson.pdf', 'data': '2026-04-29', 'responsavel': 'Anderson Caetano de Souza Pires', 'projeto_codigo': 'PRJ19620', 'sistema': 'BMS', 'n_atividades': 15, 'n_pendencias': 0}
+[11:20:40] WARN  Sync PRJ45503_2026-04-29_RDP_(BMS)_João Viana.pdf: HTTP 400
+[11:20:40] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:40] WARN    Payload: {'arquivo': 'PRJ45503_2026-04-29_RDP_(BMS)_João Viana.pdf', 'data': '2026-04-29', 'responsavel': 'Joao Victor Sousa Viana', 'projeto_codigo': 'PRJ45503', 'sistema': 'BMS', 'n_atividades': 1, 'n_pendencias': 0}
+[11:20:40] WARN  Sync CTR19778_2026-04-28_RDP_(SEC)_Marcos Teixeira.pdf: HTTP 400
+[11:20:40] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:40] WARN    Payload: {'arquivo': 'CTR19778_2026-04-28_RDP_(SEC)_Marcos Teixeira.pdf', 'data': '2026-04-28', 'responsavel': 'Marcos Vinicius Salvadori Teixeira', 'projeto_codigo': 'CTR19778', 'sistema': 'SEC', 'n_atividades': 3, 'n_pendencias': 0}
+[11:20:40] WARN  Sync PRJ19620-2026-04-28_RDP_(BMS)_Anderson.pdf: HTTP 400
+[11:20:40] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:40] WARN    Payload: {'arquivo': 'PRJ19620-2026-04-28_RDP_(BMS)_Anderson.pdf', 'data': '2026-04-28', 'responsavel': 'Anderson Caetano de Souza Pires', 'projeto_codigo': 'PRJ19620', 'sistema': 'BMS', 'n_atividades': 13, 'n_pendencias': 2}
+[11:20:41] WARN  Sync CTR19778_2026-04-27_RDP_(SEC)_Marcos Teixeira.pdf: HTTP 400
+[11:20:41] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:41] WARN    Payload: {'arquivo': 'CTR19778_2026-04-27_RDP_(SEC)_Marcos Teixeira.pdf', 'data': '2026-04-27', 'responsavel': 'Marcos Vinicius Salvadori Teixeira', 'projeto_codigo': 'CTR19778', 'sistema': 'SEC', 'n_atividades': 2, 'n_pendencias': 0}
+[11:20:41] WARN  Sync PRJ19620-2026-04-27_RDP_(BMS)_Anderson.pdf: HTTP 400
+[11:20:41] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:41] WARN    Payload: {'arquivo': 'PRJ19620-2026-04-27_RDP_(BMS)_Anderson.pdf', 'data': '2026-04-27', 'responsavel': 'Anderson Caetano de Souza Pires', 'projeto_codigo': 'PRJ19620', 'sistema': 'BMS', 'n_atividades': 5, 'n_pendencias': 1}
+[11:20:41] WARN  Sync PRJ55924_2026-04-05_RDP_(AV)_Augusto-Valle.pdf.pdf: HTTP 400
+[11:20:41] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:41] WARN    Payload: {'arquivo': 'PRJ55924_2026-04-05_RDP_(AV)_Augusto-Valle.pdf.pdf', 'data': '2026-04-05', 'responsavel': 'Augusto Cesar Flocco Valle', 'projeto_codigo': 'PRJ55924', 'sistema': 'AV', 'n_atividades': 0, 'n_pendencias': 0}
+[11:20:41] WARN  Sync PRJ35873-2026-04-05_RDP_(BMS)_Renan_Silva.pdf: HTTP 400
+[11:20:41] WARN    Verifique schema da tabela rdps no Supabase
+[11:20:41] WARN    Payload: {'arquivo': 'PRJ35873-2026-04-05_RDP_(BMS)_Renan_Silva.pdf', 'data': '2026-04-05', 'responsavel': 'Renan Silva Almeida', 'projeto_codigo': 'PRJ35873', 'sistema': 'BMS', 'n_atividades': 15, 'n_pendencias': 7}

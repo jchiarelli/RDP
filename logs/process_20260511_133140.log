@@ -1,0 +1,44 @@
+[13:31:40] INFO  === process_rdps.py v2.2 ===
+[13:31:40] INFO  RDP: /sessions/exciting-great-cori/mnt/Acompanhamento de projeto/RDP | OUT: /sessions/exciting-great-cori/mnt/Acompanhamento de projeto/dashboard_v2/data
+[13:31:40] INFO  Pessoas: 53 | Projetos: 1470
+[13:31:40] INFO  Datas alvo: ['2026-05-04']
+[13:31:40] INFO  Arquivos: 19
+[13:31:40] INFO  -> CTR19778_2026-04-27_RDP_(SEC)_Marcos Teixeira.pdf
+[13:31:42] INFO     pendencias: 0 | participantes: ['Marcos Vinicius Salvadori Teixeira']
+[13:31:42] INFO  -> CTR19778_2026-04-28_RDP_(SEC)_Marcos Teixeira.pdf
+[13:31:43] INFO     pendencias: 0 | participantes: ['Marcos Vinicius Salvadori Teixeira']
+[13:31:43] INFO  -> CTR19778_2026-04-29_RDP_(SEC)_Marcos Teixeira.pdf
+[13:31:44] INFO     pendencias: 0 | participantes: ['Marcos Vinicius Salvadori Teixeira']
+[13:31:44] INFO  -> CTR19778_2026-04-30_RDP_(SEC)_Marcos Teixeira.pdf
+[13:31:45] INFO     pendencias: 0 | participantes: ['Marcos Vinicius Salvadori Teixeira']
+[13:31:45] INFO  -> Device Maintenance  Reports_GOOGLE 0105_05022026_141405.pdf
+[13:32:08] INFO     pendencias: 0 | participantes: []
+[13:32:08] INFO  -> PRJ19620-2026-04-27_RDP_(BMS)_Anderson.pdf
+[13:32:09] INFO     pendencias: 1 | participantes: ['Anderson Caetano de Souza Pires']
+[13:32:09] INFO  -> PRJ19620-2026-04-28_RDP_(BMS)_Anderson.pdf
+[13:32:10] INFO     pendencias: 2 | participantes: ['Anderson Caetano de Souza Pires']
+[13:32:10] INFO  -> PRJ19620-2026-04-29_RDP_(BMS)_Anderson.pdf
+[13:32:11] INFO     pendencias: 0 | participantes: ['Anderson Caetano de Souza Pires']
+[13:32:11] INFO  -> PRJ19620-2026-04-30_RDP_(BMS)_Anderson.pdf
+[13:32:12] INFO     pendencias: 8 | participantes: ['Anderson Caetano de Souza Pires']
+[13:32:12] INFO  -> PRJ19620-2026-05-04_RDP_(BMS)_Anderson.pdf
+[13:32:13] INFO     pendencias: 1 | participantes: ['Anderson Caetano de Souza Pires']
+[13:32:13] INFO  -> PRJ22062_2026-05-04_RDP_(SEC)_SergioOliveira.docx
+[13:32:13] INFO     pendencias: 0 | participantes: ['Sergio Henrique Ferreira de Oliveira']
+[13:32:13] INFO  -> PRJ22499_2026-04-30_RDP_(BMS)_Noélio de Brito Oliveira.pdf
+[13:32:14] INFO     pendencias: 0 | participantes: ['Noelio de Brito Oliveira', 'Matheus de Sousa Damico', 'Gislan Almeida dos Santos', 'Guilherme Ariz da Silva']
+[13:32:14] INFO  -> PRJ34724_2026-04-30_RDP_(SEC)_SergioOliveira.docx
+[13:32:14] INFO     pendencias: 0 | participantes: ['Sergio Henrique Ferreira de Oliveira']
+[13:32:14] INFO  -> PRJ42548_2026-04-30_RDP_SEG_Salathiel_Martins.pdf
+[13:32:15] INFO     pendencias: 1 | participantes: ['Salathiel da Silva Martins']
+[13:32:15] INFO  -> PRJ45503_2026-05-04_RDP_(BMS)_Renan Almeida.pdf
+[13:32:16] INFO     pendencias: 1 | participantes: ['Renan Silva Almeida', 'Larissa Isabelle da Silva']
+[13:32:16] INFO  -> PRJ47108_2026-05-02_RDP_(SDAI)_Leonardo Rodrigues.pdf
+[13:32:17] INFO     pendencias: 1 | participantes: ['Leonardo da Silva Rodrigues']
+[13:32:17] INFO  -> PRJ55738-2026-05-04_RDP_(BMS)_Larissa Silva.pdf
+[13:32:18] INFO     pendencias: 7 | participantes: ['Larissa Isabelle da Silva']
+[13:32:18] INFO  -> PRJ55924_2026-04-05_RDP_(AV)_Augusto-Valle.pdf.pdf
+[13:32:18] INFO     pendencias: 0 | participantes: ['Augusto Cesar Flocco Valle', 'Caio Vinicius de Almeida', 'Edmilso Souza', 'Giovane Maino']
+[13:32:18] INFO  -> PRJ59747_2026-05-04_RDP_(SEG)_Michel Sato.docx
+[13:32:18] INFO     pendencias: 0 | participantes: ['Michel Kenji Sato']
+[13:32:18] INFO  Estruturados: 19
