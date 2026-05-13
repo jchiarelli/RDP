@@ -210,7 +210,7 @@ Object.defineProperty(window, 'D_compat', {
 });
 const $ = id => document.getElementById(id);
 // Compatibilidade global para templates antigos que referenciam metaDiariaGeral
-if(typeof window.metaDiariaGeral === 'undefined') window.metaDiariaGeral = 95;
+if(typeof globalThis.metaDiariaGeral === 'undefined') globalThis.metaDiariaGeral = 95;
 
 function fmtDate(iso){
   if(!iso) return '-';
@@ -1444,9 +1444,9 @@ function renderMetas(){
 
   const metas = JSON.parse(localStorage.getItem('rdp_metas') || '{}');
   const dataContabilizacao = getDataInicioContabilizacao();
-  const metaGeralDiaria = parseInt(localStorage.getItem('rdp_meta_geral_diaria') || '95', 10);
-  const metaDiariaGeral = Number.isFinite(metaGeralDiaria) ? metaGeralDiaria : 95; // compatibilidade com nome antigo após merges
-  const metaInputValue = metaDiariaGeral;
+  const metaGeralDiariaRaw = parseInt(localStorage.getItem('rdp_meta_geral_diaria') || '95', 10);
+  const metaGeralDiaria = Number.isFinite(metaGeralDiariaRaw) ? metaGeralDiariaRaw : 95;
+  const metaInputValue = metaGeralDiaria;
   const pessoasAtivas = (window.D.pessoas||[]).filter(p => p.ativa !== false);
   const rdpsDesdeMeta = (window.D.rdps||[]).filter(r => (r.data||'').slice(0,10) >= dataContabilizacao);
   const diasUteis = Array.from(new Set(rdpsDesdeMeta.map(r => (r.data||'').slice(0,10)))).length || 1;
