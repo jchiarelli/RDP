@@ -1454,7 +1454,9 @@ function renderMetas(){
   const esperado = pessoasAtivas.length * diasUteis;
   const enviados = rdpsDesdeMeta.length;
   const taxaEnvio = esperado ? (enviados / esperado) * 100 : 0;
-  const conformidadeHoje = taxaEnvio; // compatibilidade com versões antigas do template
+  const hoje = (window.D.meta && window.D.meta.today) || new Date().toISOString().slice(0,10);
+  const enviadosHoje = (window.D.rdps||[]).filter(r => (r.data||'').slice(0,10) === hoje).length;
+  const conformidadeHoje = pessoasAtivas.length ? (enviadosHoje / pessoasAtivas.length) * 100 : 0;
 
   const pessoas = (window.D.pessoas||[]).sort((a,b) => a.nome.localeCompare(b.nome));
 
@@ -1466,7 +1468,7 @@ function renderMetas(){
       </div>
       <div class="card-body" style="padding:20px">
         <div class="kpi-grid" style="margin-bottom:18px">
-          <div class="kpi ${conformidadeHoje>=metaDiariaGeral?'kpi-success':'kpi-warning'}">
+          <div class="kpi ${conformidadeHoje>=metaGeralDiaria?'kpi-success':'kpi-warning'}">
             <div class="kpi-label">Taxa de Envio (Hoje)</div>
             <div class="kpi-value">${conformidadeHoje.toFixed(0)}%</div>
             <div class="kpi-sub">${enviadosHoje} de ${pessoasAtivas.length} colaboradores ativos enviaram</div>
@@ -1536,36 +1538,6 @@ window.salvarConfiguracoesMetas = function(){
   localStorage.setItem('rdp_data_inicio', data);
   localStorage.setItem('rdp_meta_diaria_geral', String(metaGeral));
   alert('Configurações atualizadas: início em '+data+' e meta diária geral de '+metaGeral+'%.');
-  renderMetas();
-};
-window.salvarMetaGeral = function(){
-  const valor = parseInt(document.getElementById('metaGeralDiaria')?.value || '95', 10);
-  localStorage.setItem('rdp_meta_geral_diaria', String(Math.max(0, Math.min(100, valor))));
-  alert('Meta geral diária atualizada.');
-  renderMetas();
-};
-window.salvarMetaGeral = function(){
-  const valor = parseInt(document.getElementById('metaGeralDiaria')?.value || '95', 10);
-  localStorage.setItem('rdp_meta_geral_diaria', String(Math.max(0, Math.min(100, valor))));
-  alert('Meta geral diária atualizada.');
-  renderMetas();
-};
-window.salvarMetaGeral = function(){
-  const valor = parseInt(document.getElementById('metaGeralDiaria')?.value || '95', 10);
-  localStorage.setItem('rdp_meta_geral_diaria', String(Math.max(0, Math.min(100, valor))));
-  alert('Meta geral diária atualizada.');
-  renderMetas();
-};
-window.salvarMetaGeral = function(){
-  const valor = parseInt(document.getElementById('metaGeralDiaria')?.value || '95', 10);
-  localStorage.setItem('rdp_meta_geral_diaria', String(Math.max(0, Math.min(100, valor))));
-  alert('Meta geral diária atualizada.');
-  renderMetas();
-};
-window.salvarMetaGeral = function(){
-  const valor = parseInt(document.getElementById('metaGeralDiaria')?.value || '95', 10);
-  localStorage.setItem('rdp_meta_geral_diaria', String(Math.max(0, Math.min(100, valor))));
-  alert('Meta geral diária atualizada.');
   renderMetas();
 };
 window.salvarMetaGeral = function(){
