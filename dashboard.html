@@ -209,6 +209,8 @@ Object.defineProperty(window, 'D_compat', {
   get: function() { return window.D; }
 });
 const $ = id => document.getElementById(id);
+// Compatibilidade global para templates antigos que referenciam metaDiariaGeral
+if(typeof globalThis.metaDiariaGeral === 'undefined') globalThis.metaDiariaGeral = 95;
 
 function fmtDate(iso){
   if(!iso) return '-';
@@ -1534,6 +1536,12 @@ window.salvarConfiguracoesMetas = function(){
   localStorage.setItem('rdp_data_inicio', data);
   localStorage.setItem('rdp_meta_diaria_geral', String(metaGeral));
   alert('Configurações atualizadas: início em '+data+' e meta diária geral de '+metaGeral+'%.');
+  renderMetas();
+};
+window.salvarMetaGeral = function(){
+  const valor = parseInt(document.getElementById('metaGeralDiaria')?.value || '95', 10);
+  localStorage.setItem('rdp_meta_geral_diaria', String(Math.max(0, Math.min(100, valor))));
+  alert('Meta geral diária atualizada.');
   renderMetas();
 };
 window.salvarMetaGeral = function(){
