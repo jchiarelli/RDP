@@ -1031,11 +1031,13 @@ function renderEquipe(){
   const sec = $('section-equipe');
   if(!window.D){ sec.innerHTML = '<div class="empty">Sem dados.</div>'; return; }
   const today = (window.D.meta && window.D.meta.today) || new Date().toISOString().slice(0,10);
+  const dataContabilizacao = localStorage.getItem('rdp_data_inicio') || '2026-01-01';
   const datasSet = new Set((window.D.rdps||[]).map(r => (r.data||'').slice(0,10)));
   const datasOrd = Array.from(datasSet).filter(d => d <= today).sort();
   const dataInicioMeta = getDataInicioContabilizacao();
   const de = sec.dataset.de || dataInicioMeta || datasOrd[0] || '';
   const ate = sec.dataset.ate || datasOrd[datasOrd.length-1] || '';
+  const calendario = sec.dataset.cal || 'Uteis';
   const equipes = {};
   (window.D.pessoas||[]).filter(p => p.ativa !== false).forEach(p => {
     if(!p.equipe) return;
@@ -1109,6 +1111,7 @@ function renderEquipe(){
     const aVal = eqAte.value;
     if(dVal) sec.dataset.de = dVal;
     if(aVal) sec.dataset.ate = aVal;
+    sec.dataset.cal = $('eqCal').value;
     renderEquipe();
   };
 
@@ -1460,6 +1463,25 @@ function renderMetas(){
         <div class="card-sub">Meta diária geral e período de contabilização</div>
       </div>
       <div class="card-body" style="padding:20px">
+        <div class="kpi-grid" style="margin-bottom:18px">
+          <div class="kpi ${conformidadeHoje>=metaDiariaGeral?'kpi-success':'kpi-warning'}">
+            <div class="kpi-label">Taxa de Envio (Hoje)</div>
+            <div class="kpi-value">${conformidadeHoje.toFixed(0)}%</div>
+            <div class="kpi-sub">${enviadosHoje} de ${pessoasAtivas.length} colaboradores ativos enviaram</div>
+          </div>
+          <div class="kpi kpi-purple">
+            <div class="kpi-label">Meta Geral Diária</div>
+            <div class="kpi-value">${metaDiariaGeral}%</div>
+            <div class="kpi-sub">Conformidade alvo para toda a operação</div>
+          </div>
+        </div>
+
+        <div style="margin-bottom:20px;padding:15px;background:var(--c-surface-2);border-radius:8px">
+          <label style="display:block;margin-bottom:8px;color:var(--c-text);font-weight:500">Meta de Envio Diário (Geral)</label>
+          <input type="number" id="metaDiariaGeral" value="${metaDiariaGeral}" min="0" max="100" class="input" style="max-width:120px">
+          <small style="display:block;margin-top:5px;color:var(--c-text-3)">Percentual mínimo de conformidade diária (ex.: 95)</small>
+        </div>
+
         <div style="margin-bottom:20px;padding:15px;background:var(--c-surface-2);border-radius:8px">
           <label style="display:block;margin-bottom:8px;color:var(--c-text);font-weight:500">Data de Início da Contabilização</label>
           <input type="date" id="metaDataInicio" value="${dataContabilizacao}" class="input" style="max-width:200px">
@@ -1505,19 +1527,20 @@ function renderMetas(){
   `;
 }
 
-window.salvarMetaPessoa = function(pessoaId, pessoaNome){
-  const valor = parseInt(document.getElementById('meta_'+pessoaId)?.value) || 5;
-  const metas = JSON.parse(localStorage.getItem('rdp_metas') || '{}');
-  metas[pessoaId] = Math.max(0, Math.min(10, valor));
-  localStorage.setItem('rdp_metas', JSON.stringify(metas));
-  alert('Meta de '+pessoaNome+' atualizada para '+metas[pessoaId]+' RDPs/semana');
-};
-
-window.salvarDataContabilizacao = function(){
+window.salvarConfiguracoesMetas = function(){
   const data = document.getElementById('metaDataInicio')?.value;
+  const metaGeral = Math.max(0, Math.min(100, parseInt(document.getElementById('metaDiariaGeral')?.value || '95', 10)));
   if(!data){ alert('Selecione uma data'); return; }
   localStorage.setItem('rdp_data_inicio', data);
-  alert('Data de início da contabilização atualizada para '+data);
+  localStorage.setItem('rdp_meta_diaria_geral', String(metaGeral));
+  alert('Configurações atualizadas: início em '+data+' e meta diária geral de '+metaGeral+'%.');
+  renderMetas();
+};
+window.salvarMetaGeral = function(){
+  const valor = parseInt(document.getElementById('metaGeralDiaria')?.value || '95', 10);
+  localStorage.setItem('rdp_meta_geral_diaria', String(Math.max(0, Math.min(100, valor))));
+  alert('Meta geral diária atualizada.');
+  renderMetas();
 };
 window.salvarMetaGeral = function(){
   const valor = parseInt(document.getElementById('metaGeralDiaria')?.value || '95', 10);
