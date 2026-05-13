@@ -1560,6 +1560,12 @@ window.salvarMetaGeral = function(){
   alert('Meta geral diária atualizada.');
   renderMetas();
 };
+window.salvarMetaGeral = function(){
+  const valor = parseInt(document.getElementById('metaGeralDiaria')?.value || '95', 10);
+  localStorage.setItem('rdp_meta_geral_diaria', String(Math.max(0, Math.min(100, valor))));
+  alert('Meta geral diária atualizada.');
+  renderMetas();
+};
 
 // Boot — NAO bloqueia render por carregamento de acoes
 document.addEventListener('DOMContentLoaded', async () => {
