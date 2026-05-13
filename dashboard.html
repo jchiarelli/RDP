@@ -930,7 +930,12 @@ function renderStatus(){
 
   let pessoas = (window.D.pessoas||[]).filter(p => p.ativa !== false); // Excluir pessoas inativas
   if(equipeF!=='Todas') pessoas = pessoas.filter(p => p.equipe===equipeF);
-  if(buscaF) pessoas = pessoas.filter(p => (p.nome||'').toLowerCase().includes(buscaF) || (p.email||'').toLowerCase().includes(buscaF));
+  if(buscaF) pessoas = pessoas.filter(p => {
+    const pessoaTexto = `${p.nome||''} ${p.email||''}`.toLowerCase();
+    if(pessoaTexto.includes(buscaF)) return true;
+    const rdpsPessoa = (window.D.rdps||[]).filter(r => pessoaNoRDP(p, r));
+    return rdpsPessoa.some(r => `${r.projeto_nome||''} ${r.projeto_codigo||''} ${r.projeto_cliente||''}`.toLowerCase().includes(buscaF));
+  });
   const enriquecido = pessoas.map(p => {
     const enviou = statusPessoaTodos(p, dataAtual); // AGORA retorna array de RDPs
     const emLicenca = pessoaEmLicenca(p, dataAtual);
@@ -948,7 +953,7 @@ function renderStatus(){
       <div class="field"><label>Data</label><select class="select" id="stDate">${datasOrd.map(d => `<option ${d===dataAtual?'selected':''}>${d}</option>`).join('')}</select></div>
       <div class="field"><label>Equipe</label><select class="select" id="stEquipe"><option>Todas</option>${equipes.map(e => `<option ${e===equipeF?'selected':''}>${escHtml(e)}</option>`).join('')}</select></div>
       <div class="field"><label>Status</label><select class="select" id="stStatus"><option>Todos</option><option ${statusF==='Enviou'?'selected':''}>Enviou</option><option ${statusF==='Pendente'?'selected':''}>Pendente</option></select></div>
-      <div class="field" style="flex:1"><label>Buscar</label><input class="input" id="stBusca" placeholder="Nome ou email..." value="${escHtml(buscaF)}"></div>
+      <div class="field" style="flex:1"><label>Buscar</label><input class="input" id="stBusca" placeholder="Nome, email ou projeto..." value="${escHtml(buscaF)}"></div>
       <div class="field"><label>&nbsp;</label><button class="btn btn-primary" id="stApply">Filtrar</button></div>
     </div>
     <div class="card">
@@ -1022,10 +1027,12 @@ function renderEquipe(){
   const sec = $('section-equipe');
   if(!window.D){ sec.innerHTML = '<div class="empty">Sem dados.</div>'; return; }
   const today = (window.D.meta && window.D.meta.today) || new Date().toISOString().slice(0,10);
+  const dataContabilizacao = localStorage.getItem('rdp_data_inicio') || '2026-01-01';
   const datasSet = new Set((window.D.rdps||[]).map(r => (r.data||'').slice(0,10)));
   const datasOrd = Array.from(datasSet).filter(d => d <= today).sort();
-  const de = sec.dataset.de || datasOrd[0] || '';
+  const de = sec.dataset.de || (datasOrd.find(d => d >= dataContabilizacao) || datasOrd[0] || '');
   const ate = sec.dataset.ate || datasOrd[datasOrd.length-1] || '';
+  const calendario = sec.dataset.cal || 'Uteis';
   const equipes = {};
   (window.D.pessoas||[]).filter(p => p.ativa !== false).forEach(p => {
     if(!p.equipe) return;
@@ -1039,7 +1046,10 @@ function renderEquipe(){
       equipes[p.equipe].leader = m.length > 1 ? m[m.length-1] : p.equipe;
     }
   });
-  const datasPeriodo = datasOrd.filter(d => d>=de && d<=ate);
+  const datasPeriodoBase = datasOrd.filter(d => d>=de && d<=ate && d>=dataContabilizacao);
+  const datasPeriodo = calendario === 'Todos'
+    ? datasPeriodoBase
+    : datasPeriodoBase.filter(d => { const dow = new Date(d).getUTCDay(); return dow>=1 && dow<=5; });
   const compl = Object.entries(equipes).map(([nome, eq]) => {
     const esperado = eq.membros.length * datasPeriodo.length;
     let enviados = 0;
@@ -1056,6 +1066,7 @@ function renderEquipe(){
     <div class="filters">
       <div class="field"><label>De</label><input class="input" type="text" placeholder="DD/MM/AAAA" id="eqDe" value="${isoToUserDate(de)}" maxlength="10"></div>
       <div class="field"><label>Até</label><input class="input" type="text" placeholder="DD/MM/AAAA" id="eqAte" value="${isoToUserDate(ate)}" maxlength="10"></div>
+      <div class="field"><label>Calendário</label><select class="select" id="eqCal"><option ${calendario==='Uteis'?'selected':''}>Uteis</option><option ${calendario==='Todos'?'selected':''}>Todos</option></select></div>
       <div class="field"><label>&nbsp;</label><button class="btn btn-primary" id="eqApply">Aplicar</button></div>
     </div>
     <div class="kpi-grid">
@@ -1095,6 +1106,7 @@ function renderEquipe(){
     const aVal = userDateToIso($('eqAte').value);
     if(dVal) sec.dataset.de = dVal;
     if(aVal) sec.dataset.ate = aVal;
+    sec.dataset.cal = $('eqCal').value;
     renderEquipe();
   };
 
@@ -1376,7 +1388,7 @@ function renderProjetos(){
             return `<tr><td>${fmtDate(r.data)}</td><td>${escHtml(r.responsavel)}</td><td><span class="badge badge-default">${escHtml(r.sistema||'-')}</span></td><td>${r.n_atividades}</td><td>${r.n_pendencias}</td><td style="text-align:center">${fileCell}</td></tr>`;
           }).join('')}</tbody></table>
         ${sistemas.map(s => {
-          const ps = p.pendencias_por_sistema[s] || [];
+          const ps = (p.pendencias_por_sistema[s] || []).filter(it => (it?.desc||'').trim());
           if(!ps.length) return '';
           return `<div class="proj-pend-grupo">
             <h4>Pendencias - ${escHtml(s)} (${ps.length})</h4>
@@ -1434,50 +1446,49 @@ function renderMetas(){
   const sec = $('section-metas');
   if(!window.D){ sec.innerHTML = '<div class="empty">Sem dados.</div>'; return; }
 
-  const metas = JSON.parse(localStorage.getItem('rdp_metas') || '{}');
-  const hoje = new Date().toISOString().slice(0,10);
+  const metaDiariaGeral = parseInt(localStorage.getItem('rdp_meta_diaria_geral') || '95', 10);
   const dataContabilizacao = localStorage.getItem('rdp_data_inicio') || '2026-01-01';
-
-  const pessoas = (window.D.pessoas||[]).sort((a,b) => a.nome.localeCompare(b.nome));
+  const pessoasAtivas = (window.D.pessoas||[]).filter(p => p.ativa !== false);
+  const hoje = (window.D.meta && window.D.meta.today) || new Date().toISOString().slice(0,10);
+  const rdpsHoje = (window.D.rdps||[]).filter(r => (r.data||'').slice(0,10) === hoje);
+  let enviadosHoje = 0;
+  pessoasAtivas.forEach(p => { if(rdpsHoje.some(r => pessoaNoRDP(p, r))) enviadosHoje++; });
+  const conformidadeHoje = pessoasAtivas.length ? (enviadosHoje / pessoasAtivas.length * 100) : 0;
 
   sec.innerHTML = `
     <div class="card">
       <div class="card-head">
         <h3>Configuração de Metas e Período</h3>
-        <div class="card-sub">Defina metas individuais e o período de contabilização</div>
+        <div class="card-sub">Meta geral de envio diário e período de contabilização</div>
       </div>
       <div class="card-body" style="padding:20px">
+        <div class="kpi-grid" style="margin-bottom:18px">
+          <div class="kpi ${conformidadeHoje>=metaDiariaGeral?'kpi-success':'kpi-warning'}">
+            <div class="kpi-label">Taxa de Envio (Hoje)</div>
+            <div class="kpi-value">${conformidadeHoje.toFixed(0)}%</div>
+            <div class="kpi-sub">${enviadosHoje} de ${pessoasAtivas.length} colaboradores ativos enviaram</div>
+          </div>
+          <div class="kpi kpi-purple">
+            <div class="kpi-label">Meta Geral Diária</div>
+            <div class="kpi-value">${metaDiariaGeral}%</div>
+            <div class="kpi-sub">Conformidade alvo para toda a operação</div>
+          </div>
+        </div>
+
+        <div style="margin-bottom:20px;padding:15px;background:var(--c-surface-2);border-radius:8px">
+          <label style="display:block;margin-bottom:8px;color:var(--c-text);font-weight:500">Meta de Envio Diário (Geral)</label>
+          <input type="number" id="metaDiariaGeral" value="${metaDiariaGeral}" min="0" max="100" class="input" style="max-width:120px">
+          <small style="display:block;margin-top:5px;color:var(--c-text-3)">Percentual mínimo de conformidade diária (ex.: 95)</small>
+        </div>
+
         <div style="margin-bottom:20px;padding:15px;background:var(--c-surface-2);border-radius:8px">
           <label style="display:block;margin-bottom:8px;color:var(--c-text);font-weight:500">Data de Início da Contabilização</label>
           <input type="date" id="metaDataInicio" value="${dataContabilizacao}" class="input" style="max-width:200px">
           <small style="display:block;margin-top:5px;color:var(--c-text-3)">RDPs antes desta data não serão contabilizados</small>
         </div>
 
-        <h4 style="margin:20px 0 10px;font-size:13px;text-transform:uppercase;color:var(--c-text-3)">Metas por Colaborador</h4>
-        <table class="tbl" style="width:100%">
-          <thead>
-            <tr>
-              <th>Colaborador</th>
-              <th>Equipe</th>
-              <th style="width:120px">Meta Semanal</th>
-              <th style="width:80px">Ação</th>
-            </tr>
-          </thead>
-          <tbody>
-            ${pessoas.map((p, i) => {
-              const metaPessoa = metas[p.id] || 5;
-              return `<tr>
-                <td><b>${escHtml(p.nome)}</b></td>
-                <td><span class="badge badge-default">${escHtml(p.equipe)}</span></td>
-                <td><input type="number" id="meta_${p.id}" value="${metaPessoa}" min="0" max="10" class="input" style="width:80px"></td>
-                <td><button class="btn btn-primary" onclick="salvarMetaPessoa('${p.id}', '${escHtml(p.nome)}')">Salvar</button></td>
-              </tr>`;
-            }).join('')}
-          </tbody>
-        </table>
-
         <div style="margin-top:20px;padding:15px;background:var(--c-surface-2);border-radius:8px">
-          <button class="btn btn-primary" onclick="salvarDataContabilizacao()">Atualizar Data de Início</button>
+          <button class="btn btn-primary" onclick="salvarConfiguracoesMetas()">Salvar Configurações</button>
           <small style="display:block;margin-top:8px;color:var(--c-text-3)">Alterações são salvas localmente</small>
         </div>
       </div>
@@ -1485,19 +1496,14 @@ function renderMetas(){
   `;
 }
 
-window.salvarMetaPessoa = function(pessoaId, pessoaNome){
-  const valor = parseInt(document.getElementById('meta_'+pessoaId)?.value) || 5;
-  const metas = JSON.parse(localStorage.getItem('rdp_metas') || '{}');
-  metas[pessoaId] = Math.max(0, Math.min(10, valor));
-  localStorage.setItem('rdp_metas', JSON.stringify(metas));
-  alert('Meta de '+pessoaNome+' atualizada para '+metas[pessoaId]+' RDPs/semana');
-};
-
-window.salvarDataContabilizacao = function(){
+window.salvarConfiguracoesMetas = function(){
   const data = document.getElementById('metaDataInicio')?.value;
+  const metaGeral = Math.max(0, Math.min(100, parseInt(document.getElementById('metaDiariaGeral')?.value || '95', 10)));
   if(!data){ alert('Selecione uma data'); return; }
   localStorage.setItem('rdp_data_inicio', data);
-  alert('Data de início da contabilização atualizada para '+data);
+  localStorage.setItem('rdp_meta_diaria_geral', String(metaGeral));
+  alert('Configurações atualizadas: início em '+data+' e meta diária geral de '+metaGeral+'%.');
+  renderMetas();
 };
 
 // Boot — NAO bloqueia render por carregamento de acoes
