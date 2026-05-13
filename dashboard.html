@@ -1104,8 +1104,11 @@ function renderEquipe(){
     <small style="display:block;margin-top:8px;color:var(--c-text-3)">Período respeita a data de início em Metas: ${fmtDate(dataInicioMeta)}</small>
   `;
   $('eqApply').onclick = () => {
-    const dVal = $('eqDe').value;
-    const aVal = $('eqAte').value;
+    const eqDe = $('eqDe');
+    const eqAte = $('eqAte');
+    if(!eqDe || !eqAte) return;
+    const dVal = eqDe.value;
+    const aVal = eqAte.value;
     if(dVal) sec.dataset.de = dVal;
     if(aVal) sec.dataset.ate = aVal;
     sec.dataset.cal = $('eqCal').value;
@@ -1449,6 +1452,7 @@ function renderMetas(){
   const esperado = pessoasAtivas.length * diasUteis;
   const enviados = rdpsDesdeMeta.length;
   const taxaEnvio = esperado ? (enviados / esperado) * 100 : 0;
+  const conformidadeHoje = taxaEnvio; // compatibilidade com versões antigas do template
 
   const pessoas = (window.D.pessoas||[]).sort((a,b) => a.nome.localeCompare(b.nome));
 
@@ -1530,6 +1534,12 @@ window.salvarConfiguracoesMetas = function(){
   localStorage.setItem('rdp_data_inicio', data);
   localStorage.setItem('rdp_meta_diaria_geral', String(metaGeral));
   alert('Configurações atualizadas: início em '+data+' e meta diária geral de '+metaGeral+'%.');
+  renderMetas();
+};
+window.salvarMetaGeral = function(){
+  const valor = parseInt(document.getElementById('metaGeralDiaria')?.value || '95', 10);
+  localStorage.setItem('rdp_meta_geral_diaria', String(Math.max(0, Math.min(100, valor))));
+  alert('Meta geral diária atualizada.');
   renderMetas();
 };
 window.salvarMetaGeral = function(){
