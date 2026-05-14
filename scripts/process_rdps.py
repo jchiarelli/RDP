@@ -614,35 +614,42 @@ def sync_rdps_to_supabase(rdps_data, url, key):
                 failed += 1
                 continue
 
-            # Estratégia simples e robusta: DELETE por arquivo + POST atualizado
+            # Atualiza por arquivo (PATCH) e, se nao existir, insere (POST)
             arquivo_q = urllib.parse.quote(payload["arquivo"], safe="")
-            del_req = urllib.request.Request(
-                f"{url}/rest/v1/rdps?arquivo=eq.{arquivo_q}",
-                headers={
-                    "apikey": key,
-                    "Prefer": "return=minimal"
-                },
-                method="DELETE"
-            )
-            post_req = urllib.request.Request(
-                f"{url}/rest/v1/rdps",
-                data=json.dumps([payload]).encode("utf-8"),
-                headers={
-                    "apikey": key,
-                    "Content-Type": "application/json",
-                    "Prefer": "resolution=merge-duplicates,return=representation"
-                },
-                method="POST"
-            )
             try:
-                with urllib.request.urlopen(del_req, timeout=10):
-                    pass
-                with urllib.request.urlopen(post_req, timeout=10) as resp:
-                    if resp.status not in (200, 201):
-                        raise urllib.error.HTTPError(post_req.full_url, resp.status, "post failed", resp.headers, None)
+                inserted = False
+                with urllib.request.urlopen(urllib.request.Request(
+                    f"{url}/rest/v1/rdps?arquivo=eq.{arquivo_q}",
+                    data=json.dumps(payload).encode("utf-8"),
+                    headers={
+                        "apikey": key,
+                        "Content-Type": "application/json",
+                        "Prefer": "return=representation"
+                    },
+                    method="PATCH"
+                ), timeout=10) as resp:
+                    body = resp.read().decode("utf-8") or "[]"
+                    updated_rows = json.loads(body) if body else []
+                    inserted = not bool(updated_rows)
+
+                if inserted:
+                    post_req = urllib.request.Request(
+                        f"{url}/rest/v1/rdps",
+                        data=json.dumps([payload]).encode("utf-8"),
+                        headers={
+                            "apikey": key,
+                            "Content-Type": "application/json",
+                            "Prefer": "return=representation"
+                        },
+                        method="POST"
+                    )
+                    with urllib.request.urlopen(post_req, timeout=10) as resp:
+                        if resp.status not in (200, 201):
+                            raise urllib.error.HTTPError(post_req.full_url, resp.status, "post failed", resp.headers, None)
                 synced += 1
             except urllib.error.HTTPError as e:
                 if e.code == 400:
+                    # Bad Request = schema problem
                     log.warn(f"Sync {payload['arquivo']}: HTTP 400")
                     log.warn(f"  Verifique schema da tabela rdps no Supabase")
                     log.warn(f"  Payload: {payload}")
@@ -723,7 +730,7 @@ def main():
     ap.add_argument("--date")
     args = ap.parse_args()
 
-    log.info("=== process_rdps.py v2.4 ===")
+    log.info("=== process_rdps.py v2.3 ===")
     log.info("RDP: " + str(RDP_DIR) + " | OUT: " + str(DATA_DIR))
 
     if not RDP_DIR.exists():
