@@ -274,6 +274,22 @@ function abrirRDP(data, arquivo){
   // Abre o arquivo RDP localmente
   // Nota: navegadores bloqueiam file:// por segurança, então mostramos o caminho
   if(!data || !arquivo) return;
+
+  // Se arquivo é array, processa especialmente
+  let arquivos = Array.isArray(arquivo) ? arquivo : [arquivo];
+
+  // Se múltiplos arquivos, mostra lista para o usuário escolher
+  if(arquivos.length > 1){
+    const lista = arquivos.map((f, i) => `${i+1}. ${f}`).join('\n');
+    const escolha = prompt(`Múltiplos arquivos encontrados:\n\n${lista}\n\nDigite o número (1-${arquivos.length}) ou deixe em branco para cancelar:`, '1');
+    if(!escolha || isNaN(parseInt(escolha))) return;
+    const idx = parseInt(escolha) - 1;
+    if(idx < 0 || idx >= arquivos.length) return;
+    arquivo = arquivos[idx];
+  } else {
+    arquivo = arquivos[0];
+  }
+
   const dataStr = data.slice(0,10); // YYYY-MM-DD
   const baseDir = 'C:\\Users\\Joao.Chiarelli\\OneDrive - Convergint\\Claude\\Acompanhamento de projeto\\RDP';
   const fullPath = `${baseDir}\\${dataStr}\\${arquivo}`;
@@ -319,9 +335,16 @@ function filterRDPs(criteria = {}) {
     filtered = filtered.filter(rdp => rdp.data === criteria.date);
   }
 
-  // Filtro por código de projeto
+  // Filtro por código de projeto (pode ser string ou array)
   if (criteria.projectCode) {
-    filtered = filtered.filter(rdp => rdp.projeto_codigo === criteria.projectCode);
+    filtered = filtered.filter(rdp => {
+      const codigo = rdp.projeto_codigo;
+      if(Array.isArray(codigo)){
+        return codigo.includes(criteria.projectCode);
+      } else {
+        return codigo === criteria.projectCode;
+      }
+    });
   }
 
   // Filtro por equipe
@@ -337,11 +360,29 @@ function filterRDPs(criteria = {}) {
   // Filtro por busca de texto (em arquivo, projeto_nome, responsavel)
   if (criteria.search) {
     const searchLower = criteria.search.toLowerCase();
-    filtered = filtered.filter(rdp =>
-      (rdp.arquivo && rdp.arquivo.toLowerCase().includes(searchLower)) ||
-      (rdp.projeto_nome && rdp.projeto_nome.toLowerCase().includes(searchLower)) ||
-      (rdp.responsavel && rdp.responsavel.toLowerCase().includes(searchLower))
-    );
+    filtered = filtered.filter(rdp => {
+      // Verifica arquivo (pode ser string ou array)
+      let arquivoMatch = false;
+      if(rdp.arquivo){
+        if(Array.isArray(rdp.arquivo)){
+          arquivoMatch = rdp.arquivo.some(f => f.toLowerCase().includes(searchLower));
+        } else {
+          arquivoMatch = rdp.arquivo.toLowerCase().includes(searchLower);
+        }
+      }
+
+      // Verifica projeto_nome (pode ser string ou array)
+      let nomeMatch = false;
+      if(rdp.projeto_nome){
+        if(Array.isArray(rdp.projeto_nome)){
+          nomeMatch = rdp.projeto_nome.some(n => n.toLowerCase().includes(searchLower));
+        } else {
+          nomeMatch = rdp.projeto_nome.toLowerCase().includes(searchLower);
+        }
+      }
+
+      return arquivoMatch || nomeMatch || (rdp.responsavel && rdp.responsavel.toLowerCase().includes(searchLower));
+    });
   }
 
   return filtered;
@@ -349,12 +390,24 @@ function filterRDPs(criteria = {}) {
 
 /**
  * Obtém lista única de valores para um campo do conjunto de RDPs
+ * Flattens arrays para extrair valores únicos
  * @param {String} field - Nome do campo
  * @returns {Array} Array de valores únicos e ordenados
  */
 function getDistinctValues(field) {
   if (!window.D || !window.D.rdps) return [];
-  return [...new Set(window.D.rdps.map(rdp => rdp[field]).filter(Boolean))].sort();
+  const values = [];
+  window.D.rdps.forEach(rdp => {
+    const val = rdp[field];
+    if(val){
+      if(Array.isArray(val)){
+        values.push(...val);
+      } else {
+        values.push(val);
+      }
+    }
+  });
+  return [...new Set(values)].sort();
 }
 
 /**
@@ -842,7 +895,17 @@ function renderOverview(){
   const totalPendentes = totalEsperado - totalEnvios;
   const conformidade = totalEsperado ? (totalEnvios/totalEsperado*100) : 0;
   const metaGeralDiaria = parseInt(localStorage.getItem('rdp_meta_geral_diaria') || '95', 10);
-  const projetosAtivos = new Set(rdpsRange.map(r => r.projeto_codigo).filter(Boolean));
+  // Flatten arrays de projeto_codigo
+  const projetosAtivos = new Set();
+  rdpsRange.forEach(r => {
+    if(r.projeto_codigo){
+      if(Array.isArray(r.projeto_codigo)){
+        r.projeto_codigo.forEach(p => projetosAtivos.add(p));
+      } else {
+        projetosAtivos.add(r.projeto_codigo);
+      }
+    }
+  });
   const pendAbertas = (window.D.pendencias||[]).filter(p => (p.status||'').toLowerCase()==='aberta').length;
 
   $('ovKpis').innerHTML = `<div class="kpi-grid">
@@ -879,7 +942,7 @@ function renderOverview(){
       <td><span class="badge badge-default">${escHtml(p.equipe)}</span></td>
       <td><a style="color:var(--c-primary)" href="mailto:${escHtml(p.email)}">${escHtml(p.email)}</a></td>
       <td>${ultBadge}</td>
-      <td>${ult && ult.projeto_codigo ? `<span class="badge badge-primary">${escHtml(ult.projeto_codigo)}</span>` : '—'}</td>
+      <td>${ult && ult.projeto_codigo ? (Array.isArray(ult.projeto_codigo) ? ult.projeto_codigo.map(p => `<span class="badge badge-primary">${escHtml(p)}</span>`).join(' ') : `<span class="badge badge-primary">${escHtml(ult.projeto_codigo)}</span>`) : '—'}</td>
     </tr>`;
   }).join('') : '<tr><td colspan="5" class="empty">Todos enviaram pelo menos 1 RDP no período. </td></tr>';
 
@@ -951,7 +1014,11 @@ function renderStatus(){
   if(equipeF!=='Todas') pessoas = pessoas.filter(p => p.equipe===equipeF);
   if(buscaF) pessoas = pessoas.filter(p => {
     const rdpsPessoa = (window.D.rdps||[]).filter(r => (r.data||'').slice(0,10) === dataAtual && pessoaNoRDP(p, r));
-    const matchProjeto = rdpsPessoa.some(r => ((r.projeto_codigo||'') + ' ' + (r.projeto_nome||'')).toLowerCase().includes(buscaF));
+    const matchProjeto = rdpsPessoa.some(r => {
+      let codigo = r.projeto_codigo ? (Array.isArray(r.projeto_codigo) ? r.projeto_codigo.join(' ') : r.projeto_codigo) : '';
+      let nome = r.projeto_nome ? (Array.isArray(r.projeto_nome) ? r.projeto_nome.join(' ') : r.projeto_nome) : '';
+      return (codigo + ' ' + nome).toLowerCase().includes(buscaF);
+    });
     return (p.nome||'').toLowerCase().includes(buscaF) || (p.email||'').toLowerCase().includes(buscaF) || matchProjeto;
   });
   const enriquecido = pessoas.map(p => {
@@ -988,7 +1055,10 @@ function renderStatus(){
               const btnId = `st-rdp-${pessoaIdx}-${rdpIdx}`;
               let arquivoCell = '-';
               if(rdp.arquivo && rdp.data){
-                arquivoCell = `<button id="${btnId}" title="Abrir RDP" style="background:none;border:none;color:var(--c-primary);cursor:pointer;font-size:11px;padding:0">📄 ${escHtml(rdp.arquivo).slice(0,35)}</button>`;
+                // Handle arquivo como string ou array
+                let arquivos = Array.isArray(rdp.arquivo) ? rdp.arquivo : [rdp.arquivo];
+                let label = arquivos.length > 1 ? `📄 ${arquivos.length} arquivos` : `📄 ${escHtml(arquivos[0]).slice(0,35)}`;
+                arquivoCell = `<button id="${btnId}" title="Abrir RDP${arquivos.length > 1 ? ' (múltiplos)' : ''}" style="background:none;border:none;color:var(--c-primary);cursor:pointer;font-size:11px;padding:0">${label}</button>`;
               }
               return `<tr>
                 <td><span class="badge badge-success">Enviou</span></td>
@@ -996,7 +1066,7 @@ function renderStatus(){
                 <td><span class="badge badge-default">${escHtml(x.pessoa.equipe)}</span></td>
                 <td>${escHtml(x.pessoa.email)}</td>
                 <td>${escHtml(x.pessoa.disciplina)}</td>
-                <td>${rdp.projeto_codigo ? `<span class="badge badge-primary">${escHtml(rdp.projeto_codigo)}</span>` : '-'}</td>
+                <td>${rdp.projeto_codigo ? (Array.isArray(rdp.projeto_codigo) ? rdp.projeto_codigo.map(p => `<span class="badge badge-primary">${escHtml(p)}</span>`).join(' ') : `<span class="badge badge-primary">${escHtml(rdp.projeto_codigo)}</span>`) : '-'}</td>
                 <td><small>${arquivoCell}</small></td>
               </tr>`;
             }).join('');
@@ -1066,7 +1136,7 @@ function renderEquipe(){
       equipes[p.equipe].leader = m.length > 1 ? m[m.length-1] : p.equipe;
     }
   });
-  const datasPeriodo = diasUteisNoPeriodo(de, ate).filter(d => d>=dataInicioMeta && datasOrd.includes(d));
+  const datasPeriodo = datasOrd.filter(d => d>=de && d<=ate && d>=dataInicioMeta);
   const compl = Object.entries(equipes).filter(([nome]) => equipeFiltro.includes('Todas') || equipeFiltro.includes(nome)).map(([nome, eq]) => {
     const esperado = eq.membros.length * datasPeriodo.length;
     let enviados = 0;
@@ -1451,7 +1521,11 @@ function renderProjetos(){
           <tbody>${(p.rdps||[]).filter(r => isResponsavelAtivo(r.responsavel)).map((r, ridx) => {
             const hasFile = r.arquivo && r.data;
             const btnId = `pj-rdp-${pidx}-${ridx}`;
-            const fileCell = hasFile ? `<button id="${btnId}" title="Abrir RDP" style="background:none;border:none;color:var(--c-primary);font-size:12px;cursor:pointer;padding:0">📄</button>` : '-';
+            let fileLabel = '📄';
+            if(hasFile && Array.isArray(r.arquivo) && r.arquivo.length > 1){
+              fileLabel = `📄×${r.arquivo.length}`;
+            }
+            const fileCell = hasFile ? `<button id="${btnId}" title="Abrir RDP${Array.isArray(r.arquivo) && r.arquivo.length > 1 ? ' (múltiplos)' : ''}" style="background:none;border:none;color:var(--c-primary);font-size:12px;cursor:pointer;padding:0">${fileLabel}</button>` : '-';
             return `<tr><td>${fmtDate(r.data)}</td><td>${escHtml(r.responsavel)}</td><td><span class="badge badge-default">${escHtml(r.sistema||'-')}</span></td><td>${r.n_atividades}</td><td>${r.n_pendencias}</td><td style="text-align:center">${fileCell}</td></tr>`;
           }).join('')}</tbody></table>
         ${sistemas.map(s => {
