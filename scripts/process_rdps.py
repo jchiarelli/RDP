@@ -6,6 +6,7 @@ from pathlib import Path
 from difflib import SequenceMatcher
 import urllib.request
 import urllib.error
+import urllib.parse
 
 ROOT = Path(__file__).resolve().parent.parent
 PROJECT_ROOT = ROOT.parent
@@ -569,6 +570,19 @@ def sync_rdps_to_supabase(rdps_data, url, key):
         log.err(f"Erro conectando Supabase: {str(e)}")
         return 0
 
+    # Detecta colunas disponiveis (evita erro 400 quando schema difere entre ambientes)
+    available_cols = set()
+    try:
+        schema_url = f"{url}/rest/v1/rdps?limit=1&select=*"
+        schema_req = urllib.request.Request(schema_url, headers={"apikey": key})
+        with urllib.request.urlopen(schema_req, timeout=8) as resp:
+            rows = json.loads(resp.read().decode("utf-8") or "[]")
+            if rows and isinstance(rows, list) and isinstance(rows[0], dict):
+                available_cols = set(rows[0].keys())
+    except Exception:
+        # Se falhar, segue com payload minimo (colunas ja testadas anteriormente)
+        available_cols = set()
+
     # Processa RDPs em lotes pequenos
     for i, rdp in enumerate(rdps_data):
         try:
@@ -585,6 +599,12 @@ def sync_rdps_to_supabase(rdps_data, url, key):
                 "n_atividades": len(rdp.get("atividades", [])),
                 "n_pendencias": len(rdp.get("pendencias", [])),
             }
+            if not available_cols or "email" in available_cols:
+                payload["email"] = rdp.get("email", "")
+            if not available_cols or "equipe" in available_cols:
+                payload["equipe"] = rdp.get("equipe", "")
+            if not available_cols or "participantes" in available_cols:
+                payload["participantes"] = rdp.get("participantes", [])
 
             # Remove None values para evitar erro 400
             payload = {k: v for k, v in payload.items() if v is not None}
@@ -610,12 +630,36 @@ def sync_rdps_to_supabase(rdps_data, url, key):
             )
 
             try:
-                with urllib.request.urlopen(req, timeout=10) as resp:
-                    if resp.status in (200, 201):
-                        synced += 1
-                    else:
-                        log.warn(f"Sync {payload['arquivo']}: HTTP {resp.status}")
-                        failed += 1
+                inserted = False
+                with urllib.request.urlopen(urllib.request.Request(
+                    patch_url,
+                    data=json.dumps(payload).encode("utf-8"),
+                    headers={
+                        "apikey": key,
+                        "Content-Type": "application/json",
+                        "Prefer": "return=representation"
+                    },
+                    method="PATCH"
+                ), timeout=10) as resp:
+                    body = resp.read().decode("utf-8") or "[]"
+                    updated_rows = json.loads(body) if body else []
+                    inserted = not bool(updated_rows)
+
+                if inserted:
+                    post_req = urllib.request.Request(
+                        f"{url}/rest/v1/rdps",
+                        data=json.dumps([payload]).encode("utf-8"),
+                        headers={
+                            "apikey": key,
+                            "Content-Type": "application/json",
+                            "Prefer": "return=representation"
+                        },
+                        method="POST"
+                    )
+                    with urllib.request.urlopen(post_req, timeout=10) as resp:
+                        if resp.status not in (200, 201):
+                            raise urllib.error.HTTPError(post_req.full_url, resp.status, "post failed", resp.headers, None)
+                synced += 1
             except urllib.error.HTTPError as e:
                 if e.code == 400:
                     # Bad Request = schema problem
