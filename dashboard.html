@@ -218,6 +218,18 @@ function fmtDate(iso){
   const m = s.match(/(\d{4})-(\d{2})-(\d{2})/);
   return m ? `${m[3]}/${m[2]}/${m[1]}` : s;
 }
+function diasUteisNoPeriodo(de, ate){
+  const out = [];
+  if(!de || !ate) return out;
+  const d = new Date(de);
+  const fim = new Date(ate);
+  while(d <= fim){
+    const dow = d.getUTCDay();
+    if(dow >= 1 && dow <= 5) out.push(d.toISOString().slice(0,10));
+    d.setUTCDate(d.getUTCDate()+1);
+  }
+  return out;
+}
 function escHtml(s){ return String(s||'').replace(/[<>&"]/g, c=>({"<":"&lt;",">":"&gt;","&":"&amp;",'"':"&quot;"}[c])); }
 
 document.querySelectorAll('.nav-item[data-tab]').forEach(n => {
@@ -1322,12 +1334,13 @@ const STATUS_CLS = { 'Aberta':'aberta', 'Em andamento':'andamento', 'Concluida':
 const STATUS_BADGE_CLS = { 'Aberta':'badge-warning', 'Em andamento':'badge-primary', 'Concluida':'badge-success' };
 
 function renderPendenciaItem(projCodigo, sistema, it){
-  const pkey = pendKey(projCodigo, sistema, it.desc);
+  const descNormalizada = (it.desc || it.descricao || it.pendencia || it.titulo || it.observacao || '').toString().trim();
+  const pkey = pendKey(projCodigo, sistema, descNormalizada);
   const acoes = (acoesLoad()[pkey] || []);
   const hasAcao = acoes.length > 0;
   const todasConcluidas = hasAcao && acoes.every(a => a.status === 'Concluida');
   const cls = todasConcluidas ? 'concluida' : (hasAcao ? 'has-acao' : '');
-  const safeDesc = escHtml(it.desc);
+  const safeDesc = escHtml(descNormalizada || 'Pendência sem descrição');
   return `<div class="proj-pend-item ${cls}" data-pkey="${pkey}" onclick="event.stopPropagation()">
     <div class="proj-pend-info">
       <div class="proj-pend-desc">${safeDesc}</div>
@@ -1442,10 +1455,10 @@ function renderProjetos(){
             return `<tr><td>${fmtDate(r.data)}</td><td>${escHtml(r.responsavel)}</td><td><span class="badge badge-default">${escHtml(r.sistema||'-')}</span></td><td>${r.n_atividades}</td><td>${r.n_pendencias}</td><td style="text-align:center">${fileCell}</td></tr>`;
           }).join('')}</tbody></table>
         ${sistemas.map(s => {
-          const ps = (p.pendencias_por_sistema[s] || []).filter(it => {
-            const txt = `${it?.descricao || ''} ${it?.pendencia || ''} ${it?.responsavel || ''}`.trim();
-            return txt.length > 0;
-          });
+          const ps = (p.pendencias_por_sistema[s] || []).map(it => ({
+            ...it,
+            desc: (it?.desc || it?.descricao || it?.pendencia || it?.titulo || it?.observacao || '').toString().trim()
+          })).filter(it => it.desc.length > 0 || (it?.responsavel||'').trim().length > 0);
           if(!ps.length) return '';
           return `<div class="proj-pend-grupo">
             <h4>Pendencias - ${escHtml(s)} (${ps.length})</h4>
