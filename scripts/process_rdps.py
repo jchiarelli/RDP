@@ -577,8 +577,11 @@ def sync_rdps_to_supabase(rdps_data, url, key):
                 "arquivo": rdp.get("arquivo", ""),
                 "data": rdp.get("data"),
                 "responsavel": rdp.get("responsavel", ""),
+                "email": rdp.get("email", ""),
+                "equipe": rdp.get("equipe", ""),
                 "projeto_codigo": rdp.get("projeto_codigo", ""),
                 "sistema": rdp.get("sistema"),
+                "participantes": rdp.get("participantes", []),
                 "n_atividades": len(rdp.get("atividades", [])),
                 "n_pendencias": len(rdp.get("pendencias", [])),
             }
@@ -591,8 +594,8 @@ def sync_rdps_to_supabase(rdps_data, url, key):
                 failed += 1
                 continue
 
-            # POST simples (sem UPSERT por enquanto)
-            url_req = f"{url}/rest/v1/rdps"
+            # UPSERT por arquivo para atualizar participantes e demais campos a cada reprocessamento
+            url_req = f"{url}/rest/v1/rdps?on_conflict=arquivo"
 
             data = json.dumps([payload]).encode("utf-8")
             req = urllib.request.Request(
@@ -601,7 +604,7 @@ def sync_rdps_to_supabase(rdps_data, url, key):
                 headers={
                     "apikey": key,
                     "Content-Type": "application/json",
-                    "Prefer": "return=representation"
+                    "Prefer": "resolution=merge-duplicates,return=representation"
                 },
                 method="POST"
             )
@@ -614,10 +617,7 @@ def sync_rdps_to_supabase(rdps_data, url, key):
                         log.warn(f"Sync {payload['arquivo']}: HTTP {resp.status}")
                         failed += 1
             except urllib.error.HTTPError as e:
-                if e.code == 409:
-                    # Conflict = ja existe, so ignorar
-                    synced += 1
-                elif e.code == 400:
+                if e.code == 400:
                     # Bad Request = schema problem
                     log.warn(f"Sync {payload['arquivo']}: HTTP 400")
                     log.warn(f"  Verifique schema da tabela rdps no Supabase")
