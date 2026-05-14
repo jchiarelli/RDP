@@ -671,6 +671,39 @@ def sync_rdps_to_supabase(rdps_data, url, key):
                     log.warn(f"Sync {payload['arquivo']}: HTTP {e.code}")
                     failed += 1
         except Exception as e:
+            # Fallback defensivo para ambientes que ainda executam cache/codigo antigo
+            # e retornam NameError relacionado a patch_url.
+            if "patch_url" in str(e):
+                try:
+                    arquivo_q = urllib.parse.quote(payload.get("arquivo", ""), safe="")
+                    with urllib.request.urlopen(urllib.request.Request(
+                        f"{url}/rest/v1/rdps?arquivo=eq.{arquivo_q}",
+                        data=json.dumps(payload).encode("utf-8"),
+                        headers={
+                            "apikey": key,
+                            "Content-Type": "application/json",
+                            "Prefer": "return=representation"
+                        },
+                        method="PATCH"
+                    ), timeout=10) as resp:
+                        body = resp.read().decode("utf-8") or "[]"
+                        updated_rows = json.loads(body) if body else []
+                    if not updated_rows:
+                        with urllib.request.urlopen(urllib.request.Request(
+                            f"{url}/rest/v1/rdps",
+                            data=json.dumps([payload]).encode("utf-8"),
+                            headers={
+                                "apikey": key,
+                                "Content-Type": "application/json",
+                                "Prefer": "return=representation"
+                            },
+                            method="POST"
+                        ), timeout=10):
+                            pass
+                    synced += 1
+                    continue
+                except Exception as e2:
+                    log.err(f"Sync RDP {i} fallback: {str(e2)}")
             log.err(f"Sync RDP {i}: {str(e)}")
             failed += 1
 
@@ -711,7 +744,7 @@ def main():
     ap.add_argument("--date")
     args = ap.parse_args()
 
-    log.info("=== process_rdps.py v2.2 ===")
+    log.info("=== process_rdps.py v2.3 ===")
     log.info("RDP: " + str(RDP_DIR) + " | OUT: " + str(DATA_DIR))
 
     if not RDP_DIR.exists():
