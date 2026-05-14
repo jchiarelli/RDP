@@ -591,8 +591,11 @@ def sync_rdps_to_supabase(rdps_data, url, key):
                 "arquivo": rdp.get("arquivo", ""),
                 "data": rdp.get("data"),
                 "responsavel": rdp.get("responsavel", ""),
+                "email": rdp.get("email", ""),
+                "equipe": rdp.get("equipe", ""),
                 "projeto_codigo": rdp.get("projeto_codigo", ""),
                 "sistema": rdp.get("sistema"),
+                "participantes": rdp.get("participantes", []),
                 "n_atividades": len(rdp.get("atividades", [])),
                 "n_pendencias": len(rdp.get("pendencias", [])),
             }
@@ -611,16 +614,17 @@ def sync_rdps_to_supabase(rdps_data, url, key):
                 failed += 1
                 continue
 
-            # Atualiza por arquivo (PATCH) e, se nao existir, insere (POST)
-            arquivo_q = urllib.parse.quote(payload["arquivo"], safe="")
-            patch_url = f"{url}/rest/v1/rdps?arquivo=eq.{arquivo_q}"
-            patch_req = urllib.request.Request(
-                patch_url,
-                data=json.dumps(payload).encode("utf-8"),
+            # UPSERT por arquivo para atualizar participantes e demais campos a cada reprocessamento
+            url_req = f"{url}/rest/v1/rdps?on_conflict=arquivo"
+
+            data = json.dumps([payload]).encode("utf-8")
+            req = urllib.request.Request(
+                url_req,
+                data=data,
                 headers={
                     "apikey": key,
                     "Content-Type": "application/json",
-                    "Prefer": "return=representation"
+                    "Prefer": "resolution=merge-duplicates,return=representation"
                 },
                 method="PATCH"
             )
