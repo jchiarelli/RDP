@@ -614,13 +614,19 @@ def sync_rdps_to_supabase(rdps_data, url, key):
                 failed += 1
                 continue
 
-            # UPSERT por arquivo para atualizar participantes e demais campos a cada reprocessamento
-            url_req = f"{url}/rest/v1/rdps?on_conflict=arquivo"
-
-            data = json.dumps([payload]).encode("utf-8")
-            req = urllib.request.Request(
-                url_req,
-                data=data,
+            # Estratégia simples e robusta: DELETE por arquivo + POST atualizado
+            arquivo_q = urllib.parse.quote(payload["arquivo"], safe="")
+            del_req = urllib.request.Request(
+                f"{url}/rest/v1/rdps?arquivo=eq.{arquivo_q}",
+                headers={
+                    "apikey": key,
+                    "Prefer": "return=minimal"
+                },
+                method="DELETE"
+            )
+            post_req = urllib.request.Request(
+                f"{url}/rest/v1/rdps",
+                data=json.dumps([payload]).encode("utf-8"),
                 headers={
                     "apikey": key,
                     "Content-Type": "application/json",
@@ -628,48 +634,21 @@ def sync_rdps_to_supabase(rdps_data, url, key):
                 },
                 method="POST"
             )
-
             try:
-                inserted = False
-                with urllib.request.urlopen(urllib.request.Request(
-                    patch_url,
-                    data=json.dumps(payload).encode("utf-8"),
-                    headers={
-                        "apikey": key,
-                        "Content-Type": "application/json",
-                        "Prefer": "return=representation"
-                    },
-                    method="PATCH"
-                ), timeout=10) as resp:
-                    body = resp.read().decode("utf-8") or "[]"
-                    updated_rows = json.loads(body) if body else []
-                    inserted = not bool(updated_rows)
-
-                if inserted:
-                    post_req = urllib.request.Request(
-                        f"{url}/rest/v1/rdps",
-                        data=json.dumps([payload]).encode("utf-8"),
-                        headers={
-                            "apikey": key,
-                            "Content-Type": "application/json",
-                            "Prefer": "return=representation"
-                        },
-                        method="POST"
-                    )
-                    with urllib.request.urlopen(post_req, timeout=10) as resp:
-                        if resp.status not in (200, 201):
-                            raise urllib.error.HTTPError(post_req.full_url, resp.status, "post failed", resp.headers, None)
+                with urllib.request.urlopen(del_req, timeout=10):
+                    pass
+                with urllib.request.urlopen(post_req, timeout=10) as resp:
+                    if resp.status not in (200, 201):
+                        raise urllib.error.HTTPError(post_req.full_url, resp.status, "post failed", resp.headers, None)
                 synced += 1
             except urllib.error.HTTPError as e:
                 if e.code == 400:
-                    # Bad Request = schema problem
                     log.warn(f"Sync {payload['arquivo']}: HTTP 400")
                     log.warn(f"  Verifique schema da tabela rdps no Supabase")
                     log.warn(f"  Payload: {payload}")
-                    failed += 1
                 else:
                     log.warn(f"Sync {payload['arquivo']}: HTTP {e.code}")
-                    failed += 1
+                failed += 1
         except Exception as e:
             # Fallback defensivo para ambientes que ainda executam cache/codigo antigo
             # e retornam NameError relacionado a patch_url.
@@ -744,7 +723,7 @@ def main():
     ap.add_argument("--date")
     args = ap.parse_args()
 
-    log.info("=== process_rdps.py v2.3 ===")
+    log.info("=== process_rdps.py v2.4 ===")
     log.info("RDP: " + str(RDP_DIR) + " | OUT: " + str(DATA_DIR))
 
     if not RDP_DIR.exists():

@@ -1066,7 +1066,7 @@ function renderEquipe(){
       equipes[p.equipe].leader = m.length > 1 ? m[m.length-1] : p.equipe;
     }
   });
-  const datasPeriodo = datasOrd.filter(d => d>=de && d<=ate && d>=dataInicioMeta);
+  const datasPeriodo = diasUteisNoPeriodo(de, ate).filter(d => d>=dataInicioMeta && datasOrd.includes(d));
   const compl = Object.entries(equipes).filter(([nome]) => equipeFiltro.includes('Todas') || equipeFiltro.includes(nome)).map(([nome, eq]) => {
     const esperado = eq.membros.length * datasPeriodo.length;
     let enviados = 0;
