@@ -591,8 +591,11 @@ def sync_rdps_to_supabase(rdps_data, url, key):
                 "arquivo": rdp.get("arquivo", ""),
                 "data": rdp.get("data"),
                 "responsavel": rdp.get("responsavel", ""),
+                "email": rdp.get("email", ""),
+                "equipe": rdp.get("equipe", ""),
                 "projeto_codigo": rdp.get("projeto_codigo", ""),
                 "sistema": rdp.get("sistema"),
+                "participantes": rdp.get("participantes", []),
                 "n_atividades": len(rdp.get("atividades", [])),
                 "n_pendencias": len(rdp.get("pendencias", [])),
             }
@@ -650,10 +653,9 @@ def sync_rdps_to_supabase(rdps_data, url, key):
                     log.warn(f"Sync {payload['arquivo']}: HTTP 400")
                     log.warn(f"  Verifique schema da tabela rdps no Supabase")
                     log.warn(f"  Payload: {payload}")
-                    failed += 1
                 else:
                     log.warn(f"Sync {payload['arquivo']}: HTTP {e.code}")
-                    failed += 1
+                failed += 1
         except Exception as e:
             # Fallback defensivo para ambientes que ainda executam cache/codigo antigo
             # e retornam NameError relacionado a patch_url.
