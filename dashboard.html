@@ -134,13 +134,14 @@ body{margin:0;font-family:'Inter',system-ui,sans-serif;background:var(--c-bg);co
 .taxa-bar{width:60px;height:5px;background:var(--c-surface-2);border-radius:99px;overflow:hidden}
 .taxa-bar-fill{height:100%;background:var(--c-danger)}
 .eq-dropdown{position:relative;display:inline-block;width:100%}
-.eq-dropdown-btn{width:100%;padding:10px 14px;border-radius:var(--r-md);border:1.5px solid var(--c-border);background:var(--c-surface);color:var(--c-text);font-size:13px;font-weight:500;font-family:inherit;cursor:pointer;display:flex;align-items:center;justify-content:space-between;transition:.2s;position:relative;user-select:none}
+.eq-dropdown-btn{width:100%;padding:10px 14px;border-radius:var(--r-md);border:1.5px solid var(--c-border);background:var(--c-surface);color:var(--c-text);font-size:13px;font-weight:500;font-family:inherit;cursor:pointer;display:flex;align-items:center;justify-content:space-between;transition:.2s;position:relative;user-select:none;min-height:42px;gap:8px;z-index:2}
 .eq-dropdown-btn:hover{border-color:var(--c-primary);background:var(--c-surface-2)}
-.eq-dropdown-btn.open{border-color:var(--c-primary);border-bottom-color:var(--c-surface);border-radius:var(--r-md) var(--r-md) 0 0;box-shadow:0 -2px 8px rgba(37,99,235,.1)}
-.eq-dropdown-btn-icon{display:inline-flex;width:18px;height:18px;align-items:center;justify-content:center;transition:transform .2s;font-size:12px;color:var(--c-text-3)}
+.eq-dropdown-btn.open{border-color:var(--c-primary);border-bottom-color:var(--c-surface);border-radius:var(--r-md) var(--r-md) 0 0;box-shadow:0 -2px 8px rgba(37,99,235,.1);z-index:12}
+.eq-dropdown-btn-icon{display:inline-flex;width:18px;height:18px;align-items:center;justify-content:center;transition:transform .2s;font-size:12px;color:var(--c-text-3);flex-shrink:0}
 .eq-dropdown-btn.open .eq-dropdown-btn-icon{transform:rotate(180deg);color:var(--c-primary)}
+.eq-dropdown-btn > span:first-child{flex:1;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;text-align:left}
 .eq-dropdown-badge{display:inline-flex;align-items:center;justify-content:center;min-width:20px;height:20px;padding:0 6px;background:var(--c-primary);color:#fff;border-radius:99px;font-size:11px;font-weight:700;margin-left:6px;flex-shrink:0}
-.eq-dropdown-menu{position:absolute;top:100%;left:0;right:0;background:var(--c-surface);border:1.5px solid var(--c-border);border-top:0;border-radius:0 0 var(--r-md) var(--r-md);box-shadow:var(--sh-2);display:none;flex-direction:column;max-height:220px;overflow-y:auto;z-index:10;margin-top:-1px}
+.eq-dropdown-menu{position:absolute;top:100%;left:0;right:0;background:var(--c-surface);border:1.5px solid var(--c-border);border-top:0;border-radius:0 0 var(--r-md) var(--r-md);box-shadow:var(--sh-2);display:none;flex-direction:column;max-height:220px;overflow-y:auto;z-index:11;margin-top:-1px}
 .eq-dropdown-menu.show{display:flex}
 .eq-dropdown-menu::-webkit-scrollbar{width:6px}
 .eq-dropdown-menu::-webkit-scrollbar-track{background:transparent}
@@ -165,7 +166,6 @@ body{margin:0;font-family:'Inter',system-ui,sans-serif;background:var(--c-bg);co
     <div class="nav-item" data-tab="status">Status Diário</div>
     <div class="nav-item" data-tab="equipe">Por Equipe</div>
     <div class="nav-item" data-tab="projetos">RDPs do Dia / Projetos</div>
-    <div class="nav-item" data-tab="analise">Análise IA</div>
     <div class="nav-item" data-tab="gestao">Gestão de Pessoas</div>
     <div class="nav-item" data-tab="metas">Metas</div>
   </div>
@@ -189,7 +189,6 @@ body{margin:0;font-family:'Inter',system-ui,sans-serif;background:var(--c-bg);co
   <section id="section-equipe" class="section"></section>
   <section id="section-projetos" class="section"></section>
   <section id="section-metas" class="section"></section>
-  <section id="section-analise" class="section"></section>
   <section id="section-gestao" class="section"></section>
 </main>
 
@@ -244,7 +243,6 @@ document.querySelectorAll('.nav-item[data-tab]').forEach(n => {
       status:['Status Diário','Convergint · Acompanhamento de RDP'],
       equipe:['Por Equipe','Convergint · Acompanhamento de RDP'],
       projetos:['RDPs do Dia / Projetos','Convergint · Acompanhamento de RDP'],
-      analise:['Análise IA','Convergint · Acompanhamento de RDP'],
       gestao:['Gestão de Pessoas','Convergint · Acompanhamento de RDP'],
       metas:['Metas','Configurar metas de RDP por colaborador']
     };
@@ -255,7 +253,6 @@ document.querySelectorAll('.nav-item[data-tab]').forEach(n => {
       else if(id==='status') renderStatus();
       else if(id==='equipe') renderEquipe();
       else if(id==='projetos') renderProjetos();
-      else if(id==='analise') renderAnalise();
       else if(id==='gestao') renderGestao();
       else if(id==='metas') renderMetas();
     }catch(e){
@@ -705,10 +702,7 @@ function renderOverview(){
       <div class="field"><label>Equipe</label>
         <div class="eq-dropdown">
           <button class="eq-dropdown-btn" id="ovEqBtn" type="button" aria-haspopup="listbox" aria-expanded="false">
-            <span id="ovEqLabel" style="display:flex;align-items:center">
-              Todas as equipes
-              <span class="eq-dropdown-badge" id="ovEqBadge" style="display:none"></span>
-            </span>
+            <span id="ovEqLabel">Todas as equipes</span>
             <span class="eq-dropdown-btn-icon">▼</span>
           </button>
           <div class="eq-dropdown-menu" id="ovEqMenu" role="listbox">
@@ -780,21 +774,13 @@ function renderOverview(){
   const updateEqLabel = () => {
     const todosChecked = $('ovEqTodas').checked;
     const selectedCount = Array.from(document.querySelectorAll('.ovEqCheckbox:checked')).length;
-    const badge = $('ovEqBadge');
-    const labelSpan = $('ovEqLabel');
     let label = 'Todas as equipes';
 
-    if(!todosChecked && selectedCount > 0){
-      label = selectedCount === 1 ? '1 equipe' : selectedCount + ' equipes';
-      badge.textContent = selectedCount;
-      badge.style.display = 'flex';
-    } else {
-      badge.style.display = 'none';
+    if(!todosChecked){
+      label = selectedCount === 0 ? 'Nenhuma equipe' : (selectedCount === 1 ? '1 equipe' : selectedCount + ' equipes');
     }
 
-    // Atualizar apenas o texto, preservando a badge
-    const firstChild = labelSpan.firstChild;
-    if(firstChild) firstChild.textContent = label;
+    $('ovEqLabel').textContent = label;
   };
 
   // Controle do dropdown
@@ -833,6 +819,9 @@ function renderOverview(){
     c.onchange = () => {
       if(c.checked && $('ovEqTodas').checked){
         $('ovEqTodas').checked = false;
+      }
+      if(!Array.from(document.querySelectorAll('.ovEqCheckbox')).some(x => x.checked)){
+        $('ovEqTodas').checked = true;
       }
       updateEqLabel();
     };
