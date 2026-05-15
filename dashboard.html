@@ -1414,7 +1414,7 @@ function renderPendenciaItem(projCodigo, sistema, it){
   return `<div class="proj-pend-item ${cls}" data-pkey="${pkey}" onclick="event.stopPropagation()">
     <div class="proj-pend-info">
       <div class="proj-pend-desc">${safeDesc}</div>
-      <small style="color:var(--c-text-3);white-space:nowrap">${fmtDate(it.data)} · ${escHtml(it.responsavel||'-')}</small>
+      <small style="color:var(--c-text-3);white-space:nowrap">${fmtDate(it.data)} · ${it.responsavel_id ? escHtml(it.responsavel) + ' (' + escHtml(it.responsavel_id) + ')' : escHtml(it.responsavel||'-')}</small>
     </div>
     <div style="display:flex;gap:8px;align-items:center;margin-top:4px">
       <span class="proj-pend-toggle" onclick="this.closest('.proj-pend-item').classList.toggle('expanded')">${hasAcao ? '▸ '+acoes.length+' ação(ões)' : '+ adicionar ação'}</span>
@@ -1422,7 +1422,7 @@ function renderPendenciaItem(projCodigo, sistema, it){
     <div class="acoes-box">
       ${acoes.map(a => `
         <div class="acao-item ${STATUS_CLS[a.status]||'aberta'}">
-          <span style="flex:1">${escHtml(a.acao)} ${a.responsavel?'· <b>'+escHtml(a.responsavel)+'</b>':''} ${a.prazo?'· prazo '+fmtDate(a.prazo):''}</span>
+          <span style="flex:1">${escHtml(a.acao)} ${a.responsavel?'· <b>'+escHtml(a.responsavel)+(a.responsavel_id?' ('+escHtml(a.responsavel_id)+')':'')+'</b>':''} ${a.prazo?'· prazo '+fmtDate(a.prazo):''}</span>
           <button class="acao-status-btn ${STATUS_BADGE_CLS[a.status]||'badge-warning'}" onclick="acaoToggleStatus('${pkey}','${a.id}')">${a.status}</button>
           <button class="acao-status-btn badge-default" onclick="acaoDel('${pkey}','${a.id}')" title="Remover">×</button>
         </div>
@@ -1526,7 +1526,8 @@ function renderProjetos(){
               fileLabel = `📄×${r.arquivo.length}`;
             }
             const fileCell = hasFile ? `<button id="${btnId}" title="Abrir RDP${Array.isArray(r.arquivo) && r.arquivo.length > 1 ? ' (múltiplos)' : ''}" style="background:none;border:none;color:var(--c-primary);font-size:12px;cursor:pointer;padding:0">${fileLabel}</button>` : '-';
-            return `<tr><td>${fmtDate(r.data)}</td><td>${escHtml(r.responsavel)}</td><td><span class="badge badge-default">${escHtml(r.sistema||'-')}</span></td><td>${r.n_atividades}</td><td>${r.n_pendencias}</td><td style="text-align:center">${fileCell}</td></tr>`;
+            const responsavelDisplay = r.responsavel_id ? `${escHtml(r.responsavel)} <small style="color:var(--c-text-3)">(${escHtml(r.responsavel_id)})</small>` : escHtml(r.responsavel);
+            return `<tr><td>${fmtDate(r.data)}</td><td>${responsavelDisplay}</td><td><span class="badge badge-default">${escHtml(r.sistema||'-')}</span></td><td>${r.n_atividades}</td><td>${r.n_pendencias}</td><td style="text-align:center">${fileCell}</td></tr>`;
           }).join('')}</tbody></table>
         ${sistemas.map(s => {
           const ps = (p.pendencias_por_sistema[s] || []).map(it => ({
