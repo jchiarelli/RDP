@@ -165,7 +165,6 @@ body{margin:0;font-family:'Inter',system-ui,sans-serif;background:var(--c-bg);co
     <div class="nav-item" data-tab="status">Status Diário</div>
     <div class="nav-item" data-tab="equipe">Por Equipe</div>
     <div class="nav-item" data-tab="projetos">RDPs do Dia / Projetos</div>
-    <div class="nav-item" data-tab="analise">Análise IA</div>
     <div class="nav-item" data-tab="gestao">Gestão de Pessoas</div>
     <div class="nav-item" data-tab="metas">Metas</div>
   </div>
@@ -189,7 +188,6 @@ body{margin:0;font-family:'Inter',system-ui,sans-serif;background:var(--c-bg);co
   <section id="section-equipe" class="section"></section>
   <section id="section-projetos" class="section"></section>
   <section id="section-metas" class="section"></section>
-  <section id="section-analise" class="section"></section>
   <section id="section-gestao" class="section"></section>
 </main>
 
@@ -244,7 +242,6 @@ document.querySelectorAll('.nav-item[data-tab]').forEach(n => {
       status:['Status Diário','Convergint · Acompanhamento de RDP'],
       equipe:['Por Equipe','Convergint · Acompanhamento de RDP'],
       projetos:['RDPs do Dia / Projetos','Convergint · Acompanhamento de RDP'],
-      analise:['Análise IA','Convergint · Acompanhamento de RDP'],
       gestao:['Gestão de Pessoas','Convergint · Acompanhamento de RDP'],
       metas:['Metas','Configurar metas de RDP por colaborador']
     };
@@ -255,7 +252,6 @@ document.querySelectorAll('.nav-item[data-tab]').forEach(n => {
       else if(id==='status') renderStatus();
       else if(id==='equipe') renderEquipe();
       else if(id==='projetos') renderProjetos();
-      else if(id==='analise') renderAnalise();
       else if(id==='gestao') renderGestao();
       else if(id==='metas') renderMetas();
     }catch(e){
@@ -705,10 +701,7 @@ function renderOverview(){
       <div class="field"><label>Equipe</label>
         <div class="eq-dropdown">
           <button class="eq-dropdown-btn" id="ovEqBtn" type="button" aria-haspopup="listbox" aria-expanded="false">
-            <span id="ovEqLabel" style="display:flex;align-items:center">
-              Todas as equipes
-              <span class="eq-dropdown-badge" id="ovEqBadge" style="display:none"></span>
-            </span>
+            <span id="ovEqLabel">Todas as equipes</span>
             <span class="eq-dropdown-btn-icon">▼</span>
           </button>
           <div class="eq-dropdown-menu" id="ovEqMenu" role="listbox">
@@ -780,21 +773,13 @@ function renderOverview(){
   const updateEqLabel = () => {
     const todosChecked = $('ovEqTodas').checked;
     const selectedCount = Array.from(document.querySelectorAll('.ovEqCheckbox:checked')).length;
-    const badge = $('ovEqBadge');
-    const labelSpan = $('ovEqLabel');
     let label = 'Todas as equipes';
 
-    if(!todosChecked && selectedCount > 0){
-      label = selectedCount === 1 ? '1 equipe' : selectedCount + ' equipes';
-      badge.textContent = selectedCount;
-      badge.style.display = 'flex';
-    } else {
-      badge.style.display = 'none';
+    if(!todosChecked){
+      label = selectedCount === 0 ? 'Nenhuma equipe' : (selectedCount === 1 ? '1 equipe' : selectedCount + ' equipes');
     }
 
-    // Atualizar apenas o texto, preservando a badge
-    const firstChild = labelSpan.firstChild;
-    if(firstChild) firstChild.textContent = label;
+    $('ovEqLabel').textContent = label;
   };
 
   // Controle do dropdown
@@ -833,6 +818,9 @@ function renderOverview(){
     c.onchange = () => {
       if(c.checked && $('ovEqTodas').checked){
         $('ovEqTodas').checked = false;
+      }
+      if(!Array.from(document.querySelectorAll('.ovEqCheckbox')).some(x => x.checked)){
+        $('ovEqTodas').checked = true;
       }
       updateEqLabel();
     };
