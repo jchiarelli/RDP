@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>RDP · Centro de Operações</title>
+<title>Controle RDP · Convergint</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -121,26 +121,21 @@ body::before{
   margin-bottom:14px;
 }
 .brand-mark{
-  width:34px; height:34px;
-  border-radius:8px;
-  background:
-    radial-gradient(circle at 30% 30%, var(--c-primary), transparent 60%),
-    linear-gradient(135deg, var(--c-violet) 0%, var(--c-primary) 100%);
+  width:38px; height:38px;
+  border-radius:9px;
+  background:linear-gradient(135deg, #0A4E63 0%, #0E6E8A 60%, #18A5CC 100%);
   position:relative;
-  box-shadow:0 0 0 1px var(--c-border-2), 0 0 20px var(--c-primary-glow);
+  display:flex; align-items:center; justify-content:center;
+  box-shadow:0 0 0 1px var(--c-border-2), 0 0 22px var(--c-primary-glow), 0 2px 8px rgba(0,0,0,.35);
   flex-shrink:0;
 }
+.brand-mark svg{display:block}
 .brand-mark::after{
   content:"";
-  position:absolute; inset:6px;
-  border-radius:5px;
-  background:var(--c-surface);
-  background-image:
-    linear-gradient(var(--c-primary) 1px, transparent 1px),
-    linear-gradient(90deg, var(--c-primary) 1px, transparent 1px);
-  background-size:6px 6px;
-  opacity:.55;
-  mix-blend-mode:screen;
+  position:absolute; inset:0;
+  border-radius:inherit;
+  background:linear-gradient(180deg, rgba(255,255,255,.18) 0%, rgba(255,255,255,0) 45%);
+  pointer-events:none;
 }
 .brand-title{
   font-weight:700; font-size:14px;
@@ -231,6 +226,32 @@ body::before{
   border-top:1px solid var(--c-border);
   display:flex; flex-direction:column; gap:4px;
 }
+.side-signoff{
+  margin-top:10px;
+  padding:10px 10px 4px;
+  display:flex; align-items:center; justify-content:space-between;
+  font-family:var(--mono);
+  font-size:10px;
+  color:var(--c-text-3);
+  letter-spacing:.04em;
+}
+.side-signoff .jp{
+  display:inline-flex; align-items:center; gap:6px;
+  color:var(--c-text-2);
+}
+.side-signoff .jp-badge{
+  display:inline-flex; align-items:center; justify-content:center;
+  width:18px; height:18px;
+  border-radius:5px;
+  background:linear-gradient(135deg, var(--c-violet), var(--c-primary));
+  color:#06080F;
+  font-size:9px; font-weight:800;
+  letter-spacing:0;
+  font-family:var(--mono);
+  box-shadow:0 0 8px var(--c-primary-glow);
+}
+.side-signoff .heart{color:var(--c-danger); animation:beat 1.6s ease-in-out infinite}
+@keyframes beat{0%,100%{transform:scale(1)}25%{transform:scale(1.18)}50%{transform:scale(1)}}
 
 /* MAIN */
 .main{
@@ -839,10 +860,15 @@ tr:nth-child(3) .rank-num{color:#D88A5E}
 
 <aside class="sidebar">
   <div class="brand">
-    <div class="brand-mark"></div>
+    <div class="brand-mark" title="Convergint">
+      <svg width="22" height="22" viewBox="0 0 32 32" fill="none" aria-label="Convergint">
+        <path d="M27 9.5A11 11 0 1 0 27 22.5" stroke="#FFFFFF" stroke-width="3.4" stroke-linecap="round" fill="none"/>
+        <path d="M21 13.5L25.5 16L21 18.5" stroke="#7FE3F5" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+      </svg>
+    </div>
     <div>
-      <div class="brand-title">Centro de Operações</div>
-      <div class="brand-sub">RDP · v2026.05</div>
+      <div class="brand-title">Controle RDP</div>
+      <div class="brand-sub">CONVERGINT · v2026.05</div>
     </div>
   </div>
 
@@ -888,13 +914,17 @@ tr:nth-child(3) .rank-num{color:#D88A5E}
       <svg class="nav-icon" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M2 8a6 6 0 0 1 10-4.5L14 5M14 8a6 6 0 0 1-10 4.5L2 11M14 2v3h-3M2 14v-3h3"/></svg>
       Recarregar
     </div>
+    <div class="side-signoff">
+      <span>desenvolvido <span class="heart"></span> by</span>
+      <span class="jp"><span class="jp-badge">JP</span></span>
+    </div>
   </div>
 </aside>
 
 <main class="main">
   <header class="topbar">
     <div class="topbar-left">
-      <h1 id="pageTitle">Visão Geral</h1>
+      <h1 id="pageTitle">Controle RDP — Visão Geral</h1>
       <p class="topbar-sub" id="pageSub">Carregando…</p>
     </div>
     <div class="topbar-right">
@@ -919,15 +949,8 @@ tr:nth-child(3) .rank-num{color:#D88A5E}
 
 </div>
 
-<!-- Configuração Supabase -->
-<script>
-  window.SUPABASE_URL = 'https://rycygvzfuleezfjrdeaz.supabase.co';
-  window.SUPABASE_KEY = 'sb_publishable_eOTgToeBo1pDGtPqCcXnrQ_W-3THsrT';
-</script>
-<script src="SUPABASE_DATA_MANAGER.js"></script>
-<script src="dashboard_data.js"></script>
-<script src="data/analise_ia.js?v=3"></script>
-<script src="SUPABASE_INTEGRATION_CODE_CLEAN.js"></script>
+<!-- Mock data + stubs (substitui Supabase scripts no preview) -->
+<script src="rdp_mock_data.js"></script>
 <script src="rdp_dashboard_logic.js"></script>
 </body>
 </html>
