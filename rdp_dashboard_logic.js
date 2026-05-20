@@ -1113,7 +1113,7 @@ function renderGestao(){
                   <button class="btn btn-icon btn-ghost" onclick="abrirModal('ausencia','${p.id}')" title="Ausência">
                     <svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="2" y="3" width="10" height="9" rx="1"/><path d="M2 6h10M5 1.5v3M9 1.5v3"/></svg>
                   </button>
-                  <button class="btn btn-icon btn-ghost" onclick="if(confirm('Remover ${escHtml(p.nome)}?')){alert('Removido (demo)')}" title="Remover">
+                  <button class="btn btn-icon btn-ghost" onclick="abrirModal('remover','${p.id}')" title="Remover">
                     <svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 4h8M5.5 4V2.5h3V4M4 4l.5 8h5L10 4"/></svg>
                   </button>
                 </td>
@@ -1131,8 +1131,84 @@ function renderGestao(){
   $('gestao-filter-search').oninput = renderGestao;
   $('gestao-btn-novo').onclick = () => abrirModal('novo');
 }
-function abrirModal(tipo, pid){
-  alert('Modal: '+tipo+(pid?' / '+pid:'')+'\n(demo — integração Supabase desativada no preview)');
+async function abrirModal(tipo, pid){
+  const pessoa = (window.D?.pessoas || []).find(p => String(p.id) === String(pid));
+  const nomePessoa = pessoa?.nome || 'Pessoa';
+  const supabase = window.SupabaseGestao;
+
+  if(!supabase){
+    alert('Integração Supabase não inicializada.');
+    return;
+  }
+
+  try{
+    if(tipo === 'equipe'){
+      const equipeAtual = pessoa?.equipe || '-';
+      const novaEquipe = prompt(`Mudar equipe de ${nomePessoa}\n\nEquipe atual: ${equipeAtual}\nDigite a nova equipe:`);
+      if(novaEquipe === null) return;
+      const valor = novaEquipe.trim();
+      if(!valor){ alert('Ação cancelada: informe uma equipe válida.'); return; }
+      await supabase.mudarEquipeSupabase(pid, valor);
+      if(pessoa) pessoa.equipe = valor;
+      renderGestao();
+      alert(`Equipe atualizada com sucesso para: ${valor}`);
+      return;
+    }
+
+    if(tipo === 'ausencia'){
+      const tipoAusencia = prompt(`Registrar ausência para ${nomePessoa}\nTipo (ferias, medico, licença, etc):`, 'ferias');
+      if(tipoAusencia === null) return;
+      const dataInicio = prompt('Data início (YYYY-MM-DD):');
+      if(dataInicio === null) return;
+      const dataFim = prompt('Data fim (YYYY-MM-DD):', dataInicio);
+      if(dataFim === null) return;
+      const observacao = prompt('Observação (opcional):', '') || '';
+      if(!tipoAusencia.trim() || !dataInicio.trim() || !dataFim.trim()){
+        alert('Ação cancelada: preencha tipo e datas.');
+        return;
+      }
+      await supabase.salvarAusenciaSupabase(pid, tipoAusencia.trim(), dataInicio.trim(), dataFim.trim(), observacao.trim());
+      renderGestao();
+      alert('Ausência registrada com sucesso.');
+      return;
+    }
+
+    if(tipo === 'novo'){
+      const nome = prompt('Cadastrar nova pessoa\nNome:');
+      if(nome === null) return;
+      const email = prompt('Email:');
+      if(email === null) return;
+      const equipe = prompt('Equipe:');
+      if(equipe === null) return;
+      const disciplina = prompt('Disciplina (opcional):', '') || '';
+      const lider = prompt('Líder (opcional):', '') || '';
+      if(!nome.trim() || !email.trim() || !equipe.trim()){
+        alert('Ação cancelada: nome, email e equipe são obrigatórios.');
+        return;
+      }
+      await supabase.criarNovaPessoaSupabase(nome.trim(), email.trim(), equipe.trim(), disciplina.trim(), lider.trim());
+      await supabase.carregarPessoasSupabase();
+      window.D.pessoas = (window._dashboard && window._dashboard.pessoas) ? window._dashboard.pessoas : window.D.pessoas;
+      renderGestao();
+      alert(`Pessoa cadastrada com sucesso: ${nome.trim()}`);
+      return;
+    }
+
+    if(tipo === 'remover'){
+      if(!pessoa){ alert('Pessoa não encontrada.'); return; }
+      if(!confirm(`Remover ${nomePessoa}?`)) return;
+      await supabase.removerPessoaSupabase(pid);
+      pessoa.ativa = false;
+      renderGestao();
+      alert(`${nomePessoa} marcada(o) como inativa(o).`);
+      return;
+    }
+
+    alert('Ação não reconhecida.');
+  }catch(err){
+    console.error(err);
+    alert(`Erro ao executar ação: ${err.message || err}`);
+  }
 }
 
 /* ============= BOOT ============= */
